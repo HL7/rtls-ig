@@ -1,0 +1,61 @@
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../input-cache/schemas/R5/fhir-single.xsd">
+  <!-- The spaces between the open and close "a" tag are mandatory.  (Cuz HTML renderers are dumb...) -->
+  <a name="intro"> </a>
+  <h3>Overview</h3>
+	<p>
+    This implementation guide defines the use of FHIR R4 resources to exchange Real Time Location Services (RTLS) information that indicates 
+	where patients, staff, devices, or other assets are located within a hospital or other healthcare facility.
+  </p>
+  <p>
+    RTLS systems use tags that are assigned to the subject being tracked and communicate their location in real time using a sensory network 
+	within a facility. This location data is typically exchanged between a RTLS system and hospital EHR system and has many applications such 
+	as workflow automation, staff/asset tracking, and patient monitoring.
+  </p>
+  <a name="scope"> </a>
+	<h3>Scope</h3>
+	<p>
+    		The scope of this implementation guide includes support for workflows related to the implementation of a RTLS system. This includes the following:
+  </p>
+  <ul>
+    <li>
+      Tag location updates
+    </li>
+    <li>
+      Tag assignment and unassignment for patients, staff, or devices
+    </li>
+    <li>
+      Tag colocation notifications
+    </li>
+    <li>
+      Tag auxiliary functions (e.g. button presses)
+    </li>
+    <li>
+      Tag health updates (e.g. battery state)
+    </li>
+    <li>
+      Addition and removal of tags from circulation
+    </li>
+  </ul>
+	<a name="technical"> </a>
+	<h3>Technical Overview</h3>
+	<p>
+    Additional detail/context setting for those who have significant background in the domain.  (Try to make as understandable as you can, but
+    set important context).
+  </p>
+  <a name="walkthrough"> </a>
+  <p>
+    The main sections of this IG are:
+  </p>
+  <ul>
+    <li>
+      <a href="background.html">Background</a> - provides business context for the implementation guide and information that implementers should be
+      familiar with before reading the remainder of the IG.  There could be multiple pages for this.
+    </li>
+    <li>
+      <a href="spec.html">Detailed Specification</a> - The actual stuff implementers are expected to do.  (Could be multiple pages for this.)
+    </li>
+    <li>
+      <a href="downloads.html">Downloads</a> - Allows downloading a copy of this implementation guide and other useful information
+    </li>
+  </ul>
+</div>

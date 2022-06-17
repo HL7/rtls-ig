@@ -1,0 +1,23 @@
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../input-cache/schemas/R5/fhir-single.xsd">
+  <p>
+    Background information goes here
+  </p>
+  <a name="Purpose"> </a>
+  <h3>Purpose</h3>
+  <p>
+    The "why" goes here
+  </p>
+  <a name="Project"> </a>
+  <h3>Current Project</h3>
+   <p>
+    Description of project goes here
+  </p>
+    <a name="Workflows"> </a>
+  <h3>RTLS Workflows</h3>
+  <p>
+    Description and data flow digarams go here
+  </p>
+	<p>
+		<img height="600" src="anImage.png" alt="A sample image"/>
+	</p>
+</div>
