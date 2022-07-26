@@ -48,7 +48,7 @@
   <definition>
     <!-- You don't need to define any groupings.  The IGPublisher will define them for you.  You only need to do so if your IG is 'special' and it's
       inappropriate to use the defaults.  Feel free to provide feedback about the defaults... -->
-    <resource>
+  <!---  <resource>
       <reference>
         <reference value="StructureDefinition/mypatient"/>
       </reference>
@@ -72,11 +72,11 @@
       </reference>
       <description value="A test image example"/>
     </resource>
-<!--<resource>
-<reference>
-<reference value="MyLogicalModel/AS"/>
-</reference>
-</resource> -->
+    <resource>
+      <reference>
+        <reference value="MyLogicalModel/AS"/>
+      </reference>
+    </resource> -->
     <resource>
       <reference>
         <reference value="Patient/example"/>
@@ -93,34 +93,6 @@
       <description value="Example showing slicing"/>
       <exampleCanonical value="http://hl7.org/fhir/uv/rtls/StructureDefinition/myObservation"/>
     </resource>
-    <resource>
-      <reference>
-        <reference value="Binary/example"/>
-      </reference>
-      <name value="Example binary"/>
-      <description value="Example showing binary content"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-resource-format">
-        <valueCode value="application/xml"/>
-      </extension>
-      <reference>
-        <reference value="Binary/logical-example"/>
-      </reference>
-      <name value="Example of Logical Model"/>
-      <description value="Example showing example content for a logical model"/>
-      <exampleCanonical value="http://hl7.org/fhir/uv/rtls/StructureDefinition/MyLogical"/>
-    </resource>    
-    <resource>
-      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-resource-format">
-        <valueCode value="image/jpeg"/>
-      </extension>
-      <reference>
-        <reference value="Binary/image-example"/>
-      </reference>
-      <name value="Example of Binary Image"/>
-      <description value="Example showing example content for an image"/>
-    </resource>    
     <resource>
       <reference>
         <reference value="ValueSet/valueset-no-codesystem"/>
