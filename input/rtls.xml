@@ -83,7 +83,7 @@
       </reference>
       <name value="Simple patient example"/>
       <description value="A simple example showing how examples are defined and referenced"/>
-      <exampleCanonical value="http://somewhere.org/fhir/uv/myig/StructureDefinition/mypatient"/>
+      <exampleCanonical value="http://hl7.org/fhir/uv/rtls/StructureDefinition/mypatient"/>
     </resource>
     <resource>
       <reference>
@@ -91,7 +91,7 @@
       </reference>
       <name value="Observation patient example"/>
       <description value="Example showing slicing"/>
-      <exampleCanonical value="http://somewhere.org/fhir/uv/myig/StructureDefinition/myObservation"/>
+      <exampleCanonical value="http://hl7.org/fhir/uv/rtls/StructureDefinition/myObservation"/>
     </resource>
     <resource>
       <reference>
@@ -109,7 +109,7 @@
       </reference>
       <name value="Example of Logical Model"/>
       <description value="Example showing example content for a logical model"/>
-      <exampleCanonical value="http://somewhere.org/fhir/uv/myig/StructureDefinition/MyLogical"/>
+      <exampleCanonical value="http://hl7.org/fhir/uv/rtls/StructureDefinition/MyLogical"/>
     </resource>    
     <resource>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-resource-format">

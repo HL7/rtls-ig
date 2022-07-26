@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../input-cache/schemas/R4/fhir-single.xsd">
   <id value="myObservation"/>
-  <url value="http://somewhere.org/fhir/uv/myig/StructureDefinition/myObservation"/>
+  <url value="http://hl7.org/fhir/uv/rtls/StructureDefinition/myObservation"/>
   <identifier>
     <type>
       <coding>
@@ -269,7 +269,7 @@
       </patternCodeableConcept>
       <binding>
         <strength value="required"/>
-        <valueSet value="http://somewhere.org/fhir/uv/myig/ValueSet/valueset-fake"/>
+        <valueSet value="http://hl7.org/fhir/uv/rtls/ValueSet/valueset-fake"/>
       </binding>
     </element>
     <element id="Observation.subject">
