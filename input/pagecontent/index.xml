@@ -36,26 +36,25 @@
       Addition and removal of tags from circulation
     </li>
   </ul>
-	<a name="technical"> </a>
-	<h3>Technical Overview</h3>
-	<p>
-    Additional detail/context setting for those who have significant background in the domain.  (Try to make as understandable as you can, but
-    set important context).
-  </p>
   <a name="walkthrough"> </a>
+  <h3>IG Structure</h3>
   <p>
-    The main sections of this IG are:
+    This implementation guide is organized into the following main sections:
   </p>
   <ul>
-    <li>
-      <a href="background.html">Background</a> - provides business context for the implementation guide and information that implementers should be
-      familiar with before reading the remainder of the IG.  There could be multiple pages for this.
-    </li>
-    <li>
-      <a href="spec.html">Detailed Specification</a> - The actual stuff implementers are expected to do.  (Could be multiple pages for this.)
-    </li>
-    <li>
-      <a href="downloads.html">Downloads</a> - Allows downloading a copy of this implementation guide and other useful information
-    </li>
+    <table>
+      <tr>
+        <td><a href="background.html">Background</a></td>
+        <td>Introduces key workflows and concepts that are relevant for implementating this specification.</td>
+      </tr>
+      <tr>
+        <td><a href="spec.html">Specification</a></td>
+        <td>Insert description here</td>
+      </tr>
+      <tr>
+        <td><a href="artifacts.html">Artifact Index</a></td>
+        <td>Provides a list of the FHIR artifacts defined as part of this implementation guide.</td>
+      </tr>
+    </table>
   </ul>
 </div>
