@@ -1,6 +1,6 @@
 <div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../input-cache/schemas/R5/fhir-single.xsd">
   <p>
-    Background information goes here
+    This implementation guide currently focuses on 
   </p>
   <a name="Purpose"> </a>
   <h3>Purpose</h3>
@@ -13,11 +13,24 @@
     Description of project goes here
   </p>
     <a name="Workflows"> </a>
-  <h3>RTLS Workflows</h3>
+  <h3>RTLS Storyboards</h3>
   <p>
-    Description and data flow digarams go here
+    The following storyboards illustrate the data workflows addressed by this implementation guide.
+  </p>
+    <a name="Workflow1"> </a>
+  <h4>Tracking Tag Assigned to Patient</h4>
+  <p>
+    This storyboard demonstrates notifying a RTLS that a specific tracking tag has been assigned to a specific patient.
   </p>
 	<p>
-		<img height="600" src="anImage.png" alt="A sample image"/>
+		<img height="300" src="PRRG_ST801001UV01.gif"/>
 	</p>
+  <p>
+    <b>Narrative</b>
+  </p>
+  <p>
+    Adam Everyman arrives at the Good Health Hospital Emergency Room via car. Mr. Everyman has broken his left hand. Christopher 
+  Clerk, the emergency room clerk registers and checks in Mr. Everyman and assigns him a unique RTLS tracking device with a tag ID E1124. 
+  The EMR system sends a Patient Tracking Tag Assigned notification to the real time location tracking system associating Mr. Everyman with the tag E1124.
+  </p>
 </div>

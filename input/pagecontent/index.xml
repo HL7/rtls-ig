@@ -3,18 +3,19 @@
   <a name="intro"> </a>
   <h3>Overview</h3>
 	<p>
-    This implementation guide defines the use of FHIR R4 resources to exchange Real Time Location Services (RTLS) information that indicates 
-	where patients, staff, devices, or other assets are located within a hospital or other healthcare facility.
+    This implementation guide defines the use of FHIR R4 resources to exchange information that indicates where patients, staff, devices, 
+  or other assets are located within a hospital or other healthcare facility.
   </p>
   <p>
-    RTLS systems use tags that are assigned to the subject being tracked and communicate their location in real time using a sensory network 
-	within a facility. This location data is typically exchanged between a RTLS system and hospital EHR system and has many applications such 
-	as workflow automation, staff/asset tracking, and patient monitoring.
+    A Real Time Location System (RTLS) captures, process, and stores information about the location of tracking tags. These tags are associated to an assigned subject 
+  (patients, providers, devices) and their location data is typically exchanged between a RTLS system and other healthcare systems as they move around a healthcare facility. This data 
+  can be used for many applications such as workflow automation, staff/asset tracking, and patient monitoring.
   </p>
   <a name="scope"> </a>
 	<h3>Scope</h3>
 	<p>
-    		The scope of this implementation guide includes support for workflows related to the implementation of a RTLS system. This includes the following:
+    The scope of this implementation guide includes support for workflows related to communication between a RTLS and another healthcare system, such as Electronic Health 
+  Record (EHR) software. This includes the following:
   </p>
   <ul>
     <li>
@@ -36,6 +37,10 @@
       Addition and removal of tags from circulation
     </li>
   </ul>
+  <p>
+    This specification addresses tracking only of patients, providers, and devices. Other subjects/resources in the healthcare setting such as supplies and pharmaceuticals 
+  may be tracked by some systems. 
+  </p>
   <a name="walkthrough"> </a>
   <h3>IG Structure</h3>
   <p>
