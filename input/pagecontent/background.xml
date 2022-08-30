@@ -1,6 +1,6 @@
 <div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../input-cache/schemas/R5/fhir-single.xsd">
   <p>
-    This implementation guide currently focuses on 
+  
   </p>
   <a name="Purpose"> </a>
   <h3>Purpose</h3>
@@ -15,22 +15,111 @@
     <a name="Workflows"> </a>
   <h3>RTLS Storyboards</h3>
   <p>
-    The following storyboards illustrate the data workflows addressed by this implementation guide.
+  The following storyboards illustrate the data workflows addressed by this implementation guide. Note that in these scenarios, tracker tag 
+  assignments are assumed to occur in a system other than the real time location system (e.g. the EHR). If tag assignment workflows occur in the RTLS, 
+  the sending system and receiving system would be switched for the first three storyboards.
   </p>
-    <a name="Workflow1"> </a>
+  <a name="Workflow1"> </a>
   <h4>Tracking Tag Assigned to Patient</h4>
   <p>
-    This storyboard demonstrates notifying a RTLS that a specific tracking tag has been assigned to a specific patient.
-  </p>
-	<p>
-		<img height="300" src="PRRG_ST801001UV01.gif"/>
-	</p>
-  <p>
-    <b>Narrative</b>
+  This storyboard demonstrates notifying a RTLS that a specific tracking tag has been assigned to a specific patient.
   </p>
   <p>
-    Adam Everyman arrives at the Good Health Hospital Emergency Room via car. Mr. Everyman has broken his left hand. Christopher 
-  Clerk, the emergency room clerk registers and checks in Mr. Everyman and assigns him a unique RTLS tracking device with a tag ID E1124. 
-  The EMR system sends a Patient Tracking Tag Assigned notification to the real time location tracking system associating Mr. Everyman with the tag E1124.
+  <b>Narrative</b>
+  </p>
+  <p>
+  Adam Everyman arrives at the Good Health Hospital Emergency Room via car with a broken left hand. Christopher Clerk, the emergency room clerk 
+  registers and checks in Mr. Everyman then assigns him a unique RTLS tracking device with a tag ID of E1124. The EHR system sends a FHIR Messaging 
+  Bundle to the RTLS to associate Mr. Everyman with tag E1124, containing a Device resource that references a Patient resource in Device.subject.
+  </p>
+  <a name="Workflow2"> </a>
+  <h4>Tracking Tag Assigned to Provider</h4>
+  <p>
+  This storyboard demonstrates notifying a RTLS that a specific tracking tag has been assigned to a specific healthcare practitioner.
+  </p>
+  <p>
+  <b>Narrative</b>
+  </p>
+  <p>
+  Dr. Ellen Emergency is a new physician in the Emergency Department of Good Health Hospital. She is issued a new photo id with embedded tracking tag 
+  S4567, and the personnel system sends a FHIR Messaging Bundle to the RTLS to associate Dr. Ellen with tag S4567, containing a Device resource that 
+  references a Practitioner resource in Device.subject.
+  </p>
+  <a name="Workflow3"> </a>
+  <h4>Tracking Tag Assigned to Device</h4>
+  <p>
+  This storyboard demonstrates notifying a RTLS that a specific tracking tag has been assigned to a specific device.
+  </p>
+  <p>
+  <b>Narrative</b>
+  </p>
+  <p>
+  On Tuesday morning, the Good Health Hospital receiving department delivered a new portable x-ray machine to the Emergency Department. Ms. Technician 
+  fastens tracking tag X-21 to the machine and records that assignment in the Emergency Department administrative system, which sends a FHIR Messaging 
+  Bundle to the RTLS containing a Device resource that references another Device resource in Device.parent, associating the x-ray machine with tag X-21.
+  </p>
+  <a name="Workflow4"> </a>
+  <h4>Tracking Tag Unassignment</h4>
+  <p>
+  This storyboard demonstrates notifying a RTLS that a specific tracking tag is no longer assigned to a specific patient, provider, or device.
+  </p>
+  <p>
+  <b>Narrative</b>
+  </p>
+  <p>
+  Adam Everyman was treated for his broken hand and Dr. Ellen Emergency thinks he is ready to go home and recover. Mr. Everyman proceeds to the registration 
+  desk where Christopher Clerk completes Mr. Everyman's discharge and takes the RTLS tracking device that was assigned to him. The EHR system sends a FHIR 
+  Messaging Bundle to the RTLS without any references to a patient or any other resources, disassociating the tracking tag from Mr. Everyman.
+  </p>
+  <a name="Workflow5"> </a>
+  <h4>Tracking Tag Location Update</h4>
+  <p>
+  This storyboard demonstrates a RTLS notifying other systems that a particular subject (patient, provider, or device) has moved to a new location.
+  </p>
+  <p>
+  <b>Narrative</b>
+  </p>
+  <p>
+  Mr. Everyman is checked into the Emergency Department and issued an RTLS tracking tag. He is then escorted to room 12A where he waits for the physician on duty, 
+  Dr. Ellen Emergency. The RTLS notes Mr. Everyman's new location and sends a Subscription Notification Bundle to the EHR containing a Device resource that references 
+  a Location resource with the updated patient location.
+  </p>
+  <a name="Workflow6"> </a>
+  <h4>Co-Location Update</h4>
+  <p>
+  This storyboard demonstrates a RTLS notifying other systems that a particular patient and healthcare practitioner or other tracked resource are in the same location.
+  </p>
+  <p>
+  <b>Narrative</b>
+  </p>
+  <p>
+  Dr. Ellen Emergency walks into Mr. Everyman's room and checks Mr. Everyman's hand. The RTLS notes Dr. Emergency's new location and initiates a Provider Location 
+  Updated notification to the EHR. The RTLS also computes that the tracking tags for Mr. Everyman and Dr. Emergency are located within the same service 
+  delivery location, and sends a Subscription Notification Bundle to the EHR containing...
+  </p>
+  <a name="Workflow7"> </a>
+  <h4>Tag Auxiliary Function Performed</h4>
+  <p>
+  This storyboard demonstrates a RTLS notifying other systems that an auxiliary function (e.g. button press) was performed for a particular tracking tag associated with a patient, 
+  provider, or device and sends a subrscription notification Bundle to the EHR containing a Device resource that identifies the tracking tag and an Observation resource that indicates 
+  the auxiliary function that was performed.
+  </p>
+  <p>
+  <b>Narrative</b>
+  </p>
+  <p>
+  Insert narrative here
+  </p>
+  <a name="Workflow8"> </a>
+  <h4>Tag Status Update</h4>
+  <p>
+  This storyboard demonstrates a RTLS notifying other systems that there is a status change (e.g. battery health, active/inactive) for a particular tracking tag that may or may not be associated with a patient, 
+  provider, or device and sends a notification containing a Device resource that specifies the change in tracking tag status.
+  </p>
+  <p>
+  <b>Narrative</b>
+  </p>
+  <p>
+  Insert narrative here
   </p>
 </div>
