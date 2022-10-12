@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../input-cache/schemas/R4/fhir-single.xsd">
+  <id value="TagAssignmentMessageHeader"/>
+  <url value="http://hl7.org/fhir/uv/rtls/StructureDefinition/TagAssignmentMessageHeader"/>
+  <name value="TagAssignmentMessageHeader"/>
+  <title value="TagAssignmentMessageHeader"/>
+  <status value="draft"/>
+  <experimental value="true"/>
+  <publisher value="Patient Administration"/>
+  <contact> <!-- come back -->
+    <telecom>
+      <!-- Contact for publisher of this artifact -->
+      <system value="url"/>
+      <value value="http://example.org/some-organization"/>
+    </telecom>
+  </contact>
+  <description value="MessageHeader resource for tag assignment/unassignment messages"/>
+  <jurisdiction>  <!-- come back -->
+    <coding>
+      <!-- Testing a jurisdiction that doesn't have a resolvable flag -->
+      <system value="urn:iso:std:iso:3166:-2"/>
+      <code value="GR-E"/>
+    </coding>
+  </jurisdiction>
+  <purpose value="This profile describes the MessageHeader resource to be used in a scenario where a tracking tag/badge is assigned to a patient, provider, or asset."/>  <!-- come back -->
+  <copyright value="Explain licensing or other legal limitations on use"/>  <!-- come back -->
+  <fhirVersion value="4.0.0"/>
+  <kind value="resource"/>
+  <abstract value="false"/>
+  <type value="MessageHeader"/>
+  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/MessageHeader"/>
+  <derivation value="constraint"/>
+  <differential>
+    <element id="MessageHeader.id">
+      <path value="MessageHeader.id"/>
+      <mustSupport value="true"/>
+      <min value="1"/>
+    </element>
+    <element id="MessageHeader.event">
+      <path value="MessageHeader.event"/>
+      <mustSupport value="true"/>
+      <binding>
+        <valueSet value="http://hl7.org/fhir/uv/rtls/ValueSet/rtlsMessageTypes" />
+      </binding>
+    </element>
+    <element id="MessageHeader.focus">
+      <path value="MessageHeader.focus"/>
+      <type>
+        <code value="Reference"/>
+        <targetProfile value="http://hl7.org/fhir/uv/rtls/StructureDefinition/TrackingTagDevice">
+        </targetProfile>
+      </type>
+      <mustSupport value="true"/>
+    </element>
+  </differential>
+</StructureDefinition>
