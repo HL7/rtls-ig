@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../input-cache/schemas/R5/fhir-single.xsd">
+  <id value="rtlsLocation"/>
+  <url value="http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsLocation"/>
+  <name value="rtlsLocation"/>
+  <title value="rtlsLocation"/>
+  <status value="draft"/>
+  <experimental value="true"/>
+  <publisher value="Patient Administration"/>
+  <contact> <!-- come back -->
+    <telecom>
+      <!-- Contact for publisher of this artifact -->
+      <system value="url"/>
+      <value value="http://example.org/some-organization"/>
+    </telecom>
+  </contact>
+  <description value="Location resource for tag location update messages"/>
+  <jurisdiction>  <!-- come back -->
+    <coding>
+      <!-- Testing a jurisdiction that doesn't have a resolvable flag -->
+      <system value="urn:iso:std:iso:3166:-2"/>
+      <code value="GR-E"/>
+    </coding>
+  </jurisdiction>
+  <purpose value="Explain why this resource is necessary here"/>  <!-- come back -->
+  <copyright value="Explain licensing or other legal limitations on use"/>  <!-- come back -->
+  <fhirVersion value="5.0.0-snapshot3"/>
+  <kind value="resource"/>
+  <abstract value="false"/>
+  <type value="Location"/>
+  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Location"/>
+  <derivation value="constraint"/>
+  <differential>
+    <element id="Location.identifier">
+      <path value="Location.identifier"/>
+      <mustSupport value="true"/>
+      <min value="1"/>
+    </element>
+  </differential>
+</StructureDefinition>

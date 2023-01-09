@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../input-cache/schemas/R5/fhir-single.xsd">
-  <id value="TagAssignmentMessage"/>
-  <url value="http://hl7.org/fhir/uv/rtls/StructureDefinition/TagAssignmentMessage"/>
-  <name value="TagAssignmentMessage"/>
-  <title value="TagAssignmentMessage"/>
+  <id value="LocationUpdateMessage"/>
+  <url value="http://hl7.org/fhir/uv/rtls/StructureDefinition/LocationUpdateMessage"/>
+  <name value="LocationUpdateMessage"/>
+  <title value="LocationUpdateMessage"/>
   <status value="draft"/>
   <experimental value="true"/>
   <publisher value="Patient Administration"/>
@@ -14,7 +14,7 @@
       <value value="http://example.org/some-organization"/>
     </telecom>
   </contact>
-  <description value="Base resource for tag assignment/unassignment messages"/>
+  <description value="Base resource for tag location update messages"/>
   <jurisdiction>  <!-- come back -->
     <coding>
       <!-- Testing a jurisdiction that doesn't have a resolvable flag -->
@@ -22,7 +22,7 @@
       <code value="GR-E"/>
     </coding>
   </jurisdiction>
-  <purpose value="This profile describes the Bundle resource to be used to indicate when a tracking tag/badges has been assigned to a patient, provider, or asset"/>  <!-- come back -->
+  <purpose value="This profile describes the Bundle resource to be used to indicate when a tracking tag/badges has an updated location"/>  <!-- come back -->
   <copyright value="Explain licensing or other legal limitations on use"/>  <!-- come back -->
   <fhirVersion value="5.0.0-snapshot3"/>
   <kind value="resource"/>
@@ -39,7 +39,7 @@
     <element id="Bundle.type">
       <path value="Bundle.type"/>
       <mustSupport value="true"/>
-      <short value="Set to &quot;message&quot;"/>
+      <short value="Set to &quot;subscription-notification&quot;"/>
     </element>
     <element id="Bundle.timestamp">
       <path value="Bundle.timestamp"/>
@@ -53,7 +53,7 @@
     </element>
     <element id="Bundle.entry.resource">
       <path value="Bundle.entry.resource"/>
-      <short value="A resource in the bundle. For the first entry in the bundle, this should be the TagAssignmentMessageHeader resource (http://hl7.org/fhir/uv/rtls/StructureDefinition/TagAssignmentMessageHeader)."/>
+      <short value="A resource in the bundle. For the first entry in the bundle, this should be the LocationUpdateSubscriptionStatus resource (http://hl7.org/fhir/uv/rtls/StructureDefinition/LocationUpdateSubscriptionStatus)."/>
       <mustSupport value="true"/>
       <min value="1"/>
     </element>

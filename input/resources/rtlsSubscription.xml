@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../input-cache/schemas/R5/fhir-single.xsd">
-  <id value="TagAssignmentMessageHeader"/>
-  <url value="http://hl7.org/fhir/uv/rtls/StructureDefinition/TagAssignmentMessageHeader"/>
-  <name value="TagAssignmentMessageHeader"/>
-  <title value="TagAssignmentMessageHeader"/>
+  <id value="rtlsSubscription"/>
+  <url value="http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsSubscription"/>
+  <name value="rtlsSubscription"/>
+  <title value="rtlsSubscription"/>
   <status value="draft"/>
   <experimental value="true"/>
   <publisher value="Patient Administration"/>
@@ -14,7 +14,7 @@
       <value value="http://example.org/some-organization"/>
     </telecom>
   </contact>
-  <description value="MessageHeader resource for tag assignment/unassignment messages"/>
+  <description value="Subscription resource profile to request event notifications for RTLS tracking tags/badges"/>
   <jurisdiction>  <!-- come back -->
     <coding>
       <!-- Testing a jurisdiction that doesn't have a resolvable flag -->
@@ -22,34 +22,26 @@
       <code value="GR-E"/>
     </coding>
   </jurisdiction>
-  <purpose value="This profile describes the MessageHeader resource to be used in a scenario where a tracking tag/badge is assigned to a patient, provider, or asset."/>  <!-- come back -->
+  <purpose value="This profile describes the Subscription resource to be used to request event notification "/>  <!-- come back -->
   <copyright value="Explain licensing or other legal limitations on use"/>  <!-- come back -->
   <fhirVersion value="5.0.0-snapshot3"/>
   <kind value="resource"/>
   <abstract value="false"/>
-  <type value="MessageHeader"/>
-  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/MessageHeader"/>
+  <type value="Subscription"/>
+  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Subscription"/>
   <derivation value="constraint"/>
   <differential>
-    <element id="MessageHeader.id">
-      <path value="MessageHeader.id"/>
+    <element id="Subscription.identifier">
+      <path value="Subscription.identifier"/>
       <mustSupport value="true"/>
       <min value="1"/>
     </element>
-    <element id="MessageHeader.event">
-      <path value="MessageHeader.event"/>
+    <element id="Subscription.status">
+      <path value="Subscription.status"/>
       <mustSupport value="true"/>
-      <binding>
-        <valueSet value="http://hl7.org/fhir/uv/rtls/ValueSet/rtlsMessageTypes" />
-      </binding>
     </element>
-    <element id="MessageHeader.focus">
-      <path value="MessageHeader.focus"/>
-      <type>
-        <code value="Reference"/>
-        <targetProfile value="http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsDevice">
-        </targetProfile>
-      </type>
+    <element id="Subscription.topic">
+      <path value="Subscription.topic"/>
       <mustSupport value="true"/>
     </element>
   </differential>
