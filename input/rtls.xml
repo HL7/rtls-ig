@@ -108,16 +108,16 @@
     </resource> -->
     <page>
       <!-- The root will always be toc.html - the template will force it if you don't do it -->
-      <nameUrl value="toc.html"/>
+      <name value="toc.html"/>
       <title value="Table of Contents"/>
       <generation value="html"/>
       <page>
-        <nameUrl value="index.html"/>
+        <name value="index.html"/>
         <title value="Home"/>
         <generation value="html"/>
       </page>
       <page>
-        <nameUrl value="background.html"/>
+        <name value="background.html"/>
         <title value="Background"/>
         <generation value="html"/>
       </page>
@@ -128,23 +128,18 @@
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
           <valueInteger value="3"/> 
         </extension>
-        <nameUrl value="spec.html"/>
+        <name value="spec.html"/>
         <title value="Specification"/>
-        <generation value="markdown"/>
-        <page>
-          <nameUrl value="spec2.html"/>
-          <title value="Spec sub-page"/>
-          <generation value="markdown"/>
-        </page>
+        <generation value="html"/>
       </page>
       <page>
-        <nameUrl value="changes.html"/>
+        <name value="changes.html"/>
         <title value="IG Change History"/>
         <generation value="html"/>
       </page>
     </page>
     <!-- copyright year is a mandatory parameter -->
-<!--  <parameter>
+<!--    <parameter>
       <code value="copyrightyear"/>
       <value value="2022+"/>
     </parameter> -->
