@@ -108,7 +108,7 @@
     </resource> -->
     <page>
       <!-- The root will always be toc.html - the template will force it if you don't do it -->
-      <name value="toc.html"/>
+      <nameurl value="toc.html"/>
       <title value="Table of Contents"/>
       <generation value="html"/>
       <page>
@@ -130,7 +130,7 @@
         </extension>
         <name value="spec.html"/>
         <title value="Specification"/>
-        <generation value="html"/>
+        <generation value="markdown"/>
       </page>
       <page>
         <name value="changes.html"/>
