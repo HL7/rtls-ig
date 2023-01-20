@@ -14,7 +14,7 @@
   <url value="http://hl7.org/fhir/uv/rtls/ImplementationGuide/hl7.fhir.uv.rtls"/>
   <!-- This version will propagate to all artifacts unless the "propagate-version" extension is overridden -->
   <version value="0.1.0"/>
-  <name value="RTLSIG"/>
+  <name value="RTLS"/>
   <title value="Real Time Location Services Implementation Guide"/>
   <status value="draft"/>
   <experimental value="false"/>
