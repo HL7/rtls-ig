@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../input-cache/schemas/R5/fhir-single.xsd">
+  <id value="rtlsMessageBundle"/>
+  <url value="http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageBundle"/>
+  <name value="rtlsMessageBundle"/>
+  <title value="RTLS Message Bundle Profile"/>
+  <status value="draft"/>
+  <experimental value="true"/>
+  <publisher value="Patient Administration"/>
+  <description value="Bundle resource with a type of &quot;message&quot; used in RTLS workflows."/>
+  <purpose value="This profile defines minimum expectations for a messaging bundle used in RTLS workflows."/>
+  <fhirVersion value="5.0.0-snapshot3"/>
+  <kind value="resource"/>
+  <abstract value="false"/>
+  <type value="Bundle"/>
+  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Bundle"/>
+  <derivation value="constraint"/>
+  <differential>
+    <element id="Bundle.type">
+      <path value="Bundle.type"/>
+      <mustSupport value="true"/>
+      <short value="Set to &quot;message&quot;"/>
+      <comment value="This Bundle profile should always be used in a FHIR messaging context, which requires the bundle type to be &quot;message&quot;."/>
+    </element>
+    <element id="Bundle.timestamp">
+      <path value="Bundle.timestamp"/>
+      <mustSupport value="true"/>
+      <min value="1"/>
+      <comment value="Used to communicate the date/time that the message was assembled. This date is not to be changed by middleware engines."/>
+    </element>
+    <element id="Bundle.entry">
+      <path value="Bundle.entry"/>
+      <mustSupport value="true"/>
+      <min value="1"/>
+      <slicing>
+        <discriminator>
+          <type value="value"/>
+          <path value="resource"/>
+        </discriminator>
+        <ordered value="true"/>
+        <rules value="open"/>
+      </slicing>
+    </element>
+    <element id="Bundle.entry">
+      <path value="Bundle.entry"/>
+      <mustSupport value="true"/>
+      <min value="1"/>
+      <sliceName value="messageHeader"/>
+    </element>
+    <element id="Bundle.entry">
+      <path value="Bundle.entry"/>
+      <mustSupport value="true"/>
+      <min value="1"/>
+      <sliceName value="trackingTag"/>
+    </element>
+  </differential>
+</StructureDefinition>

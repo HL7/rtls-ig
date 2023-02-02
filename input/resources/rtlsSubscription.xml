@@ -3,27 +3,12 @@
   <id value="rtlsSubscription"/>
   <url value="http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsSubscription"/>
   <name value="rtlsSubscription"/>
-  <title value="rtlsSubscription"/>
+  <title value="RTLS Subscription"/>
   <status value="draft"/>
   <experimental value="true"/>
   <publisher value="Patient Administration"/>
-  <contact> <!-- come back -->
-    <telecom>
-      <!-- Contact for publisher of this artifact -->
-      <system value="url"/>
-      <value value="http://example.org/some-organization"/>
-    </telecom>
-  </contact>
-  <description value="Subscription resource profile to request event notifications for RTLS tracking tags/badges"/>
-  <jurisdiction>  <!-- come back -->
-    <coding>
-      <!-- Testing a jurisdiction that doesn't have a resolvable flag -->
-      <system value="urn:iso:std:iso:3166:-2"/>
-      <code value="GR-E"/>
-    </coding>
-  </jurisdiction>
-  <purpose value="This profile describes the Subscription resource to be used to request event notification "/>  <!-- come back -->
-  <copyright value="Explain licensing or other legal limitations on use"/>  <!-- come back -->
+  <description value="Subscription resource used in RTLS workflows"/>
+  <purpose value="This profile defines minimum expectations for a subscription requested from a RTLS."/>
   <fhirVersion value="5.0.0-snapshot3"/>
   <kind value="resource"/>
   <abstract value="false"/>
@@ -42,6 +27,20 @@
     </element>
     <element id="Subscription.topic">
       <path value="Subscription.topic"/>
+      <mustSupport value="true"/>
+      <type>
+        <code value="canonical"/>
+        <targetProfile value="http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsSubscriptionTopic"/>
+      </type>
+      <short value="Reference to the RTLS subscription topic being subscribed to (e.g. location updates)"/>
+    </element>
+    <element id="Subscription.channelType">
+      <path value="Subscription.channelType"/>
+      <mustSupport value="true"/>
+      <short value="Set to &quot;message&quot;"/>
+    </element>
+    <element id="Subscription.endpoint">
+      <path value="Subscription.endpoint"/>
       <mustSupport value="true"/>
     </element>
   </differential>

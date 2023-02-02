@@ -41,7 +41,7 @@
     <li>
       <b>Tracking Tag Location Update</b> - Notifies the subscriber that an activated tracking tag has a new/updated location, as determined by the RTLS.
     </li>
-   </ul> 
+  </ul> 
   <a name="plannedScope"> </a>
   <h3>Planned Scope</h3>
   <p>

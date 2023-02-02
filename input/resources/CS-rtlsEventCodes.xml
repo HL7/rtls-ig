@@ -10,7 +10,7 @@
   <description value="Code System listing codes for all types of RTLS events"/> 
   <caseSensitive value="true"/>
   <content value="complete"/>
-  <concept>
+  <!-- <concept>
     <code value="assign-tag"/>
     <display value="Tag assignment"/>
     <description value="Used to describe when a tracking tag/badge has been assigned to a new patient, provider, or asset"/>
@@ -20,7 +20,7 @@
     <display value="Tag unassignment"/>
     <description value="Used to describe when a tracking tag/badge is no longer assigned to a patient, provider, or asset"/>
   </concept>
-  <!-- <concept>
+  <concept>
     <code value="status-update"/>
     <display value="Status update"/>
     <description value="Used to describe when there is a new status associated with a tracking tag/badge"/>
