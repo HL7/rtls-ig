@@ -107,15 +107,10 @@
       <description value="A simple example showing how library is pre-loaded"/>
     </resource> -->
     <page>
-      <!-- The root will always be toc.html - the template will force it if you don't do it -->
-      <name value="toc.html"/>
-      <title value="Table of Contents"/>
-      <generation value="generated"/>
-      <page>
-        <name value="index.html"/>
-        <title value="Home"/>
-        <generation value="html"/>
-      </page>
+      <name value="index.html"/>
+      <title value="Home"/>
+      <generation value="html"/>
+      
       <page>
         <name value="background.html"/>
         <title value="Background"/>
