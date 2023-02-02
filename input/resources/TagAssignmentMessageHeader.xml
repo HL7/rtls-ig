@@ -47,8 +47,7 @@
       <path value="MessageHeader.focus"/>
       <type>
         <code value="Reference"/>
-        <targetProfile value="http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsDevice">
-        </targetProfile>
+        <targetProfile value="http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsDevice" />
       </type>
       <mustSupport value="true"/>
     </element>
