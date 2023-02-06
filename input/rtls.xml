@@ -107,15 +107,10 @@
       <description value="A simple example showing how library is pre-loaded"/>
     </resource> -->
     <page>
-      <!-- The root will always be toc.html - the template will force it if you don't do it -->
-      <nameurl value="toc.html"/>
-      <title value="Table of Contents"/>
+      <name value="index.html"/>
+      <title value="Home"/>
       <generation value="html"/>
-      <page>
-        <name value="index.html"/>
-        <title value="Home"/>
-        <generation value="html"/>
-      </page>
+      
       <page>
         <name value="background.html"/>
         <title value="Background"/>
@@ -139,36 +134,50 @@
       </page>
     </page>
     <!-- copyright year is a mandatory parameter -->
-<!--    <parameter>
-      <code value="copyrightyear"/>
+    <parameter>
+      <code>
+        <code value="copyrightyear"/>
+      </code>
       <value value="2022+"/>
-    </parameter> -->
+    </parameter>
     <!-- releaselabel should be the ballot status for HL7-published IGs. -->
-<!--     <parameter>
-      <code value="releaselabel"/>
+    <parameter>
+      <code>
+        <code value="releaselabel"/>
+      </code>
       <value value="CI Build"/>
     </parameter>
     <parameter>
-      <code value="find-other-resources"/>
+      <code>
+        <code value="find-other-resources"/>
+      </code>
       <value value="true"/>
     </parameter>
-   <parameter>
-      <code value="path-resource"/>
+    <parameter>
+      <code>
+        <code value="path-resource"/>
+      </code>
       <value value="input/history"/>
     </parameter>
     <parameter>
-      <code value="path-binary"/>
+      <code>
+        <code value="path-binary"/>
+      </code>
       <value value="input/cql"/>
     </parameter>
     <parameter>
-      <code value="path-liquid"/>
+      <code>
+        <code value="path-liquid"/>
+      </code>
       <value value="templates/liquid"/>
     </parameter>
     <parameter>
-      <code value="shownav"/>
+      <code>
+        <code value="shownav"/>
+      </code>
       <value value="true"/>
     </parameter>
- Uncomment one or more of these if you want to limit which syntaxes are supported or want to disable the display of mappings
+    <!-- Uncomment one or more of these if you want to limit which syntaxes are supported or want to disable the display of mappings
     <parameter>
       <code value="excludexml"/>
       <value value="true"/>
