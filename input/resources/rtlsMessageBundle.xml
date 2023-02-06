@@ -32,26 +32,6 @@
       <path value="Bundle.entry"/>
       <mustSupport value="true"/>
       <min value="1"/>
-      <slicing>
-        <discriminator>
-          <type value="value"/>
-          <path value="resource"/>
-        </discriminator>
-        <ordered value="true"/>
-        <rules value="open"/>
-      </slicing>
-    </element>
-    <element id="Bundle.entry">
-      <path value="Bundle.entry"/>
-      <mustSupport value="true"/>
-      <min value="1"/>
-      <sliceName value="messageHeader"/>
-    </element>
-    <element id="Bundle.entry">
-      <path value="Bundle.entry"/>
-      <mustSupport value="true"/>
-      <min value="1"/>
-      <sliceName value="trackingTag"/>
     </element>
   </differential>
 </StructureDefinition>
