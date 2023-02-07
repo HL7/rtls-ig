@@ -25,7 +25,7 @@
       <path value="MessageHeader.event"/>
       <mustSupport value="true"/>
       <binding>
-        <valueSet value="http://hl7.org/fhir/uv/rtls/ValueSet/rtlsMessageTypes" />
+        <valueSet value="http://hl7.org/fhir/uv/rtls/ValueSet/rtlsMessageEvents" />
       </binding>
     </element>
     <element id="MessageHeader.focus">

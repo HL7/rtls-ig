@@ -13,72 +13,72 @@
   <h3>Current Project</h3>
    <p>
     For this version of the RTLS FHIR Implementation Guide, the primary focus is to implement the subscription notification communication model <!--Link--> as the method for sending 
-    tracking tag location updates from a RTLS to a subscribing system, such as an electronic health record (EHR) system. This means that initially, the specification defines 
-    only the Tag Centric Workflow and does not support the communication of subjects associated with tracking tags. See the <a href="spec.html">Specification</a> page for more technical details.
+    tag location updates from a RTLS to a subscribing system, such as an electronic health record (EHR) system. This means that initially, the specification defines 
+    only the Tag Centric Workflow and does not support the communication of subjects associated with tags. See the <a href="spec.html">Specification</a> page for more technical details.
   </p>
   <a name="TagCentric"> </a>
   <h3>Tag Centric Workflow</h3>
   <p>
-    The Tag Centric Workflow is a scenario where the subscriber or non-RTLS system is the source of truth for all information about tracking tag associations. The only roles 
-    of the RTLS is this case are to notify the subscriber when a tracking tag has a new/updated location, which tracking tag the update is for, and what the new/updated location 
+    The Tag Centric Workflow is a scenario where the subscriber or non-RTLS system is the source of truth for all information about tag associations. The only roles 
+    of the RTLS is this case are to notify the subscriber when a tag has a new/updated location, which tag the update is for, and what the new/updated location 
     is. The following storyboard illustrates this workflow:
   </p>
   <ol>
     <li>
-      A patient arrives at the hospital and is assigned a tracking tag. The tracking tag's unique ID is entered into the EHR system, and the "association" is recorded in the EHR 
+      A patient arrives at the hospital and is assigned a tag. The tag's unique ID is entered into the EHR system, and the "association" is recorded in the EHR 
       system.
     </li>
     <li>
-      Since the tracking tag is now associated with a patient, the hospital wants to receive updates on the tracking tag's location so that they know where the patient is 
-      throughout their stay. The EHR system communicates this desire to the RTLS by sending a <a href="spec.html#tracking-tag-activation">Tracking Tag Activation</a> message containing the tag's unique ID.
+      Since the tag is now associated with a patient, the hospital wants to receive updates on the tag's location so that they know where the patient is 
+      throughout their stay. The EHR system communicates this desire to the RTLS by sending a <a href="spec.html#enroll-tag">Enroll Tag</a> message containing the tag's unique ID.
     </li>
     <li>
-      The RTLS receives the <a href="spec.html#tracking-tag-activation">Tracking Tag Activation</a> message with the tag's unique ID, and knows which tracking tag to "activate," or start sending updates for. 
+      The RTLS receives the <a href="spec.html#enroll-tag">Enroll Tag</a> message with the tag's unique ID, and knows which tag to "enroll," or start sending updates for. 
     </li>
     <li>
-    	The patient is escorted to their room, bringing along their tracking tag with them. The RTLS notes the tracking tag's new location and notifies the EHR system with a
-      <a href="spec.html#tracking-tag-location-update">Tracking Tag Location Update</a> message containing the tag's unique ID and the updated location.
+    	The patient is escorted to their room, bringing along their tag with them. The RTLS notes the tag's new location and notifies the EHR system with a
+      <a href="spec.html#tag-location-update">Tag Location Update</a> message containing the tag's unique ID and the updated location.
     </li>
     <li>
-    	The EHR system receives the <a href="spec.html#tracking-tag-location-update">Tracking Tag Location Update</a> message with the tag's unique ID, and recognizes it as the tracking tag associated with the patient. 
+    	The EHR system receives the <a href="spec.html#tag-location-update">Tag Location Update</a> message with the tag's unique ID, and recognizes it as the tag associated with the patient. 
       The EHR system records the location sent from the RTLS as the patient's most recent location.
     </li>
     <li>
-    	The patient finished their treatment and was discharged, returning their assigned tracking tag in the process. This "disassociation" is recorded in the EHR system.
+    	The patient finished their treatment and was discharged, returning their assigned tag in the process. This "disassociation" is recorded in the EHR system.
     </li>
     <li>
-    	Since the tracking tag is no longer associated with a patient, the hospital no longer wants to receive updates on the tracking tag's location. The EHR system 
-      communicates this to the RTLS by sending a <a href="spec.html#tracking-tag-deactivation">Tracking Tag Deactivation</a> message containing the tag's unique ID.
+    	Since the tag is no longer associated with a patient, the hospital no longer wants to receive updates on the tag's location. The EHR system 
+      communicates this to the RTLS by sending a <a href="spec.html#unenroll-tag">Unenroll Tag</a> message containing the tag's unique ID.
     </li>
     <li>
-    	The RTLS receives the <a href="spec.html#tracking-tag-deactivation">Tracking Tag Deactivation</a> message with the tag's unique ID, and knows which tracking tag to "deactivate," or stop sending updates for.
+    	The RTLS receives the <a href="spec.html#unenroll-tag">Unenroll Tag</a> and knows which tag to "unenroll," or stop sending updates for.
     </li>
   </ol>
   <a name="Terminology"> </a>
   <h4>Terminology</h4>
   <ul>
     <li>
-      <b>Activated</b> - The state of a unique tracking tag when the subscriber wants to receive updates related to that specific tracking tag.
+      <b>Enrolled</b> - The state of a unique tag when the subscriber wants to receive updates related to that specific tag.
     </li>
     <li>
-      <b>Association</b> - The linkage between a tracking tag and its subject. Literally, an association indicates that a tracking tag is attached to or physically 
+      <b>Association</b> - The linkage between a tag and its subject. Literally, an association indicates that a tag is attached to or physically 
       in the same location as the subject.
     </li>
     <li>
-      <b>Deactivated</b> - The state of a unique tracking tag when the subscriber does not want to receive updates related to that specific tracking tag.
+      <b>Unenrolled</b> - The state of a unique tag when the subscriber does not want to receive updates related to that specific tag.
     </li>
     <li>
-    	<b>RTLS</b> - The acronym for Real Time Location System, which is a server/software that captures, processes, and stores information about the location of tracking tags.
+    	<b>RTLS</b> - The acronym for Real Time Location System, which is a server/software that captures, processes, and stores information about the location of tags.
     </li>
     <li>
-    	<b>Subject</b> - The system that is "subscribed" to, or wants to receive updates from the RTLS about information pertaining to the location/status of tracking tags.
+    	<b>Subject</b> - The system that is "subscribed" to, or wants to receive updates from the RTLS about information pertaining to the location/status of tags.
     </li>
     <li>
-    	<b>Subscriber</b> - The acronym for Real Time Location System, which is a server/software that captures, processes, and stores information about the location of tracking tags.
+    	<b>Subscriber</b> - The acronym for Real Time Location System, which is a server/software that captures, processes, and stores information about the location of tags.
     </li>
     <li>
-    	<b>Tracking Tag</b> - A physical tracking device that is assignable to patients, providers, staff, or other assets in the healthcare facility context. This may also 
-      interchangeably be referred to as a "beacon."
+    	<b>Tag</b> - A physical tracking device that is assignable to patients, providers, staff, or other assets in the healthcare facility context. This may also 
+      interchangeably be referred to as a "beacon" or "tracking tag."
     </li>
   </ul>
 </div>

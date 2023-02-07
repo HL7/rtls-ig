@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeSystem xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../input-cache/schemas/R5/fhir-single.xsd">
+  <id value="rtlsMessageEvents"/>
+  <url value="http://hl7.org/fhir/uv/rtls/CodeSystem/rtlsMessageEvents"/>
+  <name value="rtlsMessageEvents"/>
+  <title value="RTLS Message Events"/>
+  <status value="draft"/>
+  <experimental value="true"/>
+  <date value="2022-10-12"/>
+  <description value="Code System listing codes for all types of RTLS messaging events"/> 
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <concept>
+    <code value="enroll-tag"/>
+    <display value="Enroll Tag"/>
+    <description value="Used to describe when a subscriber wants to receive notifications about a specific tag."/>
+  </concept>
+  <concept>
+    <code value="unenroll-tag"/>
+    <display value="Unenroll Tag"/>
+    <description value="Used to describe when a subscriber no longer wants to receive notifications abot a specific tag."/>
+  </concept>
+  <!-- <concept>
+    <code value="assign-tag"/>
+    <display value="Tag assignment"/>
+    <description value="Used to describe when a tag/badge has been assigned to a new patient, provider, or asset"/>
+  </concept>
+  <concept>
+    <code value="unassign-tag"/>
+    <display value="Tag unassignment"/>
+    <description value="Used to describe when a tag/badge is no longer assigned to a patient, provider, or asset"/>
+  </concept>
+  <concept>
+    <code value="status-update"/>
+    <display value="Status update"/>
+    <description value="Used to describe when there is a new status associated with a tag/badge"/>
+  </concept>
+  <concept>
+    <code value="health-update"/>
+    <display value="Health update"/>
+    <description value="Used to describe when there is a new health status associated with a tag/badge "/>
+  </concept> -->
+</CodeSystem>

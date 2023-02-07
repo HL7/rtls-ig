@@ -3,11 +3,11 @@
   <id value="rtlsDevice"/>
   <url value="http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsDevice"/>
   <name value="rtlsDevice"/>
-  <title value="RTLS Tracking Tag Device Profile"/>
+  <title value="RTLS Tag Device Profile"/>
   <status value="draft"/>
   <experimental value="true"/>
   <publisher value="Patient Administration"/>
-  <description value="Device resource profile for tracking tags or badges in RTLS workflows"/>
+  <description value="Device resource profile for tags or badges in RTLS workflows"/>
   <purpose value="This profile defines minimum expectations for the Device resource to be used in RTLS workflows."/> 
   <fhirVersion value="5.0.0-snapshot3"/> 
   <kind value="resource"/>

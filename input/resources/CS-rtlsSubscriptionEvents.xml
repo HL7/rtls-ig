@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeSystem xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../input-cache/schemas/R5/fhir-single.xsd">
-  <id value="rtlsTopicEventCodes"/>
-  <url value="http://hl7.org/fhir/uv/rtls/CodeSystem/rtlsTopicEventCodes"/>
-  <name value="rtlsTopicEventCodes"/>
-  <title value="rtlsTopicEventCodes"/>
+  <id value="rtlsSubscriptionEvents"/>
+  <url value="http://hl7.org/fhir/uv/rtls/CodeSystem/rtlsSubscriptionEvents"/>
+  <name value="rtlsSubscriptionEvents"/>
+  <title value="RTLS Subscription Events"/>
   <status value="draft"/>
   <experimental value="true"/>
   <date value="2022-10-12"/>
@@ -13,6 +13,6 @@
   <concept>
     <code value="location-updates"/>
     <display value="Location Updates"/>
-    <description value="Events where the location of a RTLS tracking tag is updated."/>
+    <description value="Events where the location of a RTLS tag is updated."/>
   </concept>
 </CodeSystem>

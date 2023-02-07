@@ -20,7 +20,7 @@
       <path value="Bundle.type"/>
       <mustSupport value="true"/>
       <short value="message | subscription-notification"/>
-      <comment value="If sending a device activation/deactivation, set the type to &quot;message&quot;. For location updates, set the type to &quot;subscription-notification&quot;."/>
+      <comment value="If sending a device enrollment/unenrollment, set the type to &quot;message&quot;. For location updates, set the type to &quot;subscription-notification&quot;."/>
     </element>
     <element id="Bundle.timestamp">
       <path value="Bundle.timestamp"/>
