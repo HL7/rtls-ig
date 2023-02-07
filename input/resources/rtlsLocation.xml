@@ -3,27 +3,12 @@
   <id value="rtlsLocation"/>
   <url value="http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsLocation"/>
   <name value="rtlsLocation"/>
-  <title value="rtlsLocation"/>
+  <title value="RTLS Location Resource Profile"/>
   <status value="draft"/>
   <experimental value="true"/>
   <publisher value="Patient Administration"/>
-  <contact> <!-- come back -->
-    <telecom>
-      <!-- Contact for publisher of this artifact -->
-      <system value="url"/>
-      <value value="http://example.org/some-organization"/>
-    </telecom>
-  </contact>
-  <description value="Location resource for tag location update messages"/>
-  <jurisdiction>  <!-- come back -->
-    <coding>
-      <!-- Testing a jurisdiction that doesn't have a resolvable flag -->
-      <system value="urn:iso:std:iso:3166:-2"/>
-      <code value="GR-E"/>
-    </coding>
-  </jurisdiction>
-  <purpose value="Explain why this resource is necessary here"/>  <!-- come back -->
-  <copyright value="Explain licensing or other legal limitations on use"/>  <!-- come back -->
+  <description value="Location resource profile for RTLS workflows."/>
+  <purpose value="Defines minimum expectations for the location resource used in RTLS workflows"/> 
   <fhirVersion value="5.0.0-snapshot3"/>
   <kind value="resource"/>
   <abstract value="false"/>

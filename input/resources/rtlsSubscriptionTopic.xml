@@ -20,11 +20,6 @@
       <path value="SubscriptionTopic.url"/>
       <mustSupport value="true"/>
     </element>
-    <element id="SubscriptionTopic.title">
-      <path value="SubscriptionTopic.title"/>
-      <short value="Set to &quot;Location Updates&quot; to describe the topic of tracking tag location updates "/>
-      <mustSupport value="true"/>
-    </element>
     <element id="SubscriptionTopic.status">
       <path value="SubscriptionTopic.status"/>
       <mustSupport value="true"/>

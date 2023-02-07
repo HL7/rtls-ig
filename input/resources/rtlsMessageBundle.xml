@@ -19,8 +19,8 @@
     <element id="Bundle.type">
       <path value="Bundle.type"/>
       <mustSupport value="true"/>
-      <short value="Set to &quot;message&quot;"/>
-      <comment value="This Bundle profile should always be used in a FHIR messaging context, which requires the bundle type to be &quot;message&quot;."/>
+      <short value="message | subscription-notification"/>
+      <comment value="If sending a device activation/deactivation, set the type to &quot;message&quot;. For location updates, set the type to &quot;subscription-notification&quot;."/>
     </element>
     <element id="Bundle.timestamp">
       <path value="Bundle.timestamp"/>
@@ -30,6 +30,10 @@
     </element>
     <element id="Bundle.entry">
       <path value="Bundle.entry"/>
+      <mustSupport value="true"/>
+      <min value="1"/>
+    </element><element id="Bundle.entry.resource">
+      <path value="Bundle.entry.resource"/>
       <mustSupport value="true"/>
       <min value="1"/>
     </element>

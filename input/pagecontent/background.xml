@@ -14,7 +14,7 @@
    <p>
     For this version of the RTLS FHIR Implementation Guide, the primary focus is to implement the subscription notification communication model <!--Link--> as the method for sending 
     tracking tag location updates from a RTLS to a subscribing system, such as an electronic health record (EHR) system. This means that initially, the specification defines 
-    only the Tag Centric Workflow and does not support the communication of subjects associated with tracking tags. See the Specification <!--Link--> page for more technical details.
+    only the Tag Centric Workflow and does not support the communication of subjects associated with tracking tags. See the <a href="spec.html">Specification</a> page for more technical details.
   </p>
   <a name="TagCentric"> </a>
   <h3>Tag Centric Workflow</h3>
@@ -30,17 +30,17 @@
     </li>
     <li>
       Since the tracking tag is now associated with a patient, the hospital wants to receive updates on the tracking tag's location so that they know where the patient is 
-      throughout their stay. The EHR system communicates this desire to the RTLS by sending a Tracking Tag Activation <!--Link--> message containing the tag's unique ID.
+      throughout their stay. The EHR system communicates this desire to the RTLS by sending a <a href="spec.html#tracking-tag-activation">Tracking Tag Activation</a> message containing the tag's unique ID.
     </li>
     <li>
-      The RTLS receives the Tracking Tag Activation <!--Link--> message with the tag's unique ID, and knows which tracking tag to "activate," or start sending updates for. 
+      The RTLS receives the <a href="spec.html#tracking-tag-activation">Tracking Tag Activation</a> message with the tag's unique ID, and knows which tracking tag to "activate," or start sending updates for. 
     </li>
     <li>
-    	The patient is escorted to their room, bringing along their tracking tag with them. The RTLS notes the tracking tag's new location and notifies the EHR system with a 
-      Tracking Tag Location Update <!--Link--> message containing the tag's unique ID and the updated location.
+    	The patient is escorted to their room, bringing along their tracking tag with them. The RTLS notes the tracking tag's new location and notifies the EHR system with a
+      <a href="spec.html#tracking-tag-location-update">Tracking Tag Location Update</a> message containing the tag's unique ID and the updated location.
     </li>
     <li>
-    	The EHR system receives the Tracking Tag Location Update <!--Link--> message with the tag's unique ID, and recognizes it as the tracking tag associated with the patient. 
+    	The EHR system receives the <a href="spec.html#tracking-tag-location-update">Tracking Tag Location Update</a> message with the tag's unique ID, and recognizes it as the tracking tag associated with the patient. 
       The EHR system records the location sent from the RTLS as the patient's most recent location.
     </li>
     <li>
@@ -48,10 +48,10 @@
     </li>
     <li>
     	Since the tracking tag is no longer associated with a patient, the hospital no longer wants to receive updates on the tracking tag's location. The EHR system 
-      communicates this to the RTLS by sending a Tracking Tag Deactivation <!--Link--> message containing the tag's unique ID.
+      communicates this to the RTLS by sending a <a href="spec.html#tracking-tag-deactivation">Tracking Tag Deactivation</a> message containing the tag's unique ID.
     </li>
     <li>
-    	The RTLS receives the Tracking Tag Deactivation <!--Link--> message with the tag's unique ID, and knows which tracking tag to "deactivate," or stop sending updates for.
+    	The RTLS receives the <a href="spec.html#tracking-tag-deactivation">Tracking Tag Deactivation</a> message with the tag's unique ID, and knows which tracking tag to "deactivate," or stop sending updates for.
     </li>
   </ol>
   <a name="Terminology"> </a>

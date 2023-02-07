@@ -77,7 +77,7 @@
         <reference value="MyLogicalModel/AS"/>
       </reference>
     </resource> -->
-    <resource>
+<!--    <resource>
       <reference>
         <reference value="Patient/example"/>
       </reference>
@@ -93,7 +93,7 @@
       <description value="Example showing slicing"/>
       <exampleCanonical value="http://hl7.org/fhir/uv/rtls/StructureDefinition/myObservation"/>
     </resource>
-<!--   <resource>
+   <resource>
       <reference>
         <reference value="ValueSet/valueset-no-codesystem"/>
       </reference>

@@ -7,7 +7,7 @@
   <status value="draft"/>
   <experimental value="true"/>
   <date value="2022-10-12"/>
-  <description value="Add description"/> <!-- come back -->
+  <description value="This valueset defines FHIR messaging event types used in RTLS workflows."/>
   <compose>
     <include>
       <system value="http://hl7.org/fhir/uv/rtls/CodeSystem/rtlsEventCodes"/>

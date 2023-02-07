@@ -1,29 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../input-cache/schemas/R5/fhir-single.xsd">
-  <id value="LocationUpdateSubscriptionStatus"/>
-  <url value="http://hl7.org/fhir/uv/rtls/StructureDefinition/LocationUpdateSubscriptionStatus"/>
-  <name value="LocationUpdateSubscriptionStatus"/>
-  <title value="LocationUpdateSubscriptionStatus"/>
+  <id value="rtlsSubscriptionStatus"/>
+  <url value="http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsSubscriptionStatus"/>
+  <name value="rtlsSubscriptionStatus"/>
+  <title value="RTLS Subscription Status Profile"/>
   <status value="draft"/>
   <experimental value="true"/>
   <publisher value="Patient Administration"/>
-  <contact> <!-- come back -->
-    <telecom>
-      <!-- Contact for publisher of this artifact -->
-      <system value="url"/>
-      <value value="http://example.org/some-organization"/>
-    </telecom>
-  </contact>
-  <description value="SubscriptionStatus resource for tag location update messages"/>
-  <jurisdiction>  <!-- come back -->
-    <coding>
-      <!-- Testing a jurisdiction that doesn't have a resolvable flag -->
-      <system value="urn:iso:std:iso:3166:-2"/>
-      <code value="GR-E"/>
-    </coding>
-  </jurisdiction>
-  <purpose value="This profile describes the SusbscriptionStatus resource to be used to indicate whether a system wants to receive tracking tag/badge location updates"/>  <!-- come back -->
-  <copyright value="Explain licensing or other legal limitations on use"/>  <!-- come back -->
+  <description value="SubscriptionStatus resource used in RTLS workflows"/>
+  <purpose value="This profile defines minimum expectations for a subscription status resource used in RTLS workflows."/>
   <fhirVersion value="5.0.0-snapshot3"/>
   <kind value="resource"/>
   <abstract value="false"/>
@@ -39,10 +24,6 @@
       <path value="SubscriptionStatus.type"/>
       <mustSupport value="true"/>
       <short value="Set to &quot;event-notification&quot;"/>
-    </element>
-    <element id="SubscriptionStatus.notificationEvent.eventNumber">
-      <path value="SubscriptionStatus.notificationEvent.eventNumber"/>
-      <mustSupport value="true"/>
     </element>
     <element id="SubscriptionStatus.notificationEvent.timestamp">
       <path value="SubscriptionStatus.notificationEvent.timestamp"/>
@@ -61,12 +42,12 @@
     <element id="SubscriptionStatus.subscription">
       <path value="SubscriptionStatus.subscription"/>
       <mustSupport value="true"/>
-      <short value="Reference to the LocationUpdateSubscription responsible for this notification (http://hl7.org/fhir/uv/rtls/StructureDefinition/LocationUpdateSubscription)."/>
+      <short value="Reference to the rtlsSubscription resource responsible for this notification (http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsSubscription)."/>
     </element>
     <element id="SubscriptionStatus.topic">
       <path value="SubscriptionStatus.topic"/>
       <mustSupport value="true"/>
-      <short value="Reference to the LocationUpdateSubscriptionTopic this notification relates to (http://hl7.org/fhir/uv/rtls/StructureDefinition/LocationUpdateSubscriptionTopic)."/>
+      <short value="Reference to the rtlsSbuscriptionTopic resource this notification relates to (http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsSubscriptionTopic)."/>
     </element>
   </differential>
 </StructureDefinition>

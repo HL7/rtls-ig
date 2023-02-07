@@ -10,6 +10,16 @@
   <description value="Code System listing codes for all types of RTLS events"/> 
   <caseSensitive value="true"/>
   <content value="complete"/>
+  <concept>
+    <code value="activate-tag"/>
+    <display value="Tag activation"/>
+    <description value="Used to describe when a subscriber wants to receive notifications about a specific tracking tag."/>
+  </concept>
+  <concept>
+    <code value="deactivate-tag"/>
+    <display value="Tag deactivation"/>
+    <description value="Used to describe when a subscriber no longer wants to receive notifications abot a specific tracking tag."/>
+  </concept>
   <!-- <concept>
     <code value="assign-tag"/>
     <display value="Tag assignment"/>
