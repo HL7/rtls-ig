@@ -2,7 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../input-cache/schemas/R5/fhir-single.xsd">
   <id value="rtlsMessageBundle"/>
   <url value="http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageBundle"/>
-  <name value="rtlsMessageBundle"/>
+  <name value="RTLSMessageBundle"/>
   <title value="RTLS Message Bundle Profile"/>
   <status value="draft"/>
   <experimental value="true"/>
