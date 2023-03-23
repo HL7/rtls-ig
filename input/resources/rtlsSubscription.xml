@@ -9,7 +9,7 @@
   <publisher value="Patient Administration"/>
   <description value="Subscription resource used in RTLS workflows"/>
   <purpose value="This profile defines minimum expectations for a subscription requested from a RTLS."/>
-  <fhirVersion value="5.0.0-snapshot3"/>
+  <fhirVersion value="5.0.0-draft-final"/>
   <kind value="resource"/>
   <abstract value="false"/>
   <type value="Subscription"/>

@@ -7,12 +7,12 @@
   <status value="draft"/>
   <experimental value="true"/>
   <date value="2022-10-12"/>
-  <definition value="Code System listing codes for event types which can be used to trigger notifications from a rtlsSubscriptionTopic."/> 
+  <description value="Code System listing codes for event types which can be used to trigger notifications from a rtlsSubscriptionTopic."/> 
   <caseSensitive value="true"/>
   <content value="complete"/>
   <concept>
     <code value="location-updates"/>
     <display value="Location Updates"/>
-    <description value="Events where the location of a RTLS tag is updated."/>
+    <definition value="Events where the location of a RTLS tag is updated."/>
   </concept>
 </CodeSystem>

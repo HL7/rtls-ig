@@ -36,5 +36,3 @@ Location updates shall conform to subscription notification model, in which the 
 4. rtlsSubscriptionStatus
 5. rtlsDevice
 6. rtlsLocation
-
-And an icon: ![resource](icon-resource.png)
