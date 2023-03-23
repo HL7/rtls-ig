@@ -7,7 +7,7 @@
   <status value="draft"/>
   <experimental value="true"/>
   <date value="2022-10-12"/>
-  <description value="Code System listing codes for event types which can be used to trigger notifications from a rtlsSubscriptionTopic."/> 
+  <definition value="Code System listing codes for event types which can be used to trigger notifications from a rtlsSubscriptionTopic."/> 
   <caseSensitive value="true"/>
   <content value="complete"/>
   <concept>
