@@ -1,5 +1,5 @@
 {
-    "package-id" : "1769",
+    "package-id" : "hl7.fhir.uv.rtls",
     "version" : "1.0.0-ballot",
     "path" : "http://hl7.org/fhir/uv/rtls/2023May",
     "mode" : "working",
