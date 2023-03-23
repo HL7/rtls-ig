@@ -107,4 +107,10 @@
       </tr>
     </table>
   </ul>
+  <h3>Dependencies</h3>
+  <p>{% include dependency-table.xhtml %} </p>
+  <h3>Global Profiles</h3>
+  <p>{% include globals-table.xhtml %} </p>
+  <h3>IP Statements</h3>
+  <p>{% include ip-statements.xhtml %} </p>
 </div>

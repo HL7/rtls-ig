@@ -4,6 +4,7 @@
 # instructions for ignoreWarnings.txt https://confluence.hl7.org/pages/viewpage.action?pageId=66938614#ImplementationGuideParameters-ManagingWarningsandHints
 # (And include comments like this justifying why)
 
-# Inherited from base resource
+# Inherited from base spec
 WARNING: Rule eld-27: 'Mappings SHOULD be unique by key' Failed
 WARNING: The markdown contains content that appears to be an embedded HTML tag starting at 'UR'. This will (or SHOULD) be escaped by the presentation layer. The content should be checked to confirm that this is the desired behaviour
+ERROR: ElementDefinition.binding.strength: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/ElementDefinition|5.0.0-draft-final)

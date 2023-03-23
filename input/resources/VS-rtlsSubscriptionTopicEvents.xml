@@ -2,7 +2,7 @@
 <ValueSet xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../input-cache/schemas/R5/fhir-single.xsd">
   <id value="rtlsSubscriptionTopicEvents"/>
   <url value="http://hl7.org/fhir/uv/rtls/ValueSet/rtlsSubscriptionTopicEvents"/>
-  <name value="rtlsSubscriptionTopicEvents"/>
+  <name value="RTLSSubscriptionTopicEvents"/>
   <title value="RTLS Subscription Topic Events Valueset"/>
   <status value="draft"/>
   <experimental value="true"/>

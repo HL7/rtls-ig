@@ -2,7 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../input-cache/schemas/R5/fhir-single.xsd">
   <id value="rtlsMessageHeader"/>
   <url value="http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageHeader"/>
-  <name value="rtlsMessageHeader"/>
+  <name value="RTLSMessageHeader"/>
   <title value="RTLS Message Header Resource Profile"/>
   <status value="draft"/>
   <experimental value="true"/>
@@ -16,14 +16,10 @@
   <baseDefinition value="http://hl7.org/fhir/StructureDefinition/MessageHeader"/>
   <derivation value="constraint"/>
   <differential>
-    <element id="MessageHeader.id">
-      <path value="MessageHeader.id"/>
-      <mustSupport value="true"/>
-      <min value="1"/>
-    </element>
     <element id="MessageHeader.event">
       <path value="MessageHeader.event"/>
       <mustSupport value="true"/>
+      <min value="1"/>
       <binding>
         <valueSet value="http://hl7.org/fhir/uv/rtls/ValueSet/rtlsMessageEvents" />
       </binding>
@@ -35,6 +31,7 @@
         <targetProfile value="http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsDevice" />
       </type>
       <mustSupport value="true"/>
+      <min value="1"/>
     </element>
   </differential>
 </StructureDefinition>

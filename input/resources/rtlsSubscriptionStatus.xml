@@ -2,7 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../input-cache/schemas/R5/fhir-single.xsd">
   <id value="rtlsSubscriptionStatus"/>
   <url value="http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsSubscriptionStatus"/>
-  <name value="rtlsSubscriptionStatus"/>
+  <name value="RTLSSubscriptionStatus"/>
   <title value="RTLS Subscription Status Profile"/>
   <status value="draft"/>
   <experimental value="true"/>
