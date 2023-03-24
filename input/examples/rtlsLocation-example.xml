@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Location xmlns="http://hl7.org/fhir"> 
+  <id value="rtlsLocationExample"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsLocation"/>
+  </meta>
+  <identifier> 
+    <system value="http://example.org/HospitalLocations/id"/> 
+    <value value="EMC-317"/> 
+  </identifier>
+  <name value="Example Medical Center - Room 317"/>
+</Location> 

@@ -46,65 +46,29 @@
     <version value="0.9.1"/>
   </dependsOn>-->
   <definition>
-    <!-- You don't need to define any groupings.  The IGPublisher will define them for you.  You only need to do so if your IG is 'special' and it's
-      inappropriate to use the defaults.  Feel free to provide feedback about the defaults... -->
-  <!---  <resource>
+    <resource>
       <reference>
-        <reference value="StructureDefinition/mypatient"/>
+        <reference value="Device/rtlsTagExample"/>
       </reference>
-      <description value="Overriding description because we can"/>
+      <name value="RTLS Device example"/>
+      <description value="Example showing how a RTLS tracking tag is represented as a Device resource."/>
+      <exampleCanonical value="http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsDevice"/>
     </resource>
     <resource>
       <reference>
-        <reference value="StructureDefinition/MyLogical"/>
+        <reference value="Location/rtlsLocationExample"/>
       </reference>
-      <description value="Logical Model"/>
-    </resource>
-    <resource>
+      <name value="RTLS Location example"/>
+      <description value="Example showing how the location of a RTLS tracking tag is represented as a Location resource."/>
+      <exampleCanonical value="http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsLocation"/>
+   </resource>
+   <!-- <resource>
       <reference>
-        <reference value="Library/example-sql"/>
+        <reference value="Bundle/EnrollTagBundleExample"/>
       </reference>
-      <description value="A test example"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="Library/example-image"/>
-      </reference>
-      <description value="A test image example"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="MyLogicalModel/AS"/>
-      </reference>
-    </resource> -->
-<!--    <resource>
-      <reference>
-        <reference value="Patient/example"/>
-      </reference>
-      <name value="Simple patient example"/>
-      <description value="A simple example showing how examples are defined and referenced"/>
-      <exampleCanonical value="http://hl7.org/fhir/uv/rtls/StructureDefinition/mypatient"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="Observation/example"/>
-      </reference>
-      <name value="Observation patient example"/>
-      <description value="Example showing slicing"/>
-      <exampleCanonical value="http://hl7.org/fhir/uv/rtls/StructureDefinition/myObservation"/>
-    </resource>
-   <resource>
-      <reference>
-        <reference value="ValueSet/valueset-no-codesystem"/>
-      </reference>
-      <name value="Value set for no code system"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="Library/example"/>
-      </reference>
-      <name value="Simple library example"/>
-      <description value="A simple example showing how library is pre-loaded"/>
+      <name value="RTLS Message Bundle example for enrolling a tracking tag"/>
+      <description value="Example showing how the Enroll Tag event for a RTLS tracking tag is represented as a message bundle."/>
+      <exampleCanonical value="http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageBundle"/>
     </resource> -->
     <page>
       <name value="index.html"/>
