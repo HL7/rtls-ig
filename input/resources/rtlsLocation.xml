@@ -2,7 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../input-cache/schemas/R5/fhir-single.xsd">
   <id value="rtlsLocation"/>
   <url value="http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsLocation"/>
-  <name value="rtlsLocation"/>
+  <name value="RTLSLocation"/>
   <title value="RTLS Location Resource Profile"/>
   <status value="draft"/>
   <experimental value="true"/>
