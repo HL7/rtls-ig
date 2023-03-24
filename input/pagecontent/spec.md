@@ -33,6 +33,7 @@ Location updates shall conform to subscription notification model, in which the 
 1. rtlsSubscriptionTopic
 2. rtlsSubscription
 3. rtlsMessageBundle
-4. rtlsSubscriptionStatus
-5. rtlsDevice
-6. rtlsLocation
+4. rtlsMessageHeader
+5. rtlsSubscriptionStatus
+6. rtlsDevice
+7. rtlsLocation

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Bundle xmlns="http://hl7.org/fhir"> 
+  <id value="EnrollTagExample-MessageBundle"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageBundle"/>
+  </meta>
+  <type value="message"/>
+  <timestamp value="2023-03-24T10:24:13.1882432-05:00"/>
+  <entry>
+    <fullUrl value="http://example.org/fhir/EnrollTagMessageHeaderExample"/> 
+    <resource> 
+      <MessageHeader> 
+        <id value="EnrollTagExample-MessageHeader"/> 
+        <meta>
+          <profile value="http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageHeader"/>
+        </meta>
+        <eventCoding> 
+          <system value="http://hl7.org/fhir/uv/rtls/CodeSystem/rtlsMessageEvents"/> 
+          <code value="enroll-tag"/> 
+        </eventCoding> 
+        <source> 
+          <endpointUrl value="http://example.org/FHIR/R5/RTLS-Subscriber"/> 
+        </source> 
+        <focus> 
+          <reference value="http://example.org/fhir/EnrollTagExample-Device"/> 
+        </focus> 
+      </MessageHeader> 
+    </resource> 
+  </entry>
+  <entry>
+  <fullUrl value="http://example.org/fhir/EnrollTagExample-Device"/> 
+    <resource> 
+      <Device xmlns="http://hl7.org/fhir"> 
+        <id value="EnrollTagExample-Device"/>
+        <meta>
+          <profile value="http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsDevice"/>
+        </meta>
+        <identifier> 
+          <system value="http://rtls.org/trackingtags/id"/> 
+          <value value="12345678"/> 
+        </identifier>
+        <status value="active"/>
+      </Device> 
+    </resource> 
+  </entry>
+</Bundle> 

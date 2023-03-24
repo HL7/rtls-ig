@@ -62,14 +62,30 @@
       <description value="Example showing how the location of a RTLS tracking tag is represented as a Location resource."/>
       <exampleCanonical value="http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsLocation"/>
    </resource>
-   <!-- <resource>
+   <resource>
       <reference>
-        <reference value="Bundle/EnrollTagBundleExample"/>
+        <reference value="Bundle/EnrollTagExample-MessageBundle"/>
       </reference>
-      <name value="RTLS Message Bundle example for enrolling a tracking tag"/>
+      <name value="Enroll Tag Event example"/>
       <description value="Example showing how the Enroll Tag event for a RTLS tracking tag is represented as a message bundle."/>
       <exampleCanonical value="http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageBundle"/>
-    </resource> -->
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Bundle/UnenrollTagExample-MessageBundle"/>
+      </reference>
+      <name value="Unenroll Tag Event example"/>
+      <description value="Example showing how the Unenroll Tag event for a RTLS tracking tag is represented as a message bundle."/>
+      <exampleCanonical value="http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageBundle"/>
+    </resource>
+     <resource>
+      <reference>
+        <reference value="Bundle/LocationUpdateExample-MessageBundle1"/>
+      </reference>
+      <name value="Location Update Event example"/>
+      <description value="Example showing how the Location Update event for a RTLS tracking tag is represented as a message bundle."/>
+      <exampleCanonical value="http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageBundle"/>
+    </resource>
     <page>
       <name value="index.html"/>
       <title value="Home"/>

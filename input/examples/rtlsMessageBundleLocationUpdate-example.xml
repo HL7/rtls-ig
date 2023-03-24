@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Bundle xmlns="http://hl7.org/fhir"> 
+  <id value="LocationUpdateExample-MessageBundle1"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageBundle"/>
+  </meta>
+  <type value="message"/>
+  <timestamp value="2023-03-24T10:24:13.1882432-05:00"/>
+  <entry>
+    <fullUrl value="http://example.org/fhir/LocationUpdateExample-MessageHeader"/> 
+    <resource> 
+      <MessageHeader> 
+        <id value="LocationUpdateExample-MessageHeader"/> 
+        <meta>
+          <profile value="http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageHeader"/>
+        </meta>
+        <eventCoding> 
+          <system value="http://hl7.org/fhir/uv/rtls/CodeSystem/rtlsMessageEvents"/> 
+          <code value="location-update"/> 
+        </eventCoding> 
+        <source> 
+          <endpointUrl value="http://example.org/FHIR/R5/RTLS-Client"/> 
+        </source> 
+        <focus> 
+          <reference value="http://example.org/fhir/LocationUpdateExample-MessageBundle2"/> 
+        </focus> 
+      </MessageHeader> 
+    </resource> 
+  </entry>
+  <entry>
+    <fullUrl value="http://example.org/fhir/LocationUpdateExample-MessageBundle2"/> 
+    <resource> 
+      <Bundle> 
+        <id value="LocationUpdateExample-MessageBundle2"/> 
+        <type value="subscription-notification"/>
+        <timestamp value="2023-03-24T10:24:13.1882432-05:00"/>
+        <entry>
+          <fullUrl value="http://example.org/fhir/LocationUpdateExample-SubscriptionStatus"/> 
+          <resource> 
+            <SubscriptionStatus> 
+              <id value="LocationUpdateExample-SubscriptionStatus"/> 
+              <meta>
+                <profile value="http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsSubscriptionStatus"/>
+              </meta>
+              <status value="active"/>
+              <type value="event-notification"/>
+              <eventsSinceSubscriptionStart value="2"/>
+              <notificationEvent>
+                <timestamp value="2023-03-24T10:24:13.1882432-05:00"/>
+                <focus> 
+                  <reference value="http://example.org/fhir/LocationUpdateExample-Device"/> 
+                </focus>
+              </notificationEvent>
+              <subscription>
+                <reference value="https://example.org/fhir/rtlsSubscriptionExample"/>
+              </subscription>
+              <topic value="https://example.org/fhir/rtlsSubscriptionTopicExample"/>
+            </SubscriptionStatus> 
+          </resource>
+        </entry>
+        <entry>
+          <fullUrl value="http://example.org/fhir/LocationUpdateExample-Device"/>
+          <resource> 
+            <Device xmlns="http://hl7.org/fhir"> 
+              <id value="LocationUpdateExample-Device"/>
+              <meta>
+                <profile value="http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsDevice"/>
+              </meta>
+              <identifier> 
+                <system value="http://rtls.org/trackingtags/id"/> 
+                <value value="12345678"/> 
+              </identifier>
+              <status value="active"/>
+              <location>
+                <reference value="http://example.org/FHIR/R5/Location"/>
+              </location>
+            </Device> 
+          </resource>
+        </entry>
+      </Bundle> 
+    </resource>
+  </entry>
+</Bundle> 
