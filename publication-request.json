@@ -9,7 +9,7 @@
     "descmd" : "STU 1.0 initial ballot",
     "first" : true,
     "title" : "Real Time Location Services Implementation Guide",
-    "ci-build" : "https:/build.fhir.org/ig/HL7/rtls-ig",
+    "ci-build" : "https://build.fhir.org/ig/HL7/rtls-ig",
     "category" : "administration",
     "introduction" : "This implementation guide defines the use of FHIR resources to exchange information that describes the location of patients, providers, staff, equipment, or other permanent assets within a hospital or other healthcare facility. This data is typically exchanged between a healthcare system (e.g. EHR software) and a Real Time Location System (RTLS) that captures, processes, and stores information about the location of tracking tags. The tracking tags are associated with an assigned subject (i.e. patients, providers, assets) and their location data is recorded as the associated subject moves throughout a healthcare facility. This location data has many applications in the healthcare context, such as workflow automation, staff/asset tracking, and patient monitoring. \n The communication workflows that this implementation guide enables includes tag location updates, association/disassociation from subjects, co-location notifications, status updates, availability updates, and other auxiliary functions (e.g. button presses) a tag may offer. Note that it only provides a communication model for notifying interested parties that these events occurred, and does not define the situational requirements for which each event is applicable. "
   }
