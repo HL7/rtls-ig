@@ -1,0 +1,25 @@
+<!-- <?xml version="1.0" encoding="UTF-8"?>
+
+<SubscriptionTopic xmlns="http://hl7.org/fhir"> 
+  <id value="rtlsSubscriptionTopicExample"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsSubscriptionTopic"/>
+  </meta>
+  <url value="http://example.org/fhir/R5/LocationUpdates"/>
+  <identifier> 
+    <system value="http://example.org/SubscriptionTopics/id"/> 
+    <value value="LocationUpdates"/> 
+  </identifier>
+  <status value="active"/>
+  <eventTrigger> 
+    <description value="Patient admission is covered by HL7v2 ADT^A01"/> 
+    <event> 
+      <coding> 
+        <system value="http://hl7.org/fhir/uv/rtls/CodeSystem/rtlsSubscriptionEvents"/> 
+        <code value="location-updates"/> 
+        <display value="Location Updates"/> 
+      </coding> 
+    </event> 
+    <resource value="http://hl7.org/fhir/StructureDefinition/Device"/> 
+  </eventTrigger>
+</SubscriptionTopic> -->

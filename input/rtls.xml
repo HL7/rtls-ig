@@ -86,6 +86,22 @@
       <description value="Example showing how the Location Update event for a RTLS tracking tag is represented as a message bundle."/>
       <exampleCanonical value="http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageBundle"/>
     </resource>
+    <resource>
+      <reference>
+        <reference value="Subscription/rtlsSubscriptionExample"/>
+      </reference>
+      <name value="RTLS Subscription example"/>
+      <description value="Example showing the content of a Subscription resource in RTLS workflows."/>
+      <exampleCanonical value="http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsSubscription"/>
+   </resource>
+   <!-- <resource>
+      <reference>
+        <reference value="SubscriptionTopic/rtlsSubscriptionTopicExample"/>
+      </reference>
+      <name value="RTLS SubscriptionTopic example"/>
+      <description value="Example showing the content of a SubscriptionTopic resource in RTLS workflows."/>
+      <exampleCanonical value="http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsSubscriptionTopic"/>
+   </resource> -->
     <page>
       <name value="index.html"/>
       <title value="Home"/>

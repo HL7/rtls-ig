@@ -29,6 +29,7 @@
       <type>
         <code value="Reference"/>
         <targetProfile value="http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsDevice" />
+        <targetProfile value="http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageBundle" />
       </type>
       <mustSupport value="true"/>
       <min value="1"/>
