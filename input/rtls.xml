@@ -23,7 +23,7 @@
     <telecom>
       <!-- Or whatever URL and/or email address(es) are appropriate -->
       <system value="url"/>
-      <value value="http://hl7.org/Special/committees/patientadministration"/>
+      <value value="http://hl7.org/Special/committees/pafm"/>
     </telecom>
   </contact>
   <description value="Description of IG"/>
