@@ -4,7 +4,20 @@
 # instructions for ignoreWarnings.txt https://confluence.hl7.org/pages/viewpage.action?pageId=66938614#ImplementationGuideParameters-ManagingWarningsandHints
 # (And include comments like this justifying why)
 
-# Inherited from base spec
-WARNING: Rule eld-27: 'Mappings SHOULD be unique by key' Failed
-WARNING: The markdown contains content that appears to be an embedded HTML tag starting at 'UR'. This will (or SHOULD) be escaped by the presentation layer. The content should be checked to confirm that this is the desired behaviour
-ERROR: ElementDefinition.binding.strength: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/ElementDefinition|5.0.0-draft-final)
+# Inherited from base resource
+WARNING: StructureDefinition/rtlsMessageHeader: StructureDefinition.snapshot.element[10]: Rule eld-27: 'Mappings SHOULD be unique by key' Failed
+WARNING: StructureDefinition/rtlsMessageHeader: StructureDefinition.snapshot.element[17]: Rule eld-27: 'Mappings SHOULD be unique by key' Failed
+WARNING: StructureDefinition/rtlsMessageHeader: StructureDefinition.snapshot.element[18]: Rule eld-27: 'Mappings SHOULD be unique by key' Failed
+WARNING: StructureDefinition/rtlsSubscription: StructureDefinition.snapshot.element[13]: Rule eld-27: 'Mappings SHOULD be unique by key' Failed
+WARNING: StructureDefinition/rtlsSubscriptionTopic: StructureDefinition.snapshot.element[35].definition: The markdown contains content that appears to be an embedded HTML tag starting at 'UR'. This will (or SHOULD) be escaped by the presentation layer. The content should be checked to confirm that this is the desired behaviour
+WARNING: StructureDefinition/rtlsSubscriptionTopic: StructureDefinition.snapshot.element[53].definition: The markdown contains content that appears to be an embedded HTML tag starting at 'UR'. This will (or SHOULD) be escaped by the presentation layer. The content should be checked to confirm that this is the desired behaviour
+WARNING: StructureDefinition/rtlsSubscriptionTopic: StructureDefinition.snapshot.element[59].comment: The markdown contains content that appears to be an embedded HTML tag starting at 'UR'. This will (or SHOULD) be escaped by the presentation layer. The content should be checked to confirm that this is the desired behaviour
+WARNING: StructureDefinition/rtlsSubscriptionTopic: StructureDefinition.snapshot.element[68].comment: The markdown contains content that appears to be an embedded HTML tag starting at 'UR'. This will (or SHOULD) be escaped by the presentation layer. The content should be checked to confirm that this is the desired behaviour
+WARNING: StructureDefinition/rtlsMessageHeader: StructureDefinition.differential.element[1].binding (l1/c65302): ElementDefinition.binding.strength: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/ElementDefinition|5.0.0-draft-final)
+
+# Examples are included in Bundle resource profile example 
+WARNING: StructureDefinition/rtlsMessageHeader: StructureDefinition.where(url = 'http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsSubscriptionStatus'): The Implementation Guide contains no explicitly linked examples for this profile
+WARNING: StructureDefinition/rtlsSubscriptionStatus: StructureDefinition.where(url = 'http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsSubscriptionStatus'): The Implementation Guide contains no explicitly linked examples for this profile
+
+# Example is created but publisher was failing for some reason
+WARNING: StructureDefinition/rtlsSubscriptionTopic: StructureDefinition.where(url = 'http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsSubscriptionTopic'): The Implementation Guide contains no examples for this profile

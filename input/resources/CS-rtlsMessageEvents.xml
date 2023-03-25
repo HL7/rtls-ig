@@ -18,7 +18,12 @@
   <concept>
     <code value="unenroll-tag"/>
     <display value="Unenroll Tag"/>
-    <definition value="Used to describe when a subscriber no longer wants to receive notifications abot a specific tag."/>
+    <definition value="Used to describe when a subscriber no longer wants to receive notifications about a specific tag."/>
+  </concept>
+  <concept>
+    <code value="location-update"/>
+    <display value="Location Update"/>
+    <definition value="Used to describe when a specific tag has an updated location."/>
   </concept>
   <!-- <concept>
     <code value="assign-tag"/>
