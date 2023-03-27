@@ -21,6 +21,7 @@
       <mustSupport value="true"/>
       <min value="1"/>
       <binding>
+        <strength value="extensible"/>
         <valueSet value="http://hl7.org/fhir/uv/rtls/ValueSet/rtlsMessageEvents" />
       </binding>
     </element>
