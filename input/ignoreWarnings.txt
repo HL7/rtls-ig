@@ -13,11 +13,10 @@ WARNING: StructureDefinition/rtlsSubscriptionTopic: StructureDefinition.snapshot
 WARNING: StructureDefinition/rtlsSubscriptionTopic: StructureDefinition.snapshot.element[53].definition: The markdown contains content that appears to be an embedded HTML tag starting at 'UR'. This will (or SHOULD) be escaped by the presentation layer. The content should be checked to confirm that this is the desired behaviour
 WARNING: StructureDefinition/rtlsSubscriptionTopic: StructureDefinition.snapshot.element[59].comment: The markdown contains content that appears to be an embedded HTML tag starting at 'UR'. This will (or SHOULD) be escaped by the presentation layer. The content should be checked to confirm that this is the desired behaviour
 WARNING: StructureDefinition/rtlsSubscriptionTopic: StructureDefinition.snapshot.element[68].comment: The markdown contains content that appears to be an embedded HTML tag starting at 'UR'. This will (or SHOULD) be escaped by the presentation layer. The content should be checked to confirm that this is the desired behaviour
-WARNING: StructureDefinition/rtlsMessageHeader: StructureDefinition.differential.element[1].binding (l1/c65302): ElementDefinition.binding.strength: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/ElementDefinition|5.0.0-draft-final)
 
 # Examples are included in Bundle resource profile example 
-WARNING: StructureDefinition/rtlsMessageHeader: StructureDefinition.where(url = 'http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsSubscriptionStatus'): The Implementation Guide contains no explicitly linked examples for this profile
-WARNING: StructureDefinition/rtlsSubscriptionStatus: StructureDefinition.where(url = 'http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsSubscriptionStatus'): The Implementation Guide contains no explicitly linked examples for this profile
+INFORMATION: StructureDefinition.where(url = 'http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageHeader'): The Implementation Guide contains no explicitly linked examples for this profile
+INFORMATION: StructureDefinition.where(url = 'http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsSubscriptionStatus'): The Implementation Guide contains no explicitly linked examples for this profile
 
 # Example is created but publisher was failing for some reason
-WARNING: StructureDefinition/rtlsSubscriptionTopic: StructureDefinition.where(url = 'http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsSubscriptionTopic'): The Implementation Guide contains no examples for this profile
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsSubscriptionTopic'): The Implementation Guide contains no examples for this profile

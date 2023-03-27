@@ -65,9 +65,6 @@
           <resource> 
             <Device xmlns="http://hl7.org/fhir"> 
               <id value="LocationUpdateExample-Device"/>
-              <meta>
-                <profile value="http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsDevice"/>
-              </meta>
               <identifier> 
                 <system value="http://rtls.org/trackingtags/id"/> 
                 <value value="12345678"/> 
@@ -77,6 +74,19 @@
                 <reference value="http://example.org/FHIR/R5/Location"/>
               </location>
             </Device> 
+          </resource>
+        </entry>
+         <entry>
+          <fullUrl value="http://example.org/FHIR/R5/Location"/>
+          <resource> 
+            <Location xmlns="http://hl7.org/fhir"> 
+              <id value="LocationUpdateExample-Location"/>
+              <identifier> 
+                <system value="http://example.org/HospitalLocations/id"/> 
+                <value value="EMC-317"/> 
+              </identifier>
+              <name value="Example Medical Center - Room 317"/>
+            </Location> 
           </resource>
         </entry>
       </Bundle> 
