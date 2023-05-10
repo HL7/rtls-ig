@@ -7,7 +7,7 @@
   <status value="draft"/>
   <experimental value="true"/>
   <publisher value="Patient Administration"/>
-  <description value="Device resource profile for tags or badges in RTLS workflows"/>
+  <description value="Device resource profile for tags or badges in RTLS workflows."/>
   <purpose value="This profile defines minimum expectations for the Device resource to be used in RTLS workflows."/> 
   <fhirVersion value="5.0.0-draft-final"/> 
   <kind value="resource"/>
