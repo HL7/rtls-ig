@@ -17,7 +17,7 @@
   <derivation value="constraint"/>
   <differential>
     <element id="MessageHeader.event">
-      <path value="MessageHeader.event"/>
+      <path value="MessageHeader.event[x]"/>
       <mustSupport value="true"/>
       <min value="1"/>
       <binding>

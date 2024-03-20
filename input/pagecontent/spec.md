@@ -1,5 +1,5 @@
 ### Overview
-This specification page details the technical requirements and behavior of this implementation for an integration between a RTLS and another system. 
+This specification page details the technical requirements and behavior of this implementation for an integration between an RTLS and another system. 
 
 ### Enroll Tag
 This event type is used to indicate to the RTLS that a subscribed non-RTLS system wants to receive updates for a specific tag's location. It is assumed that an active rtlsSubscription resource corresponding to the rtlsSubscriptionTopic that the non-RTLS system is interested in already exists and was communicated.
