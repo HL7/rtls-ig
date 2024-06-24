@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir"> 
-  <id value="LocationUpdateExample-MessageBundle1"/>
+  <id value="LocationUpdateExample-MessageBundle"/>
   <meta>
     <profile value="http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageBundle"/>
   </meta>
@@ -36,31 +36,6 @@
         <type value="subscription-notification"/>
         <timestamp value="2023-03-24T10:24:13.1882432-05:00"/>
         <entry>
-          <fullUrl value="http://example.org/fhir/LocationUpdateExample-SubscriptionStatus"/> 
-          <resource> 
-            <SubscriptionStatus> 
-              <id value="LocationUpdateExample-SubscriptionStatus"/> 
-              <meta>
-                <profile value="http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsSubscriptionStatus"/>
-              </meta>
-              <status value="active"/>
-              <type value="event-notification"/>
-              <eventsSinceSubscriptionStart value="2"/>
-              <notificationEvent>
-                <eventNumber value="1"/>
-                <timestamp value="2023-03-24T10:24:13.1882432-05:00"/>
-                <focus> 
-                  <reference value="http://example.org/fhir/LocationUpdateExample-Device"/> 
-                </focus>
-              </notificationEvent>
-              <subscription>
-                <reference value="https://example.org/fhir/rtlsSubscriptionExample"/>
-              </subscription>
-              <topic value="https://example.org/fhir/rtlsSubscriptionTopicExample"/>
-            </SubscriptionStatus> 
-          </resource>
-        </entry>
-        <entry>
           <fullUrl value="http://example.org/fhir/LocationUpdateExample-Device"/>
           <resource> 
             <Device xmlns="http://hl7.org/fhir"> 
@@ -71,13 +46,13 @@
               </identifier>
               <status value="active"/>
               <location>
-                <reference value="http://example.org/FHIR/R5/Location"/>
+                <reference value="http://example.org/FHIR/R4/Location"/>
               </location>
             </Device> 
           </resource>
         </entry>
          <entry>
-          <fullUrl value="http://example.org/FHIR/R5/Location"/>
+          <fullUrl value="http://example.org/FHIR/R4/Location"/>
           <resource> 
             <Location xmlns="http://hl7.org/fhir"> 
               <id value="LocationUpdateExample-Location"/>
