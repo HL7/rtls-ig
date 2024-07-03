@@ -21,6 +21,6 @@
   </udiCarrier>
   <status value="active"/>
   <location>
-    <reference value="http://example.org/FHIR/R5/Location"/>
+    <reference value="http://example.org/FHIR/R4/Location"/>
   </location>
 </Device> 

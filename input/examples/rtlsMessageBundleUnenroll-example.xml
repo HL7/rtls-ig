@@ -19,9 +19,6 @@
           <system value="http://hl7.org/fhir/uv/rtls/CodeSystem/rtlsMessageEvents"/> 
           <code value="unenroll-tag"/> 
         </eventCoding> 
-        <source> 
-          <endpointUrl value="http://example.org/FHIR/R5/RTLS-Subscriber"/> 
-        </source> 
         <focus> 
           <reference value="http://example.org/fhir/UnenrollTagExample-Device"/> 
         </focus> 

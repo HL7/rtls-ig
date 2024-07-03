@@ -20,7 +20,7 @@
           <code value="location-update"/> 
         </eventCoding> 
         <source> 
-          <endpointUrl value="http://example.org/FHIR/R5/RTLS-Client"/> 
+          <endpointUrl value="http://example.org/FHIR/R4/RTLS-Client"/> 
         </source> 
         <focus> 
           <reference value="http://example.org/fhir/LocationUpdateExample-MessageBundle2"/> 
