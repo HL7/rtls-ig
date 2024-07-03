@@ -16,12 +16,9 @@
           <profile value="http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageHeader"/>
         </meta>
         <eventCoding> 
-          <system value="http://hl7.org/fhir/uv/rtls/CodeSystem/rtlsMessageEvents"/> 
+          <system value="http://terminology.hl7.org/CodeSystem/rtlsMessageEvents"/> 
           <code value="enroll-tag"/> 
         </eventCoding> 
-        <source> 
-          <endpointUrl value="http://example.org/FHIR/R5/RTLS-Subscriber"/> 
-        </source> 
         <focus> 
           <reference value="http://example.org/fhir/EnrollTagExample-Device"/> 
         </focus> 
