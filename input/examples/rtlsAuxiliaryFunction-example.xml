@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Bundle xmlns="http://hl7.org/fhir"> 
+  <id value="StaffDuressExample-MessageBundle"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageBundle"/>
+  </meta>
+  <type value="message"/>
+  <timestamp value="2023-03-24T10:24:13.1882432-05:00"/>
+  <entry>
+    <fullUrl value="http://example.org/fhir/Device/$auxiliary-function"/> 
+    <resource> 
+      <MessageHeader> 
+        <id value="StaffDuressExample-MessageHeader"/> 
+        <meta>
+          <profile value="http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageHeader"/>
+        </meta>
+        <eventCoding> 
+          <system value="http://hl7.org/fhir/uv/rtls/CodeSystem/rtlsMessageEvents"/> 
+          <code value="staff-duress"/> 
+        </eventCoding> 
+        <source> 
+          <endpointUrl value="http://example.org/FHIR/R4/RTLS-Client"/> 
+        </source> 
+        <focus> 
+          <reference value="http://example.org/fhir/Device/$auxiliary-function"/> 
+        </focus> 
+      </MessageHeader> 
+    </resource> 
+  </entry>
+  <entry>
+    <fullUrl value="http://example.org/fhir/Device/$auxiliary-function"/> 
+    <resource> 
+      <Bundle> 
+        <id value="http://example.org/fhir/Device/$auxiliary-function"/> 
+        <type value="subscription-notification"/>
+        <timestamp value="2023-03-24T10:24:13.1882432-05:00"/>
+        <entry>
+          <fullUrl value="http://example.org/fhir/Device/$auxiliary-function"/>
+          <resource> 
+            <Device xmlns="http://hl7.org/fhir"> 
+              <id value="StaffDuressExample-Device"/>
+              <identifier> 
+                <system value="http://rtls.org/trackingtags/id"/> 
+                <value value="12345678"/> 
+              </identifier>
+              <udiCarrier>
+                <deviceIdentifier>
+                  <system value="http://example.org/FHIR/R4/Device/UdiCarrier"/>
+                  <value value="12345678"/>
+                </deviceIdentifier>
+                <issuer>
+                  <system value="http://hl7.org/fhir/NamingSystem/gs1-di"/>
+                  <value value="12345678"/>
+                </issuer>
+              </udiCarrier>
+              <status value="active"/>
+              <location>
+                <reference value="http://example.org/FHIR/R4/Location"/>
+              </location>
+            </Device> 
+          </resource>
+        </entry>
+         <entry>
+          <fullUrl value="http://example.org/FHIR/R4/Location"/>
+          <resource> 
+            <Location xmlns="http://hl7.org/fhir"> 
+              <id value="StaffDuressExample-Location"/>
+              <identifier> 
+                <system value="http://example.org/HospitalLocations/id"/> 
+                <value value="EMC-317"/> 
+              </identifier>
+              <name value="Example Medical Center - Room 317"/>
+            </Location> 
+          </resource>
+        </entry>
+      </Bundle> 
+    </resource>
+  </entry>
+</Bundle> 

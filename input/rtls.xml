@@ -50,7 +50,7 @@
       <reference>
         <reference value="Device/rtlsTagExample"/>
       </reference>
-      <name value="RTLS Device example"/>
+      <name value="RTLS Device Example"/>
       <description value="Example showing how a RTLS tracking tag is represented as a Device resource."/>
       <exampleCanonical value="http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsDevice"/>
     </resource>
@@ -58,7 +58,7 @@
       <reference>
         <reference value="Location/rtlsLocationExample"/>
       </reference>
-      <name value="RTLS Location example"/>
+      <name value="RTLS Location Example"/>
       <description value="Example showing how the location of a RTLS tracking tag is represented as a Location resource."/>
       <exampleCanonical value="http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsLocation"/>
    </resource>
@@ -66,7 +66,7 @@
       <reference>
         <reference value="Bundle/EnrollTagExample-MessageBundle"/>
       </reference>
-      <name value="Enroll Tag Event example"/>
+      <name value="Enroll Tag Event Example"/>
       <description value="Example showing how the Enroll Tag event for a RTLS tracking tag is represented as a message bundle."/>
       <exampleCanonical value="http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageBundle"/>
     </resource>
@@ -74,7 +74,7 @@
       <reference>
         <reference value="Bundle/UnenrollTagExample-MessageBundle"/>
       </reference>
-      <name value="Unenroll Tag Event example"/>
+      <name value="Unenroll Tag Event Example"/>
       <description value="Example showing how the Unenroll Tag event for a RTLS tracking tag is represented as a message bundle."/>
       <exampleCanonical value="http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageBundle"/>
     </resource>
@@ -82,10 +82,17 @@
       <reference>
         <reference value="Bundle/LocationUpdateExample-MessageBundle"/>
       </reference>
-      <name value="Location Update Event example"/>
+      <name value="Location Update Event Example"/>
       <description value="Example showing how the Location Update event for a RTLS tracking tag is represented as a message bundle."/>
       <exampleCanonical value="http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageBundle"/>
     </resource>
+    <resource>
+      <reference>
+        <reference value="Bundle/StaffDuressExample-MessageBundle"/>
+      </reference>
+      <name value="Staff Duress Event Example"/>
+      <description value="Used when a user requires assistance pertaining to a security incident or threat, this function sends a distress signal that will notify nearby security members."/>
+      <exampleCanonical value="http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageBundle"/>
     <page>
       <nameUrl value="index.html"/>
       <title value="Home"/>
