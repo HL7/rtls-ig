@@ -41,6 +41,10 @@
     <li>
       <b>Tag Location Update</b> - Notifies the subscriber that an enrolled tag has a new/updated location, as determined by the RTLS.
     </li>
+    <li>
+      <b>Tag Auxiliary Function</b> - Notifies the subscriber that an auxiliary function supported by an enrolled tag was performed (e.g. a button 
+      located on the tag was pressed by the subject).
+    </li>
   </ul> 
   <a name="plannedScope"> </a>
   <h3>Planned Scope</h3>
@@ -72,10 +76,6 @@
       and are determined to be "co-located," as defined by the RTLS. Consider, for example, two tags where one is associated to a patient and the other to a 
       provider. The two tags are in the same location for more than 30 seconds while the provider is examining the patient. If 30 seconds is the length of time 
       at which the RTLS considers two subjects to be "co-located," the subscriber would be notified of the co-location event.
-    </li>
-    <li>
-      <b>Tag Auxiliary Function</b> - Notifies the subscriber that an auxiliary function supported by an enrolled tag was performed (e.g. a button 
-      located on the tag was pressed by the subject).
     </li>
     <li>
       <b>Tag Status Update</b> - Notifies the subscriber that an enrolled tag has an update in status (e.g. the tag has low remaining battery life).

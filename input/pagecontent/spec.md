@@ -31,3 +31,16 @@ This event type is used to send notifications from the RTLS, informing other sys
 2. rtlsMessageHeader
 3. rtlsDevice
 4. rtlsLocation
+
+### Auxiliary Functions
+This event type is used to notify the subscriber that an auxiliary function supported by an enrolled tag was performed (e.g. a button located on the tag was pressed by the subject). 
+
+#### FHIR Operations Model
+Auxiliary Functions SHALL utilize the FHIR Operations model. 
+
+#### Related Resource Profiles
+1. OperationDefinition
+2. rtlsMessageHeader
+3. rtlsDevice
+4. rtlsLocation
+5. Communication
