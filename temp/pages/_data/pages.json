@@ -1,0 +1,566 @@
+{
+  "toc.html" : {
+    "title" : "Table of Contents",
+    "label" : "0.0",
+    "breadcrumb" : "<li><b>Table of Contents</b></li>",
+    "next" : "index.html"
+  },
+  "index.html" : {
+    "title" : "Home",
+    "label" : "1",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><b>Home</b></li>",
+    "examples" : [],
+    "testplans" : [],
+    "testscripts" : [],
+    "previous" : "toc.html",
+    "next" : "background.html"
+  },
+  "background.html" : {
+    "title" : "Background",
+    "label" : "2",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><b>Background</b></li>",
+    "previous" : "index.html",
+    "next" : "spec.html"
+  },
+  "spec.html" : {
+    "title" : "Specification",
+    "label" : "3",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><b>Specification</b></li>",
+    "fmm" : "3",
+    "status" : "trial-use",
+    "statusclass" : "colstu",
+    "previous" : "background.html",
+    "next" : "changes.html"
+  },
+  "changes.html" : {
+    "title" : "IG Change History",
+    "label" : "4",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><b>IG Change History</b></li>",
+    "previous" : "spec.html",
+    "next" : "artifacts.html"
+  },
+  "artifacts.html" : {
+    "title" : "Artifacts Summary",
+    "label" : "5.0",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><b>Artifacts Summary</b></li>",
+    "previous" : "changes.html",
+    "next" : "StructureDefinition-rtlsDevice.html"
+  },
+  "StructureDefinition-rtlsDevice.html" : {
+    "title" : "RTLS Tag Device Profile",
+    "label" : "5.1",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>RTLS Tag Device Profile</b></li>",
+    "examples" : [
+      {
+        "url" : "Device-rtlsTagExample.html",
+        "title" : "RTLS Device Example"
+      }
+    ],
+    "testplans" : [],
+    "testscripts" : [],
+    "previous" : "artifacts.html",
+    "next" : "StructureDefinition-rtlsDevice-definitions.html"
+  },
+  "StructureDefinition-rtlsDevice-definitions.html" : {
+    "title" : "RTLS Tag Device Profile - Definitions",
+    "label" : "5.1",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>RTLS Tag Device Profile</b></li>",
+    "previous" : "StructureDefinition-rtlsDevice.html",
+    "next" : "StructureDefinition-rtlsDevice-mappings.html"
+  },
+  "StructureDefinition-rtlsDevice-mappings.html" : {
+    "title" : "RTLS Tag Device Profile - Mappings",
+    "label" : "5.1",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>RTLS Tag Device Profile</b></li>",
+    "previous" : "StructureDefinition-rtlsDevice-definitions.html",
+    "next" : "StructureDefinition-rtlsDevice-testing.html"
+  },
+  "StructureDefinition-rtlsDevice-testing.html" : {
+    "title" : "RTLS Tag Device Profile - Testing",
+    "label" : "5.1",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>RTLS Tag Device Profile</b></li>",
+    "previous" : "StructureDefinition-rtlsDevice-mappings.html",
+    "next" : "StructureDefinition-rtlsDevice-examples.html"
+  },
+  "StructureDefinition-rtlsDevice-examples.html" : {
+    "title" : "RTLS Tag Device Profile - Examples",
+    "label" : "5.1",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>RTLS Tag Device Profile</b></li>",
+    "previous" : "StructureDefinition-rtlsDevice-testing.html",
+    "next" : "StructureDefinition-rtlsDevice.profile.xml.html"
+  },
+  "StructureDefinition-rtlsDevice.profile.xml.html" : {
+    "title" : "RTLS Tag Device Profile - XML Representation",
+    "label" : "5.1",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>RTLS Tag Device Profile</b></li>",
+    "previous" : "StructureDefinition-rtlsDevice-examples.html",
+    "next" : "StructureDefinition-rtlsDevice.profile.json.html"
+  },
+  "StructureDefinition-rtlsDevice.profile.json.html" : {
+    "title" : "RTLS Tag Device Profile - JSON Representation",
+    "label" : "5.1",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>RTLS Tag Device Profile</b></li>",
+    "previous" : "StructureDefinition-rtlsDevice.profile.xml.html",
+    "next" : "StructureDefinition-rtlsDevice.profile.ttl.html"
+  },
+  "StructureDefinition-rtlsDevice.profile.ttl.html" : {
+    "title" : "RTLS Tag Device Profile - TTL Representation",
+    "label" : "5.1",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>RTLS Tag Device Profile</b></li>",
+    "previous" : "StructureDefinition-rtlsDevice.profile.json.html",
+    "next" : "StructureDefinition-rtlsLocation.html"
+  },
+  "StructureDefinition-rtlsLocation.html" : {
+    "title" : "RTLS Location Resource Profile",
+    "label" : "5.2",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>RTLS Location Resource Profile</b></li>",
+    "examples" : [
+      {
+        "url" : "Location-rtlsLocationExample.html",
+        "title" : "RTLS Location Example"
+      }
+    ],
+    "testplans" : [],
+    "testscripts" : [],
+    "previous" : "StructureDefinition-rtlsDevice.profile.ttl.html",
+    "next" : "StructureDefinition-rtlsLocation-definitions.html"
+  },
+  "StructureDefinition-rtlsLocation-definitions.html" : {
+    "title" : "RTLS Location Resource Profile - Definitions",
+    "label" : "5.2",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>RTLS Location Resource Profile</b></li>",
+    "previous" : "StructureDefinition-rtlsLocation.html",
+    "next" : "StructureDefinition-rtlsLocation-mappings.html"
+  },
+  "StructureDefinition-rtlsLocation-mappings.html" : {
+    "title" : "RTLS Location Resource Profile - Mappings",
+    "label" : "5.2",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>RTLS Location Resource Profile</b></li>",
+    "previous" : "StructureDefinition-rtlsLocation-definitions.html",
+    "next" : "StructureDefinition-rtlsLocation-testing.html"
+  },
+  "StructureDefinition-rtlsLocation-testing.html" : {
+    "title" : "RTLS Location Resource Profile - Testing",
+    "label" : "5.2",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>RTLS Location Resource Profile</b></li>",
+    "previous" : "StructureDefinition-rtlsLocation-mappings.html",
+    "next" : "StructureDefinition-rtlsLocation-examples.html"
+  },
+  "StructureDefinition-rtlsLocation-examples.html" : {
+    "title" : "RTLS Location Resource Profile - Examples",
+    "label" : "5.2",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>RTLS Location Resource Profile</b></li>",
+    "previous" : "StructureDefinition-rtlsLocation-testing.html",
+    "next" : "StructureDefinition-rtlsLocation.profile.xml.html"
+  },
+  "StructureDefinition-rtlsLocation.profile.xml.html" : {
+    "title" : "RTLS Location Resource Profile - XML Representation",
+    "label" : "5.2",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>RTLS Location Resource Profile</b></li>",
+    "previous" : "StructureDefinition-rtlsLocation-examples.html",
+    "next" : "StructureDefinition-rtlsLocation.profile.json.html"
+  },
+  "StructureDefinition-rtlsLocation.profile.json.html" : {
+    "title" : "RTLS Location Resource Profile - JSON Representation",
+    "label" : "5.2",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>RTLS Location Resource Profile</b></li>",
+    "previous" : "StructureDefinition-rtlsLocation.profile.xml.html",
+    "next" : "StructureDefinition-rtlsLocation.profile.ttl.html"
+  },
+  "StructureDefinition-rtlsLocation.profile.ttl.html" : {
+    "title" : "RTLS Location Resource Profile - TTL Representation",
+    "label" : "5.2",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>RTLS Location Resource Profile</b></li>",
+    "previous" : "StructureDefinition-rtlsLocation.profile.json.html",
+    "next" : "StructureDefinition-rtlsMessageBundle.html"
+  },
+  "StructureDefinition-rtlsMessageBundle.html" : {
+    "title" : "RTLS Message Bundle Profile",
+    "label" : "5.3",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>RTLS Message Bundle Profile</b></li>",
+    "examples" : [
+      {
+        "url" : "Bundle-EnrollTagExample-MessageBundle.html",
+        "title" : "Enroll Tag Event Example"
+      },
+      {
+        "url" : "Bundle-LocationUpdateExample-MessageBundle.html",
+        "title" : "Location Update Event Example"
+      },
+      {
+        "url" : "Bundle-StaffDuressExample-MessageBundle.html",
+        "title" : "Staff Duress Event Example"
+      },
+      {
+        "url" : "Bundle-UnenrollTagExample-MessageBundle.html",
+        "title" : "Unenroll Tag Event Example"
+      }
+    ],
+    "testplans" : [],
+    "testscripts" : [],
+    "previous" : "StructureDefinition-rtlsLocation.profile.ttl.html",
+    "next" : "StructureDefinition-rtlsMessageBundle-definitions.html"
+  },
+  "StructureDefinition-rtlsMessageBundle-definitions.html" : {
+    "title" : "RTLS Message Bundle Profile - Definitions",
+    "label" : "5.3",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>RTLS Message Bundle Profile</b></li>",
+    "previous" : "StructureDefinition-rtlsMessageBundle.html",
+    "next" : "StructureDefinition-rtlsMessageBundle-mappings.html"
+  },
+  "StructureDefinition-rtlsMessageBundle-mappings.html" : {
+    "title" : "RTLS Message Bundle Profile - Mappings",
+    "label" : "5.3",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>RTLS Message Bundle Profile</b></li>",
+    "previous" : "StructureDefinition-rtlsMessageBundle-definitions.html",
+    "next" : "StructureDefinition-rtlsMessageBundle-testing.html"
+  },
+  "StructureDefinition-rtlsMessageBundle-testing.html" : {
+    "title" : "RTLS Message Bundle Profile - Testing",
+    "label" : "5.3",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>RTLS Message Bundle Profile</b></li>",
+    "previous" : "StructureDefinition-rtlsMessageBundle-mappings.html",
+    "next" : "StructureDefinition-rtlsMessageBundle-examples.html"
+  },
+  "StructureDefinition-rtlsMessageBundle-examples.html" : {
+    "title" : "RTLS Message Bundle Profile - Examples",
+    "label" : "5.3",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>RTLS Message Bundle Profile</b></li>",
+    "previous" : "StructureDefinition-rtlsMessageBundle-testing.html",
+    "next" : "StructureDefinition-rtlsMessageBundle.profile.xml.html"
+  },
+  "StructureDefinition-rtlsMessageBundle.profile.xml.html" : {
+    "title" : "RTLS Message Bundle Profile - XML Representation",
+    "label" : "5.3",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>RTLS Message Bundle Profile</b></li>",
+    "previous" : "StructureDefinition-rtlsMessageBundle-examples.html",
+    "next" : "StructureDefinition-rtlsMessageBundle.profile.json.html"
+  },
+  "StructureDefinition-rtlsMessageBundle.profile.json.html" : {
+    "title" : "RTLS Message Bundle Profile - JSON Representation",
+    "label" : "5.3",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>RTLS Message Bundle Profile</b></li>",
+    "previous" : "StructureDefinition-rtlsMessageBundle.profile.xml.html",
+    "next" : "StructureDefinition-rtlsMessageBundle.profile.ttl.html"
+  },
+  "StructureDefinition-rtlsMessageBundle.profile.ttl.html" : {
+    "title" : "RTLS Message Bundle Profile - TTL Representation",
+    "label" : "5.3",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>RTLS Message Bundle Profile</b></li>",
+    "previous" : "StructureDefinition-rtlsMessageBundle.profile.json.html",
+    "next" : "StructureDefinition-rtlsMessageHeader.html"
+  },
+  "StructureDefinition-rtlsMessageHeader.html" : {
+    "title" : "RTLS Message Header Resource Profile",
+    "label" : "5.4",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>RTLS Message Header Resource Profile</b></li>",
+    "examples" : [],
+    "testplans" : [],
+    "testscripts" : [],
+    "previous" : "StructureDefinition-rtlsMessageBundle.profile.ttl.html",
+    "next" : "StructureDefinition-rtlsMessageHeader-definitions.html"
+  },
+  "StructureDefinition-rtlsMessageHeader-definitions.html" : {
+    "title" : "RTLS Message Header Resource Profile - Definitions",
+    "label" : "5.4",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>RTLS Message Header Resource Profile</b></li>",
+    "previous" : "StructureDefinition-rtlsMessageHeader.html",
+    "next" : "StructureDefinition-rtlsMessageHeader-mappings.html"
+  },
+  "StructureDefinition-rtlsMessageHeader-mappings.html" : {
+    "title" : "RTLS Message Header Resource Profile - Mappings",
+    "label" : "5.4",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>RTLS Message Header Resource Profile</b></li>",
+    "previous" : "StructureDefinition-rtlsMessageHeader-definitions.html",
+    "next" : "StructureDefinition-rtlsMessageHeader-testing.html"
+  },
+  "StructureDefinition-rtlsMessageHeader-testing.html" : {
+    "title" : "RTLS Message Header Resource Profile - Testing",
+    "label" : "5.4",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>RTLS Message Header Resource Profile</b></li>",
+    "previous" : "StructureDefinition-rtlsMessageHeader-mappings.html",
+    "next" : "StructureDefinition-rtlsMessageHeader.profile.xml.html"
+  },
+  "StructureDefinition-rtlsMessageHeader.profile.xml.html" : {
+    "title" : "RTLS Message Header Resource Profile - XML Representation",
+    "label" : "5.4",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>RTLS Message Header Resource Profile</b></li>",
+    "previous" : "StructureDefinition-rtlsMessageHeader-testing.html",
+    "next" : "StructureDefinition-rtlsMessageHeader.profile.json.html"
+  },
+  "StructureDefinition-rtlsMessageHeader.profile.json.html" : {
+    "title" : "RTLS Message Header Resource Profile - JSON Representation",
+    "label" : "5.4",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>RTLS Message Header Resource Profile</b></li>",
+    "previous" : "StructureDefinition-rtlsMessageHeader.profile.xml.html",
+    "next" : "StructureDefinition-rtlsMessageHeader.profile.ttl.html"
+  },
+  "StructureDefinition-rtlsMessageHeader.profile.ttl.html" : {
+    "title" : "RTLS Message Header Resource Profile - TTL Representation",
+    "label" : "5.4",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>RTLS Message Header Resource Profile</b></li>",
+    "previous" : "StructureDefinition-rtlsMessageHeader.profile.json.html",
+    "next" : "ValueSet-rtlsMessageEvents.html"
+  },
+  "ValueSet-rtlsMessageEvents.html" : {
+    "title" : "RTLS Message Events Valueset",
+    "label" : "5.5",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>RTLS Message Events Valueset</b></li>",
+    "examples" : [],
+    "testplans" : [],
+    "testscripts" : [],
+    "previous" : "StructureDefinition-rtlsMessageHeader.profile.ttl.html",
+    "next" : "ValueSet-rtlsMessageEvents-testing.html"
+  },
+  "ValueSet-rtlsMessageEvents-testing.html" : {
+    "title" : "RTLS Message Events Valueset - Testing",
+    "label" : "5.5",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>RTLS Message Events Valueset</b></li>",
+    "previous" : "ValueSet-rtlsMessageEvents.html",
+    "next" : "ValueSet-rtlsMessageEvents.xml.html"
+  },
+  "ValueSet-rtlsMessageEvents.xml.html" : {
+    "title" : "RTLS Message Events Valueset - XML Representation",
+    "label" : "5.5",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>RTLS Message Events Valueset</b></li>",
+    "previous" : "ValueSet-rtlsMessageEvents-testing.html",
+    "next" : "ValueSet-rtlsMessageEvents.json.html"
+  },
+  "ValueSet-rtlsMessageEvents.json.html" : {
+    "title" : "RTLS Message Events Valueset - JSON Representation",
+    "label" : "5.5",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>RTLS Message Events Valueset</b></li>",
+    "previous" : "ValueSet-rtlsMessageEvents.xml.html",
+    "next" : "ValueSet-rtlsMessageEvents.ttl.html"
+  },
+  "ValueSet-rtlsMessageEvents.ttl.html" : {
+    "title" : "RTLS Message Events Valueset - TTL Representation",
+    "label" : "5.5",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>RTLS Message Events Valueset</b></li>",
+    "previous" : "ValueSet-rtlsMessageEvents.json.html",
+    "next" : "CodeSystem-rtlsMessageEvents.html"
+  },
+  "CodeSystem-rtlsMessageEvents.html" : {
+    "title" : "RTLS Message Events",
+    "label" : "5.6",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>RTLS Message Events</b></li>",
+    "examples" : [],
+    "testplans" : [],
+    "testscripts" : [],
+    "previous" : "ValueSet-rtlsMessageEvents.ttl.html",
+    "next" : "CodeSystem-rtlsMessageEvents-testing.html"
+  },
+  "CodeSystem-rtlsMessageEvents-testing.html" : {
+    "title" : "RTLS Message Events - Testing",
+    "label" : "5.6",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>RTLS Message Events</b></li>",
+    "previous" : "CodeSystem-rtlsMessageEvents.html",
+    "next" : "CodeSystem-rtlsMessageEvents.xml.html"
+  },
+  "CodeSystem-rtlsMessageEvents.xml.html" : {
+    "title" : "RTLS Message Events - XML Representation",
+    "label" : "5.6",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>RTLS Message Events</b></li>",
+    "previous" : "CodeSystem-rtlsMessageEvents-testing.html",
+    "next" : "CodeSystem-rtlsMessageEvents.json.html"
+  },
+  "CodeSystem-rtlsMessageEvents.json.html" : {
+    "title" : "RTLS Message Events - JSON Representation",
+    "label" : "5.6",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>RTLS Message Events</b></li>",
+    "previous" : "CodeSystem-rtlsMessageEvents.xml.html",
+    "next" : "CodeSystem-rtlsMessageEvents.ttl.html"
+  },
+  "CodeSystem-rtlsMessageEvents.ttl.html" : {
+    "title" : "RTLS Message Events - TTL Representation",
+    "label" : "5.6",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>RTLS Message Events</b></li>",
+    "previous" : "CodeSystem-rtlsMessageEvents.json.html",
+    "next" : "Device-rtlsTagExample.html"
+  },
+  "Device-rtlsTagExample.html" : {
+    "title" : "RTLS Device Example",
+    "label" : "5.7",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>RTLS Device Example</b></li>",
+    "examples" : [],
+    "testplans" : [],
+    "testscripts" : [],
+    "previous" : "CodeSystem-rtlsMessageEvents.ttl.html",
+    "next" : "Device-rtlsTagExample.xml.html"
+  },
+  "Device-rtlsTagExample.xml.html" : {
+    "title" : "RTLS Device Example - XML Representation",
+    "label" : "5.7",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>RTLS Device Example</b></li>",
+    "previous" : "Device-rtlsTagExample.html",
+    "next" : "Device-rtlsTagExample.json.html"
+  },
+  "Device-rtlsTagExample.json.html" : {
+    "title" : "RTLS Device Example - JSON Representation",
+    "label" : "5.7",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>RTLS Device Example</b></li>",
+    "previous" : "Device-rtlsTagExample.xml.html",
+    "next" : "Device-rtlsTagExample.ttl.html"
+  },
+  "Device-rtlsTagExample.ttl.html" : {
+    "title" : "RTLS Device Example - TTL Representation",
+    "label" : "5.7",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>RTLS Device Example</b></li>",
+    "previous" : "Device-rtlsTagExample.json.html",
+    "next" : "Location-rtlsLocationExample.html"
+  },
+  "Location-rtlsLocationExample.html" : {
+    "title" : "RTLS Location Example",
+    "label" : "5.8",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>RTLS Location Example</b></li>",
+    "examples" : [],
+    "testplans" : [],
+    "testscripts" : [],
+    "previous" : "Device-rtlsTagExample.ttl.html",
+    "next" : "Location-rtlsLocationExample.xml.html"
+  },
+  "Location-rtlsLocationExample.xml.html" : {
+    "title" : "RTLS Location Example - XML Representation",
+    "label" : "5.8",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>RTLS Location Example</b></li>",
+    "previous" : "Location-rtlsLocationExample.html",
+    "next" : "Location-rtlsLocationExample.json.html"
+  },
+  "Location-rtlsLocationExample.json.html" : {
+    "title" : "RTLS Location Example - JSON Representation",
+    "label" : "5.8",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>RTLS Location Example</b></li>",
+    "previous" : "Location-rtlsLocationExample.xml.html",
+    "next" : "Location-rtlsLocationExample.ttl.html"
+  },
+  "Location-rtlsLocationExample.ttl.html" : {
+    "title" : "RTLS Location Example - TTL Representation",
+    "label" : "5.8",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>RTLS Location Example</b></li>",
+    "previous" : "Location-rtlsLocationExample.json.html",
+    "next" : "Bundle-EnrollTagExample-MessageBundle.html"
+  },
+  "Bundle-EnrollTagExample-MessageBundle.html" : {
+    "title" : "Enroll Tag Event Example",
+    "label" : "5.9",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Enroll Tag Event Example</b></li>",
+    "examples" : [],
+    "testplans" : [],
+    "testscripts" : [],
+    "previous" : "Location-rtlsLocationExample.ttl.html",
+    "next" : "Bundle-EnrollTagExample-MessageBundle.xml.html"
+  },
+  "Bundle-EnrollTagExample-MessageBundle.xml.html" : {
+    "title" : "Enroll Tag Event Example - XML Representation",
+    "label" : "5.9",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Enroll Tag Event Example</b></li>",
+    "previous" : "Bundle-EnrollTagExample-MessageBundle.html",
+    "next" : "Bundle-EnrollTagExample-MessageBundle.json.html"
+  },
+  "Bundle-EnrollTagExample-MessageBundle.json.html" : {
+    "title" : "Enroll Tag Event Example - JSON Representation",
+    "label" : "5.9",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Enroll Tag Event Example</b></li>",
+    "previous" : "Bundle-EnrollTagExample-MessageBundle.xml.html",
+    "next" : "Bundle-EnrollTagExample-MessageBundle.ttl.html"
+  },
+  "Bundle-EnrollTagExample-MessageBundle.ttl.html" : {
+    "title" : "Enroll Tag Event Example - TTL Representation",
+    "label" : "5.9",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Enroll Tag Event Example</b></li>",
+    "previous" : "Bundle-EnrollTagExample-MessageBundle.json.html",
+    "next" : "Bundle-UnenrollTagExample-MessageBundle.html"
+  },
+  "Bundle-UnenrollTagExample-MessageBundle.html" : {
+    "title" : "Unenroll Tag Event Example",
+    "label" : "5.10",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Unenroll Tag Event Example</b></li>",
+    "examples" : [],
+    "testplans" : [],
+    "testscripts" : [],
+    "previous" : "Bundle-EnrollTagExample-MessageBundle.ttl.html",
+    "next" : "Bundle-UnenrollTagExample-MessageBundle.xml.html"
+  },
+  "Bundle-UnenrollTagExample-MessageBundle.xml.html" : {
+    "title" : "Unenroll Tag Event Example - XML Representation",
+    "label" : "5.10",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Unenroll Tag Event Example</b></li>",
+    "previous" : "Bundle-UnenrollTagExample-MessageBundle.html",
+    "next" : "Bundle-UnenrollTagExample-MessageBundle.json.html"
+  },
+  "Bundle-UnenrollTagExample-MessageBundle.json.html" : {
+    "title" : "Unenroll Tag Event Example - JSON Representation",
+    "label" : "5.10",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Unenroll Tag Event Example</b></li>",
+    "previous" : "Bundle-UnenrollTagExample-MessageBundle.xml.html",
+    "next" : "Bundle-UnenrollTagExample-MessageBundle.ttl.html"
+  },
+  "Bundle-UnenrollTagExample-MessageBundle.ttl.html" : {
+    "title" : "Unenroll Tag Event Example - TTL Representation",
+    "label" : "5.10",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Unenroll Tag Event Example</b></li>",
+    "previous" : "Bundle-UnenrollTagExample-MessageBundle.json.html",
+    "next" : "Bundle-LocationUpdateExample-MessageBundle.html"
+  },
+  "Bundle-LocationUpdateExample-MessageBundle.html" : {
+    "title" : "Location Update Event Example",
+    "label" : "5.11",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Location Update Event Example</b></li>",
+    "examples" : [],
+    "testplans" : [],
+    "testscripts" : [],
+    "previous" : "Bundle-UnenrollTagExample-MessageBundle.ttl.html",
+    "next" : "Bundle-LocationUpdateExample-MessageBundle.xml.html"
+  },
+  "Bundle-LocationUpdateExample-MessageBundle.xml.html" : {
+    "title" : "Location Update Event Example - XML Representation",
+    "label" : "5.11",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Location Update Event Example</b></li>",
+    "previous" : "Bundle-LocationUpdateExample-MessageBundle.html",
+    "next" : "Bundle-LocationUpdateExample-MessageBundle.json.html"
+  },
+  "Bundle-LocationUpdateExample-MessageBundle.json.html" : {
+    "title" : "Location Update Event Example - JSON Representation",
+    "label" : "5.11",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Location Update Event Example</b></li>",
+    "previous" : "Bundle-LocationUpdateExample-MessageBundle.xml.html",
+    "next" : "Bundle-LocationUpdateExample-MessageBundle.ttl.html"
+  },
+  "Bundle-LocationUpdateExample-MessageBundle.ttl.html" : {
+    "title" : "Location Update Event Example - TTL Representation",
+    "label" : "5.11",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Location Update Event Example</b></li>",
+    "previous" : "Bundle-LocationUpdateExample-MessageBundle.json.html",
+    "next" : "Bundle-StaffDuressExample-MessageBundle.html"
+  },
+  "Bundle-StaffDuressExample-MessageBundle.html" : {
+    "title" : "Staff Duress Event Example",
+    "label" : "5.12",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Staff Duress Event Example</b></li>",
+    "examples" : [],
+    "testplans" : [],
+    "testscripts" : [],
+    "previous" : "Bundle-LocationUpdateExample-MessageBundle.ttl.html",
+    "next" : "Bundle-StaffDuressExample-MessageBundle.xml.html"
+  },
+  "Bundle-StaffDuressExample-MessageBundle.xml.html" : {
+    "title" : "Staff Duress Event Example - XML Representation",
+    "label" : "5.12",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Staff Duress Event Example</b></li>",
+    "previous" : "Bundle-StaffDuressExample-MessageBundle.html",
+    "next" : "Bundle-StaffDuressExample-MessageBundle.json.html"
+  },
+  "Bundle-StaffDuressExample-MessageBundle.json.html" : {
+    "title" : "Staff Duress Event Example - JSON Representation",
+    "label" : "5.12",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Staff Duress Event Example</b></li>",
+    "previous" : "Bundle-StaffDuressExample-MessageBundle.xml.html",
+    "next" : "Bundle-StaffDuressExample-MessageBundle.ttl.html"
+  },
+  "Bundle-StaffDuressExample-MessageBundle.ttl.html" : {
+    "title" : "Staff Duress Event Example - TTL Representation",
+    "label" : "5.12",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Staff Duress Event Example</b></li>",
+    "previous" : "Bundle-StaffDuressExample-MessageBundle.json.html"
+  }
+}

@@ -1,0 +1,82 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/rtls/Bundle/StaffDuressExample-MessageBundle> a fhir:Bundle ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "StaffDuressExample-MessageBundle"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageBundle"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageBundle>
+     ] )
+  ] ; # 
+  fhir:type [ fhir:v "message"] ; # 
+  fhir:timestamp [ fhir:v "2023-03-24T10:24:13.1882432-05:00"^^xsd:dateTime] ; # 
+  fhir:entry ( [
+     fhir:fullUrl [ fhir:v "http://example.org/fhir/Device/$auxiliary-function"^^xsd:anyURI ] ;
+     fhir:resource ( <http://example.org/fhir/Device/$auxiliary-function> )
+  ] [
+     fhir:fullUrl [ fhir:v "http://example.org/fhir/Device/$auxiliary-function"^^xsd:anyURI ] ;
+     fhir:resource ( <http://example.org/fhir/Device/$auxiliary-function> )
+  ] ) . # 
+
+<http://example.org/fhir/Device/$auxiliary-function> a fhir:MessageHeader, fhir:Bundle, fhir:Device ;
+  fhir:id [ fhir:v "StaffDuressExample-MessageHeader"], [ fhir:v "http://example.org/fhir/Device/$auxiliary-function"], [ fhir:v "StaffDuressExample-Device"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageHeader"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageHeader>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"MessageHeader_StaffDuressExample-MessageHeader\"> </a><p class=\"res-header-id\"><b>Generated Narrative: MessageHeader StaffDuressExample-MessageHeader</b></p><a name=\"StaffDuressExample-MessageHeader\"> </a><a name=\"hcStaffDuressExample-MessageHeader\"> </a><a name=\"StaffDuressExample-MessageHeader-en-US\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-rtlsMessageHeader.html\">RTLS Message Header Resource Profile</a></p></div><p><b>event</b>: <a href=\"CodeSystem-rtlsMessageEvents.html#rtlsMessageEvents-staff-duress\">RTLS Message Events staff-duress</a>: Staff Duress</p><blockquote><p><b>source</b></p></blockquote><p><b>focus</b>: <a href=\"Bundle-StaffDuressExample-MessageBundle.html#http-//example.org/fhir/Device/$auxiliary-function\">Bundle: type = message; timestamp = 2023-03-24 10:24:13-0500</a></p></div>"^^rdf:XMLLiteral
+  ] ; # 
+  fhir:event [
+     a fhir:Coding ;
+     fhir:system [ fhir:v "http://hl7.org/fhir/uv/rtls/CodeSystem/rtlsMessageEvents"^^xsd:anyURI ] ;
+     fhir:code [ fhir:v "staff-duress" ]
+  ] ; # 
+  fhir:source [] ; # 
+  fhir:focus ( [
+     fhir:link <http://example.org/fhir/Device/$auxiliary-function> ;
+     fhir:reference [ fhir:v "http://example.org/fhir/Device/$auxiliary-function" ]
+  ] ) ; # 
+  fhir:type [ fhir:v "subscription-notification"] ; # 
+  fhir:timestamp [ fhir:v "2023-03-24T10:24:13.1882432-05:00"^^xsd:dateTime] ; # 
+  fhir:entry ( [
+     fhir:fullUrl [ fhir:v "http://example.org/fhir/Device/$auxiliary-function"^^xsd:anyURI ] ;
+     fhir:resource ( <http://example.org/fhir/Device/$auxiliary-function> )
+  ] [
+     fhir:fullUrl [ fhir:v "http://example.org/FHIR/R4/Location"^^xsd:anyURI ] ;
+     fhir:resource ( <http://example.org/FHIR/R4/Location> )
+  ] ) ; # 
+  fhir:identifier ( [
+     fhir:system [ fhir:v "http://rtls.org/trackingtags/id"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "12345678" ]
+  ] ) ; # 
+  fhir:udiCarrier ( [
+     fhir:deviceIdentifier [ ] ;
+     fhir:issuer [ ]
+  ] ) ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:location [
+     fhir:link <http://example.org/FHIR/R4/Location> ;
+     fhir:reference [ fhir:v "http://example.org/FHIR/R4/Location" ]
+  ] . # 
+
+<http://example.org/FHIR/R4/Location> a fhir:Location ;
+  fhir:id [ fhir:v "StaffDuressExample-Location"] ; # 
+  fhir:identifier ( [
+     fhir:system [ fhir:v "http://example.org/HospitalLocations/id"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "EMC-317" ]
+  ] ) ; # 
+  fhir:name [ fhir:v "Example Medical Center - Room 317"] . # 
+
+# -------------------------------------------------------------------------------------
+

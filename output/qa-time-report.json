@@ -1,0 +1,874 @@
+{
+  "date" : "Tue, 20 May, 2025 19:08:10 -0500",
+  "doco" : "For each file: start is seconds after start activity occurred. Length = milliseconds activity took",
+  "files" : [
+    {
+      "name" : "/input/rtls.xml",
+      "size" : 7292,
+      "processes" : [
+        {
+          "activity" : "load",
+          "start" : 11,
+          "length" : 6
+        },
+        {
+          "activity" : "loadDepInfo",
+          "start" : 11,
+          "length" : 1
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 11,
+          "length" : 2
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 11,
+          "length" : 493
+        },
+        {
+          "activity" : "validate",
+          "start" : 12,
+          "length" : 5552
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 18,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 18,
+          "length" : 49
+        },
+        {
+          "activity" : "generate2",
+          "start" : 20,
+          "length" : 35
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 28,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "input/examples/rtlsAuxiliaryFunction-example.xml",
+      "size" : 2983,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 10,
+          "length" : 18
+        },
+        {
+          "activity" : "load",
+          "start" : 10,
+          "length" : 6
+        },
+        {
+          "activity" : "load",
+          "start" : 10,
+          "length" : 3
+        },
+        {
+          "activity" : "load",
+          "start" : 10,
+          "length" : 3
+        },
+        {
+          "activity" : "load",
+          "start" : 10,
+          "length" : 4
+        },
+        {
+          "activity" : "load",
+          "start" : 10,
+          "length" : 4
+        },
+        {
+          "activity" : "load",
+          "start" : 10,
+          "length" : 4
+        },
+        {
+          "activity" : "load",
+          "start" : 11,
+          "length" : 1
+        },
+        {
+          "activity" : "load",
+          "start" : 11,
+          "length" : 1
+        },
+        {
+          "activity" : "load",
+          "start" : 11,
+          "length" : 1
+        },
+        {
+          "activity" : "load",
+          "start" : 11,
+          "length" : 1
+        },
+        {
+          "activity" : "load",
+          "start" : 11,
+          "length" : 1
+        },
+        {
+          "activity" : "load",
+          "start" : 11,
+          "length" : 1
+        },
+        {
+          "activity" : "load",
+          "start" : 11,
+          "length" : 1
+        },
+        {
+          "activity" : "load",
+          "start" : 11,
+          "length" : 1
+        },
+        {
+          "activity" : "load",
+          "start" : 11,
+          "length" : 1
+        },
+        {
+          "activity" : "load",
+          "start" : 11,
+          "length" : 1
+        },
+        {
+          "activity" : "load",
+          "start" : 11,
+          "length" : 1
+        },
+        {
+          "activity" : "load",
+          "start" : 11,
+          "length" : 1
+        },
+        {
+          "activity" : "load",
+          "start" : 11,
+          "length" : 2
+        },
+        {
+          "activity" : "load",
+          "start" : 11,
+          "length" : 1
+        },
+        {
+          "activity" : "load",
+          "start" : 11,
+          "length" : 1
+        },
+        {
+          "activity" : "load",
+          "start" : 11,
+          "length" : 1
+        },
+        {
+          "activity" : "load",
+          "start" : 11,
+          "length" : 1
+        },
+        {
+          "activity" : "load",
+          "start" : 11,
+          "length" : 1
+        },
+        {
+          "activity" : "load",
+          "start" : 11,
+          "length" : 1
+        },
+        {
+          "activity" : "load",
+          "start" : 11,
+          "length" : 1
+        },
+        {
+          "activity" : "load",
+          "start" : 11,
+          "length" : 1
+        },
+        {
+          "activity" : "load",
+          "start" : 11,
+          "length" : 1
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 11,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 11,
+          "length" : 26
+        },
+        {
+          "activity" : "validate",
+          "start" : 18,
+          "length" : 20
+        },
+        {
+          "activity" : "generate1",
+          "start" : 18,
+          "length" : 11
+        },
+        {
+          "activity" : "generate2",
+          "start" : 20,
+          "length" : 16
+        }
+      ]
+    },
+    {
+      "name" : "input/examples/rtlsDevice-example.xml",
+      "size" : 755,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 10,
+          "length" : 9
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 11,
+          "length" : 177
+        },
+        {
+          "activity" : "validate",
+          "start" : 18,
+          "length" : 3
+        },
+        {
+          "activity" : "generate1",
+          "start" : 18,
+          "length" : 7
+        },
+        {
+          "activity" : "generate2",
+          "start" : 20,
+          "length" : 7
+        }
+      ]
+    },
+    {
+      "name" : "input/examples/rtlsLocation-example.xml",
+      "size" : 408,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 10,
+          "length" : 9
+        },
+        {
+          "activity" : "validate",
+          "start" : 18,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 18,
+          "length" : 6
+        },
+        {
+          "activity" : "generate2",
+          "start" : 20,
+          "length" : 9
+        }
+      ]
+    },
+    {
+      "name" : "input/examples/rtlsMessageBundleEnroll-example.xml",
+      "size" : 1857,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 10,
+          "length" : 9
+        },
+        {
+          "activity" : "load",
+          "start" : 10,
+          "length" : 9
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 11,
+          "length" : 260
+        },
+        {
+          "activity" : "validate",
+          "start" : 18,
+          "length" : 6
+        },
+        {
+          "activity" : "generate1",
+          "start" : 18,
+          "length" : 10
+        },
+        {
+          "activity" : "generate2",
+          "start" : 20,
+          "length" : 10
+        }
+      ]
+    },
+    {
+      "name" : "input/examples/rtlsMessageBundleLocationUpdate-example.xml",
+      "size" : 3015,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 10,
+          "length" : 10
+        },
+        {
+          "activity" : "load",
+          "start" : 10,
+          "length" : 3
+        },
+        {
+          "activity" : "load",
+          "start" : 10,
+          "length" : 3
+        },
+        {
+          "activity" : "load",
+          "start" : 10,
+          "length" : 4
+        },
+        {
+          "activity" : "load",
+          "start" : 10,
+          "length" : 3
+        },
+        {
+          "activity" : "load",
+          "start" : 10,
+          "length" : 3
+        },
+        {
+          "activity" : "load",
+          "start" : 10,
+          "length" : 3
+        },
+        {
+          "activity" : "load",
+          "start" : 11,
+          "length" : 1
+        },
+        {
+          "activity" : "load",
+          "start" : 11,
+          "length" : 1
+        },
+        {
+          "activity" : "load",
+          "start" : 11,
+          "length" : 1
+        },
+        {
+          "activity" : "load",
+          "start" : 11,
+          "length" : 1
+        },
+        {
+          "activity" : "load",
+          "start" : 11,
+          "length" : 1
+        },
+        {
+          "activity" : "load",
+          "start" : 11,
+          "length" : 1
+        },
+        {
+          "activity" : "load",
+          "start" : 11,
+          "length" : 1
+        },
+        {
+          "activity" : "load",
+          "start" : 11,
+          "length" : 1
+        },
+        {
+          "activity" : "load",
+          "start" : 11,
+          "length" : 1
+        },
+        {
+          "activity" : "load",
+          "start" : 11,
+          "length" : 1
+        },
+        {
+          "activity" : "load",
+          "start" : 11,
+          "length" : 1
+        },
+        {
+          "activity" : "load",
+          "start" : 11,
+          "length" : 1
+        },
+        {
+          "activity" : "load",
+          "start" : 11,
+          "length" : 1
+        },
+        {
+          "activity" : "load",
+          "start" : 11,
+          "length" : 1
+        },
+        {
+          "activity" : "load",
+          "start" : 11,
+          "length" : 1
+        },
+        {
+          "activity" : "load",
+          "start" : 11,
+          "length" : 1
+        },
+        {
+          "activity" : "load",
+          "start" : 11,
+          "length" : 1
+        },
+        {
+          "activity" : "load",
+          "start" : 11,
+          "length" : 1
+        },
+        {
+          "activity" : "load",
+          "start" : 11,
+          "length" : 1
+        },
+        {
+          "activity" : "load",
+          "start" : 11,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 12,
+          "length" : 2
+        },
+        {
+          "activity" : "validate",
+          "start" : 18,
+          "length" : 5
+        },
+        {
+          "activity" : "generate1",
+          "start" : 18,
+          "length" : 10
+        },
+        {
+          "activity" : "generate2",
+          "start" : 20,
+          "length" : 12
+        }
+      ]
+    },
+    {
+      "name" : "input/examples/rtlsMessageBundleUnenroll-example.xml",
+      "size" : 1510,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 10,
+          "length" : 10
+        },
+        {
+          "activity" : "load",
+          "start" : 10,
+          "length" : 4
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 12,
+          "length" : 2
+        },
+        {
+          "activity" : "validate",
+          "start" : 18,
+          "length" : 4
+        },
+        {
+          "activity" : "generate1",
+          "start" : 18,
+          "length" : 10
+        },
+        {
+          "activity" : "generate2",
+          "start" : 20,
+          "length" : 9
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/CS-rtlsMessageEvents.xml",
+      "size" : 2374,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 10,
+          "length" : 9
+        },
+        {
+          "activity" : "load",
+          "start" : 10,
+          "length" : 12
+        },
+        {
+          "activity" : "load",
+          "start" : 11,
+          "length" : 1
+        },
+        {
+          "activity" : "load-configure",
+          "start" : 11,
+          "length" : 1
+        },
+        {
+          "activity" : "loadInfo",
+          "start" : 11,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 12,
+          "length" : 16
+        },
+        {
+          "activity" : "validate",
+          "start" : 12,
+          "length" : 39
+        },
+        {
+          "activity" : "checkConformanceResources",
+          "start" : 18,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 18,
+          "length" : 12
+        },
+        {
+          "activity" : "generate2",
+          "start" : 20,
+          "length" : 1107
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 28,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/VS-rtlsMessageTypes.xml",
+      "size" : 750,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 10,
+          "length" : 8
+        },
+        {
+          "activity" : "load",
+          "start" : 10,
+          "length" : 7
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 12,
+          "length" : 32
+        },
+        {
+          "activity" : "validate",
+          "start" : 12,
+          "length" : 11
+        },
+        {
+          "activity" : "generate1",
+          "start" : 18,
+          "length" : 8
+        },
+        {
+          "activity" : "generate2",
+          "start" : 21,
+          "length" : 51
+        },
+        {
+          "activity" : "makeDependencies",
+          "start" : 25,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/rtlsDevice.xml",
+      "size" : 1757,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 10,
+          "length" : 9
+        },
+        {
+          "activity" : "load",
+          "start" : 10,
+          "length" : 9
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 11,
+          "length" : 32
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 12,
+          "length" : 29
+        },
+        {
+          "activity" : "validate",
+          "start" : 12,
+          "length" : 262
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 18,
+          "length" : 2
+        },
+        {
+          "activity" : "generate1",
+          "start" : 18,
+          "length" : 183
+        },
+        {
+          "activity" : "generate2",
+          "start" : 21,
+          "length" : 314
+        },
+        {
+          "activity" : "generate2",
+          "start" : 22,
+          "length" : 1096
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 28,
+          "length" : 4
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 31,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/rtlsLocation.xml",
+      "size" : 1127,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 10,
+          "length" : 9
+        },
+        {
+          "activity" : "load",
+          "start" : 10,
+          "length" : 8
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 11,
+          "length" : 12
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 12,
+          "length" : 15
+        },
+        {
+          "activity" : "validate",
+          "start" : 12,
+          "length" : 80
+        },
+        {
+          "activity" : "validate",
+          "start" : 18,
+          "length" : 1
+        },
+        {
+          "activity" : "checkConformanceResources",
+          "start" : 18,
+          "length" : 1
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 18,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 18,
+          "length" : 103
+        },
+        {
+          "activity" : "generate2",
+          "start" : 22,
+          "length" : 156
+        },
+        {
+          "activity" : "generate2",
+          "start" : 23,
+          "length" : 131
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 28,
+          "length" : 3
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/rtlsMessageBundle.xml",
+      "size" : 2191,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 10,
+          "length" : 9
+        },
+        {
+          "activity" : "load",
+          "start" : 10,
+          "length" : 8
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 11,
+          "length" : 29
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 12,
+          "length" : 15
+        },
+        {
+          "activity" : "validate",
+          "start" : 12,
+          "length" : 78
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 18,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 18,
+          "length" : 149
+        },
+        {
+          "activity" : "generate2",
+          "start" : 22,
+          "length" : 174
+        },
+        {
+          "activity" : "generate2",
+          "start" : 23,
+          "length" : 162
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 28,
+          "length" : 3
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 31,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/rtlsMessageHeader.xml",
+      "size" : 1767,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 10,
+          "length" : 9
+        },
+        {
+          "activity" : "load",
+          "start" : 10,
+          "length" : 7
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 11,
+          "length" : 23
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 12,
+          "length" : 16
+        },
+        {
+          "activity" : "validate",
+          "start" : 12,
+          "length" : 70
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 18,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 19,
+          "length" : 124
+        },
+        {
+          "activity" : "generate2",
+          "start" : 22,
+          "length" : 141
+        },
+        {
+          "activity" : "generate2",
+          "start" : 24,
+          "length" : 131
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 28,
+          "length" : 3
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 31,
+          "length" : 2
+        }
+      ]
+    }
+  ]
+}

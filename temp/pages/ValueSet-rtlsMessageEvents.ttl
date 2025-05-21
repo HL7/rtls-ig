@@ -1,0 +1,59 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/rtls/ValueSet/rtlsMessageEvents> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "rtlsMessageEvents"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet rtlsMessageEvents</b></p><a name=\"rtlsMessageEvents\"> </a><a name=\"hcrtlsMessageEvents\"> </a><a name=\"rtlsMessageEvents-en-US\"> </a><ul><li>Include all codes defined in <a href=\"CodeSystem-rtlsMessageEvents.html\"><code>http://hl7.org/fhir/uv/rtls/CodeSystem/rtlsMessageEvents</code></a></li></ul></div>"^^rdf:XMLLiteral
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ] ;
+     fhir:value [
+       a fhir:code ;
+       fhir:v "informative" ;
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:canonical ;
+           fhir:v "http://hl7.org/fhir/uv/rtls/ImplementationGuide/hl7.fhir.uv.rtls"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/uv/rtls/ImplementationGuide/hl7.fhir.uv.rtls>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [ fhir:v "http://terminology.hl7.org/fhir/uv/rtls/ValueSet/rtlsMessageEvents"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "1.0.0-ballot"] ; # 
+  fhir:name [ fhir:v "RTLSMessageEvents"] ; # 
+  fhir:title [ fhir:v "RTLS Message Events Valueset"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:experimental [ fhir:v true] ; # 
+  fhir:date [ fhir:v "2022-10-12"^^xsd:date] ; # 
+  fhir:publisher [ fhir:v "HL7 International - Patient Administration Work Group"] ; # 
+  fhir:contact ( [
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://hl7.org/Special/committees/pafm" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This valueset defines FHIR messaging event types used in RTLS workflows."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "001" ]
+     ] )
+  ] ) ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [ fhir:v "http://hl7.org/fhir/uv/rtls/CodeSystem/rtlsMessageEvents"^^xsd:anyURI ]
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

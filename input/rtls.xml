@@ -93,6 +93,7 @@
       <name value="Staff Duress Event Example"/>
       <description value="Used when a user requires assistance pertaining to a security incident or threat, this function sends a distress signal that will notify nearby security members."/>
       <exampleCanonical value="http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageBundle"/>
+    </resource>
     <page>
       <nameUrl value="index.html"/>
       <title value="Home"/>

@@ -1,0 +1,8 @@
+<package-list>
+   <package version="current"
+            path="http://build.fhir.org/ig/HL7/rtls-ig"
+            status="ci-build"/>
+   <package version="1.0.0-ballot"
+            path="http://hl7.org/fhir/uv/rtls/2023May"
+            status="ballot"/>
+</package-list>

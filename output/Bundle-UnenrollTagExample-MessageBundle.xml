@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Bundle xmlns="http://hl7.org/fhir">
+  <id value="UnenrollTagExample-MessageBundle"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageBundle"/>
+  </meta>
+  <type value="message"/>
+  <timestamp value="2023-03-24T10:24:13.1882432-05:00"/>
+  <entry>
+    <fullUrl value="http://example.org/fhir/UnenrollTagMessageHeaderExample"/>
+    <resource>
+      <MessageHeader>
+        <id value="UnenrollTagExample-MessageHeader"/>
+        <meta>
+          <profile value="http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageHeader"/>
+        </meta>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><a name="MessageHeader_UnenrollTagExample-MessageHeader"> </a><p class="res-header-id"><b>Generated Narrative: MessageHeader UnenrollTagExample-MessageHeader</b></p><a name="UnenrollTagExample-MessageHeader"> </a><a name="hcUnenrollTagExample-MessageHeader"> </a><a name="UnenrollTagExample-MessageHeader-en-US"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-rtlsMessageHeader.html">RTLS Message Header Resource Profile</a></p></div><p><b>event</b>: <a href="CodeSystem-rtlsMessageEvents.html#rtlsMessageEvents-unenroll-tag">RTLS Message Events unenroll-tag</a>: Unenroll Tag</p><p><b>focus</b>: <a href="Bundle-UnenrollTagExample-MessageBundle.html#http-//example.org/fhir/UnenrollTagExample-Device">Bundle: type = message; timestamp = 2023-03-24 10:24:13-0500</a></p></div>
+        </text>
+        <eventCoding>
+          <system value="http://hl7.org/fhir/uv/rtls/CodeSystem/rtlsMessageEvents"/>
+          <code value="unenroll-tag"/>
+        </eventCoding>
+        <focus>
+          <reference value="http://example.org/fhir/UnenrollTagExample-Device"/>
+        </focus>
+      </MessageHeader>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://example.org/fhir/UnenrollTagExample-Device"/>
+    <resource>
+      <Device>
+        <id value="UnenrollTagExample-Device"/>
+        <meta>
+          <profile value="http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsDevice"/>
+        </meta>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><a name="Device_UnenrollTagExample-Device"> </a><p class="res-header-id"><b>Generated Narrative: Device UnenrollTagExample-Device</b></p><a name="UnenrollTagExample-Device"> </a><a name="hcUnenrollTagExample-Device"> </a><a name="UnenrollTagExample-Device-en-US"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-rtlsDevice.html">RTLS Tag Device Profile</a></p></div><p><b>identifier</b>: <code>http://rtls.org/trackingtags/id</code>/12345678</p><p><b>status</b>: Active</p></div>
+        </text>
+        <identifier>
+          <system value="http://rtls.org/trackingtags/id"/>
+          <value value="12345678"/>
+        </identifier>
+        <status value="active"/>
+      </Device>
+    </resource>
+  </entry>
+</Bundle>

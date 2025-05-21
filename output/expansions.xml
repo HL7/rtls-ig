@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Bundle xmlns="http://hl7.org/fhir">
+  <id value="f68147f7-6502-41ba-892a-ec253b2736ea"/>
+  <meta>
+    <lastUpdated value="2025-05-20T19:08:10.508-05:00"/>
+  </meta>
+  <type value="collection"/>
+  <entry>
+    <fullUrl value="http://terminology.hl7.org/fhir/uv/rtls/ValueSet/rtlsMessageEvents"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p class="res-header-id">
+              <b>ValueSet </b>
+            </p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
+              <a href="CodeSystem-rtlsMessageEvents.html">codesystem RTLS Message Events v1.0.0-ballot (CodeSystem)</a>
+            </p>
+            <p>This value set contains 4 concepts</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display (en-US)</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://hl7.org/fhir/uv/rtls/CodeSystem/rtlsMessageEvents-enroll-tag"> </a>  
+                  <a href="CodeSystem-rtlsMessageEvents.html#rtlsMessageEvents-enroll-tag">enroll-tag</a>
+                </td>
+                <td>http://hl7.org/fhir/uv/rtls/CodeSystem/rtlsMessageEvents</td>
+                <td>Enroll Tag</td>
+                <td>
+                  <div>
+                    <p>Used to describe when a subscriber wants to receive notifications about a specific tag.</p>
+
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://hl7.org/fhir/uv/rtls/CodeSystem/rtlsMessageEvents-unenroll-tag"> </a>  
+                  <a href="CodeSystem-rtlsMessageEvents.html#rtlsMessageEvents-unenroll-tag">unenroll-tag</a>
+                </td>
+                <td>http://hl7.org/fhir/uv/rtls/CodeSystem/rtlsMessageEvents</td>
+                <td>Unenroll Tag</td>
+                <td>
+                  <div>
+                    <p>Used to describe when a subscriber no longer wants to receive notifications about a specific tag.</p>
+
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://hl7.org/fhir/uv/rtls/CodeSystem/rtlsMessageEvents-location-update"> </a>  
+                  <a href="CodeSystem-rtlsMessageEvents.html#rtlsMessageEvents-location-update">location-update</a>
+                </td>
+                <td>http://hl7.org/fhir/uv/rtls/CodeSystem/rtlsMessageEvents</td>
+                <td>Location Update</td>
+                <td>
+                  <div>
+                    <p>Used to describe when a specific tag has an updated location.</p>
+
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://hl7.org/fhir/uv/rtls/CodeSystem/rtlsMessageEvents-staff-duress"> </a>  
+                  <a href="CodeSystem-rtlsMessageEvents.html#rtlsMessageEvents-staff-duress">staff-duress</a>
+                </td>
+                <td>http://hl7.org/fhir/uv/rtls/CodeSystem/rtlsMessageEvents</td>
+                <td>Staff Duress</td>
+                <td>
+                  <div>
+                    <p>Used when a user requires assistance pertaining to a security incident or threat; this function sends a distress signal that will notify nearby security members.</p>
+
+                  </div>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://terminology.hl7.org/fhir/uv/rtls/ValueSet/rtlsMessageEvents"/>
+        <version value="1.0.0-ballot"/>
+        <name value="RTLSMessageEvents"/>
+        <title value="RTLS Message Events Valueset"/>
+        <status value="draft"/>
+        <experimental value="true"/>
+        <date value="2022-10-12"/>
+        <jurisdiction>
+          <coding>
+            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+            <code value="001"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:53e820ff-bfd2-4c93-a3bf-2361a4abb30d"/>
+          <timestamp value="2025-05-20T19:08:21-05:00"/>
+          <total value="4"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="en-US"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://hl7.org/fhir/uv/rtls/CodeSystem/rtlsMessageEvents|1.0.0-ballot"/>
+          </parameter>
+          <contains>
+            <system value="http://hl7.org/fhir/uv/rtls/CodeSystem/rtlsMessageEvents"/>
+            <code value="enroll-tag"/>
+            <display value="Enroll Tag"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/uv/rtls/CodeSystem/rtlsMessageEvents"/>
+            <code value="unenroll-tag"/>
+            <display value="Unenroll Tag"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/uv/rtls/CodeSystem/rtlsMessageEvents"/>
+            <code value="location-update"/>
+            <display value="Location Update"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/uv/rtls/CodeSystem/rtlsMessageEvents"/>
+            <code value="staff-duress"/>
+            <display value="Staff Duress"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+</Bundle>

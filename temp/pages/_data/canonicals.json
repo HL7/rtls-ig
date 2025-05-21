@@ -1,0 +1,51 @@
+[
+  {
+    "id" : "rtlsMessageEvents",
+    "type" : "CodeSystem",
+    "url" : "http://hl7.org/fhir/uv/rtls/CodeSystem/rtlsMessageEvents",
+    "version" : "1.0.0-ballot",
+    "name" : "RTLSMessageEvents"
+  },
+  {
+    "id" : "hl7.fhir.uv.rtls",
+    "type" : "ImplementationGuide",
+    "url" : "http://hl7.org/fhir/uv/rtls/ImplementationGuide/hl7.fhir.uv.rtls",
+    "version" : "1.0.0-ballot",
+    "name" : "RTLS"
+  },
+  {
+    "id" : "rtlsDevice",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsDevice",
+    "version" : "1.0.0-ballot",
+    "name" : "RTLSDevice"
+  },
+  {
+    "id" : "rtlsLocation",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsLocation",
+    "version" : "1.0.0-ballot",
+    "name" : "RTLSLocation"
+  },
+  {
+    "id" : "rtlsMessageBundle",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageBundle",
+    "version" : "1.0.0-ballot",
+    "name" : "RTLSMessageBundle"
+  },
+  {
+    "id" : "rtlsMessageHeader",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageHeader",
+    "version" : "1.0.0-ballot",
+    "name" : "RTLSMessageHeader"
+  },
+  {
+    "id" : "rtlsMessageEvents",
+    "type" : "ValueSet",
+    "url" : "http://terminology.hl7.org/fhir/uv/rtls/ValueSet/rtlsMessageEvents",
+    "version" : "1.0.0-ballot",
+    "name" : "RTLSMessageEvents"
+  }
+]

@@ -1,0 +1,7 @@
+{
+  "http://hl7.org/fhir/fhir-types|null" : null,
+  "http://rtls.org/trackingtags/id" : null,
+  "http://unstats.un.org/unsd/methods/m49/m49.htm|null" : null,
+  "http://terminology.hl7.org/CodeSystem/rtlsMessageEvents" : null,
+  "http://terminology.hl7.org/CodeSystem/rtlsMessageEvents|null" : null
+}

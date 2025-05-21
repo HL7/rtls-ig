@@ -1,0 +1,37 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/rtls/Device/rtlsTagExample> a fhir:Device ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "rtlsTagExample"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsDevice"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsDevice>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "extensions" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Device rtlsTagExample</b></p><a name=\"rtlsTagExample\"> </a><a name=\"hcrtlsTagExample\"> </a><a name=\"rtlsTagExample-en-US\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-rtlsDevice.html\">RTLS Tag Device Profile</a></p></div><p><b>identifier</b>: <code>http://rtls.org/trackingtags/id</code>/12345678</p><h3>UdiCarriers</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>DeviceIdentifier</b></td><td><b>Issuer</b></td></tr><tr><td style=\"display: none\">*</td><td/><td/></tr></table><p><b>status</b>: Active</p><p><b>location</b>: <a href=\"http://example.org/FHIR/R4/Location\">http://example.org/FHIR/R4/Location</a></p></div>"^^rdf:XMLLiteral
+  ] ; # 
+  fhir:identifier ( [
+     fhir:system [ fhir:v "http://rtls.org/trackingtags/id"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "12345678" ]
+  ] ) ; # 
+  fhir:udiCarrier ( [
+     fhir:deviceIdentifier [ ] ;
+     fhir:issuer [ ]
+  ] ) ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:location [
+     fhir:link <http://example.org/FHIR/R4/Location> ;
+     fhir:reference [ fhir:v "http://example.org/FHIR/R4/Location" ]
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

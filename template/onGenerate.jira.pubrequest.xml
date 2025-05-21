@@ -1,0 +1,6 @@
+<publication-request>
+   <package version="1.0.0-ballot"
+            path="http://hl7.org/fhir/uv/rtls/2023May"
+            status="ballot"
+            ci-build="https://build.fhir.org/ig/HL7/rtls-ig"/>
+</publication-request>

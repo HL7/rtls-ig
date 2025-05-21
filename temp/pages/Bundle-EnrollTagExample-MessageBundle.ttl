@@ -1,0 +1,73 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/rtls/Bundle/EnrollTagExample-MessageBundle> a fhir:Bundle ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "EnrollTagExample-MessageBundle"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageBundle"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageBundle>
+     ] )
+  ] ; # 
+  fhir:type [ fhir:v "message"] ; # 
+  fhir:timestamp [ fhir:v "2023-03-24T10:24:13.1882432-05:00"^^xsd:dateTime] ; # 
+  fhir:entry ( [
+     fhir:fullUrl [ fhir:v "http://example.org/fhir/EnrollTagMessageHeaderExample"^^xsd:anyURI ] ;
+     fhir:resource ( <http://example.org/fhir/EnrollTagMessageHeaderExample> )
+  ] [
+     fhir:fullUrl [ fhir:v "http://example.org/fhir/EnrollTagExample-Device"^^xsd:anyURI ] ;
+     fhir:resource ( <http://example.org/fhir/EnrollTagExample-Device> )
+  ] ) . # 
+
+<http://example.org/fhir/EnrollTagMessageHeaderExample> a fhir:MessageHeader ;
+  fhir:id [ fhir:v "EnrollTagExample-MessageHeader"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageHeader"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageHeader>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"MessageHeader_EnrollTagExample-MessageHeader\"> </a><p class=\"res-header-id\"><b>Generated Narrative: MessageHeader EnrollTagExample-MessageHeader</b></p><a name=\"EnrollTagExample-MessageHeader\"> </a><a name=\"hcEnrollTagExample-MessageHeader\"> </a><a name=\"EnrollTagExample-MessageHeader-en-US\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-rtlsMessageHeader.html\">RTLS Message Header Resource Profile</a></p></div><p><b>event</b>: rtlsMessageEvents enroll-tag: enroll-tag</p><p><b>focus</b>: <a href=\"Bundle-EnrollTagExample-MessageBundle.html#http-//example.org/fhir/EnrollTagExample-Device\">Bundle: type = message; timestamp = 2023-03-24 10:24:13-0500</a></p></div>"^^rdf:XMLLiteral
+  ] ; # 
+  fhir:event [
+     a fhir:Coding ;
+     fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/rtlsMessageEvents"^^xsd:anyURI ] ;
+     fhir:code [ fhir:v "enroll-tag" ]
+  ] ; # 
+  fhir:focus ( [
+     fhir:link <http://example.org/fhir/EnrollTagExample-Device> ;
+     fhir:reference [ fhir:v "http://example.org/fhir/EnrollTagExample-Device" ]
+  ] ) . # 
+
+<http://example.org/fhir/EnrollTagExample-Device> a fhir:Device ;
+  fhir:id [ fhir:v "EnrollTagExample-Device"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsDevice"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsDevice>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "extensions" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Device_EnrollTagExample-Device\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Device EnrollTagExample-Device</b></p><a name=\"EnrollTagExample-Device\"> </a><a name=\"hcEnrollTagExample-Device\"> </a><a name=\"EnrollTagExample-Device-en-US\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-rtlsDevice.html\">RTLS Tag Device Profile</a></p></div><p><b>identifier</b>: <code>http://rtls.org/trackingtags/id</code>/12345678</p><h3>UdiCarriers</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>DeviceIdentifier</b></td><td><b>Issuer</b></td></tr><tr><td style=\"display: none\">*</td><td/><td/></tr></table><p><b>status</b>: Active</p></div>"^^rdf:XMLLiteral
+  ] ; # 
+  fhir:identifier ( [
+     fhir:system [ fhir:v "http://rtls.org/trackingtags/id"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "12345678" ]
+  ] ) ; # 
+  fhir:udiCarrier ( [
+     fhir:deviceIdentifier [ ] ;
+     fhir:issuer [ ]
+  ] ) ; # 
+  fhir:status [ fhir:v "active"] . # 
+
+# -------------------------------------------------------------------------------------
+

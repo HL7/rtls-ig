@@ -1,0 +1,219 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "http://hl7.org/fhir/bundle-type",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "BundleType",
+      "title" : "BundleType",
+      "description" : "Indicates the purpose of a bundle - how it is intended to be used.",
+      "oids" : ["2.16.840.1.113883.4.642.4.621"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R4/valueset-bundle-type.html" : "BundleType"
+    },
+    {
+      "url" : "http://hl7.org/fhir/days-of-week",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "DaysOfWeek",
+      "title" : "DaysOfWeek",
+      "description" : "The days of the week.",
+      "oids" : ["2.16.840.1.113883.4.642.4.513"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R4/valueset-days-of-week.html" : "DaysOfWeek"
+    },
+    {
+      "url" : "http://hl7.org/fhir/device-nametype",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "DeviceNameType",
+      "title" : "DeviceNameType",
+      "description" : "The type of name the device is referred by.",
+      "oids" : ["2.16.840.1.113883.4.642.4.1084"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R4/valueset-device-nametype.html" : "DeviceNameType"
+    },
+    {
+      "url" : "http://hl7.org/fhir/device-status",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "FHIRDeviceStatus",
+      "title" : "FHIRDeviceStatus",
+      "description" : "The availability status of the device.",
+      "oids" : ["2.16.840.1.113883.4.642.4.210"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R4/valueset-device-status.html" : "FHIRDeviceStatus"
+    },
+    {
+      "url" : "http://hl7.org/fhir/http-verb",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "HTTPVerb",
+      "title" : "HTTPVerb",
+      "description" : "HTTP verbs (in the HTTP command line). See [HTTP rfc](https://tools.ietf.org/html/rfc7231) for details.",
+      "oids" : ["2.16.840.1.113883.4.642.4.625"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R4/valueset-http-verb.html" : "HTTPVerb"
+    },
+    {
+      "url" : "http://hl7.org/fhir/location-mode",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "LocationMode",
+      "title" : "LocationMode",
+      "description" : "Indicates whether a resource instance represents a specific location or a class of locations.",
+      "oids" : ["2.16.840.1.113883.4.642.4.331"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R4/valueset-location-mode.html" : "LocationMode"
+    },
+    {
+      "url" : "http://hl7.org/fhir/location-status",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "LocationStatus",
+      "title" : "LocationStatus",
+      "description" : "Indicates whether the location is still in use.",
+      "oids" : ["2.16.840.1.113883.4.642.4.333"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R4/valueset-location-status.html" : "LocationStatus"
+    },
+    {
+      "url" : "http://hl7.org/fhir/response-code",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ResponseType",
+      "title" : "ResponseType",
+      "description" : "The kind of response to a message.",
+      "oids" : ["2.16.840.1.113883.4.642.4.381"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R4/valueset-response-code.html" : "ResponseType"
+    },
+    {
+      "url" : "http://hl7.org/fhir/search-entry-mode",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "SearchEntryMode",
+      "title" : "SearchEntryMode",
+      "description" : "Why an entry is in the result set - whether it's included as a match or because of an _include requirement, or to convey information or warning information about the search process.",
+      "oids" : ["2.16.840.1.113883.4.642.4.623"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R4/valueset-search-entry-mode.html" : "SearchEntryMode"
+    },
+    {
+      "url" : "http://hl7.org/fhir/udi-entry-type",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "UDIEntryType",
+      "title" : "UDIEntryType",
+      "description" : "Codes to identify how UDI data was entered.",
+      "oids" : ["2.16.840.1.113883.4.642.4.212"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R4/valueset-udi-entry-type.html" : "UDIEntryType"
+    },
+    {
+      "url" : "http://hl7.org/fhir/uv/rtls/CodeSystem/rtlsMessageEvents",
+      "version" : "1.0.0-ballot",
+      "status" : "draft",
+      "name" : "RTLSMessageEvents",
+      "title" : "RTLS Message Events",
+      "description" : "Code System listing codes for all types of RTLS messaging events",
+      "uses" : {
+      },
+      "ValueSet-rtlsMessageEvents.html" : "RTLS Message Events Valueset"
+    },
+    {
+      "url" : "http://snomed.info/sct",
+      "version" : null,
+      "status" : "active",
+      "name" : "SNOMED_CT",
+      "title" : "SNOMED CT (all versions)",
+      "description" : "SNOMED CT is the most comprehensive and precise clinical health terminology product in the world, owned and distributed around the world by The International Health Terminology Standards Development Organisation (IHTSDO).",
+      "oids" : ["2.16.840.1.113883.6.96"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R4/valueset-device-type.html" : "Device Type"
+    },
+    {
+      "url" : "http://terminology.hl7.org/CodeSystem/device-status-reason",
+      "version" : "1.0.0",
+      "status" : "draft",
+      "name" : "FHIRDeviceStatusReason",
+      "title" : "FHIRDeviceStatusReason",
+      "description" : "The availability status reason of the device.",
+      "oids" : ["2.16.840.1.113883.4.642.1.1082"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R4/valueset-device-status-reason.html" : "FHIRDeviceStatusReason"
+    },
+    {
+      "url" : "http://terminology.hl7.org/CodeSystem/location-physical-type",
+      "version" : "2.0.1",
+      "status" : "active",
+      "name" : "LocationType",
+      "title" : "Location type",
+      "description" : "This example value set defines a set of codes that can be used to indicate the physical form of the Location.\r\rThis includes several 'non physical' codes which are still considered a location.",
+      "oids" : ["2.16.840.1.113883.4.642.1.1108"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R4/valueset-location-physical-type.html" : "Location type"
+    },
+    {
+      "url" : "http://terminology.hl7.org/CodeSystem/message-reasons-encounter",
+      "version" : "1.0.1",
+      "status" : "active",
+      "name" : "ExampleMessageReasonCodes",
+      "title" : "Example Message Reason Codes",
+      "description" : "Example Message Reasons. These are the set of codes that might be used an updating an encounter using admin-update.",
+      "oids" : ["2.16.840.1.113883.4.642.1.1122"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R4/valueset-message-reason-encounter.html" : "Example Message Reason Codes"
+    },
+    {
+      "url" : "http://terminology.hl7.org/CodeSystem/v2-0116",
+      "version" : "2.0.0",
+      "status" : "active",
+      "name" : "BedStatus",
+      "title" : "bedStatus",
+      "description" : "Code system of concepts which specify the state of a bed in an inpatient setting, and is used to determine if a patient may be assigned to it or not.  Used in HL7 Version 2.x messaging in the DLD and PV1 segments.",
+      "oids" : ["2.16.840.1.113883.18.47"],
+      "uses" : {
+      },
+      "http://terminology.hl7.org/6.3.0/ValueSet-v2-0116.html" : "hl7VS-bedStatus"
+    },
+    {
+      "url" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+      "version" : "3.0.0",
+      "status" : "active",
+      "name" : "RoleCode",
+      "title" : "RoleCode",
+      "description" : "A set of codes further specifying the kind of Role; specific classification codes for further qualifying RoleClass codes.",
+      "oids" : ["2.16.840.1.113883.5.111"],
+      "uses" : {
+      },
+      "http://terminology.hl7.org/6.3.0/ValueSet-v3-ServiceDeliveryLocationRoleType.html" : "ServiceDeliveryLocationRoleType"
+    },
+    {
+      "url" : "urn:ietf:bcp:47",
+      "version" : "2.0.1",
+      "status" : "active",
+      "name" : "Ietf3066",
+      "title" : "Tags for the Identification of Languages",
+      "description" : "Older value from OID registry.  Superceded; see recommendations in BCP-47.",
+      "oids" : ["2.16.840.1.113883.6.121"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R4/valueset-languages.html" : "Common Languages"
+    }
+  ]
+}
