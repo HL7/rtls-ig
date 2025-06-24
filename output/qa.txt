@@ -1,16 +1,16 @@
 RTLS : Validation Results
 =========================================
 
-err = 31, warn = 16, info = 8
+err = 33, warn = 16, info = 8
 IG Publisher Version: 1.8.26 Out of date - current version is 2.0.7
-Generated Tue Jun 24 13:01:03 CDT 2025. FHIR version 4.0.1 for hl7.fhir.uv.rtls#1.0.0-ballot (canonical = http://hl7.org/fhir/uv/rtls)
+Generated Tue Jun 24 13:13:53 CDT 2025. FHIR version 4.0.1 for hl7.fhir.uv.rtls#1.0.0-ballot (canonical = http://hl7.org/fhir/uv/rtls)
  Build Errors : 16 / 2 / 0
  /Users/nshpringman/Documents/GitHub/rtls-ig/input/examples/rtlsAuxiliaryFunction-example : 9 / 5 / 8
  /Users/nshpringman/Documents/GitHub/rtls-ig/input/examples/rtlsDevice-example : 0 / 1 / 1
  /Users/nshpringman/Documents/GitHub/rtls-ig/input/examples/rtlsLocation-example : 0 / 0 / 1
- /Users/nshpringman/Documents/GitHub/rtls-ig/input/examples/rtlsMessageBundleEnroll-example : 3 / 2 / 6
+ /Users/nshpringman/Documents/GitHub/rtls-ig/input/examples/rtlsMessageBundleEnroll-example : 4 / 2 / 6
  /Users/nshpringman/Documents/GitHub/rtls-ig/input/examples/rtlsMessageBundleLocationUpdate-example : 5 / 4 / 8
- /Users/nshpringman/Documents/GitHub/rtls-ig/input/examples/rtlsMessageBundleUnenroll-example : 2 / 2 / 6
+ /Users/nshpringman/Documents/GitHub/rtls-ig/input/examples/rtlsMessageBundleUnenroll-example : 3 / 2 / 6
  /Users/nshpringman/Documents/GitHub/rtls-ig/input/resources/CS-rtlsMessageEvents : 1 / 0 / 2
  /Users/nshpringman/Documents/GitHub/rtls-ig/input/resources/VS-rtlsMessageTypes : 2 / 0 / 1
  /Users/nshpringman/Documents/GitHub/rtls-ig/input/resources/rtlsDevice : 1 / 0 / 2
@@ -59,10 +59,11 @@ WARNING: Bundle/StaffDuressExample-MessageBundle: Bundle.entry[2]: Entry 'http:/
 WARNING: Device/rtlsTagExample: Device.identifier[0].system: URL value 'http://rtls.org/trackingtags/id' does not resolve
 == input/examples/rtlsLocation-example.xml ==
 == input/examples/rtlsMessageBundleEnroll-example.xml ==
-ERROR: Bundle/EnrollTagExample-MessageBundle: Bundle.entry[0].resource/*MessageHeader/EnrollTagExample-MessageHeader*/: MessageHeader.source: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/MessageHeader|4.0.1)
+ERROR: Bundle/EnrollTagExample-MessageBundle: Bundle.entry[0].resource/*MessageHeader/EnrollTagExample-MessageHeader*/.source: As specified by profile http://hl7.org/fhir/StructureDefinition/MessageHeader|4.0.1, Element 'source' is out of order (found after focus)
 INFORMATION: Bundle/EnrollTagExample-MessageBundle: Bundle.entry[0].resource/*MessageHeader/EnrollTagExample-MessageHeader*/.event.ofType(Coding): A definition for CodeSystem 'http://terminology.hl7.org/CodeSystem/rtlsMessageEvents' could not be found, so the code cannot be validated
 ERROR: Bundle/EnrollTagExample-MessageBundle: Bundle.entry[0].resource/*MessageHeader/EnrollTagExample-MessageHeader*/.event.ofType(Coding).system: URL value 'http://terminology.hl7.org/CodeSystem/rtlsMessageEvents' does not resolve
-ERROR: Bundle/EnrollTagExample-MessageBundle: Bundle.entry[0].resource/*MessageHeader/EnrollTagExample-MessageHeader*/: MessageHeader.source: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageHeader|1.0.0-ballot)
+ERROR: Bundle/EnrollTagExample-MessageBundle: Bundle.entry[0].resource/*MessageHeader/EnrollTagExample-MessageHeader*/.source.endpoint: UUIDs must be valid and lowercase (12345678-1234-5678-1234)
+ERROR: Bundle/EnrollTagExample-MessageBundle: Bundle.entry[0].resource/*MessageHeader/EnrollTagExample-MessageHeader*/.source: As specified by profile http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageHeader|1.0.0-ballot, Element 'source' is out of order (found after focus)
 WARNING: Bundle/EnrollTagExample-MessageBundle: Bundle.entry[0].resource/*MessageHeader/EnrollTagExample-MessageHeader*/.event.ofType(Coding): ValueSet 'http://hl7.org/fhir/uv/rtls/ValueSet/rtlsMessageEvents' not found
 WARNING: Bundle/EnrollTagExample-MessageBundle: Bundle.entry[1].resource/*Device/EnrollTagExample-Device*/.identifier[0].system: URL value 'http://rtls.org/trackingtags/id' does not resolve
 == input/examples/rtlsMessageBundleLocationUpdate-example.xml ==
@@ -78,9 +79,10 @@ WARNING: Bundle/LocationUpdateExample-MessageBundle: Bundle.entry[1].resource/*B
 WARNING: Bundle/LocationUpdateExample-MessageBundle: Bundle.entry[1].resource/*Bundle/LocationUpdateExample-MessageBundle2*/.entry[0].resource/*Device/LocationUpdateExample-Device*/: Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)
 WARNING: Bundle/LocationUpdateExample-MessageBundle: Bundle.entry[1].resource/*Bundle/LocationUpdateExample-MessageBundle2*/.entry[1].resource/*Location/LocationUpdateExample-Location*/: Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)
 == input/examples/rtlsMessageBundleUnenroll-example.xml ==
-ERROR: Bundle/UnenrollTagExample-MessageBundle: Bundle.entry[0].resource/*MessageHeader/UnenrollTagExample-MessageHeader*/: MessageHeader.source: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/MessageHeader|4.0.1)
+ERROR: Bundle/UnenrollTagExample-MessageBundle: Bundle.entry[0].resource/*MessageHeader/UnenrollTagExample-MessageHeader*/.source: As specified by profile http://hl7.org/fhir/StructureDefinition/MessageHeader|4.0.1, Element 'source' is out of order (found after focus)
 INFORMATION: Bundle/UnenrollTagExample-MessageBundle: Bundle.entry[0].resource/*MessageHeader/UnenrollTagExample-MessageHeader*/.event.ofType(Coding): Reference to experimental CodeSystem http://hl7.org/fhir/uv/rtls/CodeSystem/rtlsMessageEvents|1.0.0-ballot
-ERROR: Bundle/UnenrollTagExample-MessageBundle: Bundle.entry[0].resource/*MessageHeader/UnenrollTagExample-MessageHeader*/: MessageHeader.source: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageHeader|1.0.0-ballot)
+ERROR: Bundle/UnenrollTagExample-MessageBundle: Bundle.entry[0].resource/*MessageHeader/UnenrollTagExample-MessageHeader*/.source.endpoint: UUIDs must be valid and lowercase (12345678-1234-5678-1234)
+ERROR: Bundle/UnenrollTagExample-MessageBundle: Bundle.entry[0].resource/*MessageHeader/UnenrollTagExample-MessageHeader*/.source: As specified by profile http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageHeader|1.0.0-ballot, Element 'source' is out of order (found after focus)
 WARNING: Bundle/UnenrollTagExample-MessageBundle: Bundle.entry[0].resource/*MessageHeader/UnenrollTagExample-MessageHeader*/.event.ofType(Coding): ValueSet 'http://hl7.org/fhir/uv/rtls/ValueSet/rtlsMessageEvents' not found
 WARNING: Bundle/UnenrollTagExample-MessageBundle: Bundle.entry[1].resource/*Device/UnenrollTagExample-Device*/.identifier[0].system: URL value 'http://rtls.org/trackingtags/id' does not resolve
 == input/resources/CS-rtlsMessageEvents.xml ==
