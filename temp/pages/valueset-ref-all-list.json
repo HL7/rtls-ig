@@ -111,9 +111,9 @@
       "uses" : {
       },
       "StructureDefinition-rtlsMessageHeader.html" : "RTLS Message Header Resource Profile",
-      "StructureDefinition-rtlsDevice.html" : "RTLS Tag Device Profile",
+      "StructureDefinition-rtlsMessageBundle.html" : "RTLS Message Bundle Profile",
       "StructureDefinition-rtlsLocation.html" : "RTLS Location Resource Profile",
-      "StructureDefinition-rtlsMessageBundle.html" : "RTLS Message Bundle Profile"
+      "StructureDefinition-rtlsDevice.html" : "RTLS Tag Device Profile"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/location-mode",

@@ -1,3 +1,4 @@
 {
-  "http://terminology.hl7.org/ValueSet/rtlsMessageEvents" : null
+  "http://terminology.hl7.org/ValueSet/rtlsMessageEvents" : null,
+  "http://hl7.org/fhir/uv/rtls/ValueSet/rtlsMessageEvents" : null
 }

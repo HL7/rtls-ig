@@ -143,7 +143,7 @@
    <title value="Real Time Location Services Implementation Guide"/>
    <status value="active"/>
    <experimental value="false"/>
-   <date value="2025-05-20T19:07:59-05:00"/>
+   <date value="2025-06-24T13:00:09-05:00"/>
    <publisher value="HL7 International - Patient Administration Work Group"/>
    <contact>
       <telecom>
@@ -167,7 +167,7 @@
       </extension>
       <uri value="http://terminology.hl7.org/ImplementationGuide/hl7.terminology"/>
       <packageId value="hl7.terminology.r4"/>
-      <version value="6.3.0"/>
+      <version value="6.4.0"/>
    </dependsOn>
    <dependsOn id="hl7ext">
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment">

@@ -66,10 +66,6 @@
      fhir:system [ fhir:v "http://rtls.org/trackingtags/id"^^xsd:anyURI ] ;
      fhir:value [ fhir:v "12345678" ]
   ] ) ; # 
-  fhir:udiCarrier ( [
-     fhir:deviceIdentifier [ ] ;
-     fhir:issuer [ ]
-  ] ) ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:location [
      fhir:link <http://example.org/FHIR/R4/Location> ;

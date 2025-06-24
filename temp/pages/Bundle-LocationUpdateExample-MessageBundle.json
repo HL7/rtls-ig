@@ -43,9 +43,6 @@
             "system" : "http://rtls.org/trackingtags/id",
             "value" : "12345678"
           }],
-          "udiCarrier" : [{
-            
-          }],
           "status" : "active",
           "location" : {
             "reference" : "http://example.org/FHIR/R4/Location"

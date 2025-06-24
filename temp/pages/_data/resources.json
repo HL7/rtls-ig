@@ -12,7 +12,7 @@
     "name" : "RTLS",
     "title" : "Real Time Location Services Implementation Guide",
     "experimental" : false,
-    "date" : "2025-05-20T19:07:59-05:00",
+    "date" : "2025-06-24T13:00:09-05:00",
     "description" : "Description of IG",
     "jurisdictions" : [
       {
@@ -166,7 +166,7 @@
     "name" : "RTLSDevice",
     "title" : "RTLS Tag Device Profile",
     "experimental" : true,
-    "date" : "2025-05-20T19:07:59-05:00",
+    "date" : "2025-06-24T13:00:09-05:00",
     "description" : "Device resource profile for tags or badges in RTLS workflows",
     "jurisdictions" : [
       {
@@ -197,7 +197,7 @@
     "name" : "RTLSLocation",
     "title" : "RTLS Location Resource Profile",
     "experimental" : true,
-    "date" : "2025-05-20T19:07:59-05:00",
+    "date" : "2025-06-24T13:00:09-05:00",
     "description" : "Location resource profile for RTLS workflows.",
     "jurisdictions" : [
       {
@@ -228,7 +228,7 @@
     "name" : "RTLSMessageBundle",
     "title" : "RTLS Message Bundle Profile",
     "experimental" : true,
-    "date" : "2025-05-20T19:07:59-05:00",
+    "date" : "2025-06-24T13:00:09-05:00",
     "description" : "Bundle resource with a type of \"message\" used in RTLS workflows.",
     "jurisdictions" : [
       {
@@ -259,7 +259,7 @@
     "name" : "RTLSMessageHeader",
     "title" : "RTLS Message Header Resource Profile",
     "experimental" : true,
-    "date" : "2025-05-20T19:07:59-05:00",
+    "date" : "2025-06-24T13:00:09-05:00",
     "description" : "MessageHeader resource for FHIR messages sent in RTLS workflows.",
     "jurisdictions" : [
       {
