@@ -7,6 +7,9 @@
   <status value="draft"/>
   <experimental value="true"/>
   <date value="2022-10-12"/>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="pa"/>
+  </extension>
   <description value="This valueset defines FHIR messaging event types used in RTLS workflows."/>
   <compose>
     <include>

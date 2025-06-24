@@ -15,6 +15,9 @@
   <type value="Bundle"/>
   <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Bundle"/>
   <derivation value="constraint"/>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="pa"/>
+  </extension>
   <differential>
     <element id="Bundle.type">
       <path value="Bundle.type"/>

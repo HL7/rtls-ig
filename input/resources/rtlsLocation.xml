@@ -15,6 +15,9 @@
   <type value="Location"/>
   <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Location"/>
   <derivation value="constraint"/>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="pa"/>
+  </extension>
   <differential>
     <element id="Location.identifier">
       <path value="Location.identifier"/>

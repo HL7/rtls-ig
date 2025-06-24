@@ -10,6 +10,9 @@
   <description value="Code System listing codes for all types of RTLS messaging events"/> 
   <caseSensitive value="true"/>
   <content value="complete"/>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="pa"/>
+  </extension>
   <concept>
     <code value="enroll-tag"/>
     <display value="Enroll Tag"/>

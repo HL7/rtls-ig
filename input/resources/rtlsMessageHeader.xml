@@ -15,6 +15,9 @@
   <type value="MessageHeader"/>
   <baseDefinition value="http://hl7.org/fhir/StructureDefinition/MessageHeader"/>
   <derivation value="constraint"/>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="pa"/>
+  </extension>
   <differential>
     <element id="MessageHeader.event">
       <path value="MessageHeader.event[x]"/>
