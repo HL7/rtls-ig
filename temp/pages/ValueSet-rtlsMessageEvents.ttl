@@ -28,7 +28,7 @@
        ] )
      ]
   ] ) ; # 
-  fhir:url [ fhir:v "http://terminology.hl7.org/fhir/uv/rtls/ValueSet/rtlsMessageEvents"^^xsd:anyURI] ; # 
+  fhir:url [ fhir:v "http://hl7.org/fhir/uv/rtls/ValueSet/rtlsMessageEvents"^^xsd:anyURI] ; # 
   fhir:version [ fhir:v "1.0.0-ballot"] ; # 
   fhir:name [ fhir:v "RTLSMessageEvents"] ; # 
   fhir:title [ fhir:v "RTLS Message Events Valueset"] ; # 

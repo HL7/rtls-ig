@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="f3acf6eb-0d5a-4ca5-95d9-928861cb735a"/>
+  <id value="2cb51571-65a5-4f85-b6f1-78f649479517"/>
   <meta>
-    <lastUpdated value="2025-06-24T13:13:30.857-05:00"/>
+    <lastUpdated value="2025-06-24T13:15:39.571-05:00"/>
   </meta>
   <type value="collection"/>
   <entry>
-    <fullUrl value="http://terminology.hl7.org/fhir/uv/rtls/ValueSet/rtlsMessageEvents"/>
+    <fullUrl value="http://hl7.org/fhir/uv/rtls/ValueSet/rtlsMessageEvents"/>
     <resource>
       <ValueSet>
         <text>
@@ -94,7 +94,7 @@
             </table>
           </div>
         </text>
-        <url value="http://terminology.hl7.org/fhir/uv/rtls/ValueSet/rtlsMessageEvents"/>
+        <url value="http://hl7.org/fhir/uv/rtls/ValueSet/rtlsMessageEvents"/>
         <version value="1.0.0-ballot"/>
         <name value="RTLSMessageEvents"/>
         <title value="RTLS Message Events Valueset"/>
@@ -108,8 +108,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:1b75707f-6068-48fd-ad2a-82d35874c5d8"/>
-          <timestamp value="2025-06-24T13:13:44-05:00"/>
+          <identifier value="urn:uuid:eddf9e94-015d-4b1a-95cb-14f436f2bc19"/>
+          <timestamp value="2025-06-24T13:15:55-05:00"/>
           <total value="4"/>
           <offset value="0"/>
           <parameter>

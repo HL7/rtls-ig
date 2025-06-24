@@ -12,7 +12,7 @@
       </extension>
     </valueCode>
   </extension>
-  <url value="http://terminology.hl7.org/fhir/uv/rtls/ValueSet/rtlsMessageEvents"/>
+  <url value="http://hl7.org/fhir/uv/rtls/ValueSet/rtlsMessageEvents"/>
   <version value="1.0.0-ballot"/>
   <name value="RTLSMessageEvents"/>
   <title value="RTLS Message Events Valueset"/>

@@ -44,7 +44,7 @@
   {
     "id" : "rtlsMessageEvents",
     "type" : "ValueSet",
-    "url" : "http://terminology.hl7.org/fhir/uv/rtls/ValueSet/rtlsMessageEvents",
+    "url" : "http://hl7.org/fhir/uv/rtls/ValueSet/rtlsMessageEvents",
     "version" : "1.0.0-ballot",
     "name" : "RTLSMessageEvents"
   }
