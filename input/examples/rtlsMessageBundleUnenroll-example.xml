@@ -22,6 +22,10 @@
         <focus> 
           <reference value="http://example.org/fhir/UnenrollTagExample-Device"/> 
         </focus> 
+        <source>
+          <name value="Example EHR"/>
+          <endpoint value="urn:uuid:12345678-1234-5678-1234"/>
+        </source>
       </MessageHeader> 
     </resource> 
   </entry>
