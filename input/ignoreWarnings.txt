@@ -20,3 +20,6 @@ INFORMATION: StructureDefinition.where(url = 'http://hl7.org/fhir/uv/rtls/Struct
 
 # Example is created but publisher was failing for some reason
 WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsSubscriptionTopic'): The Implementation Guide contains no examples for this profile
+
+# Example CodeSystem purposefully left experimental for now
+Reference to experimental CodeSystem http://hl7.org/fhir/uv/rtls/CodeSystem/rtlsMessageEvents

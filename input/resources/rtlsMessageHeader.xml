@@ -35,5 +35,11 @@
       <mustSupport value="true"/>
       <min value="1"/>
     </element>
+    <element id="MessageHeader.source">
+      <id value="MessageHeader.source"/>
+      <path value="MessageHeader.source"/>
+      <mustSupport value="true"/>
+      <min value="1"/>
+    </element>
   </differential>
 </StructureDefinition>

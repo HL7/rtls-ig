@@ -24,7 +24,7 @@
         </focus> 
         <source>
           <name value="Example EHR"/>
-          <endpoint value="urn:uuid:12345678-1234-5678-1234"/>
+          <endpoint value="urn:uuid:056df0be-13d1-43ae-9182-40155caf6695"/>
         </source>
       </MessageHeader> 
     </resource> 
@@ -38,7 +38,7 @@
           <profile value="http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsDevice"/>
         </meta>
         <identifier> 
-          <system value="http://rtls.org/trackingtags/id"/> 
+          <system value="urn:example:rtls-tracking-tag-ig"/> 
           <value value="12345678"/> 
         </identifier>
         <status value="active"/>

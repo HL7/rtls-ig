@@ -21,7 +21,7 @@
   "title" : "RTLS Message Bundle Profile",
   "status" : "draft",
   "experimental" : true,
-  "date" : "2025-06-24T13:15:27-05:00",
+  "date" : "2025-06-24T13:30:24-05:00",
   "publisher" : "HL7 International - Patient Administration Work Group",
   "contact" : [{
     "telecom" : [{

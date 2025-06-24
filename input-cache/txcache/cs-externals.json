@@ -1,4 +1,5 @@
 {
+  "urn:example:rtls-tracking-tag-ig" : null,
   "http://hl7.org/fhir/fhir-types|null" : null,
   "http://rtls.org/trackingtags/id" : null,
   "http://unstats.un.org/unsd/methods/m49/m49.htm|null" : null,
