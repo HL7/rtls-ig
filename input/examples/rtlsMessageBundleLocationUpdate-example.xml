@@ -44,16 +44,6 @@
                 <system value="http://rtls.org/trackingtags/id"/> 
                 <value value="12345678"/> 
               </identifier>
-              <udiCarrier>
-                <deviceIdentifier>
-                  <system value="http://example.org/FHIR/R4/Device/UdiCarrier"/>
-                  <value value="12345678"/>
-                </deviceIdentifier>
-                <issuer>
-                  <system value="http://hl7.org/fhir/NamingSystem/gs1-di"/>
-                  <value value="12345678"/>
-                </issuer>
-              </udiCarrier>
               <status value="active"/>
               <location>
                 <reference value="http://example.org/FHIR/R4/Location"/>
