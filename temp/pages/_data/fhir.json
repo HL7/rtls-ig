@@ -5,16 +5,18 @@
   "igName" : "RTLS",
   "packageId" : "hl7.fhir.uv.rtls",
   "igVer" : "1.0.0-ballot",
-  "errorCount" : 25,
+  "errorCount" : 22,
   "version" : "4.0.1",
   "releaseLabel" : "CI Build",
+  "releaseLabellang" : {
+  },
   "revision" : "a53ec6ee1b",
   "versionFull" : "4.0.1-a53ec6ee1b",
   "toolingVersion" : "5.0.0",
   "toolingRevision" : "3",
   "toolingVersionFull" : "5.0.0 (3)",
-  "genDate" : "Tue, Jun 24, 2025 13:47-0500",
-  "genDay" : "24/06/2025",
+  "genDate" : "Wed, Jun 25, 2025 12:48-0500",
+  "genDay" : "25/06/2025",
   "totalFiles" : 13,
   "processedFiles" : 28,
   "repoSource" : "https://github.com/HL7/rtls-ig.git",
@@ -237,21 +239,29 @@
     "id" : "hl7.fhir.uv.rtls",
     "name" : "RTLS",
     "title" : "Real Time Location Services Implementation Guide",
+    "titlelang" : {
+    },
     "url" : "http://hl7.org/fhir/uv/rtls/ImplementationGuide/hl7.fhir.uv.rtls",
     "version" : "1.0.0-ballot",
     "status" : "active",
     "experimental" : false,
-    "publisher" : "HL7 International - Patient Administration Work Group",
+    "publisher" : "HL7 International / Patient Administration",
+    "publisherlang" : {
+    },
     "contact" : [
       {
         "name" : null,
         "telecom" : ["http://hl7.org/Special/committees/pafm"]
       }
     ],
-    "date" : "2025-06-24T13:47:41-05:00",
+    "date" : "2025-06-25T12:47:47-05:00",
     "description" : "Description of IG",
+    "descriptionlang" : {
+    },
     "tx-server" : "https://tx.fhir.org/r4",
     "copyright" : null,
+    "copyrightlang" : {
+    },
     "fhirVersion" : "4.0.1"
   },
   "basespec" : "http://hl7.org/fhir/R4",

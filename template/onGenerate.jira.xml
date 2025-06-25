@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <specification xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                url="http://hl7.org/fhir/uv/rtls"
-               ciUrl="http://build.fhir.org/ig/HL7/rtls-ig"
+               ciUrl=""
                defaultWorkgroup="pa"
                defaultVersion="1.0.0-ballot"
                xsi:noNamespaceSchemaLocation="../schemas/specification.xsd"
                gitUrl="https://github.com/HL7/rtls-ig"
                ballotUrl="http://hl7.org/fhir/uv/rtls/2023May">
-   <version code="current" url="http://build.fhir.org/ig/HL7/rtls-ig"/>
    <version code="1.0.0-ballot" url="http://hl7.org/fhir/uv/rtls/2023May"/>
+   <version code="2.0.0-ballot"
+            url="http://build.fhir.org/ig/HL7/rtls-ig"
+            deprecated="true"/>
    <artifactPageExtension value="-definitions"/>
    <artifactPageExtension value="-examples"/>
    <artifactPageExtension value="-mappings"/>

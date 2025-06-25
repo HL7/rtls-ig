@@ -5,19 +5,28 @@
     "name" : "RTLSDevice",
     "title" : "RTLS Tag Device Profile",
     "uml" : false,
+    "titlelang" : {
+    },
     "path" : "StructureDefinition-rtlsDevice.html",
     "kind" : "resource",
     "type" : "Device",
     "base" : "http://hl7.org/fhir/StructureDefinition/Device",
     "basename" : "Device",
     "basepath" : "http://hl7.org/fhir/R4/device.html",
+    "adl" : false,
     "status" : "draft",
-    "date" : "Tue Jun 24 13:47:41 CDT 2025",
+    "date" : "Wed Jun 25 12:47:47 CDT 2025",
     "abstract" : false,
     "derivation" : "constraint",
-    "publisher" : "HL7 International - Patient Administration Work Group",
+    "publisher" : "HL7 International / Patient Administration",
+    "publisherlang" : {
+    },
     "copyright" : null,
+    "copyrightlang" : {
+    },
     "description" : "Device resource profile for tags or badges in RTLS workflows",
+    "descriptionlang" : {
+    },
     "obligations" : false
   },
   "rtlsLocation" : {
@@ -26,19 +35,28 @@
     "name" : "RTLSLocation",
     "title" : "RTLS Location Resource Profile",
     "uml" : false,
+    "titlelang" : {
+    },
     "path" : "StructureDefinition-rtlsLocation.html",
     "kind" : "resource",
     "type" : "Location",
     "base" : "http://hl7.org/fhir/StructureDefinition/Location",
     "basename" : "Location",
     "basepath" : "http://hl7.org/fhir/R4/location.html",
+    "adl" : false,
     "status" : "draft",
-    "date" : "Tue Jun 24 13:47:41 CDT 2025",
+    "date" : "Wed Jun 25 12:47:47 CDT 2025",
     "abstract" : false,
     "derivation" : "constraint",
-    "publisher" : "HL7 International - Patient Administration Work Group",
+    "publisher" : "HL7 International / Patient Administration",
+    "publisherlang" : {
+    },
     "copyright" : null,
+    "copyrightlang" : {
+    },
     "description" : "Location resource profile for RTLS workflows.",
+    "descriptionlang" : {
+    },
     "obligations" : false
   },
   "rtlsMessageBundle" : {
@@ -47,19 +65,28 @@
     "name" : "RTLSMessageBundle",
     "title" : "RTLS Message Bundle Profile",
     "uml" : false,
+    "titlelang" : {
+    },
     "path" : "StructureDefinition-rtlsMessageBundle.html",
     "kind" : "resource",
     "type" : "Bundle",
     "base" : "http://hl7.org/fhir/StructureDefinition/Bundle",
     "basename" : "Bundle",
     "basepath" : "http://hl7.org/fhir/R4/bundle.html",
+    "adl" : false,
     "status" : "draft",
-    "date" : "Tue Jun 24 13:47:41 CDT 2025",
+    "date" : "Wed Jun 25 12:47:47 CDT 2025",
     "abstract" : false,
     "derivation" : "constraint",
-    "publisher" : "HL7 International - Patient Administration Work Group",
+    "publisher" : "HL7 International / Patient Administration",
+    "publisherlang" : {
+    },
     "copyright" : null,
+    "copyrightlang" : {
+    },
     "description" : "Bundle resource with a type of \"message\" used in RTLS workflows.",
+    "descriptionlang" : {
+    },
     "obligations" : false
   },
   "rtlsMessageHeader" : {
@@ -68,19 +95,28 @@
     "name" : "RTLSMessageHeader",
     "title" : "RTLS Message Header Resource Profile",
     "uml" : false,
+    "titlelang" : {
+    },
     "path" : "StructureDefinition-rtlsMessageHeader.html",
     "kind" : "resource",
     "type" : "MessageHeader",
     "base" : "http://hl7.org/fhir/StructureDefinition/MessageHeader",
     "basename" : "MessageHeader",
     "basepath" : "http://hl7.org/fhir/R4/messageheader.html",
+    "adl" : false,
     "status" : "draft",
-    "date" : "Tue Jun 24 13:47:41 CDT 2025",
+    "date" : "Wed Jun 25 12:47:47 CDT 2025",
     "abstract" : false,
     "derivation" : "constraint",
-    "publisher" : "HL7 International - Patient Administration Work Group",
+    "publisher" : "HL7 International / Patient Administration",
+    "publisherlang" : {
+    },
     "copyright" : null,
+    "copyrightlang" : {
+    },
     "description" : "MessageHeader resource for FHIR messages sent in RTLS workflows.",
+    "descriptionlang" : {
+    },
     "obligations" : false
   },
   "maturities" : {

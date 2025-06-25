@@ -3,7 +3,7 @@
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="rtlsMessageEvents"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet rtlsMessageEvents</b></p><a name="rtlsMessageEvents"> </a><a name="hcrtlsMessageEvents"> </a><a name="rtlsMessageEvents-en-US"> </a><ul><li>Include all codes defined in <a href="CodeSystem-rtlsMessageEvents.html"><code>http://hl7.org/fhir/uv/rtls/CodeSystem/rtlsMessageEvents</code></a></li></ul></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet rtlsMessageEvents</b></p><a name="rtlsMessageEvents"> </a><a name="hcrtlsMessageEvents"> </a><ul><li>Include all codes defined in <a href="CodeSystem-rtlsMessageEvents.html"><code>http://hl7.org/fhir/uv/rtls/CodeSystem/rtlsMessageEvents</code></a></li></ul></div>
   </text>
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
     <valueCode value="pa"/>
@@ -22,7 +22,7 @@
   <status value="draft"/>
   <experimental value="true"/>
   <date value="2022-10-12"/>
-  <publisher value="HL7 International - Patient Administration Work Group"/>
+  <publisher value="HL7 International / Patient Administration"/>
   <contact>
     <telecom>
       <system value="url"/>

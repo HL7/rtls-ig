@@ -16,13 +16,15 @@
           <profile value="http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageHeader"/>
         </meta>
         <text>
-          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><a name="MessageHeader_LocationUpdateExample-MessageHeader"> </a><p class="res-header-id"><b>Generated Narrative: MessageHeader LocationUpdateExample-MessageHeader</b></p><a name="LocationUpdateExample-MessageHeader"> </a><a name="hcLocationUpdateExample-MessageHeader"> </a><a name="LocationUpdateExample-MessageHeader-en-US"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-rtlsMessageHeader.html">RTLS Message Header Resource Profile</a></p></div><p><b>event</b>: <a href="CodeSystem-rtlsMessageEvents.html#rtlsMessageEvents-location-update">RTLS Message Events location-update</a>: Location Update</p><blockquote><p><b>source</b></p></blockquote><p><b>focus</b>: <a href="Bundle-LocationUpdateExample-MessageBundle.html#http-//example.org/fhir/LocationUpdateExample-MessageBundle2">Bundle: type = message; timestamp = 2023-03-24 10:24:13-0500</a></p></div>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><a name="MessageHeader_LocationUpdateExample-MessageHeader"> </a><p class="res-header-id"><b>Generated Narrative: MessageHeader LocationUpdateExample-MessageHeader</b></p><a name="LocationUpdateExample-MessageHeader"> </a><a name="hcLocationUpdateExample-MessageHeader"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-rtlsMessageHeader.html">RTLS Message Header Resource Profile</a></p></div><p><b>event</b>: <a href="CodeSystem-rtlsMessageEvents.html#rtlsMessageEvents-location-update">RTLS Message Events location-update</a>: Location Update</p><h3>Sources</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Endpoint</b></td></tr><tr><td style="display: none">*</td><td>urn:uuid:056df0be-13d1-43ae-9182-40155caf6695</td></tr></table><p><b>focus</b>: <a href="Bundle-LocationUpdateExample-MessageBundle.html#http-//example.org/fhir/LocationUpdateExample-MessageBundle2">Bundle: type = message; timestamp = 2023-03-24 10:24:13-0500</a></p></div>
         </text>
         <eventCoding>
           <system value="http://hl7.org/fhir/uv/rtls/CodeSystem/rtlsMessageEvents"/>
           <code value="location-update"/>
         </eventCoding>
-        <source/>
+        <source>
+          <endpoint value="urn:uuid:056df0be-13d1-43ae-9182-40155caf6695"/>
+        </source>
         <focus>
           <reference value="http://example.org/fhir/LocationUpdateExample-MessageBundle2"/>
         </focus>
@@ -34,7 +36,7 @@
     <resource>
       <Bundle>
         <id value="LocationUpdateExample-MessageBundle2"/>
-        <type value="subscription-notification"/>
+        <type value="message"/>
         <timestamp value="2023-03-24T10:24:13.1882432-05:00"/>
         <entry>
           <fullUrl value="http://example.org/fhir/LocationUpdateExample-Device"/>
@@ -42,7 +44,7 @@
             <Device>
               <id value="LocationUpdateExample-Device"/>
               <identifier>
-                <system value="http://rtls.org/trackingtags/id"/>
+                <system value="urn:uuid:324de6ab-268e-4da0-b06c-722f57d91bb0"/>
                 <value value="12345678"/>
               </identifier>
               <status value="active"/>

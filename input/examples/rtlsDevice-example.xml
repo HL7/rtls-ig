@@ -6,7 +6,7 @@
     <profile value="http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsDevice"/>
   </meta>
   <identifier> 
-    <system value="http://rtls.org/trackingtags/id"/> 
+    <system value="urn:example:rtls-tracking-id"/> 
     <value value="12345678"/> 
   </identifier>
   <status value="active"/>

@@ -99,11 +99,11 @@
 <page key="toc" name="Table of Contents"/>
 </specification>
 <package-list>
-   <package version="current"
-            path="http://build.fhir.org/ig/HL7/rtls-ig"
-            status="ci-build"/>
    <package version="1.0.0-ballot"
             path="http://hl7.org/fhir/uv/rtls/2023May"
+            status="ballot"/>
+   <package version="2.0.0-ballot"
+            path="http://build.fhir.org/ig/HL7/rtls-ig"
             status="ballot"/>
 </package-list>
 <publication-request>
@@ -122,7 +122,6 @@
          </p>
          <a name="hl7.fhir.uv.rtls"> </a>
          <a name="hchl7.fhir.uv.rtls"> </a>
-         <a name="hl7.fhir.uv.rtls-en-US"> </a>
          <h2>RTLS</h2>
          <p>The official URL for this implementation guide is: </p>
          <pre>http://hl7.org/fhir/uv/rtls/ImplementationGuide/hl7.fhir.uv.rtls</pre>
@@ -143,8 +142,8 @@
    <title value="Real Time Location Services Implementation Guide"/>
    <status value="active"/>
    <experimental value="false"/>
-   <date value="2025-06-24T13:47:41-05:00"/>
-   <publisher value="HL7 International - Patient Administration Work Group"/>
+   <date value="2025-06-25T12:47:47-05:00"/>
+   <publisher value="HL7 International / Patient Administration"/>
    <contact>
       <telecom>
          <system value="url"/>

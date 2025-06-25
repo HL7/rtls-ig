@@ -3,7 +3,7 @@
 <ImplementationGuide xmlns="http://hl7.org/fhir">
   <id value="hl7.fhir.uv.rtls"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ImplementationGuide hl7.fhir.uv.rtls</b></p><a name="hl7.fhir.uv.rtls"> </a><a name="hchl7.fhir.uv.rtls"> </a><a name="hl7.fhir.uv.rtls-en-US"> </a><h2>RTLS</h2><p>The official URL for this implementation guide is: </p><pre>http://hl7.org/fhir/uv/rtls/ImplementationGuide/hl7.fhir.uv.rtls</pre><div><p>Description of IG</p>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ImplementationGuide hl7.fhir.uv.rtls</b></p><a name="hl7.fhir.uv.rtls"> </a><a name="hchl7.fhir.uv.rtls"> </a><h2>RTLS</h2><p>The official URL for this implementation guide is: </p><pre>http://hl7.org/fhir/uv/rtls/ImplementationGuide/hl7.fhir.uv.rtls</pre><div><p>Description of IG</p>
 </div></div>
   </text>
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
@@ -18,8 +18,8 @@
   <title value="Real Time Location Services Implementation Guide"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2025-06-24T13:47:41-05:00"/>
-  <publisher value="HL7 International - Patient Administration Work Group"/>
+  <date value="2025-06-25T12:47:47-05:00"/>
+  <publisher value="HL7 International / Patient Administration"/>
   <contact>
     <telecom>
       <system value="url"/>

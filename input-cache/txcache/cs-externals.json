@@ -1,8 +1,12 @@
 {
   "urn:example:rtls-tracking-tag-ig" : null,
+  "urn:uuid:324de6ab-268e-4da0-b06c-722f57d91bb0" : null,
   "http://hl7.org/fhir/fhir-types|null" : null,
   "http://rtls.org/trackingtags/id" : null,
   "http://unstats.un.org/unsd/methods/m49/m49.htm|null" : null,
   "http://terminology.hl7.org/CodeSystem/rtlsMessageEvents" : null,
+  "urn:uuid:e1fd96a2-772f-46a7-a123-88d03c9c907a" : null,
+  "urn:example:rtls-tracking-id" : null,
+  "Device/example" : null,
   "http://terminology.hl7.org/CodeSystem/rtlsMessageEvents|null" : null
 }

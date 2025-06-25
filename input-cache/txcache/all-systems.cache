@@ -20,9 +20,78 @@ v: {
   "code" : "001",
   "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
   "server" : "https://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.org/CodeSystem/rtlsMessageEvents",
+  "code" : "enroll-tag"
+}, "url": "http://hl7.org/fhir/uv/rtls/ValueSet/rtlsMessageEvents", "version": "1.0.0-ballot", "langs":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  },
+  {
+    "name" : "displayLanguage",
+    "valueCode" : "en-US"
+  }]
+}}####
+v: {
+  "code" : "enroll-tag",
+  "system" : "http://terminology.hl7.org/CodeSystem/rtlsMessageEvents",
+  "severity" : "error",
+  "error" : "A definition for CodeSystem 'http://terminology.hl7.org/CodeSystem/rtlsMessageEvents' could not be found, so the code cannot be validated; The provided code 'http://terminology.hl7.org/CodeSystem/rtlsMessageEvents#enroll-tag' was not found in the value set 'http://hl7.org/fhir/uv/rtls/ValueSet/rtlsMessageEvents|1.0.0-ballot'",
+  "class" : "UNKNOWN",
+  "server" : "https://tx.fhir.org/r4",
+  "unknown-systems" : "http://terminology.hl7.org/CodeSystem/rtlsMessageEvents",
+  "issues" : {
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "UNKNOWN_CODESYSTEM"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.fhir.org/r4"
+    }],
+    "severity" : "error",
+    "code" : "not-found",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "not-found"
+      }],
+      "text" : "A definition for CodeSystem 'http://terminology.hl7.org/CodeSystem/rtlsMessageEvents' could not be found, so the code cannot be validated"
+    },
+    "location" : ["Coding.system"],
+    "expression" : ["Coding.system"]
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "None_of_the_provided_codes_are_in_the_value_set_one"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.fhir.org/r4"
+    }],
+    "severity" : "error",
+    "code" : "code-invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "not-in-vs"
+      }],
+      "text" : "The provided code 'http://terminology.hl7.org/CodeSystem/rtlsMessageEvents#enroll-tag' was not found in the value set 'http://hl7.org/fhir/uv/rtls/ValueSet/rtlsMessageEvents|1.0.0-ballot'"
+    },
+    "location" : ["Coding.code"],
+    "expression" : ["Coding.code"]
+  }]
 }
 
 }

@@ -20,7 +20,7 @@
           <code value="staff-duress"/> 
         </eventCoding> 
         <source> 
-          <endpointUrl value="http://example.org/FHIR/R4/RTLS-Client"/> 
+          <endpoint value="urn:uuid:056df0be-13d1-43ae-9182-40155caf6695"/>
         </source> 
         <focus> 
           <reference value="http://example.org/fhir/Device/$auxiliary-function"/> 
@@ -33,7 +33,7 @@
     <resource> 
       <Bundle> 
         <id value="http://example.org/fhir/Device/$auxiliary-function"/> 
-        <type value="subscription-notification"/>
+        <type value="message"/>
         <timestamp value="2023-03-24T10:24:13.1882432-05:00"/>
         <entry>
           <fullUrl value="http://example.org/fhir/Device/$auxiliary-function"/>
@@ -41,7 +41,7 @@
             <Device xmlns="http://hl7.org/fhir"> 
               <id value="StaffDuressExample-Device"/>
               <identifier> 
-                <system value="http://rtls.org/trackingtags/id"/> 
+                <system value="urn:uuid:e1fd96a2-772f-46a7-a123-88d03c9c907a"/> 
                 <value value="12345678"/> 
               </identifier>
               <status value="active"/>

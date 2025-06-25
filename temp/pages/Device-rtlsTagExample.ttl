@@ -17,10 +17,10 @@
   ] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Device rtlsTagExample</b></p><a name=\"rtlsTagExample\"> </a><a name=\"hcrtlsTagExample\"> </a><a name=\"rtlsTagExample-en-US\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-rtlsDevice.html\">RTLS Tag Device Profile</a></p></div><p><b>identifier</b>: <code>http://rtls.org/trackingtags/id</code>/12345678</p><p><b>status</b>: Active</p><p><b>location</b>: <a href=\"http://example.org/FHIR/R4/Location\">http://example.org/FHIR/R4/Location</a></p></div>"^^rdf:XMLLiteral
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Device rtlsTagExample</b></p><a name=\"rtlsTagExample\"> </a><a name=\"hcrtlsTagExample\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-rtlsDevice.html\">RTLS Tag Device Profile</a></p></div><p><b>identifier</b>: <code>urn:example:rtls-tracking-id</code>/12345678</p><p><b>status</b>: Active</p><p><b>location</b>: <a href=\"http://example.org/FHIR/R4/Location\">http://example.org/FHIR/R4/Location</a></p></div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:identifier ( [
-     fhir:system [ fhir:v "http://rtls.org/trackingtags/id"^^xsd:anyURI ] ;
+     fhir:system [ fhir:v "urn:example:rtls-tracking-id"^^xsd:anyURI ] ;
      fhir:value [ fhir:v "12345678" ]
   ] ) ; # 
   fhir:status [ fhir:v "active"] ; # 

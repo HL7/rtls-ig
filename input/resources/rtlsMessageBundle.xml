@@ -22,7 +22,7 @@
     <element id="Bundle.type">
       <path value="Bundle.type"/>
       <mustSupport value="true"/>
-      <short value="message | subscription-notification"/>
+      <short value="message"/>
       <comment value="If sending a device enrollment/unenrollment, set the type to &quot;message&quot;. For location updates, set the type to &quot;subscription-notification&quot;."/>
     </element>
     <element id="Bundle.timestamp">
@@ -35,7 +35,7 @@
       <path value="Bundle.entry"/>
       <mustSupport value="true"/>
       <min value="1"/>
-      <short value="For bundles of type &quot;message&quot;, the first entry resource must be MessageHeader. For bundles of type &quot;subscription-notification&quot;, the first entry resource must be SubscriptionStatus)."/>
+      <short value="For bundles of type &quot;message&quot;, the first entry resource must be MessageHeader."/>
     </element>
     <element id="Bundle.entry.resource">
       <path value="Bundle.entry.resource"/>

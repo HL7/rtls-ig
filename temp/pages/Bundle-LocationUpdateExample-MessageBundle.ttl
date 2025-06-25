@@ -35,14 +35,16 @@
   ] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"MessageHeader_LocationUpdateExample-MessageHeader\"> </a><p class=\"res-header-id\"><b>Generated Narrative: MessageHeader LocationUpdateExample-MessageHeader</b></p><a name=\"LocationUpdateExample-MessageHeader\"> </a><a name=\"hcLocationUpdateExample-MessageHeader\"> </a><a name=\"LocationUpdateExample-MessageHeader-en-US\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-rtlsMessageHeader.html\">RTLS Message Header Resource Profile</a></p></div><p><b>event</b>: <a href=\"CodeSystem-rtlsMessageEvents.html#rtlsMessageEvents-location-update\">RTLS Message Events location-update</a>: Location Update</p><blockquote><p><b>source</b></p></blockquote><p><b>focus</b>: <a href=\"Bundle-LocationUpdateExample-MessageBundle.html#http-//example.org/fhir/LocationUpdateExample-MessageBundle2\">Bundle: type = message; timestamp = 2023-03-24 10:24:13-0500</a></p></div>"^^rdf:XMLLiteral
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"MessageHeader_LocationUpdateExample-MessageHeader\"> </a><p class=\"res-header-id\"><b>Generated Narrative: MessageHeader LocationUpdateExample-MessageHeader</b></p><a name=\"LocationUpdateExample-MessageHeader\"> </a><a name=\"hcLocationUpdateExample-MessageHeader\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-rtlsMessageHeader.html\">RTLS Message Header Resource Profile</a></p></div><p><b>event</b>: <a href=\"CodeSystem-rtlsMessageEvents.html#rtlsMessageEvents-location-update\">RTLS Message Events location-update</a>: Location Update</p><h3>Sources</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Endpoint</b></td></tr><tr><td style=\"display: none\">*</td><td>urn:uuid:056df0be-13d1-43ae-9182-40155caf6695</td></tr></table><p><b>focus</b>: <a href=\"Bundle-LocationUpdateExample-MessageBundle.html#http-//example.org/fhir/LocationUpdateExample-MessageBundle2\">Bundle: type = message; timestamp = 2023-03-24 10:24:13-0500</a></p></div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:event [
      a fhir:Coding ;
      fhir:system [ fhir:v "http://hl7.org/fhir/uv/rtls/CodeSystem/rtlsMessageEvents"^^xsd:anyURI ] ;
      fhir:code [ fhir:v "location-update" ]
   ] ; # 
-  fhir:source [] ; # 
+  fhir:source [
+     fhir:endpoint [ fhir:v "urn:uuid:056df0be-13d1-43ae-9182-40155caf6695"^^xsd:anyURI ]
+  ] ; # 
   fhir:focus ( [
      fhir:link <http://example.org/fhir/LocationUpdateExample-MessageBundle2> ;
      fhir:reference [ fhir:v "http://example.org/fhir/LocationUpdateExample-MessageBundle2" ]
@@ -50,7 +52,7 @@
 
 <http://example.org/fhir/LocationUpdateExample-MessageBundle2> a fhir:Bundle ;
   fhir:id [ fhir:v "LocationUpdateExample-MessageBundle2"] ; # 
-  fhir:type [ fhir:v "subscription-notification"] ; # 
+  fhir:type [ fhir:v "message"] ; # 
   fhir:timestamp [ fhir:v "2023-03-24T10:24:13.1882432-05:00"^^xsd:dateTime] ; # 
   fhir:entry ( [
      fhir:fullUrl [ fhir:v "http://example.org/fhir/LocationUpdateExample-Device"^^xsd:anyURI ] ;
@@ -63,7 +65,7 @@
 <http://example.org/fhir/LocationUpdateExample-Device> a fhir:Device ;
   fhir:id [ fhir:v "LocationUpdateExample-Device"] ; # 
   fhir:identifier ( [
-     fhir:system [ fhir:v "http://rtls.org/trackingtags/id"^^xsd:anyURI ] ;
+     fhir:system [ fhir:v "urn:uuid:324de6ab-268e-4da0-b06c-722f57d91bb0"^^xsd:anyURI ] ;
      fhir:value [ fhir:v "12345678" ]
   ] ) ; # 
   fhir:status [ fhir:v "active"] ; # 

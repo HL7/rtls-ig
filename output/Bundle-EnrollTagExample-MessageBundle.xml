@@ -16,7 +16,7 @@
           <profile value="http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageHeader"/>
         </meta>
         <text>
-          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><a name="MessageHeader_EnrollTagExample-MessageHeader"> </a><p class="res-header-id"><b>Generated Narrative: MessageHeader EnrollTagExample-MessageHeader</b></p><a name="EnrollTagExample-MessageHeader"> </a><a name="hcEnrollTagExample-MessageHeader"> </a><a name="EnrollTagExample-MessageHeader-en-US"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-rtlsMessageHeader.html">RTLS Message Header Resource Profile</a></p></div><p><b>event</b>: rtlsMessageEvents enroll-tag: enroll-tag</p><p><b>focus</b>: <a href="Bundle-EnrollTagExample-MessageBundle.html#http-//example.org/fhir/EnrollTagExample-Device">Bundle: type = message; timestamp = 2023-03-24 10:24:13-0500</a></p><h3>Sources</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Name</b></td><td><b>Endpoint</b></td></tr><tr><td style="display: none">*</td><td>Example EHR</td><td>urn:uuid:12345678-1234-5678-1234</td></tr></table></div>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><a name="MessageHeader_EnrollTagExample-MessageHeader"> </a><p class="res-header-id"><b>Generated Narrative: MessageHeader EnrollTagExample-MessageHeader</b></p><a name="EnrollTagExample-MessageHeader"> </a><a name="hcEnrollTagExample-MessageHeader"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-rtlsMessageHeader.html">RTLS Message Header Resource Profile</a></p></div><p><b>event</b>: rtlsMessageEvents enroll-tag: enroll-tag</p><p><b>focus</b>: <a href="Bundle-EnrollTagExample-MessageBundle.html#http-//example.org/fhir/EnrollTagExample-Device">Bundle: type = message; timestamp = 2023-03-24 10:24:13-0500</a></p><h3>Sources</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Name</b></td><td><b>Endpoint</b></td></tr><tr><td style="display: none">*</td><td>Example EHR</td><td>urn:uuid:324de6ab-268e-4da0-b06c-722f57d91bb0</td></tr></table></div>
         </text>
         <eventCoding>
           <system value="http://terminology.hl7.org/CodeSystem/rtlsMessageEvents"/>
@@ -27,7 +27,7 @@
         </focus>
         <source>
           <name value="Example EHR"/>
-          <endpoint value="urn:uuid:12345678-1234-5678-1234"/>
+          <endpoint value="urn:uuid:324de6ab-268e-4da0-b06c-722f57d91bb0"/>
         </source>
       </MessageHeader>
     </resource>
@@ -41,10 +41,10 @@
           <profile value="http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsDevice"/>
         </meta>
         <text>
-          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><a name="Device_EnrollTagExample-Device"> </a><p class="res-header-id"><b>Generated Narrative: Device EnrollTagExample-Device</b></p><a name="EnrollTagExample-Device"> </a><a name="hcEnrollTagExample-Device"> </a><a name="EnrollTagExample-Device-en-US"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-rtlsDevice.html">RTLS Tag Device Profile</a></p></div><p><b>identifier</b>: <code>http://rtls.org/trackingtags/id</code>/12345678</p><p><b>status</b>: Active</p></div>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><a name="Device_EnrollTagExample-Device"> </a><p class="res-header-id"><b>Generated Narrative: Device EnrollTagExample-Device</b></p><a name="EnrollTagExample-Device"> </a><a name="hcEnrollTagExample-Device"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-rtlsDevice.html">RTLS Tag Device Profile</a></p></div><p><b>identifier</b>: <code>urn:uuid:324de6ab-268e-4da0-b06c-722f57d91bb0</code>/12345678</p><p><b>status</b>: Active</p></div>
         </text>
         <identifier>
-          <system value="http://rtls.org/trackingtags/id"/>
+          <system value="urn:uuid:324de6ab-268e-4da0-b06c-722f57d91bb0"/>
           <value value="12345678"/>
         </identifier>
         <status value="active"/>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="0ff73e55-b563-4c95-848a-14d5b7562384"/>
+  <id value="2a248bbc-9bed-4a69-a3b1-0a7289f23fba"/>
   <meta>
-    <lastUpdated value="2025-06-24T13:47:53.643-05:00"/>
+    <lastUpdated value="2025-06-25T12:48:00.231-05:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -13,9 +13,7 @@
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
-            <p class="res-header-id">
-              <b>ValueSet </b>
-            </p>
+            <p class="res-header-id"/>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
               <a href="CodeSystem-rtlsMessageEvents.html">codesystem RTLS Message Events v1.0.0-ballot (CodeSystem)</a>
             </p>
@@ -42,12 +40,7 @@
                 </td>
                 <td>http://hl7.org/fhir/uv/rtls/CodeSystem/rtlsMessageEvents</td>
                 <td>Enroll Tag</td>
-                <td>
-                  <div>
-                    <p>Used to describe when a subscriber wants to receive notifications about a specific tag.</p>
-
-                  </div>
-                </td>
+                <td>Used to describe when a subscriber wants to receive notifications about a specific tag.</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -56,12 +49,7 @@
                 </td>
                 <td>http://hl7.org/fhir/uv/rtls/CodeSystem/rtlsMessageEvents</td>
                 <td>Unenroll Tag</td>
-                <td>
-                  <div>
-                    <p>Used to describe when a subscriber no longer wants to receive notifications about a specific tag.</p>
-
-                  </div>
-                </td>
+                <td>Used to describe when a subscriber no longer wants to receive notifications about a specific tag.</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -70,12 +58,7 @@
                 </td>
                 <td>http://hl7.org/fhir/uv/rtls/CodeSystem/rtlsMessageEvents</td>
                 <td>Location Update</td>
-                <td>
-                  <div>
-                    <p>Used to describe when a specific tag has an updated location.</p>
-
-                  </div>
-                </td>
+                <td>Used to describe when a specific tag has an updated location.</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -84,12 +67,7 @@
                 </td>
                 <td>http://hl7.org/fhir/uv/rtls/CodeSystem/rtlsMessageEvents</td>
                 <td>Staff Duress</td>
-                <td>
-                  <div>
-                    <p>Used when a user requires assistance pertaining to a security incident or threat; this function sends a distress signal that will notify nearby security members.</p>
-
-                  </div>
-                </td>
+                <td>Used when a user requires assistance pertaining to a security incident or threat; this function sends a distress signal that will notify nearby security members.</td>
               </tr>
             </table>
           </div>
@@ -108,8 +86,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:cf56459b-0a94-43f6-8e22-b9179c461e88"/>
-          <timestamp value="2025-06-24T13:48:08-05:00"/>
+          <identifier value="urn:uuid:ecf0bea1-c863-4521-8ec4-b251edf8ad64"/>
+          <timestamp value="2025-06-25T12:48:15-05:00"/>
           <total value="4"/>
           <offset value="0"/>
           <parameter>

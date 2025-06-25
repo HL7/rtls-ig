@@ -11,7 +11,7 @@
   fhir:id [ fhir:v "rtlsMessageEvents"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet rtlsMessageEvents</b></p><a name=\"rtlsMessageEvents\"> </a><a name=\"hcrtlsMessageEvents\"> </a><a name=\"rtlsMessageEvents-en-US\"> </a><ul><li>Include all codes defined in <a href=\"CodeSystem-rtlsMessageEvents.html\"><code>http://hl7.org/fhir/uv/rtls/CodeSystem/rtlsMessageEvents</code></a></li></ul></div>"^^rdf:XMLLiteral
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet rtlsMessageEvents</b></p><a name=\"rtlsMessageEvents\"> </a><a name=\"hcrtlsMessageEvents\"> </a><ul><li>Include all codes defined in <a href=\"CodeSystem-rtlsMessageEvents.html\"><code>http://hl7.org/fhir/uv/rtls/CodeSystem/rtlsMessageEvents</code></a></li></ul></div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:extension ( [
      fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ] ;
@@ -41,7 +41,7 @@
   fhir:status [ fhir:v "draft"] ; # 
   fhir:experimental [ fhir:v true] ; # 
   fhir:date [ fhir:v "2022-10-12"^^xsd:date] ; # 
-  fhir:publisher [ fhir:v "HL7 International - Patient Administration Work Group"] ; # 
+  fhir:publisher [ fhir:v "HL7 International / Patient Administration"] ; # 
   fhir:contact ( [
      fhir:telecom ( [
        fhir:system [ fhir:v "url" ] ;

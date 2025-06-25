@@ -20,7 +20,7 @@
           <code value="location-update"/> 
         </eventCoding> 
         <source> 
-          <endpointUrl value="http://example.org/FHIR/R4/RTLS-Client"/> 
+          <endpoint value="urn:uuid:056df0be-13d1-43ae-9182-40155caf6695"/>
         </source> 
         <focus> 
           <reference value="http://example.org/fhir/LocationUpdateExample-MessageBundle2"/> 
@@ -33,7 +33,7 @@
     <resource> 
       <Bundle> 
         <id value="LocationUpdateExample-MessageBundle2"/> 
-        <type value="subscription-notification"/>
+        <type value="message"/>
         <timestamp value="2023-03-24T10:24:13.1882432-05:00"/>
         <entry>
           <fullUrl value="http://example.org/fhir/LocationUpdateExample-Device"/>
@@ -41,7 +41,7 @@
             <Device xmlns="http://hl7.org/fhir"> 
               <id value="LocationUpdateExample-Device"/>
               <identifier> 
-                <system value="http://rtls.org/trackingtags/id"/> 
+                <system value="urn:uuid:324de6ab-268e-4da0-b06c-722f57d91bb0"/> 
                 <value value="12345678"/> 
               </identifier>
               <status value="active"/>

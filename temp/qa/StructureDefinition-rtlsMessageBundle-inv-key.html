@@ -19,8 +19,8 @@
 <tr><td>bdl-10</td><td>error</td><td>Bundle</td><td>A document must have a date<br/>: type = 'document' implies (timestamp.hasValue())</td><td></td></tr>
 <tr><td>bdl-11</td><td>error</td><td>Bundle</td><td>A document must have a Composition as the first resource<br/>: type = 'document' implies entry.first().resource.is(Composition)</td><td></td></tr>
 <tr><td>bdl-12</td><td>error</td><td>Bundle</td><td>A message must have a MessageHeader as the first resource<br/>: type = 'message' implies entry.first().resource.is(MessageHeader)</td><td></td></tr>
-<tr><td>ele-1</td><td>error</td><td>**ALL** elements</td><td>All FHIR elements must have a @value or children<br/>: hasValue() or (children().count() &gt; id.count())</td><td></td></tr>
-<tr><td>ext-1</td><td>error</td><td>**ALL** extensions</td><td>Must have either extensions or value[x], not both<br/>: extension.exists() != value.exists()</td><td></td></tr>
+<tr><td>ele-1</td><td>error</td><td><b>**ALL** elements</b></td><td>All FHIR elements must have a @value or children<br/>: hasValue() or (children().count() &gt; id.count())</td><td></td></tr>
+<tr><td>ext-1</td><td>error</td><td><b>**ALL** extensions</b></td><td>Must have either extensions or value[x], not both<br/>: extension.exists() != value.exists()</td><td></td></tr>
 </table>
 </body>
 </html>
