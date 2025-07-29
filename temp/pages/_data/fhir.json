@@ -15,8 +15,8 @@
   "toolingVersion" : "5.0.0",
   "toolingRevision" : "3",
   "toolingVersionFull" : "5.0.0 (3)",
-  "genDate" : "Wed, Jun 25, 2025 12:48-0500",
-  "genDay" : "25/06/2025",
+  "genDate" : "Tue, Jul 29, 2025 13:32-0500",
+  "genDay" : "29/07/2025",
   "totalFiles" : 13,
   "processedFiles" : 28,
   "repoSource" : "https://github.com/HL7/rtls-ig.git",
@@ -254,7 +254,7 @@
         "telecom" : ["http://hl7.org/Special/committees/pafm"]
       }
     ],
-    "date" : "2025-06-25T12:47:47-05:00",
+    "date" : "2025-07-29T13:31:52-05:00",
     "description" : "Description of IG",
     "descriptionlang" : {
     },
@@ -267,9 +267,9 @@
   "basespec" : "http://hl7.org/fhir/R4",
   "ver" : {
     "basespec" : null,
-    "hl7tx" : "http://terminology.hl7.org/6.4.0",
+    "hl7tx" : "http://terminology.hl7.org/6.5.0",
     "hl7ext" : "http://hl7.org/fhir/extensions/5.2.0",
-    "igtools" : "http://hl7.org/fhir/tools/0.5.0"
+    "igtools" : "http://hl7.org/fhir/tools/0.7.1"
   },
   "hl7tx" : "http://terminology.hl7.org",
   "hl7ext" : "http://hl7.org/fhir/extensions",

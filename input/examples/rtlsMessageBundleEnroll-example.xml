@@ -19,13 +19,13 @@
           <system value="http://terminology.hl7.org/CodeSystem/rtlsMessageEvents"/> 
           <code value="enroll-tag"/> 
         </eventCoding> 
+        <source>
+          <name value="Example EHR"/>
+          <endpoint value="http://example.org/rtls/endpoint/ehr-system"/>
+        </source>
         <focus> 
           <reference value="http://example.org/fhir/EnrollTagExample-Device"/> 
         </focus> 
-        <source>
-          <name value="Example EHR"/>
-          <endpoint value="urn:uuid:324de6ab-268e-4da0-b06c-722f57d91bb0"/>
-        </source>
       </MessageHeader> 
     </resource> 
   </entry>
@@ -38,7 +38,6 @@
           <profile value="http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsDevice"/>
         </meta>
         <identifier> 
-          <system value="urn:uuid:324de6ab-268e-4da0-b06c-722f57d91bb0"/> 
           <value value="12345678"/> 
         </identifier>
         <status value="active"/>

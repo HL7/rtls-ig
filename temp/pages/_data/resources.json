@@ -4,7 +4,7 @@
     "testplan" : false,
     "testscript" : false,
     "index" : 0,
-    "source" : "/Users/nshpringman/Documents/GitHub/rtls-ig/input/rtls.xml",
+    "source" : "C:\\Users\\nshpring\\Documents\\rtls-ig\\input\\rtls.xml",
     "sourceTail" : "rtls.xml",
     "path" : "index.html",
     "url" : "http://hl7.org/fhir/uv/rtls/ImplementationGuide/hl7.fhir.uv.rtls",
@@ -14,7 +14,7 @@
     "titlelang" : {
     },
     "experimental" : false,
-    "date" : "2025-06-25T12:47:47-05:00",
+    "date" : "2025-07-29T13:31:52-05:00",
     "description" : "Description of IG",
     "descriptionlang" : {
     },
@@ -104,6 +104,7 @@
     "index" : 7,
     "source" : "input/resources/CS-rtlsMessageEvents.xml",
     "sourceTail" : "CS-rtlsMessageEvents.xml",
+    "content" : "complete",
     "path" : "CodeSystem-rtlsMessageEvents.html",
     "url" : "http://hl7.org/fhir/uv/rtls/CodeSystem/rtlsMessageEvents",
     "version" : "1.0.0-ballot",
@@ -180,7 +181,7 @@
     "titlelang" : {
     },
     "experimental" : true,
-    "date" : "2025-06-25T12:47:47-05:00",
+    "date" : "2025-07-29T13:31:52-05:00",
     "description" : "Device resource profile for tags or badges in RTLS workflows",
     "descriptionlang" : {
     },
@@ -215,7 +216,7 @@
     "titlelang" : {
     },
     "experimental" : true,
-    "date" : "2025-06-25T12:47:47-05:00",
+    "date" : "2025-07-29T13:31:52-05:00",
     "description" : "Location resource profile for RTLS workflows.",
     "descriptionlang" : {
     },
@@ -250,7 +251,7 @@
     "titlelang" : {
     },
     "experimental" : true,
-    "date" : "2025-06-25T12:47:47-05:00",
+    "date" : "2025-07-29T13:31:52-05:00",
     "description" : "Bundle resource with a type of \"message\" used in RTLS workflows.",
     "descriptionlang" : {
     },
@@ -285,7 +286,7 @@
     "titlelang" : {
     },
     "experimental" : true,
-    "date" : "2025-06-25T12:47:47-05:00",
+    "date" : "2025-07-29T13:31:52-05:00",
     "description" : "MessageHeader resource for FHIR messages sent in RTLS workflows.",
     "descriptionlang" : {
     },

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Parameters xmlns="http://hl7.org/fhir">
+  <id value="StaffDuressInputExample-Parameters"/>
+  <parameter>
+    <name value="event"/>
+    <valueCoding>
+      <system value="http://hl7.org/FHIR/R4/rtls/CodeSystem/rtlsMessageEvents"/>
+      <code value="staff-duress"/>
+      <display value="Staff Duress"/>
+    </valueCoding>
+  </parameter>
+  <parameter>
+    <name value="location"/>
+    <resource>
+      <Location>
+        <id value="rtlsLocationExample"/>
+        <identifier>
+          <value value="EMC-317"/>
+        </identifier>
+      </Location>
+    </resource>
+  </parameter>
+  <parameter>
+    <name value="device"/>
+    <resource>
+      <Device xmlns="http://hl7.org/fhir">
+        <id value="StaffDuressExample-Device"/>
+        <identifier> 
+          <value value="12345678"/> 
+        </identifier>
+      </Device>
+    </resource>
+  </parameter>
+  <parameter>
+    <name value="timestamp"/>
+    <valueInstant value="2025-05-24T14:30:00Z"/>
+  </parameter>
+</Parameters>
