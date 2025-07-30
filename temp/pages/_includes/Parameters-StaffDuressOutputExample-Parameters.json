@@ -1,0 +1,1 @@
+{"resourceType":"Parameters","id":"StaffDuressOutputExample-Parameters","parameter":[{"name":"task","resource":{"resourceType":"Task","id":"111222333","status":"received","intent":"unknown","priority":"stat","code":{"text":"Staff Duress"}}}]}

@@ -1,0 +1,15 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "b95aae0f-94fc-4d4f-8a99-b675c79c923c-21",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/b95aae0f-94fc-4d4f-8a99-b675c79c923c-21",
+  "name" : "IntersectionRTLSMessageEventsAndRTLSMessageEvents",
+  "title" : "Intersection of RTLS Message Events Valueset And RTLS Message Events Valueset",
+  "status" : "draft",
+  "date" : "2025-07-30T15:50:36-05:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "001"
+    }]
+  }]
+}

@@ -1,15 +1,15 @@
-Source File	Size	loadResources	load	generateSnapshots
-/input/rtls.xml	8110	-	0	0
-input/examples/rtlsAuxiliaryFunctionInput-example.xml	1018	15	0	0
-input/examples/rtlsAuxiliaryFunctionOutput-example.xml	464	11	0	0
-input/examples/rtlsDevice-example.xml	475	10	0	0
-input/examples/rtlsLocation-example.xml	408	9	0	0
-input/examples/rtlsMessageBundleEnroll-example.xml	1581	10	18	0
-input/examples/rtlsMessageBundleLocationUpdate-example.xml	2731	10	1	0
-input/examples/rtlsMessageBundleUnenroll-example.xml	1660	9	1	0
-input/resources/CS-rtlsMessageEvents.xml	2500	7	0	0
-input/resources/VS-rtlsMessageTypes.xml	864	4	0	0
-input/resources/rtlsDevice.xml	1883	4	0	31
-input/resources/rtlsLocation.xml	1253	3	0	11
-input/resources/rtlsMessageBundle.xml	2176	4	0	21
-input/resources/rtlsMessageHeader.xml	2090	4	0	20
+Source File	Size	loadResources	load	generateSnapshots	load-configure	scan	loadDepInfo	loadInfo	checkR4R4B	generateNarratives	validate	loadLists	checkConformanceResources	checkConformanceResources2	checkConformanceResources3	generateLogicalMaps	validateExpressions	scanForUsageStats	checkURLsUnique	processProvenanceDetails	generate1	generate2	generateLogicals	makeDependencies	generateExampleZip	generateValidationPack	scanProfilesForR5	scanExamplesForR5
+/input/rtls.xml	7640	-	0	0	0	0	0	0	6	54	0	0	0	0	0	0	0	0	0	0	51	35	0	0	0	2	0	0
+input/examples/rtlsAuxiliaryFunctionInput-example.xml	1020	15	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	6	10	0	0	0	0	0	0
+input/examples/rtlsAuxiliaryFunctionOutput-example.xml	464	9	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4	10	0	0	0	0	0	0
+input/examples/rtlsDevice-example.xml	475	10	0	0	0	0	0	0	0	191	0	0	0	0	0	0	0	0	0	0	6	8	0	0	0	0	0	0
+input/examples/rtlsLocation-example.xml	408	10	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	6	5	0	0	0	0	0	0
+input/examples/rtlsMessageBundleEnroll-example.xml	1581	9	7	0	1	0	0	0	0	970	0	0	0	0	0	0	0	0	0	0	11	519	0	0	0	0	0	0
+input/examples/rtlsMessageBundleLocationUpdate-example.xml	2731	11	1	0	0	0	0	0	0	7	0	0	0	0	0	0	0	0	0	0	12	18	0	0	0	0	0	0
+input/examples/rtlsMessageBundleUnenroll-example.xml	1660	5	0	0	0	0	0	0	1	6	0	0	0	0	0	0	0	0	0	0	11	11	0	0	0	0	0	0
+input/resources/CS-rtlsMessageEvents.xml	2500	4	0	0	0	0	0	0	0	15	0	0	0	0	0	0	0	0	0	0	12	276	0	0	0	0	0	0
+input/resources/VS-rtlsMessageTypes.xml	864	3	0	0	0	0	0	0	0	31	0	0	0	0	0	0	0	0	0	0	8	43	0	0	0	0	0	0
+input/resources/rtlsDevice.xml	1871	4	0	33	0	0	0	1	0	29	0	0	1	0	0	0	0	1	0	0	162	289	0	0	0	4	0	1
+input/resources/rtlsLocation.xml	1253	4	0	11	0	0	0	0	0	15	0	0	0	0	0	0	0	0	0	0	101	159	0	0	0	4	0	0
+input/resources/rtlsMessageBundle.xml	2176	4	0	23	0	0	0	0	0	16	0	0	0	0	0	0	0	1	0	0	150	164	0	0	0	5	1	2
+input/resources/rtlsMessageHeader.xml	2090	4	0	20	0	0	0	0	0	16	0	0	0	0	0	0	0	0	0	0	133	159	0	0	0	3	0	1

@@ -7,6 +7,8 @@
   "http://terminology.hl7.org/CodeSystem/rtlsMessageEvents" : null,
   "urn:uuid:e1fd96a2-772f-46a7-a123-88d03c9c907a" : null,
   "urn:example:rtls-tracking-id" : null,
+  "http://hl7.org/fhir/uv/rtls/CodeSystem/rtlsMessageParameters" : null,
   "Device/example" : null,
+  "http://hl7.org/fhir/uv/rtls/CodeSystem/rtlsMessageParameters|null" : null,
   "http://terminology.hl7.org/CodeSystem/rtlsMessageEvents|null" : null
 }

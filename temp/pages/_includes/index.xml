@@ -1,0 +1,116 @@
+<div xmlns="http://www.w3.org/1999/xhtml"><div class="markdown-toc"><p>Contents:</p><ul><li><a href="#intro">Overview</a></li><li><a href="#currentScope">Current Scope</a></li><li><a href="#plannedScope">Planned Scope</a></li><li><a href="#walkthrough">Implementation Guide Structure</a></li><li><a href="#5">Dependencies</a></li><li><a href="#6">Global Profiles</a></li><li><a href="#7">IP Statements</a></li></ul></div>
+  <!-- The spaces between the open and close "a" tag are mandatory.  (Cuz HTML renderers are dumb...) -->
+  <a name="intro">  </a>
+  <h3>Overview</h3>
+	<p>
+    This implementation guide defines the use of FHIR R4 resources to exchange information that describes the location of patients, providers, staff, equipment, 
+    or other permanent assets within a hospital or other healthcare facility. This data is typically exchanged between a healthcare system (e.g. EHR software) 
+    and a Real Time Location System (RTLS) that captures, processes, and stores information about the location of tags.
+  </p>
+  <p>
+    These tracking tags are associated with an assigned subject (i.e. patients, providers, assets) and their location data is recorded as the associated subject 
+    moves throughout a healthcare facility. This location data has many applications in the healthcare context, such as workflow automation, staff/asset tracking, 
+    and patient monitoring.
+  </p>
+  <a name="currentScope">  </a>
+	<h3>Current Scope</h3>
+	<p>
+    The current scope of this implementation guide defines the communication model for sending location data for a tag from a RTLS server to another 
+    subscribed system, such as the Electronic Health Record (EHR) software, henceforth referred to as the subscriber. This specification addresses the tracking of 
+    patients, providers, staff, equipment, or other permanent assets. Other subjects/resources that may exist in the healthcare setting such as supplies and 
+    pharmaceuticals are not in scope for this implementation guide, but may be tracked by some systems.
+  </p>
+  <p>
+    This initial implementation operates under the assumption that the RTLS server does not require information about the subject associated with a tag, 
+    known as the <a href="background.html#tag-centric-workflow">Tag Centric Workflow</a>. In effect, this means that the RTLS system does not receive or store data about the patients, providers, staff, or 
+    assets associated with tags. Also, this means that the subscriber only receives location data for a specific tag, and must handle the association 
+    (and disassociation) of a tag to its subject exclusively.
+  </p>
+  <p>
+    The following relevant data exchange workflows are included as part of the initial scope:
+  </p>
+  <ul>
+    <li>
+      <b>Enroll Tag</b> - Indicates to the RTLS that the subscriber is requesting to receive updates for a specific tag (i.e. the 
+      tag is associated with a subject that the subscriber wants to track).
+    </li>
+    <li>
+      <b>Unenroll Tag</b> - Indicates to the RTLS that the subscriber no longer wants to receive updates for a specific tag (i.e. the 
+      tracking is no longer associated with a subject that the subscriber wants to track).
+    </li>
+    <li>
+      <b>Tag Location Update</b> - Notifies the subscriber that an enrolled tag has a new/updated location, as determined by the RTLS.
+    </li>
+    <li>
+      <b>Tag Auxiliary Function</b> - Notifies the subscriber that an auxiliary function supported by an enrolled tag was performed (e.g. a button 
+      located on the tag was pressed by the subject).
+    </li>
+  </ul> 
+  <a name="plannedScope">  </a>
+  <h3>Planned Scope</h3>
+  <p>
+    Future versions of this implementation will support other relevant workflows for communication between a RTLS and another subscribed system (the subscriber). 
+  </p>
+   <p>
+    This includes an additional communication model for a scenario where the RTLS requires information about the subjects associated with tags (i.e. data 
+    regarding the associations of tags is stored in the RTLS server). This need arises when the association and disassociation of a tag to its 
+    subject is handled on the RTLS side, for any number of tags. The following additional data exchange workflows are relevant for this scenario: 
+  </p>
+  <ul>
+    <li>
+      <b>Associate Tag</b> - Indicates that a specific tag is newly associated with a subject and is now enrolled. This communication can originate 
+      from either the RTLS or the subscriber.
+    </li>
+    <li>
+      <b>Disassociate Tag</b> - Indicates that a specific tag is no longer associated with a subject and is no longer enrolled. This communication 
+      can originate from either the RTLS or the subscriber.
+    </li>
+  </ul>
+  <p>
+    Guidelines for implementing other data exchange workflows are planned to be added in the future to support additional functionality that some Real Time Location 
+    Systems may offer, such as the following:
+  </p>
+  <ul>
+    <li>
+      <b>Tag Co-location Notification</b> - Indicates that two or more enrolled tags, each associated with a unique subject, are in the same location 
+      and are determined to be "co-located," as defined by the RTLS. Consider, for example, two tags where one is associated to a patient and the other to a 
+      provider. The two tags are in the same location for more than 30 seconds while the provider is examining the patient. If 30 seconds is the length of time 
+      at which the RTLS considers two subjects to be "co-located," the subscriber would be notified of the co-location event.
+    </li>
+    <li>
+      <b>Tag Status Update</b> - Notifies the subscriber that an enrolled tag has an update in status (e.g. the tag has low remaining battery life).
+    </li>
+    <li>
+    	<b>Tag Availability Update</b> - Indicates to the subscriber whether a currently unenrolled tag is or isn't available to be associated with a subject 
+      (e.g. a tag is lost/missing, non-functional, or newly added to circulation)
+    </li>
+  </ul>
+  <a name="walkthrough">  </a>
+  <h3>Implementation Guide Structure</h3>
+  <p>
+    This implementation guide is organized into the following main sections which provide background and technical details for exchanging location information using a framework 
+    of tags which are associated to patients, providers, staff, equipment, or other permanent assets:
+  </p>
+  <ul>
+    <table>
+      <tr>
+        <td><a href="background.html">Background</a></td>
+        <td>Introduces key workflows/concepts and defines terminology that are relevant for this implementation.</td>
+      </tr>
+      <tr>
+        <td><a href="spec.html">Specification</a></td>
+        <td>Describes the communication model and technical expectations for this implementation.</td>
+      </tr>
+      <tr>
+        <td><a href="artifacts.html">Artifact Index</a></td>
+        <td>Provides a list of the FHIR artifacts and resource profiles defined as part of this implementation guide.</td>
+      </tr>
+    </table>
+  </ul>
+  <a name="5"/><h3>Dependencies</h3>
+  <p>{% include dependency-table.xhtml %} </p>
+  <a name="6"/><h3>Global Profiles</h3>
+  <p>{% include globals-table.xhtml %} </p>
+  <a name="7"/><h3>IP Statements</h3>
+  <p>{% include ip-statements.xhtml %} </p>
+</div>

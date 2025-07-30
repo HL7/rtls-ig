@@ -1,0 +1,43 @@
+{% raw %}<pre class="json" style="white-space: pre; text-wrap: nowrap; width: auto;"><code class="language-json" style="white-space: pre; text-wrap: nowrap;">{
+  "<a href="http://hl7.org/fhir/R4/parameters.html#Parameters">resourceType</a>" : "Parameters",
+  "<a href="http://hl7.org/fhir/R4/parameters.html#Parameters.id">id</a>" : "StaffDuressInputExample-Parameters",
+  "<a href="http://hl7.org/fhir/R4/parameters.html#Parameters.parameter">parameter</a>" : [
+    {
+      "<a href="http://hl7.org/fhir/R4/parameters.html#Parameters.parameter.name">name</a>" : "event",
+      "<a href="http://hl7.org/fhir/R4/parameters.html#Parameters.parameter.value[x]">valueCoding</a>" : {
+        "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a>" : "http://hl7.org/FHIR/R4/rtls/StructureDefinition/Parameters",
+        "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "staff-duress",
+        "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a>" : "Staff Duress"
+      }
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/parameters.html#Parameters.parameter.name">name</a>" : "location",
+      "<a href="http://hl7.org/fhir/R4/location.html#Location">resource</a>" : {
+        "<a href="http://hl7.org/fhir/R4/location.html">resourceType</a>" : "Location",
+        "<a href="http://hl7.org/fhir/R4/location.html#Location.id">id</a>" : "rtlsLocationExample",
+        "<a href="http://hl7.org/fhir/R4/location.html#Location.identifier">identifier</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.value">value</a>" : "EMC-317"
+          }
+        ]
+      }
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/parameters.html#Parameters.parameter.name">name</a>" : "device",
+      "<a href="http://hl7.org/fhir/R4/device.html#Device">resource</a>" : {
+        "<a href="http://hl7.org/fhir/R4/device.html">resourceType</a>" : "Device",
+        "<a href="http://hl7.org/fhir/R4/device.html#Device.id">id</a>" : "StaffDuressExample-Device",
+        "<a href="http://hl7.org/fhir/R4/device.html#Device.identifier">identifier</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.value">value</a>" : "12345678"
+          }
+        ]
+      }
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/parameters.html#Parameters.parameter.name">name</a>" : "timestamp",
+      "<a href="http://hl7.org/fhir/R4/parameters.html#Parameters.parameter.value[x]">valueInstant</a>" : "2025-05-24T14:30:00Z"
+    }
+  ]
+}</code></pre>
+{% endraw %}

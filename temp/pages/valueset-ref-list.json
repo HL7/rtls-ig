@@ -1,0 +1,16 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "http://hl7.org/fhir/uv/rtls/ValueSet/rtlsMessageEvents",
+      "version" : "1.0.0-ballot2",
+      "status" : "draft",
+      "name" : "RTLSMessageEvents",
+      "title" : "RTLS Message Events Valueset",
+      "description" : "This valueset defines FHIR messaging event types used in RTLS workflows.",
+      "systems" : ["http://hl7.org/fhir/uv/rtls/CodeSystem/rtlsMessageEvents"],
+      "uses" : {
+      },
+      "StructureDefinition-rtlsMessageHeader.html" : "RTLS Message Header Resource Profile"
+    }
+  ]
+}

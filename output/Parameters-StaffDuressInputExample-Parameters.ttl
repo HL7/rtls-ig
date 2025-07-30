@@ -1,0 +1,47 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/rtls/Parameters/StaffDuressInputExample-Parameters> a fhir:Parameters ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "StaffDuressInputExample-Parameters"] ; # 
+  fhir:parameter ( [
+     fhir:name [ fhir:v "event" ] ;
+     fhir:value [
+       a fhir:Coding ;
+       fhir:system [ fhir:v "http://hl7.org/FHIR/R4/rtls/StructureDefinition/Parameters"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "staff-duress" ] ;
+       fhir:display [ fhir:v "Staff Duress" ]
+     ]
+  ] [
+     fhir:name [ fhir:v "location" ] ;
+     fhir:Parameters.parameter.resource ( [
+       a fhir:Location ;
+       fhir:id [ fhir:v "rtlsLocationExample" ] ;
+       fhir:identifier ( [
+         fhir:value [ fhir:v "EMC-317" ]
+       ] )
+     ] )
+  ] [
+     fhir:name [ fhir:v "device" ] ;
+     fhir:Parameters.parameter.resource ( [
+       a fhir:Device ;
+       fhir:id [ fhir:v "StaffDuressExample-Device" ] ;
+       fhir:identifier ( [
+         fhir:value [ fhir:v "12345678" ]
+       ] )
+     ] )
+  ] [
+     fhir:name [ fhir:v "timestamp" ] ;
+     fhir:value [
+       a fhir:instant ;
+       fhir:v "2025-05-24T14:30:00Z"^^xsd:dateTime
+     ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

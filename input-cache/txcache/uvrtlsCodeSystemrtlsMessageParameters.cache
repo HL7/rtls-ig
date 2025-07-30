@@ -1,0 +1,21 @@
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://hl7.org/fhir/uv/rtls/CodeSystem/rtlsMessageParameters"
+    }]
+  }
+}}####
+e: {
+  "from-server" : true,
+  "error" : "Error from https://tx.fhir.org/r4: Unable to provide support for code system http://hl7.org/fhir/uv/rtls/CodeSystem/rtlsMessageParameters"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "url": "http://hl7.org/fhir/uv/rtls/ValueSet/rtlsMessageParameters", "version": "1.0.0-ballot"}####
+e: {
+  "from-server" : true,
+  "error" : "Error from https://tx.fhir.org/r4: Unable to provide support for code system http://hl7.org/fhir/uv/rtls/CodeSystem/rtlsMessageParameters"
+}
+-------------------------------------------------------------------------------------

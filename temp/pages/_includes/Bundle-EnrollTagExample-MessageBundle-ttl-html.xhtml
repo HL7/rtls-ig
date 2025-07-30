@@ -1,0 +1,71 @@
+{% raw %}<pre class="rdf" style="white-space: pre; overflow: hidden"><code class="language-turtle">
+@prefix fhir: &lt;http://hl7.org/fhir/&gt; .
+@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
+@prefix rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt; .
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+@prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt; .
+
+# - resource -------------------------------------------------------------------
+
+ a fhir:Bundle ;
+  <a href="http://hl7.org/fhir/R4/rdf.html#tree-root">fhir:nodeRole</a> fhir:treeRoot ;
+  <a href="http://hl7.org/fhir/R4/bundle.html#Bundle.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#id">fhir:v</a> &quot;EnrollTagExample-MessageBundle&quot;] ; # 
+  <a href="http://hl7.org/fhir/R4/bundle.html#Bundle.meta">fhir:meta</a> [
+    ( <a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.profile">fhir:profile</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#canonical">fhir:v</a> &quot;http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageBundle&quot;^^xsd:anyURI ;
+<a href="http://hl7.org/fhir/R4/rdf.html#reference">fhir:link</a> &lt;http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageBundle&gt;     ] )
+  ] ; # 
+  <a href="http://hl7.org/fhir/R4/bundle.html#Bundle.type">fhir:type</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;message&quot;] ; # 
+  <a href="http://hl7.org/fhir/R4/bundle.html#Bundle.timestamp">fhir:timestamp</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#instant">fhir:v</a> &quot;2023-03-24T10:24:13.1882432-05:00&quot;^^xsd:dateTime] ; # 
+  <a href="http://hl7.org/fhir/R4/bundle.html#Bundle.entry">fhir:entry</a> ( [
+<a href="http://hl7.org/fhir/R4/bundle.html#Bundle.entry.fullUrl">fhir:fullUrl</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://example.org/fhir/EnrollTagMessageHeaderExample&quot;^^xsd:anyURI ] ;
+    ( <a href="http://hl7.org/fhir/R4/messageheader.html#MessageHeader">fhir:resource</a> &lt;http://example.org/fhir/EnrollTagMessageHeaderExample&gt; )
+  ] [
+<a href="http://hl7.org/fhir/R4/bundle.html#Bundle.entry.fullUrl">fhir:fullUrl</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://example.org/fhir/EnrollTagExample-Device&quot;^^xsd:anyURI ] ;
+    ( <a href="http://hl7.org/fhir/R4/device.html#Device">fhir:resource</a> &lt;http://example.org/fhir/EnrollTagExample-Device&gt; )
+  ] ) . # 
+
+&lt;http://example.org/fhir/EnrollTagMessageHeaderExample&gt; <a href="http://hl7.org/fhir/R4/messageheader.html">a</a> fhir:MessageHeader ;
+  <a href="http://hl7.org/fhir/R4/messageheader.html#MessageHeader.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#id">fhir:v</a> &quot;EnrollTagExample-MessageHeader&quot;] ; # 
+  <a href="http://hl7.org/fhir/R4/messageheader.html#MessageHeader.meta">fhir:meta</a> [
+    ( <a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.profile">fhir:profile</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#canonical">fhir:v</a> &quot;http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageHeader&quot;^^xsd:anyURI ;
+<a href="http://hl7.org/fhir/R4/rdf.html#reference">fhir:link</a> &lt;http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageHeader&gt;     ] )
+  ] ; # 
+  <a href="http://hl7.org/fhir/R4/messageheader.html#MessageHeader.text">fhir:text</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;generated&quot; ] ;
+fhir:div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;a name=\&quot;MessageHeader_EnrollTagExample-MessageHeader\&quot;&gt; &lt;/a&gt;&lt;p class=\&quot;res-header-id\&quot;&gt;&lt;b&gt;Generated Narrative: MessageHeader EnrollTagExample-MessageHeader&lt;/b&gt;&lt;/p&gt;&lt;a name=\&quot;EnrollTagExample-MessageHeader\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;hcEnrollTagExample-MessageHeader\&quot;&gt; &lt;/a&gt;&lt;div style=\&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\&quot;&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;/&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Profile: &lt;a href=\&quot;StructureDefinition-rtlsMessageHeader.html\&quot;&gt;RTLS Message Header Resource Profile&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;event&lt;/b&gt;: rtlsMessageEvents enroll-tag: enroll-tag&lt;/p&gt;&lt;h3&gt;Sources&lt;/h3&gt;&lt;table class=\&quot;grid\&quot;&gt;&lt;tr&gt;&lt;td style=\&quot;display: none\&quot;&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;Name&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Endpoint&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;display: none\&quot;&gt;*&lt;/td&gt;&lt;td&gt;Example EHR&lt;/td&gt;&lt;td&gt;&lt;a href=\&quot;http://example.org/rtls/endpoint/ehr-system\&quot;&gt;http://example.org/rtls/endpoint/ehr-system&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;&lt;b&gt;focus&lt;/b&gt;: &lt;a href=\&quot;Bundle-EnrollTagExample-MessageBundle.html#http-//example.org/fhir/EnrollTagExample-Device\&quot;&gt;Bundle: type = message; timestamp = 2023-03-24 10:24:13-0500&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&quot;^^rdf:XMLLiteral
+  ] ; # 
+  <a href="http://hl7.org/fhir/R4/messageheader.html#MessageHeader.event[x]">fhir:event</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding">a</a> fhir:Coding ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://terminology.hl7.org/CodeSystem/rtlsMessageEvents&quot;^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;enroll-tag&quot; ]
+  ] ; # 
+  <a href="http://hl7.org/fhir/R4/messageheader.html#MessageHeader.source">fhir:source</a> [
+<a href="http://hl7.org/fhir/R4/messageheader.html#MessageHeader.source.name">fhir:name</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Example EHR&quot; ] ;
+<a href="http://hl7.org/fhir/R4/messageheader.html#MessageHeader.source.endpoint">fhir:endpoint</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#url">fhir:v</a> &quot;http://example.org/rtls/endpoint/ehr-system&quot;^^xsd:anyURI ]
+  ] ; # 
+  <a href="http://hl7.org/fhir/R4/messageheader.html#MessageHeader.focus">fhir:focus</a> ( [
+<a href="http://hl7.org/fhir/R4/rdf.html#reference">fhir:link</a> &lt;http://example.org/fhir/EnrollTagExample-Device&gt; ;
+<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">fhir:reference</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;http://example.org/fhir/EnrollTagExample-Device&quot; ]
+  ] ) . # 
+
+&lt;http://example.org/fhir/EnrollTagExample-Device&gt; <a href="http://hl7.org/fhir/R4/device.html">a</a> fhir:Device ;
+  <a href="http://hl7.org/fhir/R4/device.html#Device.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#id">fhir:v</a> &quot;EnrollTagExample-Device&quot;] ; # 
+  <a href="http://hl7.org/fhir/R4/device.html#Device.meta">fhir:meta</a> [
+    ( <a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.profile">fhir:profile</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#canonical">fhir:v</a> &quot;http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsDevice&quot;^^xsd:anyURI ;
+<a href="http://hl7.org/fhir/R4/rdf.html#reference">fhir:link</a> &lt;http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsDevice&gt;     ] )
+  ] ; # 
+  <a href="http://hl7.org/fhir/R4/device.html#Device.text">fhir:text</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;generated&quot; ] ;
+fhir:div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;a name=\&quot;Device_EnrollTagExample-Device\&quot;&gt; &lt;/a&gt;&lt;p class=\&quot;res-header-id\&quot;&gt;&lt;b&gt;Generated Narrative: Device EnrollTagExample-Device&lt;/b&gt;&lt;/p&gt;&lt;a name=\&quot;EnrollTagExample-Device\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;hcEnrollTagExample-Device\&quot;&gt; &lt;/a&gt;&lt;div style=\&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\&quot;&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;/&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Profile: &lt;a href=\&quot;StructureDefinition-rtlsDevice.html\&quot;&gt;RTLS Tag Device Profile&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: 12345678&lt;/p&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: Active&lt;/p&gt;&lt;/div&gt;&quot;^^rdf:XMLLiteral
+  ] ; # 
+  <a href="http://hl7.org/fhir/R4/device.html#Device.identifier">fhir:identifier</a> ( [
+<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;12345678&quot; ]
+  ] ) ; # 
+  <a href="http://hl7.org/fhir/R4/device.html#Device.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;active&quot;] . # 
+
+</code></pre>
+
+{% endraw %}

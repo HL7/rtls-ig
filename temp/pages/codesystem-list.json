@@ -1,0 +1,12 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "http://hl7.org/fhir/uv/rtls/CodeSystem/rtlsMessageEvents",
+      "version" : "1.0.0-ballot2",
+      "status" : "draft",
+      "name" : "RTLSMessageEvents",
+      "title" : "RTLS Message Events",
+      "description" : "Code System listing codes for all types of RTLS messaging events"
+    }
+  ]
+}

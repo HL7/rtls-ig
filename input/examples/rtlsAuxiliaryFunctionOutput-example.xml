@@ -7,8 +7,8 @@
     <resource>
       <Task>
         <id value="111222333"/>
-        <intent value="unknown"/>
         <status value="received"/>
+        <intent value="unknown"/>
         <priority value="stat"/>
         <code>
           <text value="Staff Duress"/>

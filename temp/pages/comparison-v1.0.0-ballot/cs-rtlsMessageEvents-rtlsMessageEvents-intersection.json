@@ -1,0 +1,30 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "b95aae0f-94fc-4d4f-8a99-b675c79c923c-3",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/b95aae0f-94fc-4d4f-8a99-b675c79c923c-3",
+  "name" : "IntersectionRTLSMessageEventsAndRTLSMessageEvents",
+  "title" : "Intersection of RTLS Message Events And RTLS Message Events",
+  "status" : "draft",
+  "date" : "2025-07-30T15:50:36-05:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "001"
+    }]
+  }],
+  "concept" : [{
+    "code" : "enroll-tag",
+    "display" : "Enroll Tag",
+    "definition" : "Used to describe when a subscriber wants to receive notifications about a specific tag."
+  },
+  {
+    "code" : "unenroll-tag",
+    "display" : "Unenroll Tag",
+    "definition" : "Used to describe when a subscriber no longer wants to receive notifications about a specific tag."
+  },
+  {
+    "code" : "location-update",
+    "display" : "Location Update",
+    "definition" : "Used to describe when a specific tag has an updated location."
+  }]
+}

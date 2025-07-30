@@ -1,0 +1,40 @@
+{% raw %}<pre class="xml" style="white-space: pre; text-wrap: nowrap; width: auto;"><code class="language-xml" style="white-space: pre; text-wrap: nowrap;">
+&lt;<a href="http://hl7.org/fhir/R4/parameters.html#Parameters">Parameters</a> xmlns=&quot;http://hl7.org/fhir&quot;&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/parameters.html#Parameters.id">id</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;StaffDuressInputExample-Parameters&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/parameters.html#Parameters.parameter">parameter</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/parameters.html#Parameters.parameter.name">name</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;event&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/parameters.html#Parameters.parameter.value[x]">valueCoding</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a>
+              <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://hl7.org/FHIR/R4/rtls/StructureDefinition/Parameters&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;staff-duress&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Staff Duress&quot;/&gt;
+    &lt;/valueCoding&gt;
+  &lt;/parameter&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/parameters.html#Parameters.parameter">parameter</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/parameters.html#Parameters.parameter.name">name</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;location&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/location.html#Location">resource</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/location.html#Location">Location</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/location.html#Location.id">id</a> <a href="http://hl7.org/fhir/R4/datatypes.html#id">value</a>=&quot;rtlsLocationExample&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/location.html#Location.identifier">identifier</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.value">value</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;EMC-317&quot;/&gt;
+        &lt;/identifier&gt;
+      &lt;/Location&gt;
+    &lt;/resource&gt;
+  &lt;/parameter&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/parameters.html#Parameters.parameter">parameter</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/parameters.html#Parameters.parameter.name">name</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;device&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/device.html#Device">resource</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/device.html#Device">Device</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/device.html#Device.id">id</a> <a href="http://hl7.org/fhir/R4/datatypes.html#id">value</a>=&quot;StaffDuressExample-Device&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/device.html#Device.identifier">identifier</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.value">value</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;12345678&quot;/&gt;
+        &lt;/identifier&gt;
+      &lt;/Device&gt;
+    &lt;/resource&gt;
+  &lt;/parameter&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/parameters.html#Parameters.parameter">parameter</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/parameters.html#Parameters.parameter.name">name</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;timestamp&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/parameters.html#Parameters.parameter.value[x]">valueInstant</a> <a href="http://hl7.org/fhir/R4/datatypes.html#instant">value</a>=&quot;2025-05-24T14:30:00Z&quot;/&gt;
+  &lt;/parameter&gt;
+&lt;/Parameters&gt;</code></pre>
+{% endraw %}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Parameters xmlns="http://hl7.org/fhir">
+  <id value="StaffDuressOutputExample-Parameters"/>
+  <parameter>
+    <name value="task"/>
+    <resource>
+      <Task>
+        <id value="111222333"/>
+        <status value="received"/>
+        <intent value="unknown"/>
+        <priority value="stat"/>
+        <code>
+          <text value="Staff Duress"/>
+        </code>
+      </Task>
+    </resource>
+  </parameter>
+</Parameters>

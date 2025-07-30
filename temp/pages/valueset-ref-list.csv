@@ -1,0 +1,2 @@
+URL,Version,Status,OIDs,Name,Title,Descriptino,Uses,Used,Sources
+http://hl7.org/fhir/uv/rtls/ValueSet/rtlsMessageEvents,1.0.0-ballot2,draft,,RTLSMessageEvents,RTLS Message Events Valueset,"This valueset defines FHIR messaging event types used in RTLS workflows.","StructureDefinition/rtlsMessageHeader","Internal"

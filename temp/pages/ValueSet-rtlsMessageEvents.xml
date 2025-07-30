@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="rtlsMessageEvents"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet rtlsMessageEvents</b></p><a name="rtlsMessageEvents"> </a><a name="hcrtlsMessageEvents"> </a><ul><li>Include all codes defined in <a href="CodeSystem-rtlsMessageEvents.html"><code>http://hl7.org/fhir/uv/rtls/CodeSystem/rtlsMessageEvents</code></a></li></ul></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="pa"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="informative">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://hl7.org/fhir/uv/rtls/ImplementationGuide/hl7.fhir.uv.rtls"/>
+      </extension>
+    </valueCode>
+  </extension>
+  <url value="http://hl7.org/fhir/uv/rtls/ValueSet/rtlsMessageEvents"/>
+  <version value="1.0.0-ballot2"/>
+  <name value="RTLSMessageEvents"/>
+  <title value="RTLS Message Events Valueset"/>
+  <status value="draft"/>
+  <experimental value="true"/>
+  <date value="2022-10-12"/>
+  <publisher value="HL7 International / Patient Administration"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="http://hl7.org/Special/committees/pafm"/>
+    </telecom>
+  </contact>
+  <description value="This valueset defines FHIR messaging event types used in RTLS workflows."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+    </coding>
+  </jurisdiction>
+  <compose>
+    <include>
+      <system value="http://hl7.org/fhir/uv/rtls/CodeSystem/rtlsMessageEvents"/>
+    </include>
+  </compose>
+</ValueSet>

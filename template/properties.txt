@@ -1,0 +1,2 @@
+jiraSpecFile:FHIR-rtls
+packagelisturl:http://hl7.org/fhir/uv/rtls/package-list.json

@@ -1,0 +1,12 @@
+{
+  "releaselabel":"STU 1 - Ballot",
+  "copyrightyear":"2022+",
+  "shownav":"y",
+  "excludexml":"N",
+  "excludejson":"N",
+  "excludettl":"N",
+  "excludelogbinaryformat":"y",
+  "excludemap":"N",
+  "fcpspec":"",
+  "fmm-definition":"http://hl7.org/fhir/versions.html#maturity"
+}
