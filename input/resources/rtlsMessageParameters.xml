@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../input-cache/schemas/R4/fhir-single.xsd">
+  <id value="rtlsMessageParameters"/>
+  <url value="http://hl7.org/fhir/uv/rtls/ValueSet/rtlsMessageParameters"/>
+  <name value="RTLSMessageParameters"/>
+  <title value="RTLS Message Parameters Valueset"/>
+  <status value="draft"/>
+  <experimental value="true"/>
+  <date value="2025-07-12"/>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="pa"/>
+  </extension>
+  <description value="This valueset defines parameters used in RTLS workflows."/>
+</StructureDefinition>
