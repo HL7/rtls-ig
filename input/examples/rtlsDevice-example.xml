@@ -6,11 +6,11 @@
     <profile value="http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsDevice"/>
   </meta>
   <identifier> 
-    <system value="http://hl7.org/fhir/uv/rtls/ValueSet/rtls-tracking-id"/> 
+    <system value="http://example.org/ExampleMedicalCenter/rtlsTagIDs"/> 
     <value value="12345678"/> 
   </identifier>
   <status value="active"/>
   <location>
-    <reference value="http://example.org/FHIR/R4/Location"/>
+    <reference value="Location/rtlsLocationExample"/>
   </location>
 </Device> 

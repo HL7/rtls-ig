@@ -3,7 +3,7 @@
 <Bundle xmlns="http://hl7.org/fhir"> 
   <id value="EnrollTagExample-MessageBundle"/>
   <meta>
-    <profile value="http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageBundle"/>
+    <profile value="http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageBundleEnroll"/>
   </meta>
   <type value="message"/>
   <timestamp value="2023-03-24T10:24:13.1882432-05:00"/>
@@ -16,7 +16,7 @@
           <profile value="http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageHeader"/>
         </meta>
         <eventCoding> 
-          <system value="http://terminology.hl7.org/CodeSystem/rtlsMessageEvents"/> 
+          <system value="http://hl7.org/fhir/uv/rtls/CodeSystem/rtlsMessageEvents"/> 
           <code value="enroll-tag"/> 
         </eventCoding> 
         <source>

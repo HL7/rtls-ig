@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../input-cache/schemas/R4/fhir-single.xsd">
+	<id value="rtlsMessageBundleUnnroll"/>
+	<url value="http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageBundleUnenroll"/>
+	<name value="RTLSMessageBundleUnenroll"/>
+	<title value="RTLS Unenrollment Message Profile"/>
+	<status value="draft"/>
+	<experimental value="true"/>
+	<publisher value="Patient Administration"/>
+	<description value="Bundle resource with a type of &quot;message&quot; used in RTLS workflows. This bundle will be used for unenrollment."/>
+	<purpose value="This profile defines minimum expectations for a messaging bundle used in RTLS workflows."/>
+	<fhirVersion value="4.0.1"/>
+	<kind value="resource"/>
+	<abstract value="false"/>
+	<type value="Bundle"/>
+	<baseDefinition value="http://hl7.org/fhir/StructureDefinition/Bundle"/>
+	<derivation value="constraint"/>
+	<extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+		<valueCode value="pa"/>
+	</extension>
+	<differential>
+		<element id="Bundle">
+			<path value="Bundle"/>
+		</element>
+		<element id="Bundle.id">
+			<path value="Bundle.id"/>
+			<min value="1"/>
+		</element>
+		<element id="Bundle.type">
+			<path value="Bundle.type"/>
+			<patternCode value="message"/>
+		</element>
+		<element id="Bundle.timestamp">
+			<path value="Bundle.timestamp"/>
+			<min value="1"/>
+		</element>
+		<element id="Bundle.entry">
+			<path value="Bundle.entry"/>
+			<slicing>
+				<discriminator>
+					<type value="type"/>
+					<path value="resource"/>
+				</discriminator>
+				<discriminator>
+					<type value="profile"/>
+					<path value="resource"/>
+				</discriminator>
+				<description value="Slicing based on the type (relatively easy) and then profile of the sliced element"/>
+				<rules value="open"/>
+			</slicing>
+			<min value="3"/>
+		</element>
+		<element id="Bundle.entry:messageHeader">
+			<path value="Bundle.entry"/>
+			<sliceName value="messageHeader"/>
+			<short value="Tag Enrollment Header Header"/>
+			<definition value="Tag Enrollment Header Header"/>
+			<min value="1"/>
+			<max value="1"/>
+			<mustSupport value="true"/>
+		</element>
+		<element id="Bundle.entry:messageHeader.resource">
+			<path value="Bundle.entry.resource"/>
+			<type>
+				<code value="MessageHeader"/>
+				<profile value="http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageHeader"/>
+			</type>
+		</element>
+		<element id="Bundle.entry:tagDevice">
+			<path value="Bundle.entry"/>
+			<sliceName value="tagDevice"/>
+			<short value="Tag Device"/>
+			<definition value="Tag Device"/>
+			<min value="1"/>
+			<max value="1"/>
+			<mustSupport value="true"/>
+		</element>
+		<element id="Bundle.entry:tagDevice.resource">
+			<path value="Bundle.entry.resource"/>
+			<type>
+				<code value="Device"/>
+				<profile value="http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsDevice"/>
+			</type>
+		</element>
+		<element id="Bundle.entry:associatedPatient">
+			<path value="Bundle.entry"/>
+			<sliceName value="associatedPatient"/>
+			<short value="Associated Patient"/>
+			<definition value="Associated Patient"/>
+			<min value="0"/>
+			<max value="1"/>
+			<mustSupport value="false"/>
+		</element>
+		<element id="Bundle.entry:associatedPatient.resource">
+			<path value="Bundle.entry.resource"/>
+			<type>
+				<code value="Patient"/>
+			</type>
+		</element>
+		<element id="Bundle.entry:associatedPractitioner">
+			<path value="Bundle.entry"/>
+			<sliceName value="associatedPractitioner"/>
+			<short value="Associated Practitioner"/>
+			<definition value="Associated Practitioner"/>
+			<min value="0"/>
+			<max value="1"/>
+			<mustSupport value="false"/>
+		</element>
+		<element id="Bundle.entry:associatedPractitioner.resource">
+			<path value="Bundle.entry.resource"/>
+			<type>
+				<code value="Practitioner"/>
+			</type>
+		</element>
+		<element id="Bundle.entry:associatedDevice">
+			<path value="Bundle.entry"/>
+			<sliceName value="associatedDevice"/>
+			<short value="Associated Device"/>
+			<definition value="Associated Device"/>
+			<min value="0"/>
+			<max value="1"/>
+			<mustSupport value="false"/>
+		</element>
+		<element id="Bundle.entry:associatedDevice.resource">
+			<path value="Bundle.entry.resource"/>
+			<type>
+				<code value="Device"/>
+			</type>
+		</element>
+	</differential>
+</StructureDefinition>
