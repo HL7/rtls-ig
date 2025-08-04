@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../input-cache/schemas/R4/fhir-single.xsd">
-  <id value="rtlsMessageHeader"/>
-  <url value="http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageHeader"/>
-  <name value="RTLSMessageHeader"/>
-  <title value="RTLS Message Header Resource Profile"/>
+  <id value="rtlsMessageEnrollmentHeader"/>
+  <url value="http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageEnrollmentHeader"/>
+  <name value="rtlsMessageEnrollmentHeader"/>
+  <title value="RTLS Message Enrollment Header Resource Profile"/>
   <status value="draft"/>
   <experimental value="true"/>
   <publisher value="Patient Administration"/>
-  <description value="MessageHeader resource for FHIR messages sent in RTLS workflows."/>
-  <purpose value="This profile defines minimum expectations for the MessageHeader resource to be used in RTLS workflows."/> 
+  <description value="MessageHeader resource for FHIR enrollment messages sent in RTLS workflows."/>
+  <purpose value="This profile defines minimum expectations for the MessageHeader resource to be used in RTLS enrollment workflows."/> 
   <fhirVersion value="4.0.1"/>
   <kind value="resource"/>
   <abstract value="false"/>
@@ -28,19 +28,23 @@
         <valueSet value="http://hl7.org/fhir/uv/rtls/ValueSet/rtlsMessageEvents" />
       </binding>
     </element>
+    <element id="MessageHeader.event:MHEvent.code">
+      <path value="MessageHeader.code"/>
+      <short value="Symbol in syntax defined by the system"/>
+      <min value="1"/>
+      <max value="1"/>
+      <type>
+      <code value="code"/>
+      </type>
+      <fixedCode value="enroll"/>
+      <mustSupport value="true"/>
+    </element>
     <element id="MessageHeader.focus">
       <path value="MessageHeader.focus"/>
       <type>
         <code value="Reference"/>
         <targetProfile value="http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsDevice" />
-        <targetProfile value="http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageBundle" />
       </type>
-      <mustSupport value="true"/>
-      <min value="1"/>
-    </element>
-    <element id="MessageHeader.source">
-      <id value="MessageHeader.source"/>
-      <path value="MessageHeader.source"/>
       <mustSupport value="true"/>
       <min value="1"/>
     </element>

@@ -24,6 +24,16 @@
       <mustSupport value="true"/>
       <min value="1"/>
     </element>
+    <element id="Device.identifier.system">
+      <path value="Device.identifier.system"/>
+      <mustSupport value="true"/>
+      <min value="1"/>
+    </element>
+    <element id="Device.identifier.value">
+      <path value="Device.identifier.value"/>
+      <mustSupport value="true"/>
+      <min value="1"/>
+    </element>
     <element id="Device.status">
       <path value="Device.status"/>
       <short value="A status of &quot;active&quot; indicates that a tracking tag is in use (regardless of current assignment to a subject) and &quot;inactive&quot; indicates that a tracking tag is no longer in use."/>

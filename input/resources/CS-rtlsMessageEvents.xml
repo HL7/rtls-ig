@@ -28,11 +28,6 @@
     <display value="Location Update"/>
     <definition value="Used to describe when a specific tag has an updated location."/>
   </concept>
-  <concept>
-    <code value="staff-duress"/>
-    <display value="Staff Duress"/>
-    <definition value="Used when a user requires assistance pertaining to a security incident or threat; this function sends a distress signal that will notify nearby security members."/>
-  </concept>
   <!-- <concept>
     <code value="assign-tag"/>
     <display value="Tag assignment"/>

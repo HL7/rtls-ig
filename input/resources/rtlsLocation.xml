@@ -24,5 +24,15 @@
       <mustSupport value="true"/>
       <min value="1"/>
     </element>
+    <element id="Location.identifier.system">
+      <path value="Location.identifier.system"/>
+      <mustSupport value="true"/>
+      <min value="1"/>
+    </element>
+    <element id="Location.identifier.value">
+      <path value="Location.identifier.value"/>
+      <mustSupport value="true"/>
+      <min value="1"/>
+    </element>
   </differential>
 </StructureDefinition>
