@@ -32,6 +32,7 @@
        a fhir:Device ;
        fhir:id [ fhir:v "StaffDuressExample-Device" ] ;
        fhir:identifier ( [
+         fhir:system [ fhir:v "http://example.org/ExampleMedicalCenter/rtlsTagIDs"^^xsd:anyURI ] ;
          fhir:value [ fhir:v "12345678" ]
        ] )
      ] )

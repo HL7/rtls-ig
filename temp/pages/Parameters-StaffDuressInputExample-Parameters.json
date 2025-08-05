@@ -25,6 +25,7 @@
       "resourceType" : "Device",
       "id" : "StaffDuressExample-Device",
       "identifier" : [{
+        "system" : "http://example.org/ExampleMedicalCenter/rtlsTagIDs",
         "value" : "12345678"
       }]
     }

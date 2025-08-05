@@ -16,7 +16,7 @@
       },
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"MessageHeader_LocationUpdateExample-MessageHeader\"> </a><p class=\"res-header-id\"><b>Generated Narrative: MessageHeader LocationUpdateExample-MessageHeader</b></p><a name=\"LocationUpdateExample-MessageHeader\"> </a><a name=\"hcLocationUpdateExample-MessageHeader\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-rtlsMessageLocationUpdateHeader.html\">RTLS Message Location Update Header Header Resource Profile</a></p></div><p><b>event</b>: <a href=\"CodeSystem-rtlsMessageEvents.html#rtlsMessageEvents-location-update\">RTLS Message Events location-update</a>: Location Update</p><h3>Sources</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Endpoint</b></td></tr><tr><td style=\"display: none\">*</td><td>urn:uuid:056df0be-13d1-43ae-9182-40155caf6695</td></tr></table><p><b>focus</b>: <a href=\"Bundle-LocationUpdateExample-MessageBundle.html#http-//example.org/fhir/LocationUpdateExample-MessageBundle2\">Bundle: type = message; timestamp = 2023-03-24 10:24:13-0500</a></p></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"MessageHeader_LocationUpdateExample-MessageHeader\"> </a><p class=\"res-header-id\"><b>Generated Narrative: MessageHeader LocationUpdateExample-MessageHeader</b></p><a name=\"LocationUpdateExample-MessageHeader\"> </a><a name=\"hcLocationUpdateExample-MessageHeader\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-rtlsMessageLocationUpdateHeader.html\">RTLS Message Location Update Header Header Resource Profile</a></p></div><p><b>event</b>: <a href=\"CodeSystem-rtlsMessageEvents.html#rtlsMessageEvents-location-update\">RTLS Message Events location-update</a>: Location Update</p><h3>Sources</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Endpoint</b></td></tr><tr><td style=\"display: none\">*</td><td>urn:uuid:056df0be-13d1-43ae-9182-40155caf6695</td></tr></table><p><b>focus</b>: <a href=\"Bundle-LocationUpdateExample-MessageBundle.html#http-//example.org/fhir/LocationUpdateExample-Device\">Bundle: type = message; timestamp = 2023-03-24 10:24:13-0500</a></p></div>"
       },
       "eventCoding" : {
         "system" : "http://hl7.org/fhir/uv/rtls/CodeSystem/rtlsMessageEvents",
@@ -26,22 +26,46 @@
         "endpoint" : "urn:uuid:056df0be-13d1-43ae-9182-40155caf6695"
       },
       "focus" : [{
-        "reference" : "http://example.org/fhir/LocationUpdateExample-MessageBundle2"
+        "reference" : "http://example.org/fhir/LocationUpdateExample-Device"
       }]
     }
   },
   {
-    "fullUrl" : "http://example.org/fhir/LocationUpdateExample-MessageBundle2",
+    "fullUrl" : "http://example.org/fhir/LocationUpdateExample-Device",
     "resource" : {
-      "resourceType" : "MessageHeader",
-      "id" : "LocationUpdateExample-MessageHeader",
+      "resourceType" : "Device",
+      "id" : "LocationUpdateExample-Device",
       "meta" : {
-        "profile" : ["http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageLocationUpdateHeader"]
+        "profile" : ["http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsDevice"]
       },
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"MessageHeader_LocationUpdateExample-MessageHeader\"> </a><p class=\"res-header-id\"><b>Generated Narrative: MessageHeader LocationUpdateExample-MessageHeader</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-rtlsMessageLocationUpdateHeader.html\">RTLS Message Location Update Header Header Resource Profile</a></p></div></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Device_LocationUpdateExample-Device\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Device LocationUpdateExample-Device</b></p><a name=\"LocationUpdateExample-Device\"> </a><a name=\"hcLocationUpdateExample-Device\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-rtlsDevice.html\">RTLS Tag Device Profile</a></p></div><p><b>identifier</b>: <code>http://example.org/ExampleMedicalCenter/rtlsTagIDs</code>/12345678</p><p><b>status</b>: Active</p><p><b>location</b>: <a href=\"Bundle-LocationUpdateExample-MessageBundle.html#http-//example.org/fhir/LocationUpdateExample-Location\">Bundle: type = message; timestamp = 2023-03-24 10:24:13-0500</a></p></div>"
+      },
+      "identifier" : [{
+        "system" : "http://example.org/ExampleMedicalCenter/rtlsTagIDs",
+        "value" : "12345678"
+      }],
+      "status" : "active",
+      "location" : {
+        "reference" : "http://example.org/fhir/LocationUpdateExample-Location"
       }
+    }
+  },
+  {
+    "fullUrl" : "http://example.org/fhir/LocationUpdateExample-Location",
+    "resource" : {
+      "resourceType" : "Location",
+      "id" : "LocationUpdateExample-Location",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Location_LocationUpdateExample-Location\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Location LocationUpdateExample-Location</b></p><a name=\"LocationUpdateExample-Location\"> </a><a name=\"hcLocationUpdateExample-Location\"> </a><p><b>identifier</b>: <code>http://example.org/HospitalLocations/id</code>/EMC-317</p><p><b>name</b>: Example Medical Center - Room 317</p></div>"
+      },
+      "identifier" : [{
+        "system" : "http://example.org/HospitalLocations/id",
+        "value" : "EMC-317"
+      }],
+      "name" : "Example Medical Center - Room 317"
     }
   }]
 }

@@ -2,7 +2,9 @@
   "http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageHeader" : null,
   "http://terminology.hl7.org/ValueSet/rtlsMessageEvents" : null,
   "http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageBundle" : null,
+  "http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageLocationUpdateHeader" : null,
   "http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageParameters" : null,
   "http://hl7.org/fhir/uv/rtls/ValueSet/rtlsMessageEvents" : null,
-  "http://hl7.org/fhir/uv/rtls/CodeSystem/rtlsMessageParameters|null" : null
+  "http://hl7.org/fhir/uv/rtls/CodeSystem/rtlsMessageParameters|null" : null,
+  "http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageUnenrollmentHeader" : null
 }

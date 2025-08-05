@@ -19,13 +19,13 @@
           <system value="http://hl7.org/fhir/uv/rtls/CodeSystem/rtlsMessageEvents"/> 
           <code value="unenroll-tag"/> 
         </eventCoding> 
-        <focus> 
-          <reference value="http://example.org/fhir/UnenrollTagExample-Device"/> 
-        </focus> 
         <source>
           <name value="Example EHR"/>
           <endpoint value="urn:uuid:056df0be-13d1-43ae-9182-40155caf6695"/>
         </source>
+        <focus> 
+          <reference value="http://example.org/fhir/UnenrollTagExample-Device"/> 
+        </focus> 
       </MessageHeader> 
     </resource> 
   </entry>
@@ -38,7 +38,7 @@
           <profile value="http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsDevice"/>
         </meta>
         <identifier> 
-          <system value="urn:example:rtls-tracking-tag-ig"/> 
+          <system value="http://example.org/HospitalLocations/id"/>
           <value value="12345678"/> 
         </identifier>
         <status value="active"/>

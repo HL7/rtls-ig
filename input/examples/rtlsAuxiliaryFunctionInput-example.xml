@@ -27,6 +27,7 @@
       <Device xmlns="http://hl7.org/fhir">
         <id value="StaffDuressExample-Device"/>
         <identifier> 
+          <system value="http://example.org/ExampleMedicalCenter/rtlsTagIDs"/> 
           <value value="12345678"/> 
         </identifier>
       </Device>

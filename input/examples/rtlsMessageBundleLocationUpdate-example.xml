@@ -23,51 +23,41 @@
           <endpoint value="urn:uuid:056df0be-13d1-43ae-9182-40155caf6695"/>
         </source> 
         <focus> 
-          <reference value="http://example.org/fhir/LocationUpdateExample-MessageBundle2"/> 
+          <reference value="http://example.org/fhir/LocationUpdateExample-Device"/> 
         </focus> 
       </MessageHeader> 
     </resource> 
   </entry>
   <entry>
-    <fullUrl value="http://example.org/fhir/LocationUpdateExample-MessageBundle2"/> 
+    <fullUrl value="http://example.org/fhir/LocationUpdateExample-Device"/> 
     <resource> 
-      <MessageHeader> 
-        <id value="LocationUpdateExample-MessageHeader"/> 
+      <Device> 
+        <id value="LocationUpdateExample-Device"/> 
         <meta>
-          <profile value="http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageLocationUpdateHeader"/>
+          <profile value="http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsDevice"/>
         </meta>
-        <type value="message"/>
-        <timestamp value="2023-03-24T10:24:13.1882432-05:00"/>
-        <entry>
-          <fullUrl value="http://example.org/fhir/LocationUpdateExample-Device"/>
-          <resource> 
-            <Device xmlns="http://hl7.org/fhir"> 
-              <id value="LocationUpdateExample-Device"/>
-              <identifier> 
-                <system value="urn:uuid:324de6ab-268e-4da0-b06c-722f57d91bb0"/> 
-                <value value="12345678"/> 
-              </identifier>
-              <status value="active"/>
-              <location>
-                <reference value="http://example.org/FHIR/R4/Location"/>
-              </location>
-            </Device> 
-          </resource>
-        </entry>
-         <entry>
-          <fullUrl value="http://example.org/FHIR/R4/Location"/>
-          <resource> 
-            <Location xmlns="http://hl7.org/fhir"> 
-              <id value="LocationUpdateExample-Location"/>
-              <identifier> 
-                <system value="http://example.org/HospitalLocations/id"/> 
-                <value value="EMC-317"/> 
-              </identifier>
-              <name value="Example Medical Center - Room 317"/>
-            </Location> 
-          </resource>
-        </entry>
-      </MessageHeader> 
+        <identifier> 
+          <system value="http://example.org/ExampleMedicalCenter/rtlsTagIDs"/>  
+          <value value="12345678"/> 
+        </identifier>
+        <status value="active"/>
+        <location>
+          <reference value="http://example.org/fhir/LocationUpdateExample-Location"/>
+        </location>
+      </Device> 
     </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://example.org/fhir/LocationUpdateExample-Location"/>
+    <resource> 
+    <Location> 
+      <id value="LocationUpdateExample-Location"/>
+      <identifier> 
+        <system value="http://example.org/HospitalLocations/id"/> 
+        <value value="EMC-317"/> 
+      </identifier>
+      <name value="Example Medical Center - Room 317"/>
+    </Location> 
+   </resource>
   </entry>
 </Bundle> 

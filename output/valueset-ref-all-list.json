@@ -12,9 +12,9 @@
       "sources" : ["2.16.840.1.113883.4.642.3.620"],
       "uses" : {
       },
-      "StructureDefinition-rtlsMessageBundleUnenroll.html" : "RTLS Unenrollment Message Profile",
       "StructureDefinition-rtlsMessageBundleEnroll.html" : "RTLS Enrollment Message Profile",
-      "StructureDefinition-rtlsMessageBundleLocationUpdate.html" : "RTLS Location Update Message Profile"
+      "StructureDefinition-rtlsMessageBundleLocationUpdate.html" : "RTLS Location Update Message Profile",
+      "StructureDefinition-rtlsMessageBundleUnenroll.html" : "RTLS Unenrollment Message Profile"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/days-of-week",
@@ -98,9 +98,9 @@
       "sources" : ["2.16.840.1.113883.4.642.3.624"],
       "uses" : {
       },
-      "StructureDefinition-rtlsMessageBundleUnenroll.html" : "RTLS Unenrollment Message Profile",
       "StructureDefinition-rtlsMessageBundleEnroll.html" : "RTLS Enrollment Message Profile",
-      "StructureDefinition-rtlsMessageBundleLocationUpdate.html" : "RTLS Location Update Message Profile"
+      "StructureDefinition-rtlsMessageBundleLocationUpdate.html" : "RTLS Location Update Message Profile",
+      "StructureDefinition-rtlsMessageBundleUnenroll.html" : "RTLS Unenrollment Message Profile"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/identifier-type",
@@ -144,14 +144,14 @@
       "sources" : ["2.16.840.1.113883.4.642.3.20"],
       "uses" : {
       },
-      "StructureDefinition-rtlsMessageBundleUnenroll.html" : "RTLS Unenrollment Message Profile",
-      "StructureDefinition-rtlsMessageLocationUpdateHeader.html" : "RTLS Message Location Update Header Header Resource Profile",
-      "StructureDefinition-rtlsMessageEnrollmentHeader.html" : "RTLS Message Enrollment Header Resource Profile",
       "StructureDefinition-rtlsMessageBundleEnroll.html" : "RTLS Enrollment Message Profile",
-      "StructureDefinition-rtlsMessageBundleLocationUpdate.html" : "RTLS Location Update Message Profile",
+      "StructureDefinition-rtlsMessageLocationUpdateHeader.html" : "RTLS Message Location Update Header Header Resource Profile",
       "StructureDefinition-rtlsMessageUnenrollmentHeader.html" : "RTLS Message Unenrollment Header Resource Profile",
+      "StructureDefinition-rtlsMessageBundleLocationUpdate.html" : "RTLS Location Update Message Profile",
       "StructureDefinition-rtlsLocation.html" : "RTLS Location Resource Profile",
-      "StructureDefinition-rtlsDevice.html" : "RTLS Tag Device Profile"
+      "StructureDefinition-rtlsDevice.html" : "RTLS Tag Device Profile",
+      "StructureDefinition-rtlsMessageBundleUnenroll.html" : "RTLS Unenrollment Message Profile",
+      "StructureDefinition-rtlsMessageEnrollmentHeader.html" : "RTLS Message Enrollment Header Resource Profile"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/location-mode",
@@ -198,6 +198,22 @@
       "StructureDefinition-rtlsLocation.html" : "RTLS Location Resource Profile"
     },
     {
+      "url" : "http://hl7.org/fhir/ValueSet/message-events",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "MessageEvent",
+      "title" : "MessageEvent",
+      "description" : "One of the message events defined as part of this version of FHIR.",
+      "systems" : ["http://hl7.org/fhir/message-events"],
+      "oids" : ["2.16.840.1.113883.4.642.3.26"],
+      "sources" : ["2.16.840.1.113883.4.642.3.26"],
+      "uses" : {
+      },
+      "StructureDefinition-rtlsMessageLocationUpdateHeader.html" : "RTLS Message Location Update Header Header Resource Profile",
+      "StructureDefinition-rtlsMessageUnenrollmentHeader.html" : "RTLS Message Unenrollment Header Resource Profile",
+      "StructureDefinition-rtlsMessageEnrollmentHeader.html" : "RTLS Message Enrollment Header Resource Profile"
+    },
+    {
       "url" : "http://hl7.org/fhir/ValueSet/message-reason-encounter",
       "version" : "4.0.1",
       "status" : "draft",
@@ -212,8 +228,8 @@
       "uses" : {
       },
       "StructureDefinition-rtlsMessageLocationUpdateHeader.html" : "RTLS Message Location Update Header Header Resource Profile",
-      "StructureDefinition-rtlsMessageEnrollmentHeader.html" : "RTLS Message Enrollment Header Resource Profile",
-      "StructureDefinition-rtlsMessageUnenrollmentHeader.html" : "RTLS Message Unenrollment Header Resource Profile"
+      "StructureDefinition-rtlsMessageUnenrollmentHeader.html" : "RTLS Message Unenrollment Header Resource Profile",
+      "StructureDefinition-rtlsMessageEnrollmentHeader.html" : "RTLS Message Enrollment Header Resource Profile"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/response-code",
@@ -228,8 +244,8 @@
       "uses" : {
       },
       "StructureDefinition-rtlsMessageLocationUpdateHeader.html" : "RTLS Message Location Update Header Header Resource Profile",
-      "StructureDefinition-rtlsMessageEnrollmentHeader.html" : "RTLS Message Enrollment Header Resource Profile",
-      "StructureDefinition-rtlsMessageUnenrollmentHeader.html" : "RTLS Message Unenrollment Header Resource Profile"
+      "StructureDefinition-rtlsMessageUnenrollmentHeader.html" : "RTLS Message Unenrollment Header Resource Profile",
+      "StructureDefinition-rtlsMessageEnrollmentHeader.html" : "RTLS Message Enrollment Header Resource Profile"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/search-entry-mode",
@@ -243,9 +259,9 @@
       "sources" : ["2.16.840.1.113883.4.642.3.622"],
       "uses" : {
       },
-      "StructureDefinition-rtlsMessageBundleUnenroll.html" : "RTLS Unenrollment Message Profile",
       "StructureDefinition-rtlsMessageBundleEnroll.html" : "RTLS Enrollment Message Profile",
-      "StructureDefinition-rtlsMessageBundleLocationUpdate.html" : "RTLS Location Update Message Profile"
+      "StructureDefinition-rtlsMessageBundleLocationUpdate.html" : "RTLS Location Update Message Profile",
+      "StructureDefinition-rtlsMessageBundleUnenroll.html" : "RTLS Unenrollment Message Profile"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/udi-entry-type",
@@ -272,8 +288,8 @@
       "uses" : {
       },
       "StructureDefinition-rtlsMessageLocationUpdateHeader.html" : "RTLS Message Location Update Header Header Resource Profile",
-      "StructureDefinition-rtlsMessageEnrollmentHeader.html" : "RTLS Message Enrollment Header Resource Profile",
-      "StructureDefinition-rtlsMessageUnenrollmentHeader.html" : "RTLS Message Unenrollment Header Resource Profile"
+      "StructureDefinition-rtlsMessageUnenrollmentHeader.html" : "RTLS Message Unenrollment Header Resource Profile",
+      "StructureDefinition-rtlsMessageEnrollmentHeader.html" : "RTLS Message Enrollment Header Resource Profile"
     },
     {
       "url" : "http://terminology.hl7.org/ValueSet/v2-0116",

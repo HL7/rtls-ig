@@ -54,7 +54,7 @@
 				<description value="Slicing based on the type (relatively easy) and then profile of the sliced element"/>
 				<rules value="open"/>
 			</slicing>
-			<min value="3"/>
+			<min value="2"/>
 		</element>
 		<element id="Bundle.entry:messageHeader">
 			<path value="Bundle.entry"/>
@@ -116,21 +116,6 @@
 			<path value="Bundle.entry.resource"/>
 			<type>
 				<code value="Practitioner"/>
-			</type>
-		</element>
-		<element id="Bundle.entry:associatedDevice">
-			<path value="Bundle.entry"/>
-			<sliceName value="associatedDevice"/>
-			<short value="Associated Device"/>
-			<definition value="Associated Device"/>
-			<min value="0"/>
-			<max value="1"/>
-			<mustSupport value="false"/>
-		</element>
-		<element id="Bundle.entry:associatedDevice.resource">
-			<path value="Bundle.entry.resource"/>
-			<type>
-				<code value="Device"/>
 			</type>
 		</element>
 	</differential>

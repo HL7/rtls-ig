@@ -4,7 +4,7 @@
     "testplan" : false,
     "testscript" : false,
     "index" : 0,
-    "source" : "C:\\Users\\Nat\\Documents\\GitHub\\rtls-ig\\input\\rtls.xml",
+    "source" : "/Users/nshpringman/Documents/GitHub/rtls-ig/input/rtls.xml",
     "sourceTail" : "rtls.xml",
     "path" : "index.html",
     "url" : "http://hl7.org/fhir/uv/rtls/ImplementationGuide/hl7.fhir.uv.rtls",
@@ -14,7 +14,7 @@
     "titlelang" : {
     },
     "experimental" : false,
-    "date" : "2025-08-04T22:10:47-05:00",
+    "date" : "2025-08-05T14:07:30-05:00",
     "description" : "Description of IG",
     "descriptionlang" : {
     },
@@ -190,7 +190,7 @@
     "titlelang" : {
     },
     "experimental" : true,
-    "date" : "2025-08-04T22:10:47-05:00",
+    "date" : "2025-08-05T14:07:30-05:00",
     "description" : "Device resource profile for tags or badges in RTLS workflows",
     "descriptionlang" : {
     },
@@ -225,7 +225,7 @@
     "titlelang" : {
     },
     "experimental" : true,
-    "date" : "2025-08-04T22:10:47-05:00",
+    "date" : "2025-08-05T14:07:30-05:00",
     "description" : "Location resource profile for RTLS workflows.",
     "descriptionlang" : {
     },
@@ -260,7 +260,7 @@
     "titlelang" : {
     },
     "experimental" : true,
-    "date" : "2025-08-04T22:10:47-05:00",
+    "date" : "2025-08-05T14:07:30-05:00",
     "description" : "Bundle resource with a type of \"message\" used in RTLS workflows. This bundle will be used for enrollment.",
     "descriptionlang" : {
     },
@@ -295,7 +295,7 @@
     "titlelang" : {
     },
     "experimental" : true,
-    "date" : "2025-08-04T22:10:47-05:00",
+    "date" : "2025-08-05T14:07:30-05:00",
     "description" : "Bundle resource with a type of \"message\" used in RTLS workflows. This bundle will be used for location updates.",
     "descriptionlang" : {
     },
@@ -330,7 +330,7 @@
     "titlelang" : {
     },
     "experimental" : true,
-    "date" : "2025-08-04T22:10:47-05:00",
+    "date" : "2025-08-05T14:07:30-05:00",
     "description" : "Bundle resource with a type of \"message\" used in RTLS workflows. This bundle will be used for unenrollment.",
     "descriptionlang" : {
     },
@@ -360,12 +360,12 @@
     "path" : "StructureDefinition-rtlsMessageEnrollmentHeader.html",
     "url" : "http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageEnrollmentHeader",
     "version" : "1.0.0-ballot2",
-    "name" : "rtlsMessageEnrollmentHeader",
+    "name" : "RTLSMessageEnrollmentHeader",
     "title" : "RTLS Message Enrollment Header Resource Profile",
     "titlelang" : {
     },
     "experimental" : true,
-    "date" : "2025-08-04T22:10:47-05:00",
+    "date" : "2025-08-05T14:07:30-05:00",
     "description" : "MessageHeader resource for FHIR enrollment messages sent in RTLS workflows.",
     "descriptionlang" : {
     },
@@ -395,12 +395,12 @@
     "path" : "StructureDefinition-rtlsMessageLocationUpdateHeader.html",
     "url" : "http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageLocationUpdateHeader",
     "version" : "1.0.0-ballot2",
-    "name" : "rtlsMessageLocationUpdateHeader",
+    "name" : "RTLSMessageLocationUpdateHeader",
     "title" : "RTLS Message Location Update Header Header Resource Profile",
     "titlelang" : {
     },
     "experimental" : true,
-    "date" : "2025-08-04T22:10:47-05:00",
+    "date" : "2025-08-05T14:07:30-05:00",
     "description" : "MessageHeader resource for FHIR Location Update messages sent in RTLS workflows.",
     "descriptionlang" : {
     },
@@ -435,7 +435,7 @@
     "titlelang" : {
     },
     "experimental" : true,
-    "date" : "2025-08-04T22:10:47-05:00",
+    "date" : "2025-08-05T14:07:30-05:00",
     "description" : "Parameters for RTLS auxiliary function.",
     "descriptionlang" : {
     },
@@ -465,12 +465,12 @@
     "path" : "StructureDefinition-rtlsMessageUnenrollmentHeader.html",
     "url" : "http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageUnenrollmentHeader",
     "version" : "1.0.0-ballot2",
-    "name" : "rtlsMessageUnenrollmentHeader",
+    "name" : "RTLSMessageUnenrollmentHeader",
     "title" : "RTLS Message Unenrollment Header Resource Profile",
     "titlelang" : {
     },
     "experimental" : true,
-    "date" : "2025-08-04T22:10:47-05:00",
+    "date" : "2025-08-05T14:07:30-05:00",
     "description" : "MessageHeader resource for FHIR Unenrollment messages sent in RTLS workflows.",
     "descriptionlang" : {
     },

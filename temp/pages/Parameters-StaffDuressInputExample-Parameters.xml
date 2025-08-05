@@ -27,6 +27,7 @@
       <Device>
         <id value="StaffDuressExample-Device"/>
         <identifier>
+          <system value="http://example.org/ExampleMedicalCenter/rtlsTagIDs"/>
           <value value="12345678"/>
         </identifier>
       </Device>

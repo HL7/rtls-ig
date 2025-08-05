@@ -38,6 +38,7 @@
           <profile value="http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsDevice"/>
         </meta>
         <identifier> 
+          <system value="http://example.org/ExampleMedicalCenter/rtlsTagIDs"/> 
           <value value="12345678"/> 
         </identifier>
         <status value="active"/>

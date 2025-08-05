@@ -2,7 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../input-cache/schemas/R4/fhir-single.xsd">
   <id value="rtlsMessageEnrollmentHeader"/>
   <url value="http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageEnrollmentHeader"/>
-  <name value="rtlsMessageEnrollmentHeader"/>
+  <name value="RTLSMessageEnrollmentHeader"/>
   <title value="RTLS Message Enrollment Header Resource Profile"/>
   <status value="draft"/>
   <experimental value="true"/>

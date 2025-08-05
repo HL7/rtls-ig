@@ -66,7 +66,6 @@
   <workgroup key="au-v2" webcode="au-v2" name="HL7 Australia V2" listserv="hl7v2wgballot@hl7.com.au"/>
   <workgroup key="au-fhir" webcode="au-fhir" name="HL7 Australia FHIR" listserv="fhirwgballot@hl7.com.au"/>
 </workgroups>
-
 <specification xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ballotUrl="http://hl7.org/fhir/uv/rtls/2023May" ciUrl="https://build.fhir.org/ig/HL7/rtls-ig" defaultVersion="1.0.0-ballot" defaultWorkgroup="pa" url="http://hl7.org/fhir/uv/rtls" gitUrl="https://github.com/HL7/rtls-ig">
 <version code="current" url="https://build.fhir.org/ig/HL7/rtls-ig"/>
 <version code="1.0.0-ballot" url="http://hl7.org/fhir/uv/rtls/2023May"/>
@@ -99,7 +98,6 @@
 <page key="spec" name="Specification"/>
 <page key="toc" name="Table of Contents"/>
 </specification>
-
 <package-list>
    <package version="current"
             path="http://build.fhir.org/ig/HL7/rtls-ig"
@@ -108,14 +106,12 @@
             path="http://hl7.org/fhir/uv/rtls/2023May"
             status="ballot"/>
 </package-list>
-
 <publication-request>
    <package version="1.0.0-ballot2"
             path="http://hl7.org/fhir/uv/rtls/2025Sep"
             status="ballot"
             ci-build=""/>
 </publication-request>
-
 <ImplementationGuide xmlns="http://hl7.org/fhir">
    <id value="hl7.fhir.uv.rtls"/>
    <text>
@@ -149,7 +145,7 @@
    <title value="Real Time Location Services Implementation Guide"/>
    <status value="active"/>
    <experimental value="false"/>
-   <date value="2025-08-04T22:10:47-05:00"/>
+   <date value="2025-08-05T14:07:30-05:00"/>
    <publisher value="HL7 International / Patient Administration"/>
    <contact>
       <telecom>
@@ -1049,6 +1045,4 @@
       </parameter>
    </definition>
 </ImplementationGuide>
-
-
 </root>

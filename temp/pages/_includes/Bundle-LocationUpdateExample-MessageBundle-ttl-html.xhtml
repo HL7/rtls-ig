@@ -21,8 +21,11 @@
 <a href="http://hl7.org/fhir/R4/bundle.html#Bundle.entry.fullUrl">fhir:fullUrl</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://example.org/fhir/LocationUpdateExample-MessageHeader&quot;^^xsd:anyURI ] ;
     ( <a href="http://hl7.org/fhir/R4/messageheader.html#MessageHeader">fhir:resource</a> &lt;http://example.org/fhir/LocationUpdateExample-MessageHeader&gt; )
   ] [
-<a href="http://hl7.org/fhir/R4/bundle.html#Bundle.entry.fullUrl">fhir:fullUrl</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://example.org/fhir/LocationUpdateExample-MessageBundle2&quot;^^xsd:anyURI ] ;
-    ( <a href="http://hl7.org/fhir/R4/messageheader.html#MessageHeader">fhir:resource</a> &lt;http://example.org/fhir/LocationUpdateExample-MessageBundle2&gt; )
+<a href="http://hl7.org/fhir/R4/bundle.html#Bundle.entry.fullUrl">fhir:fullUrl</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://example.org/fhir/LocationUpdateExample-Device&quot;^^xsd:anyURI ] ;
+    ( <a href="http://hl7.org/fhir/R4/device.html#Device">fhir:resource</a> &lt;http://example.org/fhir/LocationUpdateExample-Device&gt; )
+  ] [
+<a href="http://hl7.org/fhir/R4/bundle.html#Bundle.entry.fullUrl">fhir:fullUrl</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://example.org/fhir/LocationUpdateExample-Location&quot;^^xsd:anyURI ] ;
+    ( <a href="http://hl7.org/fhir/R4/location.html#Location">fhir:resource</a> &lt;http://example.org/fhir/LocationUpdateExample-Location&gt; )
   ] ) . # 
 
 &lt;http://example.org/fhir/LocationUpdateExample-MessageHeader&gt; <a href="http://hl7.org/fhir/R4/messageheader.html">a</a> fhir:MessageHeader ;
@@ -34,7 +37,7 @@
   ] ; # 
   <a href="http://hl7.org/fhir/R4/messageheader.html#MessageHeader.text">fhir:text</a> [
 <a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;generated&quot; ] ;
-fhir:div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;a name=\&quot;MessageHeader_LocationUpdateExample-MessageHeader\&quot;&gt; &lt;/a&gt;&lt;p class=\&quot;res-header-id\&quot;&gt;&lt;b&gt;Generated Narrative: MessageHeader LocationUpdateExample-MessageHeader&lt;/b&gt;&lt;/p&gt;&lt;a name=\&quot;LocationUpdateExample-MessageHeader\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;hcLocationUpdateExample-MessageHeader\&quot;&gt; &lt;/a&gt;&lt;div style=\&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\&quot;&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;/&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Profile: &lt;a href=\&quot;StructureDefinition-rtlsMessageLocationUpdateHeader.html\&quot;&gt;RTLS Message Location Update Header Header Resource Profile&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;event&lt;/b&gt;: &lt;a href=\&quot;CodeSystem-rtlsMessageEvents.html#rtlsMessageEvents-location-update\&quot;&gt;RTLS Message Events location-update&lt;/a&gt;: Location Update&lt;/p&gt;&lt;h3&gt;Sources&lt;/h3&gt;&lt;table class=\&quot;grid\&quot;&gt;&lt;tr&gt;&lt;td style=\&quot;display: none\&quot;&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;Endpoint&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;display: none\&quot;&gt;*&lt;/td&gt;&lt;td&gt;urn:uuid:056df0be-13d1-43ae-9182-40155caf6695&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;&lt;b&gt;focus&lt;/b&gt;: &lt;a href=\&quot;Bundle-LocationUpdateExample-MessageBundle.html#http-//example.org/fhir/LocationUpdateExample-MessageBundle2\&quot;&gt;Bundle: type = message; timestamp = 2023-03-24 10:24:13-0500&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&quot;^^rdf:XMLLiteral
+fhir:div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;a name=\&quot;MessageHeader_LocationUpdateExample-MessageHeader\&quot;&gt; &lt;/a&gt;&lt;p class=\&quot;res-header-id\&quot;&gt;&lt;b&gt;Generated Narrative: MessageHeader LocationUpdateExample-MessageHeader&lt;/b&gt;&lt;/p&gt;&lt;a name=\&quot;LocationUpdateExample-MessageHeader\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;hcLocationUpdateExample-MessageHeader\&quot;&gt; &lt;/a&gt;&lt;div style=\&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\&quot;&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;/&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Profile: &lt;a href=\&quot;StructureDefinition-rtlsMessageLocationUpdateHeader.html\&quot;&gt;RTLS Message Location Update Header Header Resource Profile&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;event&lt;/b&gt;: &lt;a href=\&quot;CodeSystem-rtlsMessageEvents.html#rtlsMessageEvents-location-update\&quot;&gt;RTLS Message Events location-update&lt;/a&gt;: Location Update&lt;/p&gt;&lt;h3&gt;Sources&lt;/h3&gt;&lt;table class=\&quot;grid\&quot;&gt;&lt;tr&gt;&lt;td style=\&quot;display: none\&quot;&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;Endpoint&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;display: none\&quot;&gt;*&lt;/td&gt;&lt;td&gt;urn:uuid:056df0be-13d1-43ae-9182-40155caf6695&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;&lt;b&gt;focus&lt;/b&gt;: &lt;a href=\&quot;Bundle-LocationUpdateExample-MessageBundle.html#http-//example.org/fhir/LocationUpdateExample-Device\&quot;&gt;Bundle: type = message; timestamp = 2023-03-24 10:24:13-0500&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&quot;^^rdf:XMLLiteral
   ] ; # 
   <a href="http://hl7.org/fhir/R4/messageheader.html#MessageHeader.event[x]">fhir:event</a> [
 <a href="http://hl7.org/fhir/R4/datatypes.html#Coding">a</a> fhir:Coding ;
@@ -45,21 +48,42 @@ fhir:div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;a
 <a href="http://hl7.org/fhir/R4/messageheader.html#MessageHeader.source.endpoint">fhir:endpoint</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#url">fhir:v</a> &quot;urn:uuid:056df0be-13d1-43ae-9182-40155caf6695&quot;^^xsd:anyURI ]
   ] ; # 
   <a href="http://hl7.org/fhir/R4/messageheader.html#MessageHeader.focus">fhir:focus</a> ( [
-<a href="http://hl7.org/fhir/R4/rdf.html#reference">fhir:link</a> &lt;http://example.org/fhir/LocationUpdateExample-MessageBundle2&gt; ;
-<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">fhir:reference</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;http://example.org/fhir/LocationUpdateExample-MessageBundle2&quot; ]
+<a href="http://hl7.org/fhir/R4/rdf.html#reference">fhir:link</a> &lt;http://example.org/fhir/LocationUpdateExample-Device&gt; ;
+<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">fhir:reference</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;http://example.org/fhir/LocationUpdateExample-Device&quot; ]
   ] ) . # 
 
-&lt;http://example.org/fhir/LocationUpdateExample-MessageBundle2&gt; <a href="http://hl7.org/fhir/R4/messageheader.html">a</a> fhir:MessageHeader ;
-  <a href="http://hl7.org/fhir/R4/messageheader.html#MessageHeader.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#id">fhir:v</a> &quot;LocationUpdateExample-MessageHeader&quot;] ; # 
-  <a href="http://hl7.org/fhir/R4/messageheader.html#MessageHeader.meta">fhir:meta</a> [
+&lt;http://example.org/fhir/LocationUpdateExample-Device&gt; <a href="http://hl7.org/fhir/R4/device.html">a</a> fhir:Device ;
+  <a href="http://hl7.org/fhir/R4/device.html#Device.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#id">fhir:v</a> &quot;LocationUpdateExample-Device&quot;] ; # 
+  <a href="http://hl7.org/fhir/R4/device.html#Device.meta">fhir:meta</a> [
     ( <a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.profile">fhir:profile</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#canonical">fhir:v</a> &quot;http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageLocationUpdateHeader&quot;^^xsd:anyURI ;
-<a href="http://hl7.org/fhir/R4/rdf.html#reference">fhir:link</a> &lt;http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageLocationUpdateHeader&gt;     ] )
+<a href="http://hl7.org/fhir/R4/datatypes.html#canonical">fhir:v</a> &quot;http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsDevice&quot;^^xsd:anyURI ;
+<a href="http://hl7.org/fhir/R4/rdf.html#reference">fhir:link</a> &lt;http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsDevice&gt;     ] )
   ] ; # 
-  <a href="http://hl7.org/fhir/R4/messageheader.html#MessageHeader.text">fhir:text</a> [
+  <a href="http://hl7.org/fhir/R4/device.html#Device.text">fhir:text</a> [
 <a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;generated&quot; ] ;
-fhir:div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;a name=\&quot;MessageHeader_LocationUpdateExample-MessageHeader\&quot;&gt; &lt;/a&gt;&lt;p class=\&quot;res-header-id\&quot;&gt;&lt;b&gt;Generated Narrative: MessageHeader LocationUpdateExample-MessageHeader&lt;/b&gt;&lt;/p&gt;&lt;div style=\&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\&quot;&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;/&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Profile: &lt;a href=\&quot;StructureDefinition-rtlsMessageLocationUpdateHeader.html\&quot;&gt;RTLS Message Location Update Header Header Resource Profile&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&quot;^^rdf:XMLLiteral
+fhir:div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;a name=\&quot;Device_LocationUpdateExample-Device\&quot;&gt; &lt;/a&gt;&lt;p class=\&quot;res-header-id\&quot;&gt;&lt;b&gt;Generated Narrative: Device LocationUpdateExample-Device&lt;/b&gt;&lt;/p&gt;&lt;a name=\&quot;LocationUpdateExample-Device\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;hcLocationUpdateExample-Device\&quot;&gt; &lt;/a&gt;&lt;div style=\&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\&quot;&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;/&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Profile: &lt;a href=\&quot;StructureDefinition-rtlsDevice.html\&quot;&gt;RTLS Tag Device Profile&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: &lt;code&gt;http://example.org/ExampleMedicalCenter/rtlsTagIDs&lt;/code&gt;/12345678&lt;/p&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: Active&lt;/p&gt;&lt;p&gt;&lt;b&gt;location&lt;/b&gt;: &lt;a href=\&quot;Bundle-LocationUpdateExample-MessageBundle.html#http-//example.org/fhir/LocationUpdateExample-Location\&quot;&gt;Bundle: type = message; timestamp = 2023-03-24 10:24:13-0500&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&quot;^^rdf:XMLLiteral
+  ] ; # 
+  <a href="http://hl7.org/fhir/R4/device.html#Device.identifier">fhir:identifier</a> ( [
+<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://example.org/ExampleMedicalCenter/rtlsTagIDs&quot;^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;12345678&quot; ]
+  ] ) ; # 
+  <a href="http://hl7.org/fhir/R4/device.html#Device.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;active&quot;] ; # 
+  <a href="http://hl7.org/fhir/R4/device.html#Device.location">fhir:location</a> [
+<a href="http://hl7.org/fhir/R4/rdf.html#reference">fhir:link</a> &lt;http://example.org/fhir/LocationUpdateExample-Location&gt; ;
+<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">fhir:reference</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;http://example.org/fhir/LocationUpdateExample-Location&quot; ]
   ] . # 
+
+&lt;http://example.org/fhir/LocationUpdateExample-Location&gt; <a href="http://hl7.org/fhir/R4/location.html">a</a> fhir:Location ;
+  <a href="http://hl7.org/fhir/R4/location.html#Location.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#id">fhir:v</a> &quot;LocationUpdateExample-Location&quot;] ; # 
+  <a href="http://hl7.org/fhir/R4/location.html#Location.text">fhir:text</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;generated&quot; ] ;
+fhir:div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;a name=\&quot;Location_LocationUpdateExample-Location\&quot;&gt; &lt;/a&gt;&lt;p class=\&quot;res-header-id\&quot;&gt;&lt;b&gt;Generated Narrative: Location LocationUpdateExample-Location&lt;/b&gt;&lt;/p&gt;&lt;a name=\&quot;LocationUpdateExample-Location\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;hcLocationUpdateExample-Location\&quot;&gt; &lt;/a&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: &lt;code&gt;http://example.org/HospitalLocations/id&lt;/code&gt;/EMC-317&lt;/p&gt;&lt;p&gt;&lt;b&gt;name&lt;/b&gt;: Example Medical Center - Room 317&lt;/p&gt;&lt;/div&gt;&quot;^^rdf:XMLLiteral
+  ] ; # 
+  <a href="http://hl7.org/fhir/R4/location.html#Location.identifier">fhir:identifier</a> ( [
+<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://example.org/HospitalLocations/id&quot;^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;EMC-317&quot; ]
+  ] ) ; # 
+  <a href="http://hl7.org/fhir/R4/location.html#Location.name">fhir:name</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Example Medical Center - Room 317&quot;] . # 
 
 </code></pre>
 

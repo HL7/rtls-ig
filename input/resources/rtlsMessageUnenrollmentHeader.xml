@@ -2,7 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../input-cache/schemas/R4/fhir-single.xsd">
   <id value="rtlsMessageUnenrollmentHeader"/>
   <url value="http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageUnenrollmentHeader"/>
-  <name value="rtlsMessageUnenrollmentHeader"/>
+  <name value="RTLSMessageUnenrollmentHeader"/>
   <title value="RTLS Message Unenrollment Header Resource Profile"/>
   <status value="draft"/>
   <experimental value="true"/>
@@ -41,6 +41,7 @@
         <code value="unenroll-tag"/>
       </patternCoding>
       <mustSupport value="true"/>
+      </element>
     <element id="MessageHeader.focus">
       <path value="MessageHeader.focus"/>
       <type>

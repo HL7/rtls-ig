@@ -11,8 +11,8 @@
       "uses" : {
       },
       "StructureDefinition-rtlsMessageLocationUpdateHeader.html" : "RTLS Message Location Update Header Header Resource Profile",
-      "StructureDefinition-rtlsMessageEnrollmentHeader.html" : "RTLS Message Enrollment Header Resource Profile",
-      "StructureDefinition-rtlsMessageUnenrollmentHeader.html" : "RTLS Message Unenrollment Header Resource Profile"
+      "StructureDefinition-rtlsMessageUnenrollmentHeader.html" : "RTLS Message Unenrollment Header Resource Profile",
+      "StructureDefinition-rtlsMessageEnrollmentHeader.html" : "RTLS Message Enrollment Header Resource Profile"
     }
   ]
 }

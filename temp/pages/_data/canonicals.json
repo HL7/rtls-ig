@@ -60,21 +60,21 @@
     "type" : "StructureDefinition",
     "url" : "http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageEnrollmentHeader",
     "version" : "1.0.0-ballot2",
-    "name" : "rtlsMessageEnrollmentHeader"
+    "name" : "RTLSMessageEnrollmentHeader"
   },
   {
     "id" : "rtlsMessageLocationUpdateHeader",
     "type" : "StructureDefinition",
     "url" : "http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageLocationUpdateHeader",
     "version" : "1.0.0-ballot2",
-    "name" : "rtlsMessageLocationUpdateHeader"
+    "name" : "RTLSMessageLocationUpdateHeader"
   },
   {
     "id" : "rtlsMessageUnenrollmentHeader",
     "type" : "StructureDefinition",
     "url" : "http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageUnenrollmentHeader",
     "version" : "1.0.0-ballot2",
-    "name" : "rtlsMessageUnenrollmentHeader"
+    "name" : "RTLSMessageUnenrollmentHeader"
   },
   {
     "id" : "rtlsMessageEvents",

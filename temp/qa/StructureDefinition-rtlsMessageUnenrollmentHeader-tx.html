@@ -7,7 +7,7 @@
 <body>
 <h4>Terminology Bindings</h4>
 <table class="list">
-<tr><td><b>Path</b></td><td><b>Conformance</b></td><td><b>ValueSet</b></td><td><b>URI</b></td></tr>
+<tr><td><b>Path</b></td><td><b>Conformance</b></td><td><b>ValueSet / Code</b></td><td><b>URI</b></td></tr>
 <tr><td>MessageHeader.language</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#preferred">preferred</a></td><td title="A human language."><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-languages.html">CommonLanguages</a><div><code>http://hl7.org/fhir/ValueSet/languages</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://hl7.org/fhir/ValueSet/languages"></button></div><div>From the FHIR Standard</div><table class="grid">
   <tr>
     <td style="font-size: 11px">
@@ -26,6 +26,7 @@
 </table>
 </td></tr>
 <tr><td>MessageHeader.event[x]</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#extensible">extensible</a></td><td><a style="opacity: 1.0" href="ValueSet-rtlsMessageEvents.html">RTLSMessageEvents</a>(a valid code from <a href="CodeSystem-rtlsMessageEvents.html">RTLS Message Events</a>)<div><code>http://hl7.org/fhir/uv/rtls/ValueSet/rtlsMessageEvents</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://hl7.org/fhir/uv/rtls/ValueSet/rtlsMessageEvents"></button></div><div>From this IG</div></td></tr>
+<tr><td>MessageHeader.event[x]:eventCoding</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#example">example</a></td><td title="One of the message events defined as part of this version of FHIR.">Pattern Value: <a title="RTLS Message Events" href="CodeSystem-rtlsMessageEvents.html#rtlsMessageEvents-unenroll-tag">unenroll-tag</a><div><code>http://hl7.org/fhir/ValueSet/message-events</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://hl7.org/fhir/ValueSet/message-events"></button></div><div>From the FHIR Standard</div></td></tr>
 <tr><td>MessageHeader.reason</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#example">example</a></td><td title="Reason for event occurrence."><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-message-reason-encounter.html">ExampleMessageReasonCodes</a><div><code>http://hl7.org/fhir/ValueSet/message-reason-encounter</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://hl7.org/fhir/ValueSet/message-reason-encounter"></button></div><div>From the FHIR Standard</div></td></tr>
 <tr><td>MessageHeader.response.code</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td title="The kind of response to a message."><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-response-code.html">ResponseType</a><div><code>http://hl7.org/fhir/ValueSet/response-code|4.0.1</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://hl7.org/fhir/ValueSet/response-code|4.0.1"></button></div><div>From the FHIR Standard</div></td></tr>
 </table>
