@@ -12,7 +12,9 @@
       "sources" : ["2.16.840.1.113883.4.642.3.620"],
       "uses" : {
       },
-      "StructureDefinition-rtlsMessageBundle.html" : "RTLS Message Bundle Profile"
+      "StructureDefinition-rtlsMessageBundleUnenroll.html" : "RTLS Unenrollment Message Profile",
+      "StructureDefinition-rtlsMessageBundleEnroll.html" : "RTLS Enrollment Message Profile",
+      "StructureDefinition-rtlsMessageBundleLocationUpdate.html" : "RTLS Location Update Message Profile"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/days-of-week",
@@ -96,7 +98,39 @@
       "sources" : ["2.16.840.1.113883.4.642.3.624"],
       "uses" : {
       },
-      "StructureDefinition-rtlsMessageBundle.html" : "RTLS Message Bundle Profile"
+      "StructureDefinition-rtlsMessageBundleUnenroll.html" : "RTLS Unenrollment Message Profile",
+      "StructureDefinition-rtlsMessageBundleEnroll.html" : "RTLS Enrollment Message Profile",
+      "StructureDefinition-rtlsMessageBundleLocationUpdate.html" : "RTLS Location Update Message Profile"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/identifier-type",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "Identifier Type Codes",
+      "title" : "IdentifierType",
+      "description" : "A coded type for an identifier that can be used to determine which identifier to use for a specific purpose.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/v2-0203"],
+      "oids" : ["2.16.840.1.113883.4.642.3.45"],
+      "sources" : ["2.16.840.1.113883.4.642.3.45"],
+      "uses" : {
+      },
+      "StructureDefinition-rtlsLocation.html" : "RTLS Location Resource Profile",
+      "StructureDefinition-rtlsDevice.html" : "RTLS Tag Device Profile"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/identifier-use",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "IdentifierUse",
+      "title" : "IdentifierUse",
+      "description" : "Identifies the purpose for this identifier, if known .",
+      "systems" : ["http://hl7.org/fhir/identifier-use"],
+      "oids" : ["2.16.840.1.113883.4.642.3.57"],
+      "sources" : ["2.16.840.1.113883.4.642.3.57"],
+      "uses" : {
+      },
+      "StructureDefinition-rtlsLocation.html" : "RTLS Location Resource Profile",
+      "StructureDefinition-rtlsDevice.html" : "RTLS Tag Device Profile"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/languages",
@@ -110,10 +144,14 @@
       "sources" : ["2.16.840.1.113883.4.642.3.20"],
       "uses" : {
       },
+      "StructureDefinition-rtlsMessageBundleUnenroll.html" : "RTLS Unenrollment Message Profile",
+      "StructureDefinition-rtlsMessageLocationUpdateHeader.html" : "RTLS Message Location Update Header Header Resource Profile",
+      "StructureDefinition-rtlsMessageEnrollmentHeader.html" : "RTLS Message Enrollment Header Resource Profile",
+      "StructureDefinition-rtlsMessageBundleEnroll.html" : "RTLS Enrollment Message Profile",
+      "StructureDefinition-rtlsMessageBundleLocationUpdate.html" : "RTLS Location Update Message Profile",
+      "StructureDefinition-rtlsMessageUnenrollmentHeader.html" : "RTLS Message Unenrollment Header Resource Profile",
       "StructureDefinition-rtlsLocation.html" : "RTLS Location Resource Profile",
-      "StructureDefinition-rtlsDevice.html" : "RTLS Tag Device Profile",
-      "StructureDefinition-rtlsMessageHeader.html" : "RTLS Message Header Resource Profile",
-      "StructureDefinition-rtlsMessageBundle.html" : "RTLS Message Bundle Profile"
+      "StructureDefinition-rtlsDevice.html" : "RTLS Tag Device Profile"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/location-mode",
@@ -173,7 +211,9 @@
       "sources" : ["2.16.840.1.113883.4.642.3.378"],
       "uses" : {
       },
-      "StructureDefinition-rtlsMessageHeader.html" : "RTLS Message Header Resource Profile"
+      "StructureDefinition-rtlsMessageLocationUpdateHeader.html" : "RTLS Message Location Update Header Header Resource Profile",
+      "StructureDefinition-rtlsMessageEnrollmentHeader.html" : "RTLS Message Enrollment Header Resource Profile",
+      "StructureDefinition-rtlsMessageUnenrollmentHeader.html" : "RTLS Message Unenrollment Header Resource Profile"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/response-code",
@@ -187,7 +227,9 @@
       "sources" : ["2.16.840.1.113883.4.642.3.380"],
       "uses" : {
       },
-      "StructureDefinition-rtlsMessageHeader.html" : "RTLS Message Header Resource Profile"
+      "StructureDefinition-rtlsMessageLocationUpdateHeader.html" : "RTLS Message Location Update Header Header Resource Profile",
+      "StructureDefinition-rtlsMessageEnrollmentHeader.html" : "RTLS Message Enrollment Header Resource Profile",
+      "StructureDefinition-rtlsMessageUnenrollmentHeader.html" : "RTLS Message Unenrollment Header Resource Profile"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/search-entry-mode",
@@ -201,7 +243,9 @@
       "sources" : ["2.16.840.1.113883.4.642.3.622"],
       "uses" : {
       },
-      "StructureDefinition-rtlsMessageBundle.html" : "RTLS Message Bundle Profile"
+      "StructureDefinition-rtlsMessageBundleUnenroll.html" : "RTLS Unenrollment Message Profile",
+      "StructureDefinition-rtlsMessageBundleEnroll.html" : "RTLS Enrollment Message Profile",
+      "StructureDefinition-rtlsMessageBundleLocationUpdate.html" : "RTLS Location Update Message Profile"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/udi-entry-type",
@@ -227,7 +271,9 @@
       "systems" : ["http://hl7.org/fhir/uv/rtls/CodeSystem/rtlsMessageEvents"],
       "uses" : {
       },
-      "StructureDefinition-rtlsMessageHeader.html" : "RTLS Message Header Resource Profile"
+      "StructureDefinition-rtlsMessageLocationUpdateHeader.html" : "RTLS Message Location Update Header Header Resource Profile",
+      "StructureDefinition-rtlsMessageEnrollmentHeader.html" : "RTLS Message Enrollment Header Resource Profile",
+      "StructureDefinition-rtlsMessageUnenrollmentHeader.html" : "RTLS Message Unenrollment Header Resource Profile"
     },
     {
       "url" : "http://terminology.hl7.org/ValueSet/v2-0116",

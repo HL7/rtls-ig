@@ -7,6 +7,12 @@
   <status value="draft"/>
   <experimental value="true"/>
   <publisher value="Patient Administration"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/pafm"/>
+    </telecom>
+  </contact>
   <description value="Device resource profile for tags or badges in RTLS workflows"/>
   <purpose value="This profile defines minimum expectations for the Device resource to be used in RTLS workflows."/> 
   <fhirVersion value="4.0.1"/> 

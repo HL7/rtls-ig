@@ -7,6 +7,12 @@
   <status value="draft"/>
   <experimental value="true"/>
   <publisher value="Patient Administration"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/pafm"/>
+    </telecom>
+  </contact>
   <description value="Location resource profile for RTLS workflows."/>
   <purpose value="Defines minimum expectations for the location resource used in RTLS workflows"/> 
   <fhirVersion value="4.0.1"/>

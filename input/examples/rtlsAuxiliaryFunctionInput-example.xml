@@ -5,7 +5,7 @@
   <parameter>
     <name value="event"/>
     <valueCoding>
-      <system value="http://hl7.org/FHIR/R4/rtls/StructureDefinition/Parameters"/>
+      <system value="http://hl7.org/FHIR/R4/rtls/OperationDefinition/Parameters"/>
       <code value="staff-duress"/>
       <display value="Staff Duress"/>
     </valueCoding>

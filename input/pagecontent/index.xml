@@ -113,4 +113,6 @@
   <p>{% include globals-table.xhtml %} </p>
   <h3>IP Statements</h3>
   <p>{% include ip-statements.xhtml %} </p>
+  <h3>Cross-Version Analysis</h3>
+  <p>{% include cross-version-analysis.xhtml %} </p>
 </div>

@@ -7,6 +7,12 @@
 	<status value="draft"/>
 	<experimental value="true"/>
 	<publisher value="Patient Administration"/>
+	<contact>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/pafm"/>
+    </telecom>
+  </contact>
 	<description value="Bundle resource with a type of &quot;message&quot; used in RTLS workflows. This bundle will be used for enrollment."/>
 	<purpose value="This profile defines minimum expectations for a messaging bundle used in RTLS workflows."/>
 	<fhirVersion value="4.0.1"/>
@@ -63,7 +69,7 @@
 			<path value="Bundle.entry.resource"/>
 			<type>
 				<code value="MessageHeader"/>
-				<profile value="http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageHeader"/>
+				<profile value="http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageEnrollmentHeader"/>
 			</type>
 		</element>
 		<element id="Bundle.entry:tagDevice">

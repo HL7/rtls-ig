@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../input-cache/schemas/R4/fhir-single.xsd">
+  <id value="rtlsMessageLocationUpdateHeader"/>
+  <url value="http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageLocationUpdateHeader"/>
+  <name value="rtlsMessageLocationUpdateHeader"/>
+  <title value="RTLS Message Location Update Header Header Resource Profile"/>
+  <status value="draft"/>
+  <experimental value="true"/>
+  <publisher value="Patient Administration"/>
+  <description value="MessageHeader resource for FHIR Location Update messages sent in RTLS workflows."/>
+  <purpose value="This profile defines minimum expectations for the MessageHeader resource to be used in RTLS Unenrollment workflows."/> 
+  <fhirVersion value="4.0.1"/>
+  <kind value="resource"/>
+  <abstract value="false"/>
+  <type value="MessageHeader"/>
+  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/MessageHeader"/>
+  <derivation value="constraint"/>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="pa"/>
+  </extension>
+  <differential>
+    <element id="MessageHeader.event">
+      <path value="MessageHeader.event[x]"/>
+      <mustSupport value="true"/>
+      <min value="1"/>
+      <binding>
+        <strength value="extensible"/>
+        <valueSet value="http://hl7.org/fhir/uv/rtls/ValueSet/rtlsMessageEvents" />
+      </binding>
+    </element>
+    <element id="MessageHeader.event:MHEvent.code">
+      <path value="MessageHeader.code"/>
+      <short value="Symbol in syntax defined by the system"/>
+      <min value="1"/>
+      <max value="1"/>
+      <type>
+      <code value="code"/>
+      </type>
+      <fixedCode value="location-update"/>
+      <mustSupport value="true"/>
+    </element>
+    <element id="MessageHeader.focus">
+      <path value="MessageHeader.focus"/>
+      <type>
+        <code value="Reference"/>
+        <targetProfile value="http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsDevice" />
+      </type>
+      <mustSupport value="true"/>
+      <min value="1"/>
+    </element>
+  </differential>
+</StructureDefinition>

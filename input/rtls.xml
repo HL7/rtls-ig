@@ -21,11 +21,13 @@
   <publisher value="HL7 International / Patient Administration"/>
   <contact>
     <telecom>
-      <!-- Or whatever URL and/or email address(es) are appropriate -->
       <system value="url"/>
-      <value value="http://hl7.org/Special/committees/pafm"/>
+      <value value="http://www.hl7.org/Special/committees/pafm"/>
     </telecom>
   </contact>
+  	<extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+		<valueCode value="pa"/>
+	</extension>
   <description value="Description of IG"/>
   <jurisdiction>
     <!-- This first repetition will drive SNOMED release used -->
@@ -68,7 +70,7 @@
       </reference>
       <name value="Enroll Tag Event Example"/>
       <description value="Example showing how the Enroll Tag event for a RTLS tracking tag is represented as a message bundle."/>
-      <exampleCanonical value="http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageBundle"/>
+      <exampleCanonical value="http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageBundleEnroll"/>
     </resource>
     <resource>
       <reference>
@@ -76,7 +78,7 @@
       </reference>
       <name value="Unenroll Tag Event Example"/>
       <description value="Example showing how the Unenroll Tag event for a RTLS tracking tag is represented as a message bundle."/>
-      <exampleCanonical value="http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageBundle"/>
+      <exampleCanonical value="http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageBundleUnenroll"/>
     </resource>
      <resource>
       <reference>
@@ -84,7 +86,7 @@
       </reference>
       <name value="Location Update Event Example"/>
       <description value="Example showing how the Location Update event for a RTLS tracking tag is represented as a message bundle."/>
-      <exampleCanonical value="http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageBundle"/>
+      <exampleCanonical value="http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageBundleLocationUpdate"/>
     </resource>
     <resource>
       <reference>
@@ -92,7 +94,7 @@
       </reference>
       <name value="Staff Duress Parameters Example"/>
       <description value="Represents the parameters sent from an RTLS to an EHR in a staff duress RTLS event."/>
-      <exampleCanonical value="http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageParameters"/>
+      <exampleCanonical value="http://hl7.org/fhir/uv/rtls/OperationDefinition/rtlsMessageParameters"/>
     </resource>
     <resource>
       <reference>
@@ -100,7 +102,7 @@
       </reference>
       <name value="Staff Duress Parameters Example"/>
       <description value="Represents the parameters sent from an EHR to an RTLS in a staff duress RTLS event."/>
-      <exampleCanonical value="http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageParameters"/>
+      <exampleCanonical value="http://hl7.org/fhir/uv/rtls/OperationDefinition/rtlsMessageParameters"/>
     </resource>
     <page>
       <nameUrl value="index.html"/>
@@ -113,12 +115,6 @@
         <generation value="html"/>
       </page>
       <page>
-        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
-          <valueCode value="trial-use"/> 
-        </extension> 
-        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
-          <valueInteger value="3"/> 
-        </extension>
         <nameUrl value="spec.html"/>
         <title value="Specification"/>
         <generation value="markdown"/>
@@ -137,7 +133,7 @@
     <!-- releaselabel should be the ballot status for HL7-published IGs. -->
     <parameter>
         <code value="releaselabel"/>
-      <value value="STU 1 - Ballot"/>
+      <value value="STU 1 - Ballot2"/>
     </parameter>
     <parameter>
         <code value="find-other-resources"/>

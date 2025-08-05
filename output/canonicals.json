@@ -14,6 +14,13 @@
     "name" : "RTLS"
   },
   {
+    "id" : "rtlsMessageParameters",
+    "type" : "OperationDefinition",
+    "url" : "http://hl7.org/fhir/uv/rtls/OperationDefinition/rtlsMessageParameters",
+    "version" : "1.0.0-ballot2",
+    "name" : "RTLSMessageParameters"
+  },
+  {
     "id" : "rtlsDevice",
     "type" : "StructureDefinition",
     "url" : "http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsDevice",
@@ -28,18 +35,46 @@
     "name" : "RTLSLocation"
   },
   {
-    "id" : "rtlsMessageBundle",
+    "id" : "rtlsMessageBundleEnroll",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageBundle",
+    "url" : "http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageBundleEnroll",
     "version" : "1.0.0-ballot2",
-    "name" : "RTLSMessageBundle"
+    "name" : "RTLSMessageBundleEnroll"
   },
   {
-    "id" : "rtlsMessageHeader",
+    "id" : "rtlsMessageBundleLocationUpdate",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageHeader",
+    "url" : "http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageBundleLocationUpdate",
     "version" : "1.0.0-ballot2",
-    "name" : "RTLSMessageHeader"
+    "name" : "RTLSMessageBundleLocationUpdate"
+  },
+  {
+    "id" : "rtlsMessageBundleUnenroll",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageBundleUnenroll",
+    "version" : "1.0.0-ballot2",
+    "name" : "RTLSMessageBundleUnenroll"
+  },
+  {
+    "id" : "rtlsMessageEnrollmentHeader",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageEnrollmentHeader",
+    "version" : "1.0.0-ballot2",
+    "name" : "rtlsMessageEnrollmentHeader"
+  },
+  {
+    "id" : "rtlsMessageLocationUpdateHeader",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageLocationUpdateHeader",
+    "version" : "1.0.0-ballot2",
+    "name" : "rtlsMessageLocationUpdateHeader"
+  },
+  {
+    "id" : "rtlsMessageUnenrollmentHeader",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageUnenrollmentHeader",
+    "version" : "1.0.0-ballot2",
+    "name" : "rtlsMessageUnenrollmentHeader"
   },
   {
     "id" : "rtlsMessageEvents",

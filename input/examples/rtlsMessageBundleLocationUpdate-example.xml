@@ -3,7 +3,7 @@
 <Bundle xmlns="http://hl7.org/fhir"> 
   <id value="LocationUpdateExample-MessageBundle"/>
   <meta>
-    <profile value="http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageBundle"/>
+    <profile value="http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageBundleLocationUpdate"/>
   </meta>
   <type value="message"/>
   <timestamp value="2023-03-24T10:24:13.1882432-05:00"/>
@@ -13,7 +13,7 @@
       <MessageHeader> 
         <id value="LocationUpdateExample-MessageHeader"/> 
         <meta>
-          <profile value="http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageHeader"/>
+          <profile value="http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageLocationUpdateHeader"/>
         </meta>
         <eventCoding> 
           <system value="http://hl7.org/fhir/uv/rtls/CodeSystem/rtlsMessageEvents"/> 
@@ -34,7 +34,7 @@
       <MessageHeader> 
         <id value="LocationUpdateExample-MessageHeader"/> 
         <meta>
-          <profile value="http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageHeader"/>
+          <profile value="http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageLocationUpdateHeader"/>
         </meta>
         <type value="message"/>
         <timestamp value="2023-03-24T10:24:13.1882432-05:00"/>

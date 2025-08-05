@@ -1,79 +1,101 @@
 RTLS : Validation Results
 =========================================
 
-err = 23, warn = 13, info = 6
+err = 35, warn = 5, info = 6
 $--
 Generated $--. FHIR version $-- for hl7.fhir.uv.rtls#$-- (canonical = http://hl7.org/fhir/uv/rtls)
- Build Errors : 0 / 2 / 0
- /Users/nshpringman/Documents/GitHub/rtls-ig/input/examples/rtlsAuxiliaryFunctionInput-example : 1 / 2 / 4
- /Users/nshpringman/Documents/GitHub/rtls-ig/input/examples/rtlsAuxiliaryFunctionOutput-example : 1 / 1 / 2
- /Users/nshpringman/Documents/GitHub/rtls-ig/input/examples/rtlsDevice-example : 1 / 0 / 1
- /Users/nshpringman/Documents/GitHub/rtls-ig/input/examples/rtlsLocation-example : 0 / 0 / 1
- /Users/nshpringman/Documents/GitHub/rtls-ig/input/examples/rtlsMessageBundleEnroll-example : 1 / 1 / 6
- /Users/nshpringman/Documents/GitHub/rtls-ig/input/examples/rtlsMessageBundleLocationUpdate-example : 10 / 0 / 6
- /Users/nshpringman/Documents/GitHub/rtls-ig/input/examples/rtlsMessageBundleUnenroll-example : 2 / 1 / 6
- /Users/nshpringman/Documents/GitHub/rtls-ig/input/resources/CS-rtlsMessageEvents : 0 / 1 / 2
- /Users/nshpringman/Documents/GitHub/rtls-ig/input/resources/VS-rtlsMessageTypes : 0 / 1 / 1
- /Users/nshpringman/Documents/GitHub/rtls-ig/input/resources/rtlsDevice : 0 / 1 / 2
- /Users/nshpringman/Documents/GitHub/rtls-ig/input/resources/rtlsLocation : 0 / 1 / 1
- /Users/nshpringman/Documents/GitHub/rtls-ig/input/resources/rtlsMessageBundle : 0 / 1 / 1
- /Users/nshpringman/Documents/GitHub/rtls-ig/input/resources/rtlsMessageHeader : 2 / 1 / 2
- /Users/nshpringman/Documents/GitHub/rtls-ig/input/rtls : 5 / 0 / 1
+ Build Errors : 8 / 1 / 0
+ C:\Users\Nat\Documents\GitHub\rtls-ig\input\examples\rtlsAuxiliaryFunctionInput-example : 0 / 2 / 4
+ C:\Users\Nat\Documents\GitHub\rtls-ig\input\examples\rtlsAuxiliaryFunctionOutput-example : 0 / 1 / 2
+ C:\Users\Nat\Documents\GitHub\rtls-ig\input\examples\rtlsDevice-example : 0 / 0 / 1
+ C:\Users\Nat\Documents\GitHub\rtls-ig\input\examples\rtlsLocation-example : 0 / 0 / 1
+ C:\Users\Nat\Documents\GitHub\rtls-ig\input\examples\rtlsMessageBundleEnroll-example : 5 / 0 / 8
+ C:\Users\Nat\Documents\GitHub\rtls-ig\input\examples\rtlsMessageBundleLocationUpdate-example : 13 / 0 / 8
+ C:\Users\Nat\Documents\GitHub\rtls-ig\input\examples\rtlsMessageBundleUnenroll-example : 5 / 1 / 8
+ C:\Users\Nat\Documents\GitHub\rtls-ig\input\resources\CS-rtlsMessageEvents : 0 / 0 / 2
+ C:\Users\Nat\Documents\GitHub\rtls-ig\input\resources\VS-rtlsMessageTypes : 0 / 0 / 1
+ C:\Users\Nat\Documents\GitHub\rtls-ig\input\resources\rtlsDevice : 0 / 0 / 2
+ C:\Users\Nat\Documents\GitHub\rtls-ig\input\resources\rtlsLocation : 0 / 0 / 1
+ C:\Users\Nat\Documents\GitHub\rtls-ig\input\resources\rtlsMessageBundleEnroll : 0 / 0 / 1
+ C:\Users\Nat\Documents\GitHub\rtls-ig\input\resources\rtlsMessageBundleLocationUpdate : 0 / 0 / 1
+ C:\Users\Nat\Documents\GitHub\rtls-ig\input\resources\rtlsMessageBundleUnenroll : 0 / 0 / 1
+ C:\Users\Nat\Documents\GitHub\rtls-ig\input\resources\rtlsMessageEnrollmentHeader : 4 / 1 / 2
+ C:\Users\Nat\Documents\GitHub\rtls-ig\input\resources\rtlsMessageLocationUpdateHeader : 3 / 1 / 2
+ C:\Users\Nat\Documents\GitHub\rtls-ig\input\resources\rtlsMessageParameters : 0 / 0 / 1
+ C:\Users\Nat\Documents\GitHub\rtls-ig\input\resources\rtlsMessageUnenrollmentHeader : 3 / 1 / 2
+ C:\Users\Nat\Documents\GitHub\rtls-ig\input\rtls : 2 / 0 / 1
 </table>
 == n/a ==
 WARNING: The jira specification file appears to be out of date with the versions, artifacts and pages currently defined in the IG.  A proposed revised file to be reviewed and, if appropriate, submitted as a pull request against the XML folder in https://github.com/HL7/JIRA-Spec-Artifacts.  To see the differences, perform a file compare on 'template/jira-current.xml' (a normalized view of what is in Github) and 'template/jira-new.xml' (reflects current IG content)
-WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
-== input/examples/rtlsAuxiliaryFunctionInput-example.xml ==
-INFORMATION: Parameters/StaffDuressInputExample-Parameters: Parameters.parameter[0].value.ofType(Coding): A definition for CodeSystem 'http://hl7.org/FHIR/R4/rtls/StructureDefinition/Parameters' could not be found, so the code cannot be validated
-WARNING: Parameters/StaffDuressInputExample-Parameters: Parameters.parameter[1].resource/*Location/rtlsLocationExample*/: Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)
-WARNING: Parameters/StaffDuressInputExample-Parameters: Parameters.parameter[2].resource/*Device/StaffDuressExample-Device*/: Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)
-ERROR: Parameters/StaffDuressInputExample-Parameters: Unable to find profile http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageParameters nominated as the profile for which resource /Parameters/StaffDuressInputExample-Parameters is an example
-== input/examples/rtlsAuxiliaryFunctionOutput-example.xml ==
-WARNING: Parameters/StaffDuressOutputExample-Parameters: Parameters.parameter[0].resource/*Task/111222333*/: Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)
-ERROR: Parameters/StaffDuressOutputExample-Parameters: Unable to find profile http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageParameters nominated as the profile for which resource /Parameters/StaffDuressOutputExample-Parameters is an example
-== input/examples/rtlsDevice-example.xml ==
-ERROR: Device/rtlsTagExample: Device.identifier[0].system: No definition could be found for URL value 'http://hl7.org/fhir/uv/rtls/ValueSet/rtls-tracking-id'
-== input/examples/rtlsLocation-example.xml ==
-== input/examples/rtlsMessageBundleEnroll-example.xml ==
-INFORMATION: Bundle/EnrollTagExample-MessageBundle: Bundle.entry[0].resource/*MessageHeader/EnrollTagExample-MessageHeader*/.event.ofType(Coding): A definition for CodeSystem 'http://terminology.hl7.org/CodeSystem/rtlsMessageEvents' could not be found, so the code cannot be validated
-ERROR: Bundle/EnrollTagExample-MessageBundle: Bundle.entry[0].resource/*MessageHeader/EnrollTagExample-MessageHeader*/.event.ofType(Coding).system: No definition could be found for URL value 'http://terminology.hl7.org/CodeSystem/rtlsMessageEvents'
-WARNING: Bundle/EnrollTagExample-MessageBundle: Bundle.entry[0].resource/*MessageHeader/EnrollTagExample-MessageHeader*/.event.ofType(Coding).system: A definition for CodeSystem 'http://terminology.hl7.org/CodeSystem/rtlsMessageEvents' could not be found, so the code cannot be validated
-== input/examples/rtlsMessageBundleLocationUpdate-example.xml ==
+ERROR: StructureDefinition-rtlsMessageEnrollmentHeader.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 442, column 726: The link 'StructureDefinition-rtlsMessageEnrollmentHeader-definitions.html#MessageHeader.event' for "event" cannot be resolved (valid targets: 103 targets)
+ERROR: StructureDefinition-rtlsMessageEnrollmentHeader.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 447, column 802: The link 'StructureDefinition-rtlsMessageEnrollmentHeader-definitions.html#MessageHeader.event.code' for "code" cannot be resolved (valid targets: 103 targets)
+ERROR: StructureDefinition-rtlsMessageEnrollmentHeader.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 1004, column 726: The link 'StructureDefinition-rtlsMessageEnrollmentHeader-definitions.html#MessageHeader.event' for "event" cannot be resolved (valid targets: 103 targets)
+ERROR: StructureDefinition-rtlsMessageEnrollmentHeader.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 1009, column 802: The link 'StructureDefinition-rtlsMessageEnrollmentHeader-definitions.html#MessageHeader.event.code' for "code" cannot be resolved (valid targets: 103 targets)
+ERROR: StructureDefinition-rtlsMessageLocationUpdateHeader.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 442, column 704: The link 'StructureDefinition-rtlsMessageLocationUpdateHeader-definitions.html#MessageHeader.code' for "code" cannot be resolved (valid targets: 88 targets)
+ERROR: StructureDefinition-rtlsMessageLocationUpdateHeader.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 978, column 704: The link 'StructureDefinition-rtlsMessageLocationUpdateHeader-definitions.html#MessageHeader.code' for "code" cannot be resolved (valid targets: 88 targets)
+ERROR: StructureDefinition-rtlsMessageUnenrollmentHeader.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 442, column 704: The link 'StructureDefinition-rtlsMessageUnenrollmentHeader-definitions.html#MessageHeader.code' for "code" cannot be resolved (valid targets: 88 targets)
+ERROR: StructureDefinition-rtlsMessageUnenrollmentHeader.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 978, column 704: The link 'StructureDefinition-rtlsMessageUnenrollmentHeader-definitions.html#MessageHeader.code' for "code" cannot be resolved (valid targets: 88 targets)
+== input\examples\rtlsAuxiliaryFunctionInput-example.xml ==
+INFORMATION: Parameters/StaffDuressInputExample-Parameters: Parameters.parameter[0].value.ofType(Coding): A definition for CodeSystem 'http://hl7.org/FHIR/R4/rtls/OperationDefinition/Parameters' could not be found, so the code cannot be validated
+== input\examples\rtlsAuxiliaryFunctionOutput-example.xml ==
+== input\examples\rtlsDevice-example.xml ==
+== input\examples\rtlsLocation-example.xml ==
+== input\examples\rtlsMessageBundleEnroll-example.xml ==
+INFORMATION: Bundle/EnrollTagExample-MessageBundle: Bundle.entry[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageBundleEnroll|1.0.0-ballot2 (this may not be a problem, but you should check that it's not intended to match a slice)
+ERROR: Bundle/EnrollTagExample-MessageBundle: Bundle: Bundle.entry: minimum required = 3, but only found 2 (from http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageBundleEnroll|1.0.0-ballot2)
+ERROR: Bundle/EnrollTagExample-MessageBundle: Bundle: Slice 'Bundle.entry:messageHeader': a matching slice is required, but not found (from http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageBundleEnroll|1.0.0-ballot2). Note that other slices are allowed in addition to this required slice
+ERROR: Bundle/EnrollTagExample-MessageBundle: Bundle: Slice 'Bundle.entry:tagDevice': a matching slice is required, but not found (from http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageBundleEnroll|1.0.0-ballot2). Note that other slices are allowed in addition to this required slice
+ERROR: Bundle/EnrollTagExample-MessageBundle: Bundle.entry[0].resource.focus[0]: Unable to find a profile match for http://example.org/fhir/EnrollTagExample-Device among choices: http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsDevice
+INFORMATION: Bundle/EnrollTagExample-MessageBundle: Bundle.entry[0].resource.focus[0]: Details for http://example.org/fhir/EnrollTagExample-Device matching against profile http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsDevice|1.0.0-ballot2
+ERROR: Bundle/EnrollTagExample-MessageBundle: Bundle.entry[1].resource/*Device/EnrollTagExample-Device*/.identifier[0]: Device.identifier.system: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsDevice|1.0.0-ballot2)
+== input\examples\rtlsMessageBundleLocationUpdate-example.xml ==
 ERROR: MessageHeader: Undefined element 'type' at MessageHeader
 ERROR: MessageHeader: Undefined element 'timestamp' at MessageHeader
 ERROR: MessageHeader: Undefined element 'entry' at MessageHeader
 ERROR: MessageHeader: Undefined element 'entry' at MessageHeader
-INFORMATION: Bundle/LocationUpdateExample-MessageBundle: Bundle.entry[0].resource/*MessageHeader/LocationUpdateExample-MessageHeader*/.event.ofType(Coding): Reference to experimental CodeSystem http://hl7.org/fhir/uv/rtls/CodeSystem/rtlsMessageEvents|1.0.0-ballot2
-ERROR: Bundle/LocationUpdateExample-MessageBundle: Bundle.entry[0].resource/*MessageHeader/LocationUpdateExample-MessageHeader*/.focus[0]: Invalid Resource target type. Found MessageHeader, but expected one of ([Device, Bundle])
+INFORMATION: Bundle/LocationUpdateExample-MessageBundle: Bundle.entry[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageBundleLocationUpdate|1.0.0-ballot2 (this may not be a problem, but you should check that it's not intended to match a slice)
+INFORMATION: Bundle/LocationUpdateExample-MessageBundle: Bundle.entry[1]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageBundleLocationUpdate|1.0.0-ballot2 (this may not be a problem, but you should check that it's not intended to match a slice)
+ERROR: Bundle/LocationUpdateExample-MessageBundle: Bundle: Bundle.entry: minimum required = 3, but only found 2 (from http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageBundleLocationUpdate|1.0.0-ballot2)
+ERROR: Bundle/LocationUpdateExample-MessageBundle: Bundle: Slice 'Bundle.entry:messageHeader': a matching slice is required, but not found (from http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageBundleLocationUpdate|1.0.0-ballot2). Note that other slices are allowed in addition to this required slice
+ERROR: Bundle/LocationUpdateExample-MessageBundle: Bundle: Slice 'Bundle.entry:tagDevice': a matching slice is required, but not found (from http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageBundleLocationUpdate|1.0.0-ballot2). Note that other slices are allowed in addition to this required slice
+ERROR: Bundle/LocationUpdateExample-MessageBundle: Bundle.entry[0].resource.focus[0]: Invalid Resource target type. Found MessageHeader, but expected one of ([Device])
 ERROR: Bundle/LocationUpdateExample-MessageBundle: Bundle.entry[1].resource/*MessageHeader/LocationUpdateExample-MessageHeader*/: MessageHeader.event[x]: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/MessageHeader|4.0.1)
 ERROR: Bundle/LocationUpdateExample-MessageBundle: Bundle.entry[1].resource/*MessageHeader/LocationUpdateExample-MessageHeader*/: MessageHeader.source: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/MessageHeader|4.0.1)
-ERROR: Bundle/LocationUpdateExample-MessageBundle: Bundle.entry[1].resource/*MessageHeader/LocationUpdateExample-MessageHeader*/: MessageHeader.event[x]: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageHeader|1.0.0-ballot2)
-ERROR: Bundle/LocationUpdateExample-MessageBundle: Bundle.entry[1].resource/*MessageHeader/LocationUpdateExample-MessageHeader*/: MessageHeader.source: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageHeader|1.0.0-ballot2)
-ERROR: Bundle/LocationUpdateExample-MessageBundle: Bundle.entry[1].resource/*MessageHeader/LocationUpdateExample-MessageHeader*/: MessageHeader.focus: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageHeader|1.0.0-ballot2)
-== input/examples/rtlsMessageBundleUnenroll-example.xml ==
+ERROR: Bundle/LocationUpdateExample-MessageBundle: Bundle.entry[1].resource: MessageHeader.event[x]: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageLocationUpdateHeader|1.0.0-ballot2)
+ERROR: Bundle/LocationUpdateExample-MessageBundle: Bundle.entry[1].resource: MessageHeader.source: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageLocationUpdateHeader|1.0.0-ballot2)
+ERROR: Bundle/LocationUpdateExample-MessageBundle: Bundle.entry[1].resource: MessageHeader.focus: minimum required = 1, but only found 0 (from http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageLocationUpdateHeader|1.0.0-ballot2)
+== input\examples\rtlsMessageBundleUnenroll-example.xml ==
+ERROR: Bundle/UnenrollTagExample-MessageBundle: Bundle.entry[1]: Profile http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageBundleUnenroll|1.0.0-ballot2, Element matches more than one slice - tagDevice, associatedDevice
+INFORMATION: Bundle/UnenrollTagExample-MessageBundle: Bundle.entry[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageBundleUnenroll|1.0.0-ballot2 (this may not be a problem, but you should check that it's not intended to match a slice)
+ERROR: Bundle/UnenrollTagExample-MessageBundle: Bundle: Bundle.entry: minimum required = 3, but only found 2 (from http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageBundleUnenroll|1.0.0-ballot2)
+ERROR: Bundle/UnenrollTagExample-MessageBundle: Bundle: Slice 'Bundle.entry:messageHeader': a matching slice is required, but not found (from http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageBundleUnenroll|1.0.0-ballot2). Note that other slices are allowed in addition to this required slice
 ERROR: Bundle/UnenrollTagExample-MessageBundle: Bundle.entry[0].resource/*MessageHeader/UnenrollTagExample-MessageHeader*/.source: As specified by profile http://hl7.org/fhir/StructureDefinition/MessageHeader|4.0.1, Element 'source' is out of order (found after focus)
-INFORMATION: Bundle/UnenrollTagExample-MessageBundle: Bundle.entry[0].resource/*MessageHeader/UnenrollTagExample-MessageHeader*/.event.ofType(Coding): Reference to experimental CodeSystem http://hl7.org/fhir/uv/rtls/CodeSystem/rtlsMessageEvents|1.0.0-ballot2
-ERROR: Bundle/UnenrollTagExample-MessageBundle: Bundle.entry[0].resource/*MessageHeader/UnenrollTagExample-MessageHeader*/.source: As specified by profile http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageHeader|1.0.0-ballot2, Element 'source' is out of order (found after focus)
+ERROR: Bundle/UnenrollTagExample-MessageBundle: Bundle.entry[0].resource.source: As specified by profile http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageUnenrollmentHeader|1.0.0-ballot2, Element 'source' is out of order (found after focus)
 WARNING: Bundle/UnenrollTagExample-MessageBundle: Bundle.entry[1].resource/*Device/UnenrollTagExample-Device*/.identifier[0].system: No definition could be found for URL value 'urn:example:rtls-tracking-tag-ig'
-== input/resources/CS-rtlsMessageEvents.xml ==
-WARNING: CodeSystem/rtlsMessageEvents: CodeSystem: The nominated WG 'pa' means that the contact url should be 'http://www.hl7.org/Special/committees/pafm' but it was not found
-INFORMATION: CodeSystem/rtlsMessageEvents: CodeSystem: Most code systems defined in HL7 IGs will need to move to THO later during the process. Consider giving this code system a THO URL now (See https://confluence.hl7.org/display/TSMG/Terminology+Play+Book, and/or talk to TSMG)
-== input/resources/VS-rtlsMessageTypes.xml ==
-WARNING: ValueSet/rtlsMessageEvents: ValueSet: The nominated WG 'pa' means that the contact url should be 'http://www.hl7.org/Special/committees/pafm' but it was not found
-== input/resources/rtlsDevice.xml ==
-INFORMATION: StructureDefinition/rtlsDevice: StructureDefinition.snapshot.element[4].binding.extension[0]: The extension http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|5.2.0 is deprecated
-WARNING: StructureDefinition/rtlsDevice: StructureDefinition: The nominated WG 'pa' means that the contact url should be 'http://www.hl7.org/Special/committees/pafm' but it was not found
-== input/resources/rtlsLocation.xml ==
-WARNING: StructureDefinition/rtlsLocation: StructureDefinition: The nominated WG 'pa' means that the contact url should be 'http://www.hl7.org/Special/committees/pafm' but it was not found
-== input/resources/rtlsMessageBundle.xml ==
-WARNING: StructureDefinition/rtlsMessageBundle: StructureDefinition: The nominated WG 'pa' means that the contact url should be 'http://www.hl7.org/Special/committees/pafm' but it was not found
-== input/resources/rtlsMessageHeader.xml ==
-ERROR: /f:StructureDefinition/f:differential/f:element: Undefined element 'id' at /f:StructureDefinition/f:differential/f:element
-ERROR: StructureDefinition.where(url = 'http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageHeader'): The element MessageHeader.focus @diff[1] is out of order (and maybe others after it)
-WARNING: StructureDefinition/rtlsMessageHeader: StructureDefinition: The nominated WG 'pa' means that the contact url should be 'http://www.hl7.org/Special/committees/pafm' but it was not found
-== input/rtls.xml ==
-ERROR: ImplementationGuide/hl7.fhir.uv.rtls: ImplementationGuide.definition.resource[5].example.ofType(canonical): A definition could not be found for Canonical URL 'http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageParameters'
-ERROR: ImplementationGuide/hl7.fhir.uv.rtls: ImplementationGuide.definition.resource[6].example.ofType(canonical): A definition could not be found for Canonical URL 'http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageParameters'
-ERROR: ImplementationGuide/hl7.fhir.uv.rtls: ImplementationGuide.definition.page.page[1]: The extension http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm is not allowed to be used at this point (allowed = e:DomainResource, e:Resource; this element is [ImplementationGuide.definition.page, ImplementationGuide.definition.page.page])
-ERROR: ImplementationGuide/hl7.fhir.uv.rtls: ImplementationGuide: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
-ERROR: ImplementationGuide/hl7.fhir.uv.rtls: ImplementationGuide: HL7 Implementation Guides must state their owning workgroup explicitly using the extension http://hl7.org/fhir/StructureDefinition/structuredefinition-wg
+== input\resources\CS-rtlsMessageEvents.xml ==
+== input\resources\VS-rtlsMessageTypes.xml ==
+== input\resources\rtlsDevice.xml ==
+== input\resources\rtlsLocation.xml ==
+== input\resources\rtlsMessageBundleEnroll.xml ==
+== input\resources\rtlsMessageBundleLocationUpdate.xml ==
+== input\resources\rtlsMessageBundleUnenroll.xml ==
+== input\resources\rtlsMessageEnrollmentHeader.xml ==
+ERROR: StructureDefinition.differential.element[1]: No match found for MessageHeader.event:MessageHeader.event.code in the generated snapshot: check that the path and definitions are legal in the differential (including order)
+ERROR: http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageEnrollmentHeader: The profile http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageEnrollmentHeader has 1 element in the differential (id: MessageHeader.event:MessageHeader.event.code) that don't have a matching element in the snapshot: check that the path and definitions are legal in the differential (including order)
+WARNING: StructureDefinition/rtlsMessageEnrollmentHeader: StructureDefinition: Constraint failed: sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation'
+ERROR: StructureDefinition.text.div: Hyperlink 'StructureDefinition-rtlsMessageEnrollmentHeader-definitions.html#MessageHeader.event' at 'div/table/tr/td/a' for 'event' does not resolve
+ERROR: StructureDefinition.text.div: Hyperlink 'StructureDefinition-rtlsMessageEnrollmentHeader-definitions.html#MessageHeader.event.code' at 'div/table/tr/td/a' for 'code' does not resolve
+== input\resources\rtlsMessageLocationUpdateHeader.xml ==
+ERROR: StructureDefinition.differential.element[1]: No match found for MessageHeader.event:MHEvent.code in the generated snapshot: check that the path and definitions are legal in the differential (including order)
+ERROR: http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageLocationUpdateHeader: The profile http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageLocationUpdateHeader has 1 element in the differential (id: MessageHeader.event:MHEvent.code) that don't have a matching element in the snapshot: check that the path and definitions are legal in the differential (including order)
+WARNING: StructureDefinition/rtlsMessageLocationUpdateHeader: StructureDefinition: Constraint failed: sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation'
+ERROR: StructureDefinition.text.div: Hyperlink 'StructureDefinition-rtlsMessageLocationUpdateHeader-definitions.html#MessageHeader.code' at 'div/table/tr/td/a' for 'code' does not resolve
+== input\resources\rtlsMessageParameters.xml ==
+== input\resources\rtlsMessageUnenrollmentHeader.xml ==
+ERROR: StructureDefinition.differential.element[1]: No match found for MessageHeader.event:MHEvent.code in the generated snapshot: check that the path and definitions are legal in the differential (including order)
+ERROR: http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageUnenrollmentHeader: The profile http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageUnenrollmentHeader has 1 element in the differential (id: MessageHeader.event:MHEvent.code) that don't have a matching element in the snapshot: check that the path and definitions are legal in the differential (including order)
+WARNING: StructureDefinition/rtlsMessageUnenrollmentHeader: StructureDefinition: Constraint failed: sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation'
+ERROR: StructureDefinition.text.div: Hyperlink 'StructureDefinition-rtlsMessageUnenrollmentHeader-definitions.html#MessageHeader.code' at 'div/table/tr/td/a' for 'code' does not resolve
+== input\rtls.xml ==
+ERROR: ImplementationGuide/hl7.fhir.uv.rtls: ImplementationGuide.definition.resource[5].example.ofType(canonical): Canonical URL 'http://hl7.org/fhir/uv/rtls/OperationDefinition/rtlsMessageParameters' refers to a resource that has the wrong type. Found OperationDefinition expecting one of [StructureDefinition]
+ERROR: ImplementationGuide/hl7.fhir.uv.rtls: ImplementationGuide.definition.resource[6].example.ofType(canonical): Canonical URL 'http://hl7.org/fhir/uv/rtls/OperationDefinition/rtlsMessageParameters' refers to a resource that has the wrong type. Found OperationDefinition expecting one of [StructureDefinition]

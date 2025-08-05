@@ -13,7 +13,7 @@
       <MessageHeader> 
         <id value="UnenrollTagExample-MessageHeader"/> 
         <meta>
-          <profile value="http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageHeader"/>
+          <profile value="http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageUnenrollmentHeader"/>
         </meta>
         <eventCoding> 
           <system value="http://hl7.org/fhir/uv/rtls/CodeSystem/rtlsMessageEvents"/> 

@@ -17,17 +17,19 @@
   ] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Device rtlsTagExample</b></p><a name=\"rtlsTagExample\"> </a><a name=\"hcrtlsTagExample\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-rtlsDevice.html\">RTLS Tag Device Profile</a></p></div><p><b>identifier</b>: <code>http://hl7.org/fhir/uv/rtls/ValueSet/rtls-tracking-id</code>/12345678</p><p><b>status</b>: Active</p><p><b>location</b>: <a href=\"http://example.org/FHIR/R4/Location\">http://example.org/FHIR/R4/Location</a></p></div>"^^rdf:XMLLiteral
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Device rtlsTagExample</b></p><a name=\"rtlsTagExample\"> </a><a name=\"hcrtlsTagExample\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-rtlsDevice.html\">RTLS Tag Device Profile</a></p></div><p><b>identifier</b>: <code>http://example.org/ExampleMedicalCenter/rtlsTagIDs</code>/12345678</p><p><b>status</b>: Active</p><p><b>location</b>: <a href=\"Location-rtlsLocationExample.html\">Location Example Medical Center - Room 317</a></p></div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:identifier ( [
-     fhir:system [ fhir:v "http://hl7.org/fhir/uv/rtls/ValueSet/rtls-tracking-id"^^xsd:anyURI ] ;
+     fhir:system [ fhir:v "http://example.org/ExampleMedicalCenter/rtlsTagIDs"^^xsd:anyURI ] ;
      fhir:value [ fhir:v "12345678" ]
   ] ) ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:location [
-     fhir:link <http://example.org/FHIR/R4/Location> ;
-     fhir:reference [ fhir:v "http://example.org/FHIR/R4/Location" ]
+     fhir:link <http://hl7.org/fhir/uv/rtls/Location/rtlsLocationExample> ;
+     fhir:reference [ fhir:v "Location/rtlsLocationExample" ]
   ] . # 
+
+<http://hl7.org/fhir/uv/rtls/Location/rtlsLocationExample> a fhir:uv .
 
 # -------------------------------------------------------------------------------------
 

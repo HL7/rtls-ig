@@ -2,5 +2,5 @@
    <package version="1.0.0-ballot2"
             path="http://hl7.org/fhir/uv/rtls/2025Sep"
             status="ballot"
-            ci-build="https://build.fhir.org/ig/HL7/rtls-ig"/>
+            ci-build=""/>
 </publication-request>

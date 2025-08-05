@@ -1,0 +1,70 @@
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <title>OperationDefinition-rtlsMessageParameters-ttl-html</title>
+  <link rel="stylesheet" href="fhir.css"/>
+</head>
+<body>
+<pre class="rdf" style="white-space: pre; overflow: hidden"><code class="language-turtle">
+@prefix fhir: &lt;http://hl7.org/fhir/&gt; .
+@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
+@prefix rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt; .
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+@prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt; .
+
+# - resource -------------------------------------------------------------------
+
+ a fhir:OperationDefinition ;
+  <a href="http://hl7.org/fhir/R4/rdf.html#tree-root">fhir:nodeRole</a> fhir:treeRoot ;
+  <a href="http://hl7.org/fhir/R4/operationdefinition.html#OperationDefinition.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;rtlsMessageParameters&quot;] ; # 
+  <a href="http://hl7.org/fhir/R4/operationdefinition.html#OperationDefinition.text">fhir:text</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;generated&quot; ] ;
+fhir:div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p class=\&quot;res-header-id\&quot;&gt;&lt;b&gt;Generated Narrative: OperationDefinition rtlsMessageParameters&lt;/b&gt;&lt;/p&gt;&lt;a name=\&quot;rtlsMessageParameters\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;hcrtlsMessageParameters\&quot;&gt; &lt;/a&gt;&lt;p&gt;URL: [base]/$$rtlsMessageParameters&lt;/p&gt;&lt;h3&gt;Parameters&lt;/h3&gt;&lt;table class=\&quot;grid\&quot;&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Use&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Name&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Scope&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Cardinality&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Type&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Binding&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Documentation&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;&quot;^^rdf:XMLLiteral
+  ] ; # 
+  <a href="http://hl7.org/fhir/R4/operationdefinition.html#OperationDefinition.extension">fhir:extension</a> ( [
+<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">fhir:url</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://hl7.org/fhir/StructureDefinition/structuredefinition-wg&quot;^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;pa&quot;     ]
+  ] [
+<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">fhir:url</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status&quot;^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;informative&quot; ;
+      ( <a href="http://hl7.org/fhir/R4/datatypes.html#code#code.extension">fhir:extension</a> [
+<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">fhir:url</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom&quot;^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#canonical">a</a> fhir:canonical ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#canonical">fhir:v</a> &quot;http://hl7.org/fhir/uv/rtls/ImplementationGuide/hl7.fhir.uv.rtls&quot;^^xsd:anyURI ;
+<a href="http://hl7.org/fhir/R4/rdf.html#reference">fhir:link</a> &lt;http://hl7.org/fhir/uv/rtls/ImplementationGuide/hl7.fhir.uv.rtls&gt;         ]       ] )     ]
+  ] ) ; # 
+  <a href="http://hl7.org/fhir/R4/operationdefinition.html#OperationDefinition.url">fhir:url</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://hl7.org/fhir/uv/rtls/OperationDefinition/rtlsMessageParameters&quot;^^xsd:anyURI] ; # 
+  <a href="http://hl7.org/fhir/R4/operationdefinition.html#OperationDefinition.version">fhir:version</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;1.0.0-ballot2&quot;] ; # 
+  <a href="http://hl7.org/fhir/R4/operationdefinition.html#OperationDefinition.name">fhir:name</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;RTLSMessageParameters&quot;] ; # 
+  <a href="http://hl7.org/fhir/R4/operationdefinition.html#OperationDefinition.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;RTLS Message Parameters Operation&quot;] ; # 
+  <a href="http://hl7.org/fhir/R4/operationdefinition.html#OperationDefinition.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;draft&quot;] ; # 
+  <a href="http://hl7.org/fhir/R4/operationdefinition.html#OperationDefinition.kind">fhir:kind</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;operation&quot;] ; # 
+  <a href="http://hl7.org/fhir/R4/operationdefinition.html#OperationDefinition.experimental">fhir:experimental</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">fhir:v</a> true] ; # 
+  <a href="http://hl7.org/fhir/R4/operationdefinition.html#OperationDefinition.date">fhir:date</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:v</a> &quot;2025-08-04T22:10:47-05:00&quot;^^xsd:dateTime] ; # 
+  <a href="http://hl7.org/fhir/R4/operationdefinition.html#OperationDefinition.publisher">fhir:publisher</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;HL7 International / Patient Administration&quot;] ; # 
+  <a href="http://hl7.org/fhir/R4/operationdefinition.html#OperationDefinition.contact">fhir:contact</a> ( [
+    ( <a href="http://hl7.org/fhir/R4/metadatatypes.html#ContactDetail#ContactDetail.telecom">fhir:telecom</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;url&quot; ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;http://www.hl7.org/Special/committees/pafm&quot; ]     ] )
+  ] ) ; # 
+  <a href="http://hl7.org/fhir/R4/operationdefinition.html#OperationDefinition.description">fhir:description</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">fhir:v</a> &quot;Parameters for RTLS auxiliary function.&quot;] ; # 
+  <a href="http://hl7.org/fhir/R4/operationdefinition.html#OperationDefinition.jurisdiction">fhir:jurisdiction</a> ( [
+    ( <a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://unstats.un.org/unsd/methods/m49/m49.htm&quot;^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;001&quot; ]     ] )
+  ] ) ; # 
+  <a href="http://hl7.org/fhir/R4/operationdefinition.html#OperationDefinition.purpose">fhir:purpose</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">fhir:v</a> &quot;This operation provides parameters for RTLS messaging functions.&quot;] ; # 
+  <a href="http://hl7.org/fhir/R4/operationdefinition.html#OperationDefinition.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;rtlsMessageParameters&quot;] ; # 
+  <a href="http://hl7.org/fhir/R4/operationdefinition.html#OperationDefinition.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">fhir:v</a> true] ; # 
+  <a href="http://hl7.org/fhir/R4/operationdefinition.html#OperationDefinition.type">fhir:type</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">fhir:v</a> false] ; # 
+  <a href="http://hl7.org/fhir/R4/operationdefinition.html#OperationDefinition.instance">fhir:instance</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">fhir:v</a> false] . # 
+
+</code></pre>
+
+</body>
+</html>

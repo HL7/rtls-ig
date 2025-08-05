@@ -2,7 +2,7 @@
   "resourceType" : "Bundle",
   "id" : "UnenrollTagExample-MessageBundle",
   "meta" : {
-    "profile" : ["http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageBundle"]
+    "profile" : ["http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageBundleUnenroll"]
   },
   "type" : "message",
   "timestamp" : "2023-03-24T10:24:13.1882432-05:00",
@@ -12,11 +12,11 @@
       "resourceType" : "MessageHeader",
       "id" : "UnenrollTagExample-MessageHeader",
       "meta" : {
-        "profile" : ["http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageHeader"]
+        "profile" : ["http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageUnenrollmentHeader"]
       },
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"MessageHeader_UnenrollTagExample-MessageHeader\"> </a><p class=\"res-header-id\"><b>Generated Narrative: MessageHeader UnenrollTagExample-MessageHeader</b></p><a name=\"UnenrollTagExample-MessageHeader\"> </a><a name=\"hcUnenrollTagExample-MessageHeader\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-rtlsMessageHeader.html\">RTLS Message Header Resource Profile</a></p></div><p><b>event</b>: <a href=\"CodeSystem-rtlsMessageEvents.html#rtlsMessageEvents-unenroll-tag\">RTLS Message Events unenroll-tag</a>: Unenroll Tag</p><p><b>focus</b>: <a href=\"Bundle-UnenrollTagExample-MessageBundle.html#http-//example.org/fhir/UnenrollTagExample-Device\">Bundle: type = message; timestamp = 2023-03-24 10:24:13-0500</a></p><h3>Sources</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Name</b></td><td><b>Endpoint</b></td></tr><tr><td style=\"display: none\">*</td><td>Example EHR</td><td>urn:uuid:056df0be-13d1-43ae-9182-40155caf6695</td></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"MessageHeader_UnenrollTagExample-MessageHeader\"> </a><p class=\"res-header-id\"><b>Generated Narrative: MessageHeader UnenrollTagExample-MessageHeader</b></p><a name=\"UnenrollTagExample-MessageHeader\"> </a><a name=\"hcUnenrollTagExample-MessageHeader\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-rtlsMessageUnenrollmentHeader.html\">RTLS Message Unenrollment Header Resource Profile</a></p></div><p><b>event</b>: <a href=\"CodeSystem-rtlsMessageEvents.html#rtlsMessageEvents-unenroll-tag\">RTLS Message Events unenroll-tag</a>: Unenroll Tag</p><p><b>focus</b>: <a href=\"Bundle-UnenrollTagExample-MessageBundle.html#http-//example.org/fhir/UnenrollTagExample-Device\">Bundle: type = message; timestamp = 2023-03-24 10:24:13-0500</a></p><h3>Sources</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Name</b></td><td><b>Endpoint</b></td></tr><tr><td style=\"display: none\">*</td><td>Example EHR</td><td>urn:uuid:056df0be-13d1-43ae-9182-40155caf6695</td></tr></table></div>"
       },
       "eventCoding" : {
         "system" : "http://hl7.org/fhir/uv/rtls/CodeSystem/rtlsMessageEvents",

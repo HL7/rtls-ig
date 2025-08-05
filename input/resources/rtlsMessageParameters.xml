@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OperationDefinition xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../input-cache/schemas/R4/fhir-single.xsd">
+    <id value="rtlsMessageParameters"/>
+    <url value="http://hl7.org/fhir/uv/rtls/OperationDefinition/rtlsMessageParameters"/>
+    <name value="RTLSMessageParameters"/>
+    <title value="RTLS Message Parameters Operation"/>
+    <status value="draft"/>
+    <experimental value="true"/>
+    <publisher value="Patient Administration"/>
+    <contact>
+        <telecom>
+            <system value="url"/>
+            <value value="http://www.hl7.org/Special/committees/pafm"/>
+        </telecom>
+    </contact>
+    <description value="Parameters for RTLS auxiliary function."/>
+    <purpose value="This operation provides parameters for RTLS messaging functions."/>
+    <kind value="operation"/>
+    <code value="rtlsMessageParameters"/>
+    <system value="true"/>
+    <type value="false"/>
+    <instance value="false"/>
+</OperationDefinition>

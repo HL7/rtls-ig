@@ -295,10 +295,13 @@
          </div>
       </text>
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
-         <valueCode value="informative"/>
+         <valueCode value="trial-use"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
          <valueInteger value="1"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+         <valueCode value="pa"/>
       </extension>
       <url value="http://hl7.org/fhir/uv/rtls/ImplementationGuide/hl7.fhir.uv.rtls"/>
       <version value="1.0.0-ballot2"/>
@@ -306,12 +309,12 @@
       <title value="Real Time Location Services Implementation Guide"/>
       <status value="active"/>
       <experimental value="false"/>
-      <date value="2025-07-30T15:50:11-05:00"/>
+      <date value="2025-08-04T22:10:47-05:00"/>
       <publisher value="HL7 International / Patient Administration"/>
       <contact>
          <telecom>
             <system value="url"/>
-            <value value="http://hl7.org/Special/committees/pafm"/>
+            <value value="http://www.hl7.org/Special/committees/pafm"/>
          </telecom>
       </contact>
       <description value="Description of IG"/>
@@ -338,7 +341,7 @@
          </extension>
          <uri value="http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions"/>
          <packageId value="hl7.fhir.uv.extensions.r4"/>
-         <version value="5.2.0"/>
+         <version value="5.3.0-ballot-tc1"/>
       </dependsOn>
       <definition>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -354,7 +357,7 @@
                <valueString value="releaselabel"/>
             </extension>
             <extension url="value">
-               <valueString value="STU 1 - Ballot"/>
+               <valueString value="STU 1 - Ballot2"/>
             </extension>
          </extension>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -568,6 +571,10 @@
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency">
             <valueCode value="hl7.fhir.uv.tools.r4#0.7.1"/>
          </extension>
+         <grouping id="-dyn-operationdefinition">
+            <name value="Behavior: Operation Definitions"/>
+            <description value="These are custom operations that can be supported by and/or invoked by systems conforming to this implementation guide."/>
+         </grouping>
          <grouping id="-str-profile">
             <name value="Structures: Resource Profiles"/>
             <description value="These define constraints on FHIR resources for systems conforming to this implementation guide."/>
@@ -584,6 +591,40 @@
             <name value="Example: Example Instances"/>
             <description value="These are example instances that show what data produced and consumed by systems conforming with this implementation guide might look like."/>
          </grouping>
+         <resource>
+            <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+               <valueInteger value="999999999"/>
+            </extension>
+            <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+               <valueString value="OperationDefinition"/>
+            </extension>
+            <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+               <valueUri value="OperationDefinition-rtlsMessageParameters.html"/>
+            </extension>
+            <reference>
+               <reference value="OperationDefinition/rtlsMessageParameters"/>
+            </reference>
+            <name value="RTLS Message Parameters Operation"/>
+            <description value="Parameters for RTLS auxiliary function."/>
+            <groupingId value="-dyn-operationdefinition"/>
+         </resource>
+         <resource>
+            <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+               <valueInteger value="999999999"/>
+            </extension>
+            <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+               <valueString value="StructureDefinition:resource"/>
+            </extension>
+            <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+               <valueUri value="StructureDefinition-rtlsMessageBundleEnroll.html"/>
+            </extension>
+            <reference>
+               <reference value="StructureDefinition/rtlsMessageBundleEnroll"/>
+            </reference>
+            <name value="RTLS Enrollment Message Profile"/>
+            <description value="Bundle resource with a type of &#34;message&#34; used in RTLS workflows. This bundle will be used for enrollment."/>
+            <groupingId value="-str-profile"/>
+         </resource>
          <resource>
             <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
                <valueInteger value="999999999"/>
@@ -609,13 +650,13 @@
                <valueString value="StructureDefinition:resource"/>
             </extension>
             <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-               <valueUri value="StructureDefinition-rtlsMessageBundle.html"/>
+               <valueUri value="StructureDefinition-rtlsMessageBundleLocationUpdate.html"/>
             </extension>
             <reference>
-               <reference value="StructureDefinition/rtlsMessageBundle"/>
+               <reference value="StructureDefinition/rtlsMessageBundleLocationUpdate"/>
             </reference>
-            <name value="RTLS Message Bundle Profile"/>
-            <description value="Bundle resource with a type of &#34;message&#34; used in RTLS workflows."/>
+            <name value="RTLS Location Update Message Profile"/>
+            <description value="Bundle resource with a type of &#34;message&#34; used in RTLS workflows. This bundle will be used for location updates."/>
             <groupingId value="-str-profile"/>
          </resource>
          <resource>
@@ -626,13 +667,47 @@
                <valueString value="StructureDefinition:resource"/>
             </extension>
             <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-               <valueUri value="StructureDefinition-rtlsMessageHeader.html"/>
+               <valueUri value="StructureDefinition-rtlsMessageEnrollmentHeader.html"/>
             </extension>
             <reference>
-               <reference value="StructureDefinition/rtlsMessageHeader"/>
+               <reference value="StructureDefinition/rtlsMessageEnrollmentHeader"/>
             </reference>
-            <name value="RTLS Message Header Resource Profile"/>
-            <description value="MessageHeader resource for FHIR messages sent in RTLS workflows."/>
+            <name value="RTLS Message Enrollment Header Resource Profile"/>
+            <description value="MessageHeader resource for FHIR enrollment messages sent in RTLS workflows."/>
+            <groupingId value="-str-profile"/>
+         </resource>
+         <resource>
+            <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+               <valueInteger value="999999999"/>
+            </extension>
+            <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+               <valueString value="StructureDefinition:resource"/>
+            </extension>
+            <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+               <valueUri value="StructureDefinition-rtlsMessageLocationUpdateHeader.html"/>
+            </extension>
+            <reference>
+               <reference value="StructureDefinition/rtlsMessageLocationUpdateHeader"/>
+            </reference>
+            <name value="RTLS Message Location Update Header Header Resource Profile"/>
+            <description value="MessageHeader resource for FHIR Location Update messages sent in RTLS workflows."/>
+            <groupingId value="-str-profile"/>
+         </resource>
+         <resource>
+            <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+               <valueInteger value="999999999"/>
+            </extension>
+            <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+               <valueString value="StructureDefinition:resource"/>
+            </extension>
+            <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+               <valueUri value="StructureDefinition-rtlsMessageUnenrollmentHeader.html"/>
+            </extension>
+            <reference>
+               <reference value="StructureDefinition/rtlsMessageUnenrollmentHeader"/>
+            </reference>
+            <name value="RTLS Message Unenrollment Header Resource Profile"/>
+            <description value="MessageHeader resource for FHIR Unenrollment messages sent in RTLS workflows."/>
             <groupingId value="-str-profile"/>
          </resource>
          <resource>
@@ -650,6 +725,23 @@
             </reference>
             <name value="RTLS Tag Device Profile"/>
             <description value="Device resource profile for tags or badges in RTLS workflows"/>
+            <groupingId value="-str-profile"/>
+         </resource>
+         <resource>
+            <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+               <valueInteger value="999999999"/>
+            </extension>
+            <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+               <valueString value="StructureDefinition:resource"/>
+            </extension>
+            <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+               <valueUri value="StructureDefinition-rtlsMessageBundleUnenroll.html"/>
+            </extension>
+            <reference>
+               <reference value="StructureDefinition/rtlsMessageBundleUnenroll"/>
+            </reference>
+            <name value="RTLS Unenrollment Message Profile"/>
+            <description value="Bundle resource with a type of &#34;message&#34; used in RTLS workflows. This bundle will be used for unenrollment."/>
             <groupingId value="-str-profile"/>
          </resource>
          <resource>
@@ -701,7 +793,7 @@
             </reference>
             <name value="Enroll Tag Event Example"/>
             <description value="Example showing how the Enroll Tag event for a RTLS tracking tag is represented as a message bundle."/>
-            <exampleCanonical value="http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageBundle"/>
+            <exampleCanonical value="http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageBundleEnroll"/>
             <groupingId value="-ex-example"/>
          </resource>
          <resource>
@@ -719,7 +811,7 @@
             </reference>
             <name value="Location Update Event Example"/>
             <description value="Example showing how the Location Update event for a RTLS tracking tag is represented as a message bundle."/>
-            <exampleCanonical value="http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageBundle"/>
+            <exampleCanonical value="http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageBundleLocationUpdate"/>
             <groupingId value="-ex-example"/>
          </resource>
          <resource>
@@ -773,7 +865,7 @@
             </reference>
             <name value="Staff Duress Parameters Example"/>
             <description value="Represents the parameters sent from an RTLS to an EHR in a staff duress RTLS event."/>
-            <exampleCanonical value="http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageParameters"/>
+            <exampleCanonical value="http://hl7.org/fhir/uv/rtls/OperationDefinition/rtlsMessageParameters"/>
             <groupingId value="-ex-example"/>
          </resource>
          <resource>
@@ -791,7 +883,7 @@
             </reference>
             <name value="Staff Duress Parameters Example"/>
             <description value="Represents the parameters sent from an EHR to an RTLS in a staff duress RTLS event."/>
-            <exampleCanonical value="http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageParameters"/>
+            <exampleCanonical value="http://hl7.org/fhir/uv/rtls/OperationDefinition/rtlsMessageParameters"/>
             <groupingId value="-ex-example"/>
          </resource>
          <resource>
@@ -809,7 +901,7 @@
             </reference>
             <name value="Unenroll Tag Event Example"/>
             <description value="Example showing how the Unenroll Tag event for a RTLS tracking tag is represented as a message bundle."/>
-            <exampleCanonical value="http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageBundle"/>
+            <exampleCanonical value="http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageBundleUnenroll"/>
             <groupingId value="-ex-example"/>
          </resource>
          <page>
@@ -836,12 +928,6 @@
                <generation value="html"/>
             </page>
             <page>
-               <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
-                  <valueCode value="trial-use"/>
-               </extension>
-               <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
-                  <valueInteger value="3"/>
-               </extension>
                <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
                   <valueUrl value="spec.html"/>
                </extension>
@@ -862,6 +948,11 @@
                <title value="Artifacts Summary"/>
                <generation value="html"/>
                <page>
+                  <nameUrl value="OperationDefinition-rtlsMessageParameters.html"/>
+                  <title value="RTLS Message Parameters Operation"/>
+                  <generation value="generated"/>
+               </page>
+               <page>
                   <nameUrl value="StructureDefinition-rtlsDevice.html"/>
                   <title value="RTLS Tag Device Profile"/>
                   <generation value="generated"/>
@@ -872,13 +963,33 @@
                   <generation value="generated"/>
                </page>
                <page>
-                  <nameUrl value="StructureDefinition-rtlsMessageBundle.html"/>
-                  <title value="RTLS Message Bundle Profile"/>
+                  <nameUrl value="StructureDefinition-rtlsMessageBundleEnroll.html"/>
+                  <title value="RTLS Enrollment Message Profile"/>
                   <generation value="generated"/>
                </page>
                <page>
-                  <nameUrl value="StructureDefinition-rtlsMessageHeader.html"/>
-                  <title value="RTLS Message Header Resource Profile"/>
+                  <nameUrl value="StructureDefinition-rtlsMessageBundleLocationUpdate.html"/>
+                  <title value="RTLS Location Update Message Profile"/>
+                  <generation value="generated"/>
+               </page>
+               <page>
+                  <nameUrl value="StructureDefinition-rtlsMessageBundleUnenroll.html"/>
+                  <title value="RTLS Unenrollment Message Profile"/>
+                  <generation value="generated"/>
+               </page>
+               <page>
+                  <nameUrl value="StructureDefinition-rtlsMessageEnrollmentHeader.html"/>
+                  <title value="RTLS Message Enrollment Header Resource Profile"/>
+                  <generation value="generated"/>
+               </page>
+               <page>
+                  <nameUrl value="StructureDefinition-rtlsMessageLocationUpdateHeader.html"/>
+                  <title value="RTLS Message Location Update Header Header Resource Profile"/>
+                  <generation value="generated"/>
+               </page>
+               <page>
+                  <nameUrl value="StructureDefinition-rtlsMessageUnenrollmentHeader.html"/>
+                  <title value="RTLS Message Unenrollment Header Resource Profile"/>
                   <generation value="generated"/>
                </page>
                <page>
@@ -990,7 +1101,7 @@
          </parameter>
          <parameter>
             <code value="releaselabel"/>
-            <value value="STU 1 - Ballot"/>
+            <value value="STU 1 - Ballot2"/>
          </parameter>
          <parameter>
             <code value="path-binary"/>
@@ -1099,15 +1210,15 @@
       </definition>
    </ImplementationGuide>
    <package-list>
+      <package version="current"
+               path="http://build.fhir.org/ig/HL7/rtls-ig"
+               status="ci-build"/>
       <package version="1.0.0-ballot2"
                path="http://hl7.org/fhir/uv/rtls/2025Sep"
                status="ballot"
-               ci-build="https://build.fhir.org/ig/HL7/rtls-ig"/>
+               ci-build=""/>
       <package version="1.0.0-ballot"
                path="http://hl7.org/fhir/uv/rtls/2023May"
-               status="ballot"/>
-      <package version="2.0.0-ballot"
-               path="http://build.fhir.org/ig/HL7/rtls-ig"
                status="ballot"/>
    </package-list>
 </root>

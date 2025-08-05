@@ -8,9 +8,13 @@ This event type is used to indicate to the RTLS that a non-RTLS system wants to 
 Enroll Tag messages shall utilize the FHIR messaging model.
 
 #### Related Resource Profiles
-1. rtlsMessageBundle
-2. rtlsMessageHeader
-3. rtlsDevice
+1. rtlsMessageBundleEnroll
+2. rtlsMessageBundleUnenroll
+3. rtlsMessageBundleLocationUpdate
+4. rtlsMessageEnrollmentHeader
+5. rtlsMessageUnenrollmentHeader
+6. rtlsMessageLocationUpdateHeader
+7. rtlsDevice
 
 ### Unenroll Tag
 This event type is used to indicate to the RTLS that a non-RTLS system no longer wants to receive updates for a specific tag's location. 
@@ -19,18 +23,26 @@ This event type is used to indicate to the RTLS that a non-RTLS system no longer
 Unenroll Tag messages shall utilize the FHIR messaging model.
 
 #### Related Resource Profiles
-1. rtlsMessageBundle
-2. rtlsMessageHeader
-3. rtlsDevice
+1. rtlsMessageBundleEnroll
+2. rtlsMessageBundleUnenroll
+3. rtlsMessageBundleLocationUpdate
+4. rtlsMessageEnrollmentHeader
+5. rtlsMessageUnenrollmentHeader
+6. rtlsMessageLocationUpdateHeader
+7. rtlsDevice
 
 ### Tag Location Update
 This event type is used to send notifications from the RTLS, informing other systems of an updated location associated with one of the tags. The specific requirements for what constitutes an "updated location" is out of the scope of this IG, and is left to the implementing RTLS to define.
 
 #### Related Resource Profiles
-1. rtlsMessageBundle
-2. rtlsMessageHeader
-3. rtlsDevice
-4. rtlsLocation
+1. rtlsMessageBundleEnroll
+2. rtlsMessageBundleUnenroll
+3. rtlsMessageBundleLocationUpdate
+4. rtlsMessageEnrollmentHeader
+5. rtlsMessageUnenrollmentHeader
+6. rtlsMessageLocationUpdateHeader
+7. rtlsDevice
+8. rtlsLocation
 
 ### Auxiliary Functions
 This event type is used to notify the subscriber that an auxiliary function supported by an enrolled tag was performed (e.g. a button located on the tag was pressed by the subject). 
@@ -40,7 +52,9 @@ Auxiliary Functions SHALL utilize the FHIR Operations model.
 
 #### Related Resource Profiles
 1. OperationDefinition
-2. rtlsMessageHeader
-3. rtlsDevice
-4. rtlsLocation
-5. Communication
+2. rtlsMessageEnrollmentHeader
+3. rtlsMessageUnenrollmentHeader
+4. rtlsMessageLocationUpdateHeader
+5. rtlsDevice
+6. rtlsLocation
+7. Communication

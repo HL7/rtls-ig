@@ -15,7 +15,7 @@
     "basepath" : "http://hl7.org/fhir/R4/device.html",
     "adl" : false,
     "status" : "draft",
-    "date" : "Wed Jul 30 15:50:11 CDT 2025",
+    "date" : "Mon Aug 04 22:10:47 CDT 2025",
     "abstract" : false,
     "derivation" : "constraint",
     "publisher" : "HL7 International / Patient Administration",
@@ -45,7 +45,7 @@
     "basepath" : "http://hl7.org/fhir/R4/location.html",
     "adl" : false,
     "status" : "draft",
-    "date" : "Wed Jul 30 15:50:11 CDT 2025",
+    "date" : "Mon Aug 04 22:10:47 CDT 2025",
     "abstract" : false,
     "derivation" : "constraint",
     "publisher" : "HL7 International / Patient Administration",
@@ -59,15 +59,15 @@
     },
     "obligations" : false
   },
-  "rtlsMessageBundle" : {
+  "rtlsMessageBundleEnroll" : {
     "index" : 2,
-    "url" : "http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageBundle",
-    "name" : "RTLSMessageBundle",
-    "title" : "RTLS Message Bundle Profile",
+    "url" : "http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageBundleEnroll",
+    "name" : "RTLSMessageBundleEnroll",
+    "title" : "RTLS Enrollment Message Profile",
     "uml" : false,
     "titlelang" : {
     },
-    "path" : "StructureDefinition-rtlsMessageBundle.html",
+    "path" : "StructureDefinition-rtlsMessageBundleEnroll.html",
     "kind" : "resource",
     "type" : "Bundle",
     "base" : "http://hl7.org/fhir/StructureDefinition/Bundle",
@@ -75,7 +75,7 @@
     "basepath" : "http://hl7.org/fhir/R4/bundle.html",
     "adl" : false,
     "status" : "draft",
-    "date" : "Wed Jul 30 15:50:11 CDT 2025",
+    "date" : "Mon Aug 04 22:10:47 CDT 2025",
     "abstract" : false,
     "derivation" : "constraint",
     "publisher" : "HL7 International / Patient Administration",
@@ -84,20 +84,80 @@
     "copyright" : null,
     "copyrightlang" : {
     },
-    "description" : "Bundle resource with a type of \"message\" used in RTLS workflows.",
+    "description" : "Bundle resource with a type of \"message\" used in RTLS workflows. This bundle will be used for enrollment.",
     "descriptionlang" : {
     },
     "obligations" : false
   },
-  "rtlsMessageHeader" : {
+  "rtlsMessageBundleLocationUpdate" : {
     "index" : 3,
-    "url" : "http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageHeader",
-    "name" : "RTLSMessageHeader",
-    "title" : "RTLS Message Header Resource Profile",
+    "url" : "http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageBundleLocationUpdate",
+    "name" : "RTLSMessageBundleLocationUpdate",
+    "title" : "RTLS Location Update Message Profile",
     "uml" : false,
     "titlelang" : {
     },
-    "path" : "StructureDefinition-rtlsMessageHeader.html",
+    "path" : "StructureDefinition-rtlsMessageBundleLocationUpdate.html",
+    "kind" : "resource",
+    "type" : "Bundle",
+    "base" : "http://hl7.org/fhir/StructureDefinition/Bundle",
+    "basename" : "Bundle",
+    "basepath" : "http://hl7.org/fhir/R4/bundle.html",
+    "adl" : false,
+    "status" : "draft",
+    "date" : "Mon Aug 04 22:10:47 CDT 2025",
+    "abstract" : false,
+    "derivation" : "constraint",
+    "publisher" : "HL7 International / Patient Administration",
+    "publisherlang" : {
+    },
+    "copyright" : null,
+    "copyrightlang" : {
+    },
+    "description" : "Bundle resource with a type of \"message\" used in RTLS workflows. This bundle will be used for location updates.",
+    "descriptionlang" : {
+    },
+    "obligations" : false
+  },
+  "rtlsMessageBundleUnenroll" : {
+    "index" : 4,
+    "url" : "http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageBundleUnenroll",
+    "name" : "RTLSMessageBundleUnenroll",
+    "title" : "RTLS Unenrollment Message Profile",
+    "uml" : false,
+    "titlelang" : {
+    },
+    "path" : "StructureDefinition-rtlsMessageBundleUnenroll.html",
+    "kind" : "resource",
+    "type" : "Bundle",
+    "base" : "http://hl7.org/fhir/StructureDefinition/Bundle",
+    "basename" : "Bundle",
+    "basepath" : "http://hl7.org/fhir/R4/bundle.html",
+    "adl" : false,
+    "status" : "draft",
+    "date" : "Mon Aug 04 22:10:47 CDT 2025",
+    "abstract" : false,
+    "derivation" : "constraint",
+    "publisher" : "HL7 International / Patient Administration",
+    "publisherlang" : {
+    },
+    "copyright" : null,
+    "copyrightlang" : {
+    },
+    "description" : "Bundle resource with a type of \"message\" used in RTLS workflows. This bundle will be used for unenrollment.",
+    "descriptionlang" : {
+    },
+    "obligations" : false
+  },
+  "rtlsMessageEnrollmentHeader" : {
+    "index" : 5,
+    "url" : "http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageEnrollmentHeader",
+    "name" : "rtlsMessageEnrollmentHeader",
+    "title" : "RTLS Message Enrollment Header Resource Profile",
+    "uml" : false,
+    "titlelang" : {
+    },
+    "path" : "StructureDefinition-rtlsMessageEnrollmentHeader.html",
     "kind" : "resource",
     "type" : "MessageHeader",
     "base" : "http://hl7.org/fhir/StructureDefinition/MessageHeader",
@@ -105,7 +165,7 @@
     "basepath" : "http://hl7.org/fhir/R4/messageheader.html",
     "adl" : false,
     "status" : "draft",
-    "date" : "Wed Jul 30 15:50:11 CDT 2025",
+    "date" : "Mon Aug 04 22:10:47 CDT 2025",
     "abstract" : false,
     "derivation" : "constraint",
     "publisher" : "HL7 International / Patient Administration",
@@ -114,7 +174,67 @@
     "copyright" : null,
     "copyrightlang" : {
     },
-    "description" : "MessageHeader resource for FHIR messages sent in RTLS workflows.",
+    "description" : "MessageHeader resource for FHIR enrollment messages sent in RTLS workflows.",
+    "descriptionlang" : {
+    },
+    "obligations" : false
+  },
+  "rtlsMessageLocationUpdateHeader" : {
+    "index" : 6,
+    "url" : "http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageLocationUpdateHeader",
+    "name" : "rtlsMessageLocationUpdateHeader",
+    "title" : "RTLS Message Location Update Header Header Resource Profile",
+    "uml" : false,
+    "titlelang" : {
+    },
+    "path" : "StructureDefinition-rtlsMessageLocationUpdateHeader.html",
+    "kind" : "resource",
+    "type" : "MessageHeader",
+    "base" : "http://hl7.org/fhir/StructureDefinition/MessageHeader",
+    "basename" : "MessageHeader",
+    "basepath" : "http://hl7.org/fhir/R4/messageheader.html",
+    "adl" : false,
+    "status" : "draft",
+    "date" : "Mon Aug 04 22:10:47 CDT 2025",
+    "abstract" : false,
+    "derivation" : "constraint",
+    "publisher" : "HL7 International / Patient Administration",
+    "publisherlang" : {
+    },
+    "copyright" : null,
+    "copyrightlang" : {
+    },
+    "description" : "MessageHeader resource for FHIR Location Update messages sent in RTLS workflows.",
+    "descriptionlang" : {
+    },
+    "obligations" : false
+  },
+  "rtlsMessageUnenrollmentHeader" : {
+    "index" : 7,
+    "url" : "http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageUnenrollmentHeader",
+    "name" : "rtlsMessageUnenrollmentHeader",
+    "title" : "RTLS Message Unenrollment Header Resource Profile",
+    "uml" : false,
+    "titlelang" : {
+    },
+    "path" : "StructureDefinition-rtlsMessageUnenrollmentHeader.html",
+    "kind" : "resource",
+    "type" : "MessageHeader",
+    "base" : "http://hl7.org/fhir/StructureDefinition/MessageHeader",
+    "basename" : "MessageHeader",
+    "basepath" : "http://hl7.org/fhir/R4/messageheader.html",
+    "adl" : false,
+    "status" : "draft",
+    "date" : "Mon Aug 04 22:10:47 CDT 2025",
+    "abstract" : false,
+    "derivation" : "constraint",
+    "publisher" : "HL7 International / Patient Administration",
+    "publisherlang" : {
+    },
+    "copyright" : null,
+    "copyrightlang" : {
+    },
+    "description" : "MessageHeader resource for FHIR Unenrollment messages sent in RTLS workflows.",
     "descriptionlang" : {
     },
     "obligations" : false

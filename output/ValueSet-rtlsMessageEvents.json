@@ -30,7 +30,7 @@
   "contact" : [{
     "telecom" : [{
       "system" : "url",
-      "value" : "http://hl7.org/Special/committees/pafm"
+      "value" : "http://www.hl7.org/Special/committees/pafm"
     }]
   }],
   "description" : "This valueset defines FHIR messaging event types used in RTLS workflows.",

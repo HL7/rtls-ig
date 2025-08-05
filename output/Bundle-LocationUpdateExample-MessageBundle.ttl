@@ -11,8 +11,8 @@
   fhir:id [ fhir:v "LocationUpdateExample-MessageBundle"] ; # 
   fhir:meta [
      fhir:profile ( [
-       fhir:v "http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageBundle"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageBundle>
+       fhir:v "http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageBundleLocationUpdate"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageBundleLocationUpdate>
      ] )
   ] ; # 
   fhir:type [ fhir:v "message"] ; # 
@@ -29,13 +29,13 @@
   fhir:id [ fhir:v "LocationUpdateExample-MessageHeader"] ; # 
   fhir:meta [
      fhir:profile ( [
-       fhir:v "http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageHeader"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageHeader>
+       fhir:v "http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageLocationUpdateHeader"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageLocationUpdateHeader>
      ] )
   ] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"MessageHeader_LocationUpdateExample-MessageHeader\"> </a><p class=\"res-header-id\"><b>Generated Narrative: MessageHeader LocationUpdateExample-MessageHeader</b></p><a name=\"LocationUpdateExample-MessageHeader\"> </a><a name=\"hcLocationUpdateExample-MessageHeader\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-rtlsMessageHeader.html\">RTLS Message Header Resource Profile</a></p></div><p><b>event</b>: <a href=\"CodeSystem-rtlsMessageEvents.html#rtlsMessageEvents-location-update\">RTLS Message Events location-update</a>: Location Update</p><h3>Sources</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Endpoint</b></td></tr><tr><td style=\"display: none\">*</td><td>urn:uuid:056df0be-13d1-43ae-9182-40155caf6695</td></tr></table><p><b>focus</b>: <a href=\"Bundle-LocationUpdateExample-MessageBundle.html#http-//example.org/fhir/LocationUpdateExample-MessageBundle2\">Bundle: type = message; timestamp = 2023-03-24 10:24:13-0500</a></p></div>"^^rdf:XMLLiteral
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"MessageHeader_LocationUpdateExample-MessageHeader\"> </a><p class=\"res-header-id\"><b>Generated Narrative: MessageHeader LocationUpdateExample-MessageHeader</b></p><a name=\"LocationUpdateExample-MessageHeader\"> </a><a name=\"hcLocationUpdateExample-MessageHeader\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-rtlsMessageLocationUpdateHeader.html\">RTLS Message Location Update Header Header Resource Profile</a></p></div><p><b>event</b>: <a href=\"CodeSystem-rtlsMessageEvents.html#rtlsMessageEvents-location-update\">RTLS Message Events location-update</a>: Location Update</p><h3>Sources</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Endpoint</b></td></tr><tr><td style=\"display: none\">*</td><td>urn:uuid:056df0be-13d1-43ae-9182-40155caf6695</td></tr></table><p><b>focus</b>: <a href=\"Bundle-LocationUpdateExample-MessageBundle.html#http-//example.org/fhir/LocationUpdateExample-MessageBundle2\">Bundle: type = message; timestamp = 2023-03-24 10:24:13-0500</a></p></div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:event [
      a fhir:Coding ;
@@ -54,13 +54,13 @@
   fhir:id [ fhir:v "LocationUpdateExample-MessageHeader"] ; # 
   fhir:meta [
      fhir:profile ( [
-       fhir:v "http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageHeader"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageHeader>
+       fhir:v "http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageLocationUpdateHeader"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageLocationUpdateHeader>
      ] )
   ] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"MessageHeader_LocationUpdateExample-MessageHeader\"> </a><p class=\"res-header-id\"><b>Generated Narrative: MessageHeader LocationUpdateExample-MessageHeader</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-rtlsMessageHeader.html\">RTLS Message Header Resource Profile</a></p></div></div>"^^rdf:XMLLiteral
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"MessageHeader_LocationUpdateExample-MessageHeader\"> </a><p class=\"res-header-id\"><b>Generated Narrative: MessageHeader LocationUpdateExample-MessageHeader</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-rtlsMessageLocationUpdateHeader.html\">RTLS Message Location Update Header Header Resource Profile</a></p></div></div>"^^rdf:XMLLiteral
   ] . # 
 
 # -------------------------------------------------------------------------------------

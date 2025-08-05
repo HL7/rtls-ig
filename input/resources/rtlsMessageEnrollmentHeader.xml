@@ -7,6 +7,12 @@
   <status value="draft"/>
   <experimental value="true"/>
   <publisher value="Patient Administration"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/pafm"/>
+    </telecom>
+  </contact>
   <description value="MessageHeader resource for FHIR enrollment messages sent in RTLS workflows."/>
   <purpose value="This profile defines minimum expectations for the MessageHeader resource to be used in RTLS enrollment workflows."/> 
   <fhirVersion value="4.0.1"/>
@@ -28,15 +34,15 @@
         <valueSet value="http://hl7.org/fhir/uv/rtls/ValueSet/rtlsMessageEvents" />
       </binding>
     </element>
-    <element id="MessageHeader.event:MHEvent.code">
-      <path value="MessageHeader.code"/>
+    <element id="MessageHeader.event:MessageHeader.event.code">
+      <path value="MessageHeader.event.code"/>
       <short value="Symbol in syntax defined by the system"/>
       <min value="1"/>
       <max value="1"/>
       <type>
       <code value="code"/>
       </type>
-      <fixedCode value="enroll"/>
+      <fixedCode value="enroll-tag"/>
       <mustSupport value="true"/>
     </element>
     <element id="MessageHeader.focus">

@@ -66,7 +66,7 @@
         <div id="ig-status">
           <p><span style="font-size:12pt;font-weight:bold">Real Time Location Services Implementation Guide</span>
             <br/>
-            <span style="display:inline-block;">1.0.0-ballot2 - STU 1 - Ballot
+            <span style="display:inline-block;">1.0.0-ballot2 - STU 1 - Ballot2
 
 
 
@@ -100,6 +100,7 @@
   <li><a href="background.html">Background</a></li>
   <li><a href="spec.html">Specification</a></li>
   <li><a href="artifacts.html">Artifact Index</a></li>
+  <li><a href="changes.html">Change History</a></li>
   <li class="dropdown">
     <a data-toggle="dropdown" href="#" class="dropdown-toggle">Support<b class="caret">
       </b>
@@ -161,22 +162,6 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
 
 
-  <table class="colstu">
-    <tr>
-  
-      <td>
-        <i>Page standards status:</i> <a href="http://hl7.org/fhir/R4/versions.html#std-process" title="Standard Status">Trial-use</a>
-        
-      </td>
-  
-  
-      <td>
-        <a href="http://hl7.org/fhir/versions.html#maturity">Maturity Level</a>: 3
-      </td>
-  
-    </tr>
-  </table>
-
 
 
 
@@ -206,8 +191,12 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
 <h4 id="related-resource-profiles">Related Resource Profiles</h4>
 <ol>
-  <li>rtlsMessageBundle</li>
-  <li>rtlsMessageHeader</li>
+  <li>rtlsMessageBundleEnroll</li>
+  <li>rtlsMessageBundleUnenroll</li>
+  <li>rtlsMessageBundleLocationUpdate</li>
+  <li>rtlsMessageEnrollmentHeader</li>
+  <li>rtlsMessageUnenrollmentHeader</li>
+  <li>rtlsMessageLocationUpdateHeader</li>
   <li>rtlsDevice</li>
 </ol>
 
@@ -219,8 +208,12 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
 <h4 id="related-resource-profiles-1">Related Resource Profiles</h4>
 <ol>
-  <li>rtlsMessageBundle</li>
-  <li>rtlsMessageHeader</li>
+  <li>rtlsMessageBundleEnroll</li>
+  <li>rtlsMessageBundleUnenroll</li>
+  <li>rtlsMessageBundleLocationUpdate</li>
+  <li>rtlsMessageEnrollmentHeader</li>
+  <li>rtlsMessageUnenrollmentHeader</li>
+  <li>rtlsMessageLocationUpdateHeader</li>
   <li>rtlsDevice</li>
 </ol>
 
@@ -229,8 +222,12 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
 <h4 id="related-resource-profiles-2">Related Resource Profiles</h4>
 <ol>
-  <li>rtlsMessageBundle</li>
-  <li>rtlsMessageHeader</li>
+  <li>rtlsMessageBundleEnroll</li>
+  <li>rtlsMessageBundleUnenroll</li>
+  <li>rtlsMessageBundleLocationUpdate</li>
+  <li>rtlsMessageEnrollmentHeader</li>
+  <li>rtlsMessageUnenrollmentHeader</li>
+  <li>rtlsMessageLocationUpdateHeader</li>
   <li>rtlsDevice</li>
   <li>rtlsLocation</li>
 </ol>
@@ -244,7 +241,9 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 <h4 id="related-resource-profiles-3">Related Resource Profiles</h4>
 <ol>
   <li>OperationDefinition</li>
-  <li>rtlsMessageHeader</li>
+  <li>rtlsMessageEnrollmentHeader</li>
+  <li>rtlsMessageUnenrollmentHeader</li>
+  <li>rtlsMessageLocationUpdateHeader</li>
   <li>rtlsDevice</li>
   <li>rtlsLocation</li>
   <li>Communication</li>
@@ -291,7 +290,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2022+ <a style="color:var(--footer-hyperlink-text-color)" href="http://hl7.org/Special/committees/pafm">HL7 International / Patient Administration</a>.  Package hl7.fhir.uv.rtls#1.0.0-ballot2 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Jul 30, 2025 15:50-0500">2025-07-30</span>
+          IG &#169; 2022+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.hl7.org/Special/committees/pafm">HL7 International / Patient Administration</a>.  Package hl7.fhir.uv.rtls#1.0.0-ballot2 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Aug 4, 2025 22:11-0500">2025-08-04</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

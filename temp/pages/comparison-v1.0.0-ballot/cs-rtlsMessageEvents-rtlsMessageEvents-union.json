@@ -1,11 +1,11 @@
 {
   "resourceType" : "CodeSystem",
-  "id" : "b95aae0f-94fc-4d4f-8a99-b675c79c923c-2",
-  "url" : "http://hl7.org/fhir/comparison/CodeSystem/b95aae0f-94fc-4d4f-8a99-b675c79c923c-2",
+  "id" : "3287baf3-c69d-49c1-a0e1-8594bf36b0e5-2",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/3287baf3-c69d-49c1-a0e1-8594bf36b0e5-2",
   "name" : "UnionRTLSMessageEventsAndRTLSMessageEvents",
   "title" : "Union of RTLS Message Events And RTLS Message Events",
   "status" : "draft",
-  "date" : "2025-07-30T15:50:36-05:00",
+  "date" : "2025-08-04T22:11:22-05:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
@@ -26,10 +26,5 @@
     "code" : "location-update",
     "display" : "Location Update",
     "definition" : "Used to describe when a specific tag has an updated location."
-  },
-  {
-    "code" : "staff-duress",
-    "display" : "Staff Duress",
-    "definition" : "Used when a user requires assistance pertaining to a security incident or threat; this function sends a distress signal that will notify nearby security members."
   }]
 }

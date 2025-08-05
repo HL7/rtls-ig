@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../input-cache/schemas/R4/fhir-single.xsd">
+	<id value="rtlsMessageBundleLocationUpdate"/>
+	<url value="http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageBundleLocationUpdate"/>
+	<name value="RTLSMessageBundleLocationUpdate"/>
+	<title value="RTLS Location Update Message Profile"/>
+	<status value="draft"/>
+	<experimental value="true"/>
+	<publisher value="Patient Administration"/>
+    <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/pafm"/>
+    </telecom>
+    </contact>
+	<description value="Bundle resource with a type of &quot;message&quot; used in RTLS workflows. This bundle will be used for location updates."/>
+	<purpose value="This profile defines minimum expectations for a messaging bundle used in RTLS workflows."/>
+	<fhirVersion value="4.0.1"/>
+	<kind value="resource"/>
+	<abstract value="false"/>
+	<type value="Bundle"/>
+	<baseDefinition value="http://hl7.org/fhir/StructureDefinition/Bundle"/>
+	<derivation value="constraint"/>
+	<extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+		<valueCode value="pa"/>
+	</extension>
+	<differential>
+		<element id="Bundle">
+			<path value="Bundle"/>
+		</element>
+		<element id="Bundle.id">
+			<path value="Bundle.id"/>
+			<min value="1"/>
+		</element>
+		<element id="Bundle.type">
+			<path value="Bundle.type"/>
+			<patternCode value="message"/>
+		</element>
+		<element id="Bundle.timestamp">
+			<path value="Bundle.timestamp"/>
+			<min value="1"/>
+		</element>
+		<element id="Bundle.entry">
+			<path value="Bundle.entry"/>
+			<slicing>
+				<discriminator>
+					<type value="type"/>
+					<path value="resource"/>
+				</discriminator>
+				<discriminator>
+					<type value="profile"/>
+					<path value="resource"/>
+				</discriminator>
+				<description value="Slicing based on the type (relatively easy) and then profile of the sliced element"/>
+				<rules value="open"/>
+			</slicing>
+			<min value="3"/>
+		</element>
+		<element id="Bundle.entry:messageHeader">
+			<path value="Bundle.entry"/>
+			<sliceName value="messageHeader"/>
+			<short value="Location Update Header"/>
+			<definition value="Location Update Header"/>
+			<min value="1"/>
+			<max value="1"/>
+			<mustSupport value="true"/>
+		</element>
+		<element id="Bundle.entry:messageHeader.resource">
+			<path value="Bundle.entry.resource"/>
+			<type>
+				<code value="MessageHeader"/>
+				<profile value="http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageLocationUpdateHeader"/>
+			</type>
+		</element>
+		<element id="Bundle.entry:tagDevice">
+			<path value="Bundle.entry"/>
+			<sliceName value="tagDevice"/>
+			<short value="Tag Device"/>
+			<definition value="Tag Device"/>
+			<min value="1"/>
+			<max value="1"/>
+			<mustSupport value="true"/>
+		</element>
+		<element id="Bundle.entry:tagDevice.resource">
+			<path value="Bundle.entry.resource"/>
+			<type>
+				<code value="Device"/>
+				<profile value="http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsDevice"/>
+			</type>
+		</element>
+		<element id="Bundle.entry:rtlsLocation">
+			<path value="Bundle.entry"/>
+			<sliceName value="rtlsLocation"/>
+			<short value="RTLS Location"/>
+			<definition value="RTLS Location"/>
+			<min value="0"/>
+			<max value="1"/>
+			<mustSupport value="false"/>
+		</element>
+		<element id="Bundle.entry:rtlsLocation.resource">
+			<path value="Bundle.entry.resource"/>
+			<type>
+				<code value="Location"/>
+			</type>
+		</element>
+	</differential>
+</StructureDefinition>

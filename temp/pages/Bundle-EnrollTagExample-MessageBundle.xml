@@ -3,7 +3,7 @@
 <Bundle xmlns="http://hl7.org/fhir">
   <id value="EnrollTagExample-MessageBundle"/>
   <meta>
-    <profile value="http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageBundle"/>
+    <profile value="http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageBundleEnroll"/>
   </meta>
   <type value="message"/>
   <timestamp value="2023-03-24T10:24:13.1882432-05:00"/>
@@ -13,13 +13,13 @@
       <MessageHeader>
         <id value="EnrollTagExample-MessageHeader"/>
         <meta>
-          <profile value="http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageHeader"/>
+          <profile value="http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageEnrollmentHeader"/>
         </meta>
         <text>
-          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><a name="MessageHeader_EnrollTagExample-MessageHeader"> </a><p class="res-header-id"><b>Generated Narrative: MessageHeader EnrollTagExample-MessageHeader</b></p><a name="EnrollTagExample-MessageHeader"> </a><a name="hcEnrollTagExample-MessageHeader"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-rtlsMessageHeader.html">RTLS Message Header Resource Profile</a></p></div><p><b>event</b>: rtlsMessageEvents enroll-tag: enroll-tag</p><h3>Sources</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Name</b></td><td><b>Endpoint</b></td></tr><tr><td style="display: none">*</td><td>Example EHR</td><td><a href="http://example.org/rtls/endpoint/ehr-system">http://example.org/rtls/endpoint/ehr-system</a></td></tr></table><p><b>focus</b>: <a href="Bundle-EnrollTagExample-MessageBundle.html#http-//example.org/fhir/EnrollTagExample-Device">Bundle: type = message; timestamp = 2023-03-24 10:24:13-0500</a></p></div>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><a name="MessageHeader_EnrollTagExample-MessageHeader"> </a><p class="res-header-id"><b>Generated Narrative: MessageHeader EnrollTagExample-MessageHeader</b></p><a name="EnrollTagExample-MessageHeader"> </a><a name="hcEnrollTagExample-MessageHeader"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-rtlsMessageEnrollmentHeader.html">RTLS Message Enrollment Header Resource Profile</a></p></div><p><b>event</b>: <a href="CodeSystem-rtlsMessageEvents.html#rtlsMessageEvents-enroll-tag">RTLS Message Events enroll-tag</a>: Enroll Tag</p><h3>Sources</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Name</b></td><td><b>Endpoint</b></td></tr><tr><td style="display: none">*</td><td>Example EHR</td><td><a href="http://example.org/rtls/endpoint/ehr-system">http://example.org/rtls/endpoint/ehr-system</a></td></tr></table><p><b>focus</b>: <a href="Bundle-EnrollTagExample-MessageBundle.html#http-//example.org/fhir/EnrollTagExample-Device">Bundle: type = message; timestamp = 2023-03-24 10:24:13-0500</a></p></div>
         </text>
         <eventCoding>
-          <system value="http://terminology.hl7.org/CodeSystem/rtlsMessageEvents"/>
+          <system value="http://hl7.org/fhir/uv/rtls/CodeSystem/rtlsMessageEvents"/>
           <code value="enroll-tag"/>
         </eventCoding>
         <source>

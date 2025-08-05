@@ -17,13 +17,19 @@
      fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ] ;
      fhir:value [
        a fhir:code ;
-       fhir:v "informative"
+       fhir:v "trial-use"
      ]
   ] [
      fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ] ;
      fhir:value [
        a fhir:integer ;
        fhir:v 1
+     ]
+  ] [
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ] ;
+     fhir:value [
+       a fhir:code ;
+       fhir:v "pa"
      ]
   ] ) ; # 
   fhir:url [ fhir:v "http://hl7.org/fhir/uv/rtls/ImplementationGuide/hl7.fhir.uv.rtls"^^xsd:anyURI] ; # 
@@ -32,12 +38,12 @@
   fhir:title [ fhir:v "Real Time Location Services Implementation Guide"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2025-07-30T15:50:11-05:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-08-04T22:10:47-05:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "HL7 International / Patient Administration"] ; # 
   fhir:contact ( [
      fhir:telecom ( [
        fhir:system [ fhir:v "url" ] ;
-       fhir:value [ fhir:v "http://hl7.org/Special/committees/pafm" ]
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/pafm" ]
      ] )
   ] ) ; # 
   fhir:description [ fhir:v "Description of IG"] ; # 
@@ -79,7 +85,7 @@
        fhir:link <http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions>
      ] ;
      fhir:packageId [ fhir:v "hl7.fhir.uv.extensions.r4" ] ;
-     fhir:version [ fhir:v "5.2.0" ]
+     fhir:version [ fhir:v "5.3.0-ballot-tc1" ]
   ] ) ; # 
   fhir:definition [
      fhir:extension ( [
@@ -108,7 +114,7 @@
          fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
          fhir:value [
            a fhir:string ;
-           fhir:v "STU 1 - Ballot"
+           fhir:v "STU 1 - Ballot2"
          ]
        ] ) ;
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
@@ -534,7 +540,7 @@
          fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
          fhir:value [
            a fhir:string ;
-           fhir:v "STU 1 - Ballot"
+           fhir:v "STU 1 - Ballot2"
          ]
        ] ) ;
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
@@ -983,8 +989,8 @@
        fhir:description [ fhir:v "Example showing how the Enroll Tag event for a RTLS tracking tag is represented as a message bundle." ] ;
        fhir:example [
          a fhir:canonical ;
-         fhir:v "http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageBundle"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageBundle>
+         fhir:v "http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageBundleEnroll"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageBundleEnroll>
        ]
      ] [
        fhir:extension ( [
@@ -1002,8 +1008,8 @@
        fhir:description [ fhir:v "Example showing how the Unenroll Tag event for a RTLS tracking tag is represented as a message bundle." ] ;
        fhir:example [
          a fhir:canonical ;
-         fhir:v "http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageBundle"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageBundle>
+         fhir:v "http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageBundleUnenroll"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageBundleUnenroll>
        ]
      ] [
        fhir:extension ( [
@@ -1021,8 +1027,8 @@
        fhir:description [ fhir:v "Example showing how the Location Update event for a RTLS tracking tag is represented as a message bundle." ] ;
        fhir:example [
          a fhir:canonical ;
-         fhir:v "http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageBundle"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageBundle>
+         fhir:v "http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageBundleLocationUpdate"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageBundleLocationUpdate>
        ]
      ] [
        fhir:extension ( [
@@ -1040,8 +1046,8 @@
        fhir:description [ fhir:v "Represents the parameters sent from an RTLS to an EHR in a staff duress RTLS event." ] ;
        fhir:example [
          a fhir:canonical ;
-         fhir:v "http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageParameters"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageParameters>
+         fhir:v "http://hl7.org/fhir/uv/rtls/OperationDefinition/rtlsMessageParameters"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/rtls/OperationDefinition/rtlsMessageParameters>
        ]
      ] [
        fhir:extension ( [
@@ -1059,8 +1065,8 @@
        fhir:description [ fhir:v "Represents the parameters sent from an EHR to an RTLS in a staff duress RTLS event." ] ;
        fhir:example [
          a fhir:canonical ;
-         fhir:v "http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageParameters"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageParameters>
+         fhir:v "http://hl7.org/fhir/uv/rtls/OperationDefinition/rtlsMessageParameters"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/rtls/OperationDefinition/rtlsMessageParameters>
        ]
      ] [
        fhir:extension ( [
@@ -1127,11 +1133,11 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageBundle> ;
-         fhir:reference [ fhir:v "StructureDefinition/rtlsMessageBundle" ]
+         fhir:link <http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageBundleEnroll> ;
+         fhir:reference [ fhir:v "StructureDefinition/rtlsMessageBundleEnroll" ]
        ] ;
-       fhir:name [ fhir:v "RTLS Message Bundle Profile" ] ;
-       fhir:description [ fhir:v "Bundle resource with a type of \"message\" used in RTLS workflows." ]
+       fhir:name [ fhir:v "RTLS Enrollment Message Profile" ] ;
+       fhir:description [ fhir:v "Bundle resource with a type of \"message\" used in RTLS workflows. This bundle will be used for enrollment." ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
@@ -1141,11 +1147,81 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageHeader> ;
-         fhir:reference [ fhir:v "StructureDefinition/rtlsMessageHeader" ]
+         fhir:link <http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageBundleLocationUpdate> ;
+         fhir:reference [ fhir:v "StructureDefinition/rtlsMessageBundleLocationUpdate" ]
        ] ;
-       fhir:name [ fhir:v "RTLS Message Header Resource Profile" ] ;
-       fhir:description [ fhir:v "MessageHeader resource for FHIR messages sent in RTLS workflows." ]
+       fhir:name [ fhir:v "RTLS Location Update Message Profile" ] ;
+       fhir:description [ fhir:v "Bundle resource with a type of \"message\" used in RTLS workflows. This bundle will be used for location updates." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "StructureDefinition:resource"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageBundleUnenroll> ;
+         fhir:reference [ fhir:v "StructureDefinition/rtlsMessageBundleUnenroll" ]
+       ] ;
+       fhir:name [ fhir:v "RTLS Unenrollment Message Profile" ] ;
+       fhir:description [ fhir:v "Bundle resource with a type of \"message\" used in RTLS workflows. This bundle will be used for unenrollment." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "StructureDefinition:resource"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageEnrollmentHeader> ;
+         fhir:reference [ fhir:v "StructureDefinition/rtlsMessageEnrollmentHeader" ]
+       ] ;
+       fhir:name [ fhir:v "RTLS Message Enrollment Header Resource Profile" ] ;
+       fhir:description [ fhir:v "MessageHeader resource for FHIR enrollment messages sent in RTLS workflows." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "StructureDefinition:resource"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageLocationUpdateHeader> ;
+         fhir:reference [ fhir:v "StructureDefinition/rtlsMessageLocationUpdateHeader" ]
+       ] ;
+       fhir:name [ fhir:v "RTLS Message Location Update Header Header Resource Profile" ] ;
+       fhir:description [ fhir:v "MessageHeader resource for FHIR Location Update messages sent in RTLS workflows." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "OperationDefinition"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/rtls/OperationDefinition/rtlsMessageParameters> ;
+         fhir:reference [ fhir:v "OperationDefinition/rtlsMessageParameters" ]
+       ] ;
+       fhir:name [ fhir:v "RTLS Message Parameters Operation" ] ;
+       fhir:description [ fhir:v "Parameters for RTLS auxiliary function." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "StructureDefinition:resource"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageUnenrollmentHeader> ;
+         fhir:reference [ fhir:v "StructureDefinition/rtlsMessageUnenrollmentHeader" ]
+       ] ;
+       fhir:name [ fhir:v "RTLS Message Unenrollment Header Resource Profile" ] ;
+       fhir:description [ fhir:v "MessageHeader resource for FHIR Unenrollment messages sent in RTLS workflows." ]
      ] ) ;
      fhir:page [
        fhir:extension ( [
@@ -1183,18 +1259,6 @@
          fhir:generation [ fhir:v "html" ]
        ] [
          fhir:extension ( [
-           fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ] ;
-           fhir:value [
-             a fhir:code ;
-             fhir:v "trial-use"
-           ]
-         ] [
-           fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ] ;
-           fhir:value [
-             a fhir:integer ;
-             fhir:v 3
-           ]
-         ] [
            fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
            fhir:value [
              a fhir:url ;
@@ -1290,9 +1354,19 @@
 
 <http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsLocation> a fhir:uv .
 
-<http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageBundle> a fhir:uv .
+<http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageBundleEnroll> a fhir:uv .
 
-<http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageHeader> a fhir:uv .
+<http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageBundleLocationUpdate> a fhir:uv .
+
+<http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageBundleUnenroll> a fhir:uv .
+
+<http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageEnrollmentHeader> a fhir:uv .
+
+<http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageLocationUpdateHeader> a fhir:uv .
+
+<http://hl7.org/fhir/uv/rtls/OperationDefinition/rtlsMessageParameters> a fhir:uv .
+
+<http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageUnenrollmentHeader> a fhir:uv .
 
 # -------------------------------------------------------------------------------------
 

@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "b95aae0f-94fc-4d4f-8a99-b675c79c923c-12",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/b95aae0f-94fc-4d4f-8a99-b675c79c923c-12",
+  "id" : "3287baf3-c69d-49c1-a0e1-8594bf36b0e5-12",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/3287baf3-c69d-49c1-a0e1-8594bf36b0e5-12",
   "name" : "IntersectionRTLSLocationAndRTLSLocation",
   "title" : "Intersection of RTLS Location Resource Profile And RTLS Location Resource Profile",
   "status" : "draft",
-  "date" : "2025-07-30T15:50:36-05:00",
+  "date" : "2025-08-04T22:11:22-05:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",

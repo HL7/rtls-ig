@@ -4,7 +4,7 @@
     "testplan" : false,
     "testscript" : false,
     "index" : 0,
-    "source" : "/Users/nshpringman/Documents/GitHub/rtls-ig/input/rtls.xml",
+    "source" : "C:\\Users\\Nat\\Documents\\GitHub\\rtls-ig\\input\\rtls.xml",
     "sourceTail" : "rtls.xml",
     "path" : "index.html",
     "url" : "http://hl7.org/fhir/uv/rtls/ImplementationGuide/hl7.fhir.uv.rtls",
@@ -14,7 +14,7 @@
     "titlelang" : {
     },
     "experimental" : false,
-    "date" : "2025-07-30T15:50:11-05:00",
+    "date" : "2025-08-04T22:10:47-05:00",
     "description" : "Description of IG",
     "descriptionlang" : {
     },
@@ -26,10 +26,10 @@
       }
     ],
     "status" : {
-      "class" : "colsi",
+      "class" : "colstu",
       "owner" : "HL7 International / Patient Administration",
-      "link" : "http://hl7.org/Special/committees/pafm",
-      "standards-status" : "informative",
+      "link" : "http://www.hl7.org/Special/committees/pafm",
+      "standards-status" : "trial-use",
       "fmm" : "1",
       "status" : "Active"
     },
@@ -136,7 +136,7 @@
     "status" : {
       "class" : "colsi",
       "owner" : "HL7 International / Patient Administration",
-      "link" : "http://hl7.org/Special/committees/pafm",
+      "link" : "http://www.hl7.org/Special/committees/pafm",
       "standards-status" : "informative",
       "status" : "Draft"
     }
@@ -170,7 +170,7 @@
     "status" : {
       "class" : "colsi",
       "owner" : "HL7 International / Patient Administration",
-      "link" : "http://hl7.org/Special/committees/pafm",
+      "link" : "http://www.hl7.org/Special/committees/pafm",
       "standards-status" : "informative",
       "status" : "Draft"
     }
@@ -190,7 +190,7 @@
     "titlelang" : {
     },
     "experimental" : true,
-    "date" : "2025-07-30T15:50:11-05:00",
+    "date" : "2025-08-04T22:10:47-05:00",
     "description" : "Device resource profile for tags or badges in RTLS workflows",
     "descriptionlang" : {
     },
@@ -204,7 +204,7 @@
     "status" : {
       "class" : "colsi",
       "owner" : "HL7 International / Patient Administration",
-      "link" : "http://hl7.org/Special/committees/pafm",
+      "link" : "http://www.hl7.org/Special/committees/pafm",
       "standards-status" : "informative",
       "status" : "Draft"
     },
@@ -225,7 +225,7 @@
     "titlelang" : {
     },
     "experimental" : true,
-    "date" : "2025-07-30T15:50:11-05:00",
+    "date" : "2025-08-04T22:10:47-05:00",
     "description" : "Location resource profile for RTLS workflows.",
     "descriptionlang" : {
     },
@@ -239,29 +239,29 @@
     "status" : {
       "class" : "colsi",
       "owner" : "HL7 International / Patient Administration",
-      "link" : "http://hl7.org/Special/committees/pafm",
+      "link" : "http://www.hl7.org/Special/committees/pafm",
       "standards-status" : "informative",
       "status" : "Draft"
     },
     "purpose" : "Defines minimum expectations for the location resource used in RTLS workflows"
   },
-  "StructureDefinition/rtlsMessageBundle" : {
+  "StructureDefinition/rtlsMessageBundleEnroll" : {
     "history" : false,
     "testplan" : false,
     "testscript" : false,
     "index" : 12,
-    "source" : "input/resources/rtlsMessageBundle.xml",
-    "sourceTail" : "rtlsMessageBundle.xml",
-    "path" : "StructureDefinition-rtlsMessageBundle.html",
-    "url" : "http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageBundle",
+    "source" : "input/resources/rtlsMessageBundleEnroll.xml",
+    "sourceTail" : "rtlsMessageBundleEnroll.xml",
+    "path" : "StructureDefinition-rtlsMessageBundleEnroll.html",
+    "url" : "http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageBundleEnroll",
     "version" : "1.0.0-ballot2",
-    "name" : "RTLSMessageBundle",
-    "title" : "RTLS Message Bundle Profile",
+    "name" : "RTLSMessageBundleEnroll",
+    "title" : "RTLS Enrollment Message Profile",
     "titlelang" : {
     },
     "experimental" : true,
-    "date" : "2025-07-30T15:50:11-05:00",
-    "description" : "Bundle resource with a type of \"message\" used in RTLS workflows.",
+    "date" : "2025-08-04T22:10:47-05:00",
+    "description" : "Bundle resource with a type of \"message\" used in RTLS workflows. This bundle will be used for enrollment.",
     "descriptionlang" : {
     },
     "jurisdictions" : [
@@ -274,29 +274,29 @@
     "status" : {
       "class" : "colsi",
       "owner" : "HL7 International / Patient Administration",
-      "link" : "http://hl7.org/Special/committees/pafm",
+      "link" : "http://www.hl7.org/Special/committees/pafm",
       "standards-status" : "informative",
       "status" : "Draft"
     },
     "purpose" : "This profile defines minimum expectations for a messaging bundle used in RTLS workflows."
   },
-  "StructureDefinition/rtlsMessageHeader" : {
+  "StructureDefinition/rtlsMessageBundleLocationUpdate" : {
     "history" : false,
     "testplan" : false,
     "testscript" : false,
     "index" : 13,
-    "source" : "input/resources/rtlsMessageHeader.xml",
-    "sourceTail" : "rtlsMessageHeader.xml",
-    "path" : "StructureDefinition-rtlsMessageHeader.html",
-    "url" : "http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageHeader",
+    "source" : "input/resources/rtlsMessageBundleLocationUpdate.xml",
+    "sourceTail" : "rtlsMessageBundleLocationUpdate.xml",
+    "path" : "StructureDefinition-rtlsMessageBundleLocationUpdate.html",
+    "url" : "http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageBundleLocationUpdate",
     "version" : "1.0.0-ballot2",
-    "name" : "RTLSMessageHeader",
-    "title" : "RTLS Message Header Resource Profile",
+    "name" : "RTLSMessageBundleLocationUpdate",
+    "title" : "RTLS Location Update Message Profile",
     "titlelang" : {
     },
     "experimental" : true,
-    "date" : "2025-07-30T15:50:11-05:00",
-    "description" : "MessageHeader resource for FHIR messages sent in RTLS workflows.",
+    "date" : "2025-08-04T22:10:47-05:00",
+    "description" : "Bundle resource with a type of \"message\" used in RTLS workflows. This bundle will be used for location updates.",
     "descriptionlang" : {
     },
     "jurisdictions" : [
@@ -309,10 +309,185 @@
     "status" : {
       "class" : "colsi",
       "owner" : "HL7 International / Patient Administration",
-      "link" : "http://hl7.org/Special/committees/pafm",
+      "link" : "http://www.hl7.org/Special/committees/pafm",
       "standards-status" : "informative",
       "status" : "Draft"
     },
-    "purpose" : "This profile defines minimum expectations for the MessageHeader resource to be used in RTLS workflows."
+    "purpose" : "This profile defines minimum expectations for a messaging bundle used in RTLS workflows."
+  },
+  "StructureDefinition/rtlsMessageBundleUnenroll" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 14,
+    "source" : "input/resources/rtlsMessageBundleUnenroll.xml",
+    "sourceTail" : "rtlsMessageBundleUnenroll.xml",
+    "path" : "StructureDefinition-rtlsMessageBundleUnenroll.html",
+    "url" : "http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageBundleUnenroll",
+    "version" : "1.0.0-ballot2",
+    "name" : "RTLSMessageBundleUnenroll",
+    "title" : "RTLS Unenrollment Message Profile",
+    "titlelang" : {
+    },
+    "experimental" : true,
+    "date" : "2025-08-04T22:10:47-05:00",
+    "description" : "Bundle resource with a type of \"message\" used in RTLS workflows. This bundle will be used for unenrollment.",
+    "descriptionlang" : {
+    },
+    "jurisdictions" : [
+      {
+        "code" : "001",
+        "name" : "International",
+        "flag" : "001"
+      }
+    ],
+    "status" : {
+      "class" : "colsi",
+      "owner" : "HL7 International / Patient Administration",
+      "link" : "http://www.hl7.org/Special/committees/pafm",
+      "standards-status" : "informative",
+      "status" : "Draft"
+    },
+    "purpose" : "This profile defines minimum expectations for a messaging bundle used in RTLS workflows."
+  },
+  "StructureDefinition/rtlsMessageEnrollmentHeader" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 15,
+    "source" : "input/resources/rtlsMessageEnrollmentHeader.xml",
+    "sourceTail" : "rtlsMessageEnrollmentHeader.xml",
+    "path" : "StructureDefinition-rtlsMessageEnrollmentHeader.html",
+    "url" : "http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageEnrollmentHeader",
+    "version" : "1.0.0-ballot2",
+    "name" : "rtlsMessageEnrollmentHeader",
+    "title" : "RTLS Message Enrollment Header Resource Profile",
+    "titlelang" : {
+    },
+    "experimental" : true,
+    "date" : "2025-08-04T22:10:47-05:00",
+    "description" : "MessageHeader resource for FHIR enrollment messages sent in RTLS workflows.",
+    "descriptionlang" : {
+    },
+    "jurisdictions" : [
+      {
+        "code" : "001",
+        "name" : "International",
+        "flag" : "001"
+      }
+    ],
+    "status" : {
+      "class" : "colsi",
+      "owner" : "HL7 International / Patient Administration",
+      "link" : "http://www.hl7.org/Special/committees/pafm",
+      "standards-status" : "informative",
+      "status" : "Draft"
+    },
+    "purpose" : "This profile defines minimum expectations for the MessageHeader resource to be used in RTLS enrollment workflows."
+  },
+  "StructureDefinition/rtlsMessageLocationUpdateHeader" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 16,
+    "source" : "input/resources/rtlsMessageLocationUpdateHeader.xml",
+    "sourceTail" : "rtlsMessageLocationUpdateHeader.xml",
+    "path" : "StructureDefinition-rtlsMessageLocationUpdateHeader.html",
+    "url" : "http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageLocationUpdateHeader",
+    "version" : "1.0.0-ballot2",
+    "name" : "rtlsMessageLocationUpdateHeader",
+    "title" : "RTLS Message Location Update Header Header Resource Profile",
+    "titlelang" : {
+    },
+    "experimental" : true,
+    "date" : "2025-08-04T22:10:47-05:00",
+    "description" : "MessageHeader resource for FHIR Location Update messages sent in RTLS workflows.",
+    "descriptionlang" : {
+    },
+    "jurisdictions" : [
+      {
+        "code" : "001",
+        "name" : "International",
+        "flag" : "001"
+      }
+    ],
+    "status" : {
+      "class" : "colsi",
+      "owner" : "HL7 International / Patient Administration",
+      "link" : "http://www.hl7.org/Special/committees/pafm",
+      "standards-status" : "informative",
+      "status" : "Draft"
+    },
+    "purpose" : "This profile defines minimum expectations for the MessageHeader resource to be used in RTLS Unenrollment workflows."
+  },
+  "OperationDefinition/rtlsMessageParameters" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 17,
+    "source" : "input/resources/rtlsMessageParameters.xml",
+    "sourceTail" : "rtlsMessageParameters.xml",
+    "path" : "OperationDefinition-rtlsMessageParameters.html",
+    "url" : "http://hl7.org/fhir/uv/rtls/OperationDefinition/rtlsMessageParameters",
+    "version" : "1.0.0-ballot2",
+    "name" : "RTLSMessageParameters",
+    "title" : "RTLS Message Parameters Operation",
+    "titlelang" : {
+    },
+    "experimental" : true,
+    "date" : "2025-08-04T22:10:47-05:00",
+    "description" : "Parameters for RTLS auxiliary function.",
+    "descriptionlang" : {
+    },
+    "jurisdictions" : [
+      {
+        "code" : "001",
+        "name" : "International",
+        "flag" : "001"
+      }
+    ],
+    "status" : {
+      "class" : "colsi",
+      "owner" : "HL7 International / Patient Administration",
+      "link" : "http://www.hl7.org/Special/committees/pafm",
+      "standards-status" : "informative",
+      "status" : "Draft"
+    },
+    "purpose" : "This operation provides parameters for RTLS messaging functions."
+  },
+  "StructureDefinition/rtlsMessageUnenrollmentHeader" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 18,
+    "source" : "input/resources/rtlsMessageUnenrollmentHeader.xml",
+    "sourceTail" : "rtlsMessageUnenrollmentHeader.xml",
+    "path" : "StructureDefinition-rtlsMessageUnenrollmentHeader.html",
+    "url" : "http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageUnenrollmentHeader",
+    "version" : "1.0.0-ballot2",
+    "name" : "rtlsMessageUnenrollmentHeader",
+    "title" : "RTLS Message Unenrollment Header Resource Profile",
+    "titlelang" : {
+    },
+    "experimental" : true,
+    "date" : "2025-08-04T22:10:47-05:00",
+    "description" : "MessageHeader resource for FHIR Unenrollment messages sent in RTLS workflows.",
+    "descriptionlang" : {
+    },
+    "jurisdictions" : [
+      {
+        "code" : "001",
+        "name" : "International",
+        "flag" : "001"
+      }
+    ],
+    "status" : {
+      "class" : "colsi",
+      "owner" : "HL7 International / Patient Administration",
+      "link" : "http://www.hl7.org/Special/committees/pafm",
+      "standards-status" : "informative",
+      "status" : "Draft"
+    },
+    "purpose" : "This profile defines minimum expectations for the MessageHeader resource to be used in RTLS Unenrollment workflows."
   }
 }

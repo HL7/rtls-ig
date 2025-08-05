@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="f2932fce-52eb-4a0c-ad86-9a26a624b60e"/>
+  <id value="3a46a4d1-bd85-4271-ab83-41ee575235d8"/>
   <meta>
-    <lastUpdated value="2025-07-30T15:50:23.509-05:00"/>
+    <lastUpdated value="2025-08-04T22:11:12.349-05:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -17,7 +17,7 @@
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
               <a href="CodeSystem-rtlsMessageEvents.html">codesystem RTLS Message Events v1.0.0-ballot2 (CodeSystem)</a>
             </p>
-            <p>This value set contains 4 concepts</p>
+            <p>This value set contains 3 concepts</p>
             <table class="codes">
               <tr>
                 <td style="white-space:nowrap">
@@ -60,15 +60,6 @@
                 <td>Location Update</td>
                 <td>Used to describe when a specific tag has an updated location.</td>
               </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="x-http://hl7.org/fhir/uv/rtls/CodeSystem/rtlsMessageEvents-staff-duress"> </a>  
-                  <a href="CodeSystem-rtlsMessageEvents.html#rtlsMessageEvents-staff-duress">staff-duress</a>
-                </td>
-                <td>http://hl7.org/fhir/uv/rtls/CodeSystem/rtlsMessageEvents</td>
-                <td>Staff Duress</td>
-                <td>Used when a user requires assistance pertaining to a security incident or threat; this function sends a distress signal that will notify nearby security members.</td>
-              </tr>
             </table>
           </div>
         </text>
@@ -86,9 +77,9 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:5319f3a8-6fa8-4525-99bd-a271d19f3ce6"/>
-          <timestamp value="2025-07-30T15:50:40-05:00"/>
-          <total value="4"/>
+          <identifier value="urn:uuid:84b09d51-a48f-4c23-96e9-2e2c107409e7"/>
+          <timestamp value="2025-08-04T22:11:28-05:00"/>
+          <total value="3"/>
           <offset value="0"/>
           <parameter>
             <name value="displayLanguage"/>
@@ -124,11 +115,6 @@
             <system value="http://hl7.org/fhir/uv/rtls/CodeSystem/rtlsMessageEvents"/>
             <code value="location-update"/>
             <display value="Location Update"/>
-          </contains>
-          <contains>
-            <system value="http://hl7.org/fhir/uv/rtls/CodeSystem/rtlsMessageEvents"/>
-            <code value="staff-duress"/>
-            <display value="Staff Duress"/>
           </contains>
         </expansion>
       </ValueSet>

@@ -3,7 +3,7 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
   <id value="rtlsMessageEvents"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem rtlsMessageEvents</b></p><a name="rtlsMessageEvents"> </a><a name="hcrtlsMessageEvents"> </a><p>This case-sensitive code system <code>http://hl7.org/fhir/uv/rtls/CodeSystem/rtlsMessageEvents</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">enroll-tag<a name="rtlsMessageEvents-enroll-tag"> </a></td><td>Enroll Tag</td><td>Used to describe when a subscriber wants to receive notifications about a specific tag.</td></tr><tr><td style="white-space:nowrap">unenroll-tag<a name="rtlsMessageEvents-unenroll-tag"> </a></td><td>Unenroll Tag</td><td>Used to describe when a subscriber no longer wants to receive notifications about a specific tag.</td></tr><tr><td style="white-space:nowrap">location-update<a name="rtlsMessageEvents-location-update"> </a></td><td>Location Update</td><td>Used to describe when a specific tag has an updated location.</td></tr><tr><td style="white-space:nowrap">staff-duress<a name="rtlsMessageEvents-staff-duress"> </a></td><td>Staff Duress</td><td>Used when a user requires assistance pertaining to a security incident or threat; this function sends a distress signal that will notify nearby security members.</td></tr></table></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem rtlsMessageEvents</b></p><a name="rtlsMessageEvents"> </a><a name="hcrtlsMessageEvents"> </a><p>This case-sensitive code system <code>http://hl7.org/fhir/uv/rtls/CodeSystem/rtlsMessageEvents</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">enroll-tag<a name="rtlsMessageEvents-enroll-tag"> </a></td><td>Enroll Tag</td><td>Used to describe when a subscriber wants to receive notifications about a specific tag.</td></tr><tr><td style="white-space:nowrap">unenroll-tag<a name="rtlsMessageEvents-unenroll-tag"> </a></td><td>Unenroll Tag</td><td>Used to describe when a subscriber no longer wants to receive notifications about a specific tag.</td></tr><tr><td style="white-space:nowrap">location-update<a name="rtlsMessageEvents-location-update"> </a></td><td>Location Update</td><td>Used to describe when a specific tag has an updated location.</td></tr></table></div>
   </text>
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
     <valueCode value="pa"/>
@@ -26,7 +26,7 @@
   <contact>
     <telecom>
       <system value="url"/>
-      <value value="http://hl7.org/Special/committees/pafm"/>
+      <value value="http://www.hl7.org/Special/committees/pafm"/>
     </telecom>
   </contact>
   <description value="Code System listing codes for all types of RTLS messaging events"/>
@@ -52,10 +52,5 @@
     <code value="location-update"/>
     <display value="Location Update"/>
     <definition value="Used to describe when a specific tag has an updated location."/>
-  </concept>
-  <concept>
-    <code value="staff-duress"/>
-    <display value="Staff Duress"/>
-    <definition value="Used when a user requires assistance pertaining to a security incident or threat; this function sends a distress signal that will notify nearby security members."/>
   </concept>
 </CodeSystem>

@@ -7,6 +7,12 @@
   <status value="draft"/>
   <experimental value="true"/>
   <date value="2022-10-12"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/pafm"/>
+    </telecom>
+  </contact>
   <description value="Code System listing codes for all types of RTLS messaging events"/> 
   <caseSensitive value="true"/>
   <content value="complete"/>

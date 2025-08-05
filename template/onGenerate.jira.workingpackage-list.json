@@ -1,23 +1,25 @@
-{
-    "package-id": "hl7.fhir.uv.rtls",
-    "canonical": "http://hl7.org/fhir/uv/rtls",
-    "title": "Real-Time Location Services (RTLS) IG",
-    "list": [
+﻿{
+  "list" : [
     {
-        "version": "1.0.0-ballot",
-        "desc": "Initial ballot version",
-        "path": "http://hl7.org/fhir/uv/rtls/2023May",
-        "status": "ballot",
-        "current": "false"
+      "version" : "current",
+      "path" : "http://build.fhir.org/ig/HL7/rtls-ig",
+      "status" : "ci-build",
+      "sequence" : "ci-build"
     },
     {
-        "version": "2.0.0-ballot",
-        "desc": "Second ballot version",
-        "path": "http://build.fhir.org/ig/HL7/rtls-ig",
-        "status": "ballot",
-        "current": "true",
-        "fhirversion":"4.0.1",
-        "date": "2025-06-24"
+      "version" : "1.0.0-ballot",
+      "path" : "http://hl7.org/fhir/uv/rtls/2023May",
+      "status" : "ballot",
+      "sequence" : "STU 1.0",
+      "fhirversion" : "5.0.0",
+      "date" : "2023-03-30",
+      "desc" : "STU 1.0 initial ballot",
+      "descmd" : "STU 1.0 initial ballot"
     }
-    ]
+  ],
+  "package-id" : "hl7.fhir.uv.rtls",
+  "canonical" : "http://hl7.org/fhir/uv/rtls",
+  "title" : "Real Time Location Services Implementation Guide",
+  "category" : "administration",
+  "introduction" : "This implementation guide defines the use of FHIR resources to exchange information that describes the location of patients, providers, staff, equipment, or other permanent assets within a hospital or other healthcare facility. This data is typically exchanged between a healthcare system (e.g. EHR software) and a Real Time Location System (RTLS) that captures, processes, and stores information about the location of tracking tags. The tracking tags are associated with an assigned subject (i.e. patients, providers, assets) and their location data is recorded as the associated subject moves throughout a healthcare facility. This location data has many applications in the healthcare context, such as workflow automation, staff/asset tracking, and patient monitoring. \n The communication workflows that this implementation guide enables includes tag location updates, association/disassociation from subjects, co-location notifications, status updates, availability updates, and other auxiliary functions (e.g. button presses) a tag may offer. Note that it only provides a communication model for notifying interested parties that these events occurred, and does not define the situational requirements for which each event is applicable. "
 }

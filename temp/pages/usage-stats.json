@@ -19,14 +19,30 @@
     ],
     "Bundle": [
       {
-        "url": "http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageBundle",
-        "title": "RTLS Message Bundle Profile"
+        "url": "http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageBundleEnroll",
+        "title": "RTLS Enrollment Message Profile"
+      },
+      {
+        "url": "http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageBundleLocationUpdate",
+        "title": "RTLS Location Update Message Profile"
+      },
+      {
+        "url": "http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageBundleUnenroll",
+        "title": "RTLS Unenrollment Message Profile"
       }
     ],
     "MessageHeader": [
       {
-        "url": "http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageHeader",
-        "title": "RTLS Message Header Resource Profile"
+        "url": "http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageEnrollmentHeader",
+        "title": "RTLS Message Enrollment Header Resource Profile"
+      },
+      {
+        "url": "http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageLocationUpdateHeader",
+        "title": "RTLS Message Location Update Header Header Resource Profile"
+      },
+      {
+        "url": "http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageUnenrollmentHeader",
+        "title": "RTLS Message Unenrollment Header Resource Profile"
       }
     ]
   },
@@ -47,8 +63,7 @@
       "StructureDefinition.snapshot.element.type"
     ],
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm": [
-      "ImplementationGuide",
-      "ImplementationGuide.definition.page.page"
+      "ImplementationGuide"
     ],
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-hierarchy": [
       "StructureDefinition.snapshot.element.type"
@@ -57,12 +72,14 @@
       "CodeSystem",
       "ImplementationGuide",
       "ImplementationGuide.definition.page",
-      "ImplementationGuide.definition.page.page",
+      "OperationDefinition",
       "StructureDefinition",
       "ValueSet"
     ],
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg": [
       "CodeSystem",
+      "ImplementationGuide",
+      "OperationDefinition",
       "StructureDefinition",
       "ValueSet"
     ],

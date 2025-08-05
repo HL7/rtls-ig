@@ -45,7 +45,7 @@
   fhir:contact ( [
      fhir:telecom ( [
        fhir:system [ fhir:v "url" ] ;
-       fhir:value [ fhir:v "http://hl7.org/Special/committees/pafm" ]
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/pafm" ]
      ] )
   ] ) ; # 
   fhir:description [ fhir:v "This valueset defines FHIR messaging event types used in RTLS workflows."] ; # 

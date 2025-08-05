@@ -10,6 +10,12 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
     <valueCode value="pa"/>
   </extension>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="http://hl7.org/Special/committees/pafm"/>
+    </telecom>
+  </contact>
   <description value="This valueset defines FHIR messaging event types used in RTLS workflows."/>
   <compose>
     <include>

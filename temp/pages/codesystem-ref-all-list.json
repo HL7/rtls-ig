@@ -61,6 +61,18 @@
       "http://hl7.org/fhir/R4/valueset-http-verb.html" : "HTTPVerb"
     },
     {
+      "url" : "http://hl7.org/fhir/identifier-use",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "IdentifierUse",
+      "title" : "IdentifierUse",
+      "description" : "Identifies the purpose for this identifier, if known .",
+      "oids" : ["2.16.840.1.113883.4.642.4.58"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R4/valueset-identifier-use.html" : "IdentifierUse"
+    },
+    {
       "url" : "http://hl7.org/fhir/location-mode",
       "version" : "4.0.1",
       "status" : "draft",
@@ -190,6 +202,18 @@
       "uses" : {
       },
       "http://terminology.hl7.org/6.5.0/ValueSet-v2-0116.html" : "hl7VS-bedStatus"
+    },
+    {
+      "url" : "http://terminology.hl7.org/CodeSystem/v2-0203",
+      "version" : "5.0.0",
+      "status" : "active",
+      "name" : "IdentifierType",
+      "title" : "identifierType",
+      "description" : "HL7-defined code system of concepts specifying type of identifier. Used in HL7 Version 2.x messaging data types CX, PLN, PPN, XCN and XON.",
+      "oids" : ["2.16.840.1.113883.18.108"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R4/valueset-identifier-type.html" : "IdentifierType"
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",

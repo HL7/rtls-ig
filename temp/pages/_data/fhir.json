@@ -5,9 +5,9 @@
   "igName" : "RTLS",
   "packageId" : "hl7.fhir.uv.rtls",
   "igVer" : "1.0.0-ballot2",
-  "errorCount" : 21,
+  "errorCount" : 31,
   "version" : "4.0.1",
-  "releaseLabel" : "STU 1 - Ballot",
+  "releaseLabel" : "STU 1 - Ballot2",
   "releaseLabellang" : {
   },
   "revision" : "a53ec6ee1b",
@@ -15,10 +15,10 @@
   "toolingVersion" : "5.0.0",
   "toolingRevision" : "3",
   "toolingVersionFull" : "5.0.0 (3)",
-  "genDate" : "Wed, Jul 30, 2025 15:50-0500",
-  "genDay" : "30/07/2025",
-  "totalFiles" : 14,
-  "processedFiles" : 29,
+  "genDate" : "Mon, Aug 4, 2025 22:11-0500",
+  "genDay" : "04/08/2025",
+  "totalFiles" : 19,
+  "processedFiles" : 34,
   "repoSource" : "https://github.com/HL7/rtls-ig.git",
   "resourceTypes" : [
     "Account",
@@ -251,10 +251,10 @@
     "contact" : [
       {
         "name" : null,
-        "telecom" : ["http://hl7.org/Special/committees/pafm"]
+        "telecom" : ["http://www.hl7.org/Special/committees/pafm"]
       }
     ],
-    "date" : "2025-07-30T15:50:11-05:00",
+    "date" : "2025-08-04T22:10:47-05:00",
     "description" : "Description of IG",
     "descriptionlang" : {
     },
@@ -268,7 +268,7 @@
   "ver" : {
     "basespec" : null,
     "hl7tx" : "http://terminology.hl7.org/6.5.0",
-    "hl7ext" : "http://hl7.org/fhir/extensions/5.2.0",
+    "hl7ext" : "http://hl7.org/fhir/extensions/5.3.0-ballot-tc1",
     "igtools" : "http://hl7.org/fhir/tools/0.7.1"
   },
   "hl7tx" : "http://terminology.hl7.org",
