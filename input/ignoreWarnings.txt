@@ -10,12 +10,14 @@ The Implementation Guide contains no explicitly linked examples for this profile
 # Example CodeSystem is purposefully left experimental for now.
 Reference to experimental CodeSystem http://hl7.org/fhir/uv/rtls/CodeSystem/rtlsMessageEvents|1.0.0-ballot2
 
-# Resource narrative would not be valuable in this case. Electing to not follow best practice recommendation.
+# Resource narratives would not be valuable for these cases. Electing to not follow best practice recommendation.
 Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)
 
 # This is inherited from the core FHIR specification.
 The extension http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|5.3.0-ballot-tc1 is deprecated with the note Use additionalBinding extension or element instead
 
-# Suppressing THO information for now, will begin process of seeking an exemption from TSMG after ballot. 
+# Suppressing THO information for now-- will begin process of seeking an exemption from TSMG after ballot. 
 Most code systems defined in HL7 IGs will need to move to THO later during the process. Consider giving this code system a THO URL now (See https://confluence.hl7.org/display/TSMG/Terminology+Play+Book, and/or talk to TSMG)
 
+# Submitted pull request to get jira specification up to date: https://github.com/HL7/JIRA-Spec-Artifacts/pull/1331
+The jira specification file appears to be out of date with the versions, artifacts and pages currently defined in the IG. A proposed revised file to be reviewed and, if appropriate, submitted as a pull request against the XML folder in https://github.com/HL7/JIRA-Spec-Artifacts. To see the differences, perform a file compare on 'template/jira-current.xml' (a normalized view of what is in Github) and 'template/jira-new.xml' (reflects current IG content)

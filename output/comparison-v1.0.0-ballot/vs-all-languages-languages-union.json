@@ -1,11 +1,11 @@
 {
   "resourceType" : "ValueSet",
-  "id" : "9133db9f-cddc-4265-9e38-4ae1709f404c-8",
-  "url" : "http://hl7.org/fhir/comparison/ValueSet/9133db9f-cddc-4265-9e38-4ae1709f404c-8",
+  "id" : "e85aff19-0997-4ebc-b789-62ebb20ba479-8",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/e85aff19-0997-4ebc-b789-62ebb20ba479-8",
   "name" : "UnionAllLanguagesAndCommonLanguages",
   "title" : "Union of All Languages And Common Languages",
   "status" : "active",
-  "date" : "2025-08-05T17:07:45-05:00",
+  "date" : "2025-08-05T17:18:30-05:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
