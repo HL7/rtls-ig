@@ -1,8 +1,8 @@
 {
   "resourceType" : "Bundle",
-  "id" : "8d469a1f-48ac-4d34-8edb-a1b0a0ebfeed",
+  "id" : "e4c4e32d-0826-46e0-82fb-ce35e6859752",
   "meta" : {
-    "lastUpdated" : "2025-08-05T14:07:39.130-05:00"
+    "lastUpdated" : "2025-08-05T17:07:26.061-05:00"
   },
   "type" : "collection",
   "entry" : [{
@@ -11,7 +11,7 @@
       "resourceType" : "ValueSet",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion performed internally based on <a href=\"CodeSystem-rtlsMessageEvents.html\">codesystem RTLS Message Events v1.0.0-ballot2 (CodeSystem)</a></p><p>This value set contains 3 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display (en-US)</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://hl7.org/fhir/uv/rtls/CodeSystem/rtlsMessageEvents-enroll-tag\"> </a>\u00a0\u00a0<a href=\"CodeSystem-rtlsMessageEvents.html#rtlsMessageEvents-enroll-tag\">enroll-tag</a></td><td>http://hl7.org/fhir/uv/rtls/CodeSystem/rtlsMessageEvents</td><td>Enroll Tag</td><td>Used to describe when a subscriber wants to receive notifications about a specific tag.</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://hl7.org/fhir/uv/rtls/CodeSystem/rtlsMessageEvents-unenroll-tag\"> </a>\u00a0\u00a0<a href=\"CodeSystem-rtlsMessageEvents.html#rtlsMessageEvents-unenroll-tag\">unenroll-tag</a></td><td>http://hl7.org/fhir/uv/rtls/CodeSystem/rtlsMessageEvents</td><td>Unenroll Tag</td><td>Used to describe when a subscriber no longer wants to receive notifications about a specific tag.</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://hl7.org/fhir/uv/rtls/CodeSystem/rtlsMessageEvents-location-update\"> </a>\u00a0\u00a0<a href=\"CodeSystem-rtlsMessageEvents.html#rtlsMessageEvents-location-update\">location-update</a></td><td>http://hl7.org/fhir/uv/rtls/CodeSystem/rtlsMessageEvents</td><td>Location Update</td><td>Used to describe when a specific tag has an updated location.</td></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion performed internally based on <a href=\"CodeSystem-rtlsMessageEvents.html\">codesystem RTLS Message Events v1.0.0-ballot2 (CodeSystem)</a></p><p>This value set contains 4 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display (en-US)</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://hl7.org/fhir/uv/rtls/CodeSystem/rtlsMessageEvents-enroll-tag\"> </a>\u00a0\u00a0<a href=\"CodeSystem-rtlsMessageEvents.html#rtlsMessageEvents-enroll-tag\">enroll-tag</a></td><td>http://hl7.org/fhir/uv/rtls/CodeSystem/rtlsMessageEvents</td><td>Enroll Tag</td><td>Used to describe when a subscriber wants to receive notifications about a specific tag.</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://hl7.org/fhir/uv/rtls/CodeSystem/rtlsMessageEvents-unenroll-tag\"> </a>\u00a0\u00a0<a href=\"CodeSystem-rtlsMessageEvents.html#rtlsMessageEvents-unenroll-tag\">unenroll-tag</a></td><td>http://hl7.org/fhir/uv/rtls/CodeSystem/rtlsMessageEvents</td><td>Unenroll Tag</td><td>Used to describe when a subscriber no longer wants to receive notifications about a specific tag.</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://hl7.org/fhir/uv/rtls/CodeSystem/rtlsMessageEvents-location-update\"> </a>\u00a0\u00a0<a href=\"CodeSystem-rtlsMessageEvents.html#rtlsMessageEvents-location-update\">location-update</a></td><td>http://hl7.org/fhir/uv/rtls/CodeSystem/rtlsMessageEvents</td><td>Location Update</td><td>Used to describe when a specific tag has an updated location.</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://hl7.org/fhir/uv/rtls/CodeSystem/rtlsMessageEvents-staff-duress\"> </a>\u00a0\u00a0<a href=\"CodeSystem-rtlsMessageEvents.html#rtlsMessageEvents-staff-duress\">staff-duress</a></td><td>http://hl7.org/fhir/uv/rtls/CodeSystem/rtlsMessageEvents</td><td>Staff Duress</td><td>Used to describe when a staff member is in duress.</td></tr></table></div>"
       },
       "url" : "http://hl7.org/fhir/uv/rtls/ValueSet/rtlsMessageEvents",
       "version" : "1.0.0-ballot2",
@@ -27,9 +27,9 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:55aa9eb5-887d-4255-9734-e641856fe98f",
-        "timestamp" : "2025-08-05T14:07:55-05:00",
-        "total" : 3,
+        "identifier" : "urn:uuid:c3528d15-03cb-4585-9f94-5c2b5f635a42",
+        "timestamp" : "2025-08-05T17:07:49-05:00",
+        "total" : 4,
         "offset" : 0,
         "parameter" : [{
           "name" : "displayLanguage",
@@ -65,6 +65,11 @@
           "system" : "http://hl7.org/fhir/uv/rtls/CodeSystem/rtlsMessageEvents",
           "code" : "location-update",
           "display" : "Location Update"
+        },
+        {
+          "system" : "http://hl7.org/fhir/uv/rtls/CodeSystem/rtlsMessageEvents",
+          "code" : "staff-duress",
+          "display" : "Staff Duress"
         }]
       }
     }

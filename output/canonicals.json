@@ -14,11 +14,11 @@
     "name" : "RTLS"
   },
   {
-    "id" : "rtlsMessageParameters",
+    "id" : "rtlsAuxiliaryFunction",
     "type" : "OperationDefinition",
-    "url" : "http://hl7.org/fhir/uv/rtls/OperationDefinition/rtlsMessageParameters",
+    "url" : "http://hl7.org/fhir/uv/rtls/OperationDefinition/rtlsAuxiliaryFunction",
     "version" : "1.0.0-ballot2",
-    "name" : "RTLSMessageParameters"
+    "name" : "RTLSAuxiliaryFunction"
   },
   {
     "id" : "rtlsDevice",

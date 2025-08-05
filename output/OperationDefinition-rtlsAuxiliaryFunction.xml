@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<OperationDefinition xmlns="http://hl7.org/fhir">
+  <id value="rtlsAuxiliaryFunction"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: OperationDefinition rtlsAuxiliaryFunction</b></p><a name="rtlsAuxiliaryFunction"> </a><a name="hcrtlsAuxiliaryFunction"> </a><p>URL: [base]/$$rtlsMessageParameters</p><h3>Parameters</h3><table class="grid"><tr><td><b>Use</b></td><td><b>Name</b></td><td><b>Scope</b></td><td><b>Cardinality</b></td><td><b>Type</b></td><td><b>Binding</b></td><td><b>Documentation</b></td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="pa"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="informative">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://hl7.org/fhir/uv/rtls/ImplementationGuide/hl7.fhir.uv.rtls"/>
+      </extension>
+    </valueCode>
+  </extension>
+  <url value="http://hl7.org/fhir/uv/rtls/OperationDefinition/rtlsAuxiliaryFunction"/>
+  <version value="1.0.0-ballot2"/>
+  <name value="RTLSAuxiliaryFunction"/>
+  <title value="RTLS Auxiliary Function Operation"/>
+  <status value="draft"/>
+  <kind value="operation"/>
+  <experimental value="true"/>
+  <date value="2025-08-05T17:07:14-05:00"/>
+  <publisher value="HL7 International / Patient Administration"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/pafm"/>
+    </telecom>
+  </contact>
+  <description value="RTLS auxiliary function."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+    </coding>
+  </jurisdiction>
+  <purpose value="This operation provides parameters for RTLS messaging functions."/>
+  <code value="rtlsMessageParameters"/>
+  <system value="true"/>
+  <type value="false"/>
+  <instance value="false"/>
+</OperationDefinition>

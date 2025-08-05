@@ -309,7 +309,7 @@
       <title value="Real Time Location Services Implementation Guide"/>
       <status value="active"/>
       <experimental value="false"/>
-      <date value="2025-08-05T14:07:30-05:00"/>
+      <date value="2025-08-05T17:07:14-05:00"/>
       <publisher value="HL7 International / Patient Administration"/>
       <contact>
          <telecom>
@@ -599,13 +599,13 @@
                <valueString value="OperationDefinition"/>
             </extension>
             <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-               <valueUri value="OperationDefinition-rtlsMessageParameters.html"/>
+               <valueUri value="OperationDefinition-rtlsAuxiliaryFunction.html"/>
             </extension>
             <reference>
-               <reference value="OperationDefinition/rtlsMessageParameters"/>
+               <reference value="OperationDefinition/rtlsAuxiliaryFunction"/>
             </reference>
-            <name value="RTLS Message Parameters Operation"/>
-            <description value="Parameters for RTLS auxiliary function."/>
+            <name value="RTLS Auxiliary Function Operation"/>
+            <description value="RTLS auxiliary function."/>
             <groupingId value="-dyn-operationdefinition"/>
          </resource>
          <resource>
@@ -865,7 +865,7 @@
             </reference>
             <name value="Staff Duress Parameters Example"/>
             <description value="Represents the parameters sent from an RTLS to an EHR in a staff duress RTLS event."/>
-            <exampleCanonical value="http://hl7.org/fhir/uv/rtls/OperationDefinition/rtlsMessageParameters"/>
+            <exampleBoolean value="true"/>
             <groupingId value="-ex-example"/>
          </resource>
          <resource>
@@ -883,7 +883,7 @@
             </reference>
             <name value="Staff Duress Parameters Example"/>
             <description value="Represents the parameters sent from an EHR to an RTLS in a staff duress RTLS event."/>
-            <exampleCanonical value="http://hl7.org/fhir/uv/rtls/OperationDefinition/rtlsMessageParameters"/>
+            <exampleBoolean value="true"/>
             <groupingId value="-ex-example"/>
          </resource>
          <resource>
@@ -948,8 +948,8 @@
                <title value="Artifacts Summary"/>
                <generation value="html"/>
                <page>
-                  <nameUrl value="OperationDefinition-rtlsMessageParameters.html"/>
-                  <title value="RTLS Message Parameters Operation"/>
+                  <nameUrl value="OperationDefinition-rtlsAuxiliaryFunction.html"/>
+                  <title value="RTLS Auxiliary Function Operation"/>
                   <generation value="generated"/>
                </page>
                <page>

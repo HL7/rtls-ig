@@ -3,7 +3,7 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
   <id value="rtlsMessageEvents"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem rtlsMessageEvents</b></p><a name="rtlsMessageEvents"> </a><a name="hcrtlsMessageEvents"> </a><p>This case-sensitive code system <code>http://hl7.org/fhir/uv/rtls/CodeSystem/rtlsMessageEvents</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">enroll-tag<a name="rtlsMessageEvents-enroll-tag"> </a></td><td>Enroll Tag</td><td>Used to describe when a subscriber wants to receive notifications about a specific tag.</td></tr><tr><td style="white-space:nowrap">unenroll-tag<a name="rtlsMessageEvents-unenroll-tag"> </a></td><td>Unenroll Tag</td><td>Used to describe when a subscriber no longer wants to receive notifications about a specific tag.</td></tr><tr><td style="white-space:nowrap">location-update<a name="rtlsMessageEvents-location-update"> </a></td><td>Location Update</td><td>Used to describe when a specific tag has an updated location.</td></tr></table></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem rtlsMessageEvents</b></p><a name="rtlsMessageEvents"> </a><a name="hcrtlsMessageEvents"> </a><p>This case-sensitive code system <code>http://hl7.org/fhir/uv/rtls/CodeSystem/rtlsMessageEvents</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">enroll-tag<a name="rtlsMessageEvents-enroll-tag"> </a></td><td>Enroll Tag</td><td>Used to describe when a subscriber wants to receive notifications about a specific tag.</td></tr><tr><td style="white-space:nowrap">unenroll-tag<a name="rtlsMessageEvents-unenroll-tag"> </a></td><td>Unenroll Tag</td><td>Used to describe when a subscriber no longer wants to receive notifications about a specific tag.</td></tr><tr><td style="white-space:nowrap">location-update<a name="rtlsMessageEvents-location-update"> </a></td><td>Location Update</td><td>Used to describe when a specific tag has an updated location.</td></tr><tr><td style="white-space:nowrap">staff-duress<a name="rtlsMessageEvents-staff-duress"> </a></td><td>Staff Duress</td><td>Used to describe when a staff member is in duress.</td></tr></table></div>
   </text>
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
     <valueCode value="pa"/>
@@ -52,5 +52,10 @@
     <code value="location-update"/>
     <display value="Location Update"/>
     <definition value="Used to describe when a specific tag has an updated location."/>
+  </concept>
+  <concept>
+    <code value="staff-duress"/>
+    <display value="Staff Duress"/>
+    <definition value="Used to describe when a staff member is in duress."/>
   </concept>
 </CodeSystem>

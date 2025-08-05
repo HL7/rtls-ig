@@ -32,10 +32,10 @@
       <tbody>
          <tr>
             <td style="column-width:30%">
-               <a href="OperationDefinition-rtlsMessageParameters.html"
-                  title="OperationDefinition/rtlsMessageParameters">RTLS Message Parameters Operation</a>
+               <a href="OperationDefinition-rtlsAuxiliaryFunction.html"
+                  title="OperationDefinition/rtlsAuxiliaryFunction">RTLS Auxiliary Function Operation</a>
             </td>
-            <td>{% capture desc %}Parameters for RTLS auxiliary function.{% endcapture %}
+            <td>{% capture desc %}RTLS auxiliary function.{% endcapture %}
 {{ desc | markdownify}}</td>
          </tr>
       </tbody>

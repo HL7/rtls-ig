@@ -6,14 +6,14 @@
   "status" : "active",
   "package-id" : "hl7.fhir.uv.rtls",
   "ig-ver" : "1.0.0-ballot2",
-  "date" : "Tue, 05 Aug, 2025 14:07:39 -0500",
-  "dateISO8601" : "2025-08-05T14:07:39-05:00",
-  "errs" : 2,
+  "date" : "Tue, 05 Aug, 2025 17:07:26 -0500",
+  "dateISO8601" : "2025-08-05T17:07:26-05:00",
+  "errs" : 0,
   "warnings" : 1,
-  "hints" : 1,
-  "suppressed-hints" : 17,
+  "hints" : 0,
+  "suppressed-hints" : 18,
   "suppressed-warnings" : 3,
   "version" : "4.0.1",
   "tool" : "5.0.0 (3)",
-  "maxMemory" : 1361768784
+  "maxMemory" : 1122054744
 }

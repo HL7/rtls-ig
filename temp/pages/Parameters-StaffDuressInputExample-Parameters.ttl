@@ -13,7 +13,7 @@
      fhir:name [ fhir:v "event" ] ;
      fhir:value [
        a fhir:Coding ;
-       fhir:system [ fhir:v "http://hl7.org/FHIR/R4/rtls/OperationDefinition/Parameters"^^xsd:anyURI ] ;
+       fhir:system [ fhir:v "http://hl7.org/fhir/uv/rtls/CodeSystem/rtlsMessageEvents"^^xsd:anyURI ] ;
        fhir:code [ fhir:v "staff-duress" ] ;
        fhir:display [ fhir:v "Staff Duress" ]
      ]

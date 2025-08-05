@@ -4,7 +4,7 @@
   "parameter" : [{
     "name" : "event",
     "valueCoding" : {
-      "system" : "http://hl7.org/FHIR/R4/rtls/OperationDefinition/Parameters",
+      "system" : "http://hl7.org/fhir/uv/rtls/CodeSystem/rtlsMessageEvents",
       "code" : "staff-duress",
       "display" : "Staff Duress"
     }

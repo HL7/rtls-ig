@@ -15,9 +15,9 @@
    <artifactPageExtension value="-definitions"/>
    <artifactPageExtension value="-examples"/>
    <artifactPageExtension value="-mappings"/>
-   <artifact name="RTLS Message Parameters Operation"
-             key="OperationDefinition-rtlsMessageParameters"
-             id="OperationDefinition/rtlsMessageParameters"/>
+   <artifact name="RTLS Auxiliary Function Operation"
+             key="OperationDefinition-rtlsAuxiliaryFunction"
+             id="OperationDefinition/rtlsAuxiliaryFunction"/>
    <artifact name="RTLS Enrollment Message Profile"
              key="StructureDefinition-rtlsMessageBundleEnroll"
              id="StructureDefinition/rtlsMessageBundleEnroll"/>

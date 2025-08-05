@@ -5,7 +5,7 @@
   "igName" : "RTLS",
   "packageId" : "hl7.fhir.uv.rtls",
   "igVer" : "1.0.0-ballot2",
-  "errorCount" : 2,
+  "errorCount" : 0,
   "version" : "4.0.1",
   "releaseLabel" : "STU 1 - Ballot2",
   "releaseLabellang" : {
@@ -15,7 +15,7 @@
   "toolingVersion" : "5.0.0",
   "toolingRevision" : "3",
   "toolingVersionFull" : "5.0.0 (3)",
-  "genDate" : "Tue, Aug 5, 2025 14:07-0500",
+  "genDate" : "Tue, Aug 5, 2025 17:07-0500",
   "genDay" : "05/08/2025",
   "totalFiles" : 19,
   "processedFiles" : 34,
@@ -254,7 +254,7 @@
         "telecom" : ["http://www.hl7.org/Special/committees/pafm"]
       }
     ],
-    "date" : "2025-08-05T14:07:30-05:00",
+    "date" : "2025-08-05T17:07:14-05:00",
     "description" : "Description of IG",
     "descriptionlang" : {
     },

@@ -14,7 +14,7 @@
     "titlelang" : {
     },
     "experimental" : false,
-    "date" : "2025-08-05T14:07:30-05:00",
+    "date" : "2025-08-05T17:07:14-05:00",
     "description" : "Description of IG",
     "descriptionlang" : {
     },
@@ -175,11 +175,46 @@
       "status" : "Draft"
     }
   },
-  "StructureDefinition/rtlsDevice" : {
+  "OperationDefinition/rtlsAuxiliaryFunction" : {
     "history" : false,
     "testplan" : false,
     "testscript" : false,
     "index" : 10,
+    "source" : "input/resources/rtlsAuxiliaryFunction.xml",
+    "sourceTail" : "rtlsAuxiliaryFunction.xml",
+    "path" : "OperationDefinition-rtlsAuxiliaryFunction.html",
+    "url" : "http://hl7.org/fhir/uv/rtls/OperationDefinition/rtlsAuxiliaryFunction",
+    "version" : "1.0.0-ballot2",
+    "name" : "RTLSAuxiliaryFunction",
+    "title" : "RTLS Auxiliary Function Operation",
+    "titlelang" : {
+    },
+    "experimental" : true,
+    "date" : "2025-08-05T17:07:14-05:00",
+    "description" : "RTLS auxiliary function.",
+    "descriptionlang" : {
+    },
+    "jurisdictions" : [
+      {
+        "code" : "001",
+        "name" : "International",
+        "flag" : "001"
+      }
+    ],
+    "status" : {
+      "class" : "colsi",
+      "owner" : "HL7 International / Patient Administration",
+      "link" : "http://www.hl7.org/Special/committees/pafm",
+      "standards-status" : "informative",
+      "status" : "Draft"
+    },
+    "purpose" : "This operation provides parameters for RTLS messaging functions."
+  },
+  "StructureDefinition/rtlsDevice" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 11,
     "source" : "input/resources/rtlsDevice.xml",
     "sourceTail" : "rtlsDevice.xml",
     "path" : "StructureDefinition-rtlsDevice.html",
@@ -190,7 +225,7 @@
     "titlelang" : {
     },
     "experimental" : true,
-    "date" : "2025-08-05T14:07:30-05:00",
+    "date" : "2025-08-05T17:07:14-05:00",
     "description" : "Device resource profile for tags or badges in RTLS workflows",
     "descriptionlang" : {
     },
@@ -214,7 +249,7 @@
     "history" : false,
     "testplan" : false,
     "testscript" : false,
-    "index" : 11,
+    "index" : 12,
     "source" : "input/resources/rtlsLocation.xml",
     "sourceTail" : "rtlsLocation.xml",
     "path" : "StructureDefinition-rtlsLocation.html",
@@ -225,7 +260,7 @@
     "titlelang" : {
     },
     "experimental" : true,
-    "date" : "2025-08-05T14:07:30-05:00",
+    "date" : "2025-08-05T17:07:14-05:00",
     "description" : "Location resource profile for RTLS workflows.",
     "descriptionlang" : {
     },
@@ -249,7 +284,7 @@
     "history" : false,
     "testplan" : false,
     "testscript" : false,
-    "index" : 12,
+    "index" : 13,
     "source" : "input/resources/rtlsMessageBundleEnroll.xml",
     "sourceTail" : "rtlsMessageBundleEnroll.xml",
     "path" : "StructureDefinition-rtlsMessageBundleEnroll.html",
@@ -260,7 +295,7 @@
     "titlelang" : {
     },
     "experimental" : true,
-    "date" : "2025-08-05T14:07:30-05:00",
+    "date" : "2025-08-05T17:07:14-05:00",
     "description" : "Bundle resource with a type of \"message\" used in RTLS workflows. This bundle will be used for enrollment.",
     "descriptionlang" : {
     },
@@ -284,7 +319,7 @@
     "history" : false,
     "testplan" : false,
     "testscript" : false,
-    "index" : 13,
+    "index" : 14,
     "source" : "input/resources/rtlsMessageBundleLocationUpdate.xml",
     "sourceTail" : "rtlsMessageBundleLocationUpdate.xml",
     "path" : "StructureDefinition-rtlsMessageBundleLocationUpdate.html",
@@ -295,7 +330,7 @@
     "titlelang" : {
     },
     "experimental" : true,
-    "date" : "2025-08-05T14:07:30-05:00",
+    "date" : "2025-08-05T17:07:14-05:00",
     "description" : "Bundle resource with a type of \"message\" used in RTLS workflows. This bundle will be used for location updates.",
     "descriptionlang" : {
     },
@@ -319,7 +354,7 @@
     "history" : false,
     "testplan" : false,
     "testscript" : false,
-    "index" : 14,
+    "index" : 15,
     "source" : "input/resources/rtlsMessageBundleUnenroll.xml",
     "sourceTail" : "rtlsMessageBundleUnenroll.xml",
     "path" : "StructureDefinition-rtlsMessageBundleUnenroll.html",
@@ -330,7 +365,7 @@
     "titlelang" : {
     },
     "experimental" : true,
-    "date" : "2025-08-05T14:07:30-05:00",
+    "date" : "2025-08-05T17:07:14-05:00",
     "description" : "Bundle resource with a type of \"message\" used in RTLS workflows. This bundle will be used for unenrollment.",
     "descriptionlang" : {
     },
@@ -354,7 +389,7 @@
     "history" : false,
     "testplan" : false,
     "testscript" : false,
-    "index" : 15,
+    "index" : 16,
     "source" : "input/resources/rtlsMessageEnrollmentHeader.xml",
     "sourceTail" : "rtlsMessageEnrollmentHeader.xml",
     "path" : "StructureDefinition-rtlsMessageEnrollmentHeader.html",
@@ -365,7 +400,7 @@
     "titlelang" : {
     },
     "experimental" : true,
-    "date" : "2025-08-05T14:07:30-05:00",
+    "date" : "2025-08-05T17:07:14-05:00",
     "description" : "MessageHeader resource for FHIR enrollment messages sent in RTLS workflows.",
     "descriptionlang" : {
     },
@@ -389,7 +424,7 @@
     "history" : false,
     "testplan" : false,
     "testscript" : false,
-    "index" : 16,
+    "index" : 17,
     "source" : "input/resources/rtlsMessageLocationUpdateHeader.xml",
     "sourceTail" : "rtlsMessageLocationUpdateHeader.xml",
     "path" : "StructureDefinition-rtlsMessageLocationUpdateHeader.html",
@@ -400,7 +435,7 @@
     "titlelang" : {
     },
     "experimental" : true,
-    "date" : "2025-08-05T14:07:30-05:00",
+    "date" : "2025-08-05T17:07:14-05:00",
     "description" : "MessageHeader resource for FHIR Location Update messages sent in RTLS workflows.",
     "descriptionlang" : {
     },
@@ -420,41 +455,6 @@
     },
     "purpose" : "This profile defines minimum expectations for the MessageHeader resource to be used in RTLS Unenrollment workflows."
   },
-  "OperationDefinition/rtlsMessageParameters" : {
-    "history" : false,
-    "testplan" : false,
-    "testscript" : false,
-    "index" : 17,
-    "source" : "input/resources/rtlsMessageParameters.xml",
-    "sourceTail" : "rtlsMessageParameters.xml",
-    "path" : "OperationDefinition-rtlsMessageParameters.html",
-    "url" : "http://hl7.org/fhir/uv/rtls/OperationDefinition/rtlsMessageParameters",
-    "version" : "1.0.0-ballot2",
-    "name" : "RTLSMessageParameters",
-    "title" : "RTLS Message Parameters Operation",
-    "titlelang" : {
-    },
-    "experimental" : true,
-    "date" : "2025-08-05T14:07:30-05:00",
-    "description" : "Parameters for RTLS auxiliary function.",
-    "descriptionlang" : {
-    },
-    "jurisdictions" : [
-      {
-        "code" : "001",
-        "name" : "International",
-        "flag" : "001"
-      }
-    ],
-    "status" : {
-      "class" : "colsi",
-      "owner" : "HL7 International / Patient Administration",
-      "link" : "http://www.hl7.org/Special/committees/pafm",
-      "standards-status" : "informative",
-      "status" : "Draft"
-    },
-    "purpose" : "This operation provides parameters for RTLS messaging functions."
-  },
   "StructureDefinition/rtlsMessageUnenrollmentHeader" : {
     "history" : false,
     "testplan" : false,
@@ -470,7 +470,7 @@
     "titlelang" : {
     },
     "experimental" : true,
-    "date" : "2025-08-05T14:07:30-05:00",
+    "date" : "2025-08-05T17:07:14-05:00",
     "description" : "MessageHeader resource for FHIR Unenrollment messages sent in RTLS workflows.",
     "descriptionlang" : {
     },

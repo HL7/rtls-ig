@@ -65,73 +65,64 @@
     "breadcrumblang" : {
     },
     "previous" : "changes.html",
-    "next" : "OperationDefinition-rtlsMessageParameters.html"
+    "next" : "OperationDefinition-rtlsAuxiliaryFunction.html"
   },
-  "OperationDefinition-rtlsMessageParameters.html" : {
-    "title" : "RTLS Message Parameters Operation",
+  "OperationDefinition-rtlsAuxiliaryFunction.html" : {
+    "title" : "RTLS Auxiliary Function Operation",
     "titlelang" : {
     },
     "label" : "5.1",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>RTLS Message Parameters Operation</b></li>",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>RTLS Auxiliary Function Operation</b></li>",
     "breadcrumblang" : {
     },
-    "examples" : [
-      {
-        "url" : "Parameters-StaffDuressInputExample-Parameters.html",
-        "title" : "Staff Duress Parameters Example"
-      },
-      {
-        "url" : "Parameters-StaffDuressOutputExample-Parameters.html",
-        "title" : "Staff Duress Parameters Example"
-      }
-    ],
+    "examples" : [],
     "testplans" : [],
     "testscripts" : [],
     "previous" : "artifacts.html",
-    "next" : "OperationDefinition-rtlsMessageParameters-testing.html"
+    "next" : "OperationDefinition-rtlsAuxiliaryFunction-testing.html"
   },
-  "OperationDefinition-rtlsMessageParameters-testing.html" : {
-    "title" : "RTLS Message Parameters Operation - Testing",
+  "OperationDefinition-rtlsAuxiliaryFunction-testing.html" : {
+    "title" : "RTLS Auxiliary Function Operation - Testing",
     "titlelang" : {
     },
     "label" : "5.1",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>RTLS Message Parameters Operation</b></li>",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>RTLS Auxiliary Function Operation</b></li>",
     "breadcrumblang" : {
     },
-    "previous" : "OperationDefinition-rtlsMessageParameters.html",
-    "next" : "OperationDefinition-rtlsMessageParameters.xml.html"
+    "previous" : "OperationDefinition-rtlsAuxiliaryFunction.html",
+    "next" : "OperationDefinition-rtlsAuxiliaryFunction.xml.html"
   },
-  "OperationDefinition-rtlsMessageParameters.xml.html" : {
-    "title" : "RTLS Message Parameters Operation - XML Representation",
+  "OperationDefinition-rtlsAuxiliaryFunction.xml.html" : {
+    "title" : "RTLS Auxiliary Function Operation - XML Representation",
     "titlelang" : {
     },
     "label" : "5.1",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>RTLS Message Parameters Operation</b></li>",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>RTLS Auxiliary Function Operation</b></li>",
     "breadcrumblang" : {
     },
-    "previous" : "OperationDefinition-rtlsMessageParameters-testing.html",
-    "next" : "OperationDefinition-rtlsMessageParameters.json.html"
+    "previous" : "OperationDefinition-rtlsAuxiliaryFunction-testing.html",
+    "next" : "OperationDefinition-rtlsAuxiliaryFunction.json.html"
   },
-  "OperationDefinition-rtlsMessageParameters.json.html" : {
-    "title" : "RTLS Message Parameters Operation - JSON Representation",
+  "OperationDefinition-rtlsAuxiliaryFunction.json.html" : {
+    "title" : "RTLS Auxiliary Function Operation - JSON Representation",
     "titlelang" : {
     },
     "label" : "5.1",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>RTLS Message Parameters Operation</b></li>",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>RTLS Auxiliary Function Operation</b></li>",
     "breadcrumblang" : {
     },
-    "previous" : "OperationDefinition-rtlsMessageParameters.xml.html",
-    "next" : "OperationDefinition-rtlsMessageParameters.ttl.html"
+    "previous" : "OperationDefinition-rtlsAuxiliaryFunction.xml.html",
+    "next" : "OperationDefinition-rtlsAuxiliaryFunction.ttl.html"
   },
-  "OperationDefinition-rtlsMessageParameters.ttl.html" : {
-    "title" : "RTLS Message Parameters Operation - TTL Representation",
+  "OperationDefinition-rtlsAuxiliaryFunction.ttl.html" : {
+    "title" : "RTLS Auxiliary Function Operation - TTL Representation",
     "titlelang" : {
     },
     "label" : "5.1",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>RTLS Message Parameters Operation</b></li>",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>RTLS Auxiliary Function Operation</b></li>",
     "breadcrumblang" : {
     },
-    "previous" : "OperationDefinition-rtlsMessageParameters.json.html",
+    "previous" : "OperationDefinition-rtlsAuxiliaryFunction.json.html",
     "next" : "StructureDefinition-rtlsDevice.html"
   },
   "StructureDefinition-rtlsDevice.html" : {
@@ -150,7 +141,7 @@
     ],
     "testplans" : [],
     "testscripts" : [],
-    "previous" : "OperationDefinition-rtlsMessageParameters.ttl.html",
+    "previous" : "OperationDefinition-rtlsAuxiliaryFunction.ttl.html",
     "next" : "StructureDefinition-rtlsDevice-definitions.html"
   },
   "StructureDefinition-rtlsDevice-definitions.html" : {

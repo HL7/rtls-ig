@@ -94,7 +94,7 @@
       </reference>
       <name value="Staff Duress Parameters Example"/>
       <description value="Represents the parameters sent from an RTLS to an EHR in a staff duress RTLS event."/>
-      <exampleCanonical value="http://hl7.org/fhir/uv/rtls/OperationDefinition/rtlsMessageParameters"/>
+      <exampleBoolean value="true"/>
     </resource>
     <resource>
       <reference>
@@ -102,7 +102,7 @@
       </reference>
       <name value="Staff Duress Parameters Example"/>
       <description value="Represents the parameters sent from an EHR to an RTLS in a staff duress RTLS event."/>
-      <exampleCanonical value="http://hl7.org/fhir/uv/rtls/OperationDefinition/rtlsMessageParameters"/>
+      <exampleBoolean value="true"/>
     </resource>
     <page>
       <nameUrl value="index.html"/>

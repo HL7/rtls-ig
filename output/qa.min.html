@@ -1,6 +1,6 @@
 <!DOCTYPE HTML>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-<!-- broken links = 0, errors = 2, warn = 1, info = 1-->
+<!-- broken links = 0, errors = 0, warn = 1, info = 0-->
 <head>
   <title>RTLS : Validation Results</title>
   <link href="fhir.css" rel="stylesheet"/>
@@ -47,7 +47,7 @@
 </head>
 <body style="margin: 20px; background-color: #ffffff">
  <h1>Validation Results for RTLS</h1>
- <p>Generated Tue Aug 05 14:08:11 CDT 2025, FHIR version 4.0.1 for hl7.fhir.uv.rtls#1.0.0-ballot2 (canonical = <a href="http://hl7.org/fhir/uv/rtls">http://hl7.org/fhir/uv/rtls</a> (<a href="http://hl7.org/fhir/uv/rtls/history.html">history</a>)). See <a href="qa.html">Full QA Report</a> &amp; <a href="qa-ipreview.html">IP</a></p>
+ <p>Generated Tue Aug 05 17:08:05 CDT 2025, FHIR version 4.0.1 for hl7.fhir.uv.rtls#1.0.0-ballot2 (canonical = <a href="http://hl7.org/fhir/uv/rtls">http://hl7.org/fhir/uv/rtls</a> (<a href="http://hl7.org/fhir/uv/rtls/history.html">history</a>)). See <a href="qa.html">Full QA Report</a> &amp; <a href="qa-ipreview.html">IP</a></p>
 <table class="grid"> <tr><td colspan=2><b>Quality Checks</b></td></tr>
  <tr><td>Publisher Version:</td><td><span>IG Publisher Version: v2.0.12</span></td></tr>
  <tr><td>Publication Code:</td><td>rtls<span style="color: maroon; font-weight: bold"> </span>. PackageId = hl7.fhir.uv.rtls, Canonical = http://hl7.org/fhir/uv/rtls</td></tr>
@@ -113,7 +113,7 @@ hl7.fhir.r4.core#4.0.1:     <a href="http://hl7.org/fhir/R4/codesystem-guide-par
  <tr><td>IPA Comparison:</td><td> n/a</td></tr>
  <tr><td>IPS Comparison:</td><td> n/a</td></tr>
  <tr><td>Validation Flags:</td><td> On: autoLoad; Off: hintAboutNonMustSupport, anyExtensionsAllowed, checkAggregation, showReferenceMessages, noExperimentalContent, displayWarnings</td></tr>
- <tr><td>Summary:</td><td> errors = 2, warn = 1, info = 1, broken links = 0, pinned = n/a.  <button onclick="toggleCodes()">Show Message Ids</button></td></tr>
+ <tr><td>Summary:</td><td> errors = 0, warn = 1, info = 0, broken links = 0, pinned = n/a.  <button onclick="toggleCodes()">Show Message Ids</button></td></tr>
 </table>
  <table class="grid">
    <tr>
@@ -121,9 +121,6 @@ hl7.fhir.r4.core#4.0.1:     <a href="http://hl7.org/fhir/R4/codesystem-guide-par
    </tr>
    <tr style="background-color: #EFFFEF">
      <td><a href="#internal"><b>Build Errors</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>0</b></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><a href="#_Users_nshpringman_Documents_GitHub_rtls-ig_input_rtls"><b>/Users/nshpringman/Documents/GitHub/rtls-ig/input/rtls</b></a></td><td><b>2</b></td><td><b>0</b></td><td><b>0</b></td>
    </tr>
 </table>
 <hr/>
@@ -135,26 +132,10 @@ hl7.fhir.r4.core#4.0.1:     <a href="http://hl7.org/fhir/R4/codesystem-guide-par
      <td><b></b></td><td><b>warning</b></td><td><b>The jira specification file appears to be out of date with the versions, artifacts and pages currently defined in the IG.  A proposed revised file to be reviewed and, if appropriate, submitted as a pull request against the XML folder in https://github.com/HL7/JIRA-Spec-Artifacts.  To see the differences, perform a file compare on 'template/jira-current.xml' (a normalized view of what is in Github) and 'template/jira-new.xml' (reflects current IG content)</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy"></span></td>
    </tr>
 </table>
-<hr/>
-<a name="_Users_nshpringman_Documents_GitHub_rtls-ig_input_rtls"> </a>
-<h2><a href="index.html">input/rtls.xml</a> <span id="svi1" class="toggle" onclick="toggle('vi1')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi1')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi1"><ul style="font-size: 7px"><li>ImplementationGuide/hl7.fhir.uv.rtls: ImplementationGuide: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/implementationguide.html">ImplementationGuide</a></li></ul>
-</div>
- <table class="grid">
-   <tr>
-     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b>ImplementationGuide&#8203;.definition&#8203;.resource[5]&#8203;.example&#8203;.ofType(canonical) (l1&#8203;/c14364)</b></td><td><b>error</b></td><td><b>Canonical URL 'http://hl7.org/fhir/uv/rtls/OperationDefinition/rtlsMessageParameters' refers to a resource that has the wrong type. Found OperationDefinition expecting one of [StructureDefinition]</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">TYPE_SPECIFIC_CHECKS_DT_CANONICAL_TYPE</span></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b>ImplementationGuide&#8203;.definition&#8203;.resource[6]&#8203;.example&#8203;.ofType(canonical) (l1&#8203;/c14791)</b></td><td><b>error</b></td><td><b>Canonical URL 'http://hl7.org/fhir/uv/rtls/OperationDefinition/rtlsMessageParameters' refers to a resource that has the wrong type. Found OperationDefinition expecting one of [StructureDefinition]</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">TYPE_SPECIFIC_CHECKS_DT_CANONICAL_TYPE</span></td>
-   </tr>
-</table>
 <a name="suppressed"> </a>
 <p><b>Suppressed Messages (Warnings, hints, broken links)</b></p>
 <p><b>Example CodeSystem is purposefully left experimental for now.</b></p><ul>
- <li>Reference to experimental CodeSystem http://hl7.org/fhir/uv/rtls/CodeSystem/rtlsMessageEvents|1.0.0-ballot2 <span style="color: navy">(12 uses)</span></li>
+ <li>Reference to experimental CodeSystem http://hl7.org/fhir/uv/rtls/CodeSystem/rtlsMessageEvents|1.0.0-ballot2 <span style="color: navy">(13 uses)</span></li>
 </ul>
 <p><b>Examples are included in Bundle resource profile example.</b></p><ul>
  <li>The Implementation Guide contains no explicitly linked examples for this profile <span style="color: navy">(3 uses)</span></li>
@@ -170,24 +151,5 @@ hl7.fhir.r4.core#4.0.1:     <a href="http://hl7.org/fhir/R4/codesystem-guide-par
 </ul>
 <a name="sorted"> </a>
 <p><b>Errors sorted by type</b></p>
-<hr/>
-<a name="TYPE_SPECIFIC_CHECKS_DT_CANONICAL_TYPE"> </a>
-<h2>TYPE_SPECIFIC_CHECKS_DT_CANONICAL_TYPE</h2>
- <table class="grid">
-   <tr style="background-color: #ffeeee">
-     <td><a href="index.html">input/rtls.xml</a></td><td><b>Canonical URL 'http://hl7.org/fhir/uv/rtls/OperationDefinition/rtlsMessageParameters' refers to a resource that has the wrong type. Found OperationDefinition expecting one of [StructureDefinition]</b></td>
-   </tr>
-   <tr style="background-color: #ffeeee">
-     <td><a href="index.html">input/rtls.xml</a></td><td><b>Canonical URL 'http://hl7.org/fhir/uv/rtls/OperationDefinition/rtlsMessageParameters' refers to a resource that has the wrong type. Found OperationDefinition expecting one of [StructureDefinition]</b></td>
-   </tr>
-</table>
-<hr/>
-<a name="UNKNOWN_CODESYSTEM"> </a>
-<h2>UNKNOWN_CODESYSTEM</h2>
- <table class="grid">
-   <tr style="background-color: #fffff2">
-     <td><a href="Parameters-StaffDuressInputExample-Parameters.html">input/examples/rtlsAuxiliaryFunctionInput-example.xml</a></td><td><b>A definition for CodeSystem 'http://hl7.org/FHIR/R4/rtls/OperationDefinition/Parameters' could not be found, so the code cannot be validated</b></td>
-   </tr>
-</table>
 </body>
 </html>

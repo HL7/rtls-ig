@@ -9,6 +9,7 @@
 <artifact id="Bundle/EnrollTagExample-MessageBundle" key="Bundle-EnrollTagExample-MessageBundle" name="Enroll Tag Event Example"/>
 <artifact id="Bundle/LocationUpdateExample-MessageBundle" key="Bundle-LocationUpdateExample-MessageBundle" name="Location Update Event Example"/>
 <artifact deprecated="true" id="Bundle/LocationUpdateExample-MessageBundle1" key="Bundle-LocationUpdateExample-MessageBundle1" name="Location Update Event example"/>
+<artifact id="OperationDefinition/rtlsAuxiliaryFunction" key="OperationDefinition-rtlsAuxiliaryFunction" name="RTLS Auxiliary Function Operation"/>
 <artifact id="Device/rtlsTagExample" key="Device-rtlsTagExample" name="RTLS Device Example"/>
 <artifact id="StructureDefinition/rtlsMessageBundleEnroll" key="StructureDefinition-rtlsMessageBundleEnroll" name="RTLS Enrollment Message Profile"/>
 <artifact id="Location/rtlsLocationExample" key="Location-rtlsLocationExample" name="RTLS Location Example"/>
@@ -20,7 +21,6 @@
 <artifact id="ValueSet/rtlsMessageEvents" key="ValueSet-rtlsMessageEvents" name="RTLS Message Events Valueset"/>
 <artifact deprecated="true" id="StructureDefinition/rtlsMessageHeader" key="StructureDefinition-rtlsMessageHeader" name="RTLS Message Header Resource Profile"/>
 <artifact id="StructureDefinition/rtlsMessageLocationUpdateHeader" key="StructureDefinition-rtlsMessageLocationUpdateHeader" name="RTLS Message Location Update Header Header Resource Profile"/>
-<artifact id="OperationDefinition/rtlsMessageParameters" key="OperationDefinition-rtlsMessageParameters" name="RTLS Message Parameters Operation"/>
 <artifact id="StructureDefinition/rtlsMessageUnenrollmentHeader" key="StructureDefinition-rtlsMessageUnenrollmentHeader" name="RTLS Message Unenrollment Header Resource Profile"/>
 <artifact deprecated="true" id="StructureDefinition/rtlsSubscription" key="StructureDefinition-rtlsSubscription" name="RTLS Subscription"/>
 <artifact deprecated="true" id="CodeSystem/rtlsSubscriptionEvents" key="CodeSystem-rtlsSubscriptionEvents" name="RTLS Subscription Events"/>

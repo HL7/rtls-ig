@@ -38,7 +38,7 @@
   fhir:title [ fhir:v "Real Time Location Services Implementation Guide"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2025-08-05T14:07:30-05:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-08-05T17:07:14-05:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "HL7 International / Patient Administration"] ; # 
   fhir:contact ( [
      fhir:telecom ( [
@@ -1045,9 +1045,8 @@
        fhir:name [ fhir:v "Staff Duress Parameters Example" ] ;
        fhir:description [ fhir:v "Represents the parameters sent from an RTLS to an EHR in a staff duress RTLS event." ] ;
        fhir:example [
-         a fhir:canonical ;
-         fhir:v "http://hl7.org/fhir/uv/rtls/OperationDefinition/rtlsMessageParameters"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/uv/rtls/OperationDefinition/rtlsMessageParameters>
+         a fhir:boolean ;
+         fhir:v true
        ]
      ] [
        fhir:extension ( [
@@ -1064,9 +1063,8 @@
        fhir:name [ fhir:v "Staff Duress Parameters Example" ] ;
        fhir:description [ fhir:v "Represents the parameters sent from an EHR to an RTLS in a staff duress RTLS event." ] ;
        fhir:example [
-         a fhir:canonical ;
-         fhir:v "http://hl7.org/fhir/uv/rtls/OperationDefinition/rtlsMessageParameters"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/uv/rtls/OperationDefinition/rtlsMessageParameters>
+         a fhir:boolean ;
+         fhir:v true
        ]
      ] [
        fhir:extension ( [
@@ -1096,6 +1094,20 @@
        ] ;
        fhir:name [ fhir:v "RTLS Message Events Valueset" ] ;
        fhir:description [ fhir:v "This valueset defines FHIR messaging event types used in RTLS workflows." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "OperationDefinition"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/rtls/OperationDefinition/rtlsAuxiliaryFunction> ;
+         fhir:reference [ fhir:v "OperationDefinition/rtlsAuxiliaryFunction" ]
+       ] ;
+       fhir:name [ fhir:v "RTLS Auxiliary Function Operation" ] ;
+       fhir:description [ fhir:v "RTLS auxiliary function." ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
@@ -1194,20 +1206,6 @@
        ] ;
        fhir:name [ fhir:v "RTLS Message Location Update Header Header Resource Profile" ] ;
        fhir:description [ fhir:v "MessageHeader resource for FHIR Location Update messages sent in RTLS workflows." ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [
-           a fhir:string ;
-           fhir:v "OperationDefinition"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/rtls/OperationDefinition/rtlsMessageParameters> ;
-         fhir:reference [ fhir:v "OperationDefinition/rtlsMessageParameters" ]
-       ] ;
-       fhir:name [ fhir:v "RTLS Message Parameters Operation" ] ;
-       fhir:description [ fhir:v "Parameters for RTLS auxiliary function." ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
@@ -1350,6 +1348,8 @@
 
 <http://hl7.org/fhir/uv/rtls/ValueSet/rtlsMessageEvents> a fhir:uv .
 
+<http://hl7.org/fhir/uv/rtls/OperationDefinition/rtlsAuxiliaryFunction> a fhir:uv .
+
 <http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsDevice> a fhir:uv .
 
 <http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsLocation> a fhir:uv .
@@ -1363,8 +1363,6 @@
 <http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageEnrollmentHeader> a fhir:uv .
 
 <http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageLocationUpdateHeader> a fhir:uv .
-
-<http://hl7.org/fhir/uv/rtls/OperationDefinition/rtlsMessageParameters> a fhir:uv .
 
 <http://hl7.org/fhir/uv/rtls/StructureDefinition/rtlsMessageUnenrollmentHeader> a fhir:uv .
 

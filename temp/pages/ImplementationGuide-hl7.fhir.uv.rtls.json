@@ -23,7 +23,7 @@
   "title" : "Real Time Location Services Implementation Guide",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-08-05T14:07:30-05:00",
+  "date" : "2025-08-05T17:07:14-05:00",
   "publisher" : "HL7 International / Patient Administration",
   "contact" : [{
     "telecom" : [{
@@ -752,7 +752,7 @@
       },
       "name" : "Staff Duress Parameters Example",
       "description" : "Represents the parameters sent from an RTLS to an EHR in a staff duress RTLS event.",
-      "exampleCanonical" : "http://hl7.org/fhir/uv/rtls/OperationDefinition/rtlsMessageParameters"
+      "exampleBoolean" : true
     },
     {
       "extension" : [{
@@ -764,7 +764,7 @@
       },
       "name" : "Staff Duress Parameters Example",
       "description" : "Represents the parameters sent from an EHR to an RTLS in a staff duress RTLS event.",
-      "exampleCanonical" : "http://hl7.org/fhir/uv/rtls/OperationDefinition/rtlsMessageParameters"
+      "exampleBoolean" : true
     },
     {
       "extension" : [{
@@ -787,6 +787,17 @@
       },
       "name" : "RTLS Message Events Valueset",
       "description" : "This valueset defines FHIR messaging event types used in RTLS workflows."
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "OperationDefinition"
+      }],
+      "reference" : {
+        "reference" : "OperationDefinition/rtlsAuxiliaryFunction"
+      },
+      "name" : "RTLS Auxiliary Function Operation",
+      "description" : "RTLS auxiliary function."
     },
     {
       "extension" : [{
@@ -864,17 +875,6 @@
       },
       "name" : "RTLS Message Location Update Header Header Resource Profile",
       "description" : "MessageHeader resource for FHIR Location Update messages sent in RTLS workflows."
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "OperationDefinition"
-      }],
-      "reference" : {
-        "reference" : "OperationDefinition/rtlsMessageParameters"
-      },
-      "name" : "RTLS Message Parameters Operation",
-      "description" : "Parameters for RTLS auxiliary function."
     },
     {
       "extension" : [{

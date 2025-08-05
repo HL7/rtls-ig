@@ -21,7 +21,7 @@
   <title value="Real Time Location Services Implementation Guide"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2025-08-05T14:07:30-05:00"/>
+  <date value="2025-08-05T17:07:14-05:00"/>
   <publisher value="HL7 International / Patient Administration"/>
   <contact>
     <telecom>
@@ -571,7 +571,7 @@
       </reference>
       <name value="Staff Duress Parameters Example"/>
       <description value="Represents the parameters sent from an RTLS to an EHR in a staff duress RTLS event."/>
-      <exampleCanonical value="http://hl7.org/fhir/uv/rtls/OperationDefinition/rtlsMessageParameters"/>
+      <exampleBoolean value="true"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -582,7 +582,7 @@
       </reference>
       <name value="Staff Duress Parameters Example"/>
       <description value="Represents the parameters sent from an EHR to an RTLS in a staff duress RTLS event."/>
-      <exampleCanonical value="http://hl7.org/fhir/uv/rtls/OperationDefinition/rtlsMessageParameters"/>
+      <exampleBoolean value="true"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -603,6 +603,16 @@
       </reference>
       <name value="RTLS Message Events Valueset"/>
       <description value="This valueset defines FHIR messaging event types used in RTLS workflows."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="OperationDefinition"/>
+      </extension>
+      <reference>
+        <reference value="OperationDefinition/rtlsAuxiliaryFunction"/>
+      </reference>
+      <name value="RTLS Auxiliary Function Operation"/>
+      <description value="RTLS auxiliary function."/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -673,16 +683,6 @@
       </reference>
       <name value="RTLS Message Location Update Header Header Resource Profile"/>
       <description value="MessageHeader resource for FHIR Location Update messages sent in RTLS workflows."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="OperationDefinition"/>
-      </extension>
-      <reference>
-        <reference value="OperationDefinition/rtlsMessageParameters"/>
-      </reference>
-      <name value="RTLS Message Parameters Operation"/>
-      <description value="Parameters for RTLS auxiliary function."/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
