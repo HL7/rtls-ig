@@ -28,17 +28,19 @@
         <valueSet value="http://hl7.org/fhir/uv/rtls/ValueSet/rtlsMessageEvents" />
       </binding>
     </element>
-    <element id="MessageHeader.event:MHEvent.code">
-      <path value="MessageHeader.code"/>
-      <short value="Symbol in syntax defined by the system"/>
+    <element id="MessageHeader.event[x]:eventCoding">
+      <path value="MessageHeader.eventCoding"/>
+      <short value="Fixed RTLS event code"/>
       <min value="1"/>
       <max value="1"/>
       <type>
-      <code value="code"/>
+      <code value="Coding"/>
       </type>
-      <fixedCode value="unenroll-tag"/>
+      <patternCoding>
+        <system value="http://hl7.org/fhir/uv/rtls/CodeSystem/rtlsMessageEvents"/>
+        <code value="unenroll-tag"/>
+      </patternCoding>
       <mustSupport value="true"/>
-    </element>
     <element id="MessageHeader.focus">
       <path value="MessageHeader.focus"/>
       <type>
