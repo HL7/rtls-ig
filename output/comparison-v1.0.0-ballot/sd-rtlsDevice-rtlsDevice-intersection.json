@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "9895a79a-7794-4901-bafc-7cc43c84103b-6",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/9895a79a-7794-4901-bafc-7cc43c84103b-6",
+  "id" : "cfcfc5a2-111f-4f38-a617-a35cde80bdd1-6",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/cfcfc5a2-111f-4f38-a617-a35cde80bdd1-6",
   "name" : "IntersectionRTLSDeviceAndRTLSDevice",
   "title" : "Intersection of RTLS Tag Device Profile And RTLS Tag Device Profile",
   "status" : "draft",
-  "date" : "2025-08-06T08:43:37-05:00",
+  "date" : "2025-08-06T11:48:51-05:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",

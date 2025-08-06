@@ -13,11 +13,59 @@
             <value value="http://www.hl7.org/Special/committees/pafm"/>
         </telecom>
     </contact>
-    <description value="RTLS auxiliary function."/>
+    <description value="RTLS Auxiliary Function."/>
     <purpose value="This operation provides parameters for RTLS messaging functions."/>
     <kind value="operation"/>
     <code value="rtlsMessageParameters"/>
     <system value="true"/>
     <type value="false"/>
     <instance value="false"/>
+    <parameter>
+        <name value="event"/>
+        <use value="in"/>
+        <min value="1"/>
+        <max value="1"/>
+        <type value="Coding"/>
+        <documentation value="The event contains the type of message that points to which Auxiliary Function is being performed. In the context of staff duress, this would contain the value of staff-duress."/>
+    </parameter>
+    <parameter>
+        <name value="location"/>
+        <use value="in"/>
+        <min value="1"/>
+        <max value="1"/>
+        <type value="Location"/>
+        <documentation value="The location represents a physical location in which the Auxiliary Function is going to be referencing."/>
+    </parameter>
+    <parameter>
+        <name value="device"/>
+        <use value="in"/>
+        <min value="1"/>
+        <max value="1"/>
+        <type value="Device"/>
+        <documentation value="The device represents a physical device which will create the Auxiliary Function through some physical action."/>
+    </parameter>
+    <parameter>
+        <name value="timestamp"/>
+        <use value="in"/>
+        <min value="1"/>
+        <max value="1"/>
+        <type value="instant"/>
+        <documentation value="The timestamp represents the instant the Auxiliary Function was performed. In the example of staff duress, this would be the time the user first hits the panic button to call for help."/>
+    </parameter>
+    <parameter>
+        <name value="task"/>
+        <use value="out"/>
+        <min value="0"/>
+        <max value="1"/>
+        <type value="Task"/>
+        <documentation value="The task indicates to recipients that an action should be taken. In the context of staff duress, the responder group who receives a staff duress notification should physically respond to the situation."/>
+    </parameter>
+    <parameter>
+        <name value="outcome"/>
+        <use value="out"/>
+        <min value="0"/>
+        <max value="1"/>
+        <type value="OperationOutcome"/>
+        <documentation value="Represents the outcome if there were any non-fatal warnings associated with the execution of the Auxiliary Function Notification operation."/>
+    </parameter>
 </OperationDefinition>

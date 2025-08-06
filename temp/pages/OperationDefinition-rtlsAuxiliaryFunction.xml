@@ -3,7 +3,13 @@
 <OperationDefinition xmlns="http://hl7.org/fhir">
   <id value="rtlsAuxiliaryFunction"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: OperationDefinition rtlsAuxiliaryFunction</b></p><a name="rtlsAuxiliaryFunction"> </a><a name="hcrtlsAuxiliaryFunction"> </a><p>URL: [base]/$$rtlsMessageParameters</p><h3>Parameters</h3><table class="grid"><tr><td><b>Use</b></td><td><b>Name</b></td><td><b>Scope</b></td><td><b>Cardinality</b></td><td><b>Type</b></td><td><b>Binding</b></td><td><b>Documentation</b></td></tr></table></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: OperationDefinition rtlsAuxiliaryFunction</b></p><a name="rtlsAuxiliaryFunction"> </a><a name="hcrtlsAuxiliaryFunction"> </a><p>URL: [base]/$$rtlsMessageParameters</p><h3>Parameters</h3><table class="grid"><tr><td><b>Use</b></td><td><b>Name</b></td><td><b>Scope</b></td><td><b>Cardinality</b></td><td><b>Type</b></td><td><b>Binding</b></td><td><b>Documentation</b></td></tr><tr><td>IN</td><td>event</td><td/><td>1..1</td><td><a href="http://hl7.org/fhir/R4/datatypes.html#Coding">Coding</a></td><td/><td><div><p>The event contains the type of message that points to which Auxiliary Function is being performed. In the context of staff duress, this would contain the value of staff-duress.</p>
+</div></td></tr><tr><td>IN</td><td>location</td><td/><td>1..1</td><td><a href="http://hl7.org/fhir/R4/location.html">Location</a></td><td/><td><div><p>The location represents a physical location in which the Auxiliary Function is going to be referencing.</p>
+</div></td></tr><tr><td>IN</td><td>device</td><td/><td>1..1</td><td><a href="http://hl7.org/fhir/R4/device.html">Device</a></td><td/><td><div><p>The device represents a physical device which will create the Auxiliary Function through some physical action.</p>
+</div></td></tr><tr><td>IN</td><td>timestamp</td><td/><td>1..1</td><td><a href="http://hl7.org/fhir/R4/datatypes.html#instant">instant</a></td><td/><td><div><p>The timestamp represents the instant the Auxiliary Function was performed. In the example of staff duress, this would be the time the user first hits the panic button to call for help.</p>
+</div></td></tr><tr><td>OUT</td><td>task</td><td/><td>0..1</td><td><a href="http://hl7.org/fhir/R4/task.html">Task</a></td><td/><td><div><p>The task indicates to recipients that an action should be taken. In the context of staff duress, the responder group who receives a staff duress notification should physically respond to the situation.</p>
+</div></td></tr><tr><td>OUT</td><td>outcome</td><td/><td>0..1</td><td><a href="http://hl7.org/fhir/R4/operationoutcome.html">OperationOutcome</a></td><td/><td><div><p>Represents the outcome if there were any non-fatal warnings associated with the execution of the Auxiliary Function Notification operation.</p>
+</div></td></tr></table></div>
   </text>
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
     <valueCode value="pa"/>
@@ -22,7 +28,7 @@
   <status value="draft"/>
   <kind value="operation"/>
   <experimental value="true"/>
-  <date value="2025-08-06T08:42:49-05:00"/>
+  <date value="2025-08-06T11:48:33-05:00"/>
   <publisher value="HL7 International / Patient Administration"/>
   <contact>
     <telecom>
@@ -30,7 +36,7 @@
       <value value="http://www.hl7.org/Special/committees/pafm"/>
     </telecom>
   </contact>
-  <description value="RTLS auxiliary function."/>
+  <description value="RTLS Auxiliary Function."/>
   <jurisdiction>
     <coding>
       <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
@@ -42,4 +48,52 @@
   <system value="true"/>
   <type value="false"/>
   <instance value="false"/>
+  <parameter>
+    <name value="event"/>
+    <use value="in"/>
+    <min value="1"/>
+    <max value="1"/>
+    <documentation value="The event contains the type of message that points to which Auxiliary Function is being performed. In the context of staff duress, this would contain the value of staff-duress."/>
+    <type value="Coding"/>
+  </parameter>
+  <parameter>
+    <name value="location"/>
+    <use value="in"/>
+    <min value="1"/>
+    <max value="1"/>
+    <documentation value="The location represents a physical location in which the Auxiliary Function is going to be referencing."/>
+    <type value="Location"/>
+  </parameter>
+  <parameter>
+    <name value="device"/>
+    <use value="in"/>
+    <min value="1"/>
+    <max value="1"/>
+    <documentation value="The device represents a physical device which will create the Auxiliary Function through some physical action."/>
+    <type value="Device"/>
+  </parameter>
+  <parameter>
+    <name value="timestamp"/>
+    <use value="in"/>
+    <min value="1"/>
+    <max value="1"/>
+    <documentation value="The timestamp represents the instant the Auxiliary Function was performed. In the example of staff duress, this would be the time the user first hits the panic button to call for help."/>
+    <type value="instant"/>
+  </parameter>
+  <parameter>
+    <name value="task"/>
+    <use value="out"/>
+    <min value="0"/>
+    <max value="1"/>
+    <documentation value="The task indicates to recipients that an action should be taken. In the context of staff duress, the responder group who receives a staff duress notification should physically respond to the situation."/>
+    <type value="Task"/>
+  </parameter>
+  <parameter>
+    <name value="outcome"/>
+    <use value="out"/>
+    <min value="0"/>
+    <max value="1"/>
+    <documentation value="Represents the outcome if there were any non-fatal warnings associated with the execution of the Auxiliary Function Notification operation."/>
+    <type value="OperationOutcome"/>
+  </parameter>
 </OperationDefinition>

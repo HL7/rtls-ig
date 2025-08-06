@@ -144,14 +144,14 @@
       "sources" : ["2.16.840.1.113883.4.642.3.20"],
       "uses" : {
       },
-      "StructureDefinition-rtlsLocation.html" : "RTLS Location Resource Profile",
       "StructureDefinition-rtlsMessageBundleEnroll.html" : "RTLS Enrollment Message Profile",
-      "StructureDefinition-rtlsMessageLocationUpdateHeader.html" : "RTLS Message Location Update Header Header Resource Profile",
       "StructureDefinition-rtlsMessageBundleLocationUpdate.html" : "RTLS Location Update Message Profile",
+      "StructureDefinition-rtlsLocation.html" : "RTLS Location Resource Profile",
+      "StructureDefinition-rtlsMessageLocationUpdateHeader.html" : "RTLS Message Location Update Header Header Resource Profile",
       "StructureDefinition-rtlsMessageUnenrollmentHeader.html" : "RTLS Message Unenrollment Header Resource Profile",
       "StructureDefinition-rtlsMessageBundleUnenroll.html" : "RTLS Unenrollment Message Profile",
-      "StructureDefinition-rtlsDevice.html" : "RTLS Tag Device Profile",
-      "StructureDefinition-rtlsMessageEnrollmentHeader.html" : "RTLS Message Enrollment Header Resource Profile"
+      "StructureDefinition-rtlsMessageEnrollmentHeader.html" : "RTLS Message Enrollment Header Resource Profile",
+      "StructureDefinition-rtlsDevice.html" : "RTLS Tag Device Profile"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/location-mode",

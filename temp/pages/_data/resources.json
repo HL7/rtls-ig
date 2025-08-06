@@ -14,7 +14,7 @@
     "titlelang" : {
     },
     "experimental" : false,
-    "date" : "2025-08-06T08:42:49-05:00",
+    "date" : "2025-08-06T11:48:33-05:00",
     "description" : "Description of IG",
     "descriptionlang" : {
     },
@@ -190,8 +190,8 @@
     "titlelang" : {
     },
     "experimental" : true,
-    "date" : "2025-08-06T08:42:49-05:00",
-    "description" : "RTLS auxiliary function.",
+    "date" : "2025-08-06T11:48:33-05:00",
+    "description" : "RTLS Auxiliary Function.",
     "descriptionlang" : {
     },
     "jurisdictions" : [
@@ -225,7 +225,7 @@
     "titlelang" : {
     },
     "experimental" : true,
-    "date" : "2025-08-06T08:42:49-05:00",
+    "date" : "2025-08-06T11:48:33-05:00",
     "description" : "Device resource profile for tags or badges in RTLS workflows",
     "descriptionlang" : {
     },
@@ -260,7 +260,7 @@
     "titlelang" : {
     },
     "experimental" : true,
-    "date" : "2025-08-06T08:42:49-05:00",
+    "date" : "2025-08-06T11:48:33-05:00",
     "description" : "Location resource profile for RTLS workflows.",
     "descriptionlang" : {
     },
@@ -295,7 +295,7 @@
     "titlelang" : {
     },
     "experimental" : true,
-    "date" : "2025-08-06T08:42:49-05:00",
+    "date" : "2025-08-06T11:48:33-05:00",
     "description" : "Bundle resource with a type of \"message\" used in RTLS workflows. This bundle will be used for enrollment.",
     "descriptionlang" : {
     },
@@ -330,7 +330,7 @@
     "titlelang" : {
     },
     "experimental" : true,
-    "date" : "2025-08-06T08:42:49-05:00",
+    "date" : "2025-08-06T11:48:33-05:00",
     "description" : "Bundle resource with a type of \"message\" used in RTLS workflows. This bundle will be used for location updates.",
     "descriptionlang" : {
     },
@@ -365,7 +365,7 @@
     "titlelang" : {
     },
     "experimental" : true,
-    "date" : "2025-08-06T08:42:49-05:00",
+    "date" : "2025-08-06T11:48:33-05:00",
     "description" : "Bundle resource with a type of \"message\" used in RTLS workflows. This bundle will be used for unenrollment.",
     "descriptionlang" : {
     },
@@ -400,7 +400,7 @@
     "titlelang" : {
     },
     "experimental" : true,
-    "date" : "2025-08-06T08:42:49-05:00",
+    "date" : "2025-08-06T11:48:33-05:00",
     "description" : "MessageHeader resource for FHIR enrollment messages sent in RTLS workflows.",
     "descriptionlang" : {
     },
@@ -435,7 +435,7 @@
     "titlelang" : {
     },
     "experimental" : true,
-    "date" : "2025-08-06T08:42:49-05:00",
+    "date" : "2025-08-06T11:48:33-05:00",
     "description" : "MessageHeader resource for FHIR Location Update messages sent in RTLS workflows.",
     "descriptionlang" : {
     },
@@ -470,7 +470,7 @@
     "titlelang" : {
     },
     "experimental" : true,
-    "date" : "2025-08-06T08:42:49-05:00",
+    "date" : "2025-08-06T11:48:33-05:00",
     "description" : "MessageHeader resource for FHIR Unenrollment messages sent in RTLS workflows.",
     "descriptionlang" : {
     },

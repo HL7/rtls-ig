@@ -1,10 +1,10 @@
 RTLS : Validation Results
 =========================================
 
-err = 0, warn = 1, info = 0
+err = 0, warn = 0, info = 0
 IG Publisher Version: 2.0.12
-Generated Wed Aug 06 08:44:00 CDT 2025. FHIR version 4.0.1 for hl7.fhir.uv.rtls#1.0.0-ballot2 (canonical = http://hl7.org/fhir/uv/rtls)
- Build Errors : 0 / 1 / 0
+Generated Wed Aug 06 11:49:11 CDT 2025. FHIR version 4.0.1 for hl7.fhir.uv.rtls#1.0.0-ballot2 (canonical = http://hl7.org/fhir/uv/rtls)
+ Build Errors : 0 / 0 / 0
  /Users/nshpringman/Documents/GitHub/rtls-ig/input/examples/rtlsAuxiliaryFunctionInput-example : 0 / 2 / 4
  /Users/nshpringman/Documents/GitHub/rtls-ig/input/examples/rtlsAuxiliaryFunctionOutput-example : 0 / 1 / 2
  /Users/nshpringman/Documents/GitHub/rtls-ig/input/examples/rtlsDevice-example : 0 / 0 / 1
@@ -26,7 +26,6 @@ Generated Wed Aug 06 08:44:00 CDT 2025. FHIR version 4.0.1 for hl7.fhir.uv.rtls#
  /Users/nshpringman/Documents/GitHub/rtls-ig/input/rtls : 0 / 0 / 1
 </table>
 == n/a ==
-WARNING: The jira specification file appears to be out of date with the versions, artifacts and pages currently defined in the IG.  A proposed revised file to be reviewed and, if appropriate, submitted as a pull request against the XML folder in https://github.com/HL7/JIRA-Spec-Artifacts.  To see the differences, perform a file compare on 'template/jira-current.xml' (a normalized view of what is in Github) and 'template/jira-new.xml' (reflects current IG content)
 == input/examples/rtlsAuxiliaryFunctionInput-example.xml ==
 == input/examples/rtlsAuxiliaryFunctionOutput-example.xml ==
 == input/examples/rtlsDevice-example.xml ==
