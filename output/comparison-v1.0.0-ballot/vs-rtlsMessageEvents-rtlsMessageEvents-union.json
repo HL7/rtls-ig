@@ -1,11 +1,11 @@
 {
   "resourceType" : "ValueSet",
-  "id" : "cfcfc5a2-111f-4f38-a617-a35cde80bdd1-14",
-  "url" : "http://hl7.org/fhir/comparison/ValueSet/cfcfc5a2-111f-4f38-a617-a35cde80bdd1-14",
+  "id" : "b0a9b5f5-d7db-4637-bb28-3d2f798d1602-14",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/b0a9b5f5-d7db-4637-bb28-3d2f798d1602-14",
   "name" : "UnionRTLSMessageEventsAndRTLSMessageEvents",
   "title" : "Union of RTLS Message Events Valueset And RTLS Message Events Valueset",
   "status" : "draft",
-  "date" : "2025-08-06T11:48:51-05:00",
+  "date" : "2025-08-06T12:29:14-05:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",

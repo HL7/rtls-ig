@@ -23,7 +23,7 @@
   "title" : "Real Time Location Services Implementation Guide",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-08-06T11:48:33-05:00",
+  "date" : "2025-08-06T12:28:55-05:00",
   "publisher" : "HL7 International / Patient Administration",
   "contact" : [{
     "telecom" : [{
@@ -797,7 +797,7 @@
         "reference" : "OperationDefinition/rtlsAuxiliaryFunction"
       },
       "name" : "RTLS Auxiliary Function Operation",
-      "description" : "RTLS Auxiliary Function."
+      "description" : "RTLS Auxiliary Function"
     },
     {
       "extension" : [{

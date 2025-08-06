@@ -35,7 +35,7 @@
                <a href="OperationDefinition-rtlsAuxiliaryFunction.html"
                   title="OperationDefinition/rtlsAuxiliaryFunction">RTLS Auxiliary Function Operation</a>
             </td>
-            <td>{% capture desc %}RTLS Auxiliary Function.{% endcapture %}
+            <td>{% capture desc %}RTLS Auxiliary Function{% endcapture %}
 {{ desc | markdownify}}</td>
          </tr>
       </tbody>

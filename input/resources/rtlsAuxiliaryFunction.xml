@@ -13,10 +13,10 @@
             <value value="http://www.hl7.org/Special/committees/pafm"/>
         </telecom>
     </contact>
-    <description value="RTLS Auxiliary Function."/>
+    <description value="RTLS Auxiliary Function"/>
     <purpose value="This operation provides parameters for RTLS messaging functions."/>
     <kind value="operation"/>
-    <code value="rtlsMessageParameters"/>
+    <code value="auxiliary-function"/>
     <system value="true"/>
     <type value="false"/>
     <instance value="false"/>

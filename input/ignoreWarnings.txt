@@ -18,6 +18,3 @@ The extension http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValue
 
 # Suppressing THO information for now-- will begin process of seeking an exemption from TSMG after ballot. 
 Most code systems defined in HL7 IGs will need to move to THO later during the process. Consider giving this code system a THO URL now (See https://confluence.hl7.org/display/TSMG/Terminology+Play+Book, and/or talk to TSMG)
-
-# Submitted pull request to get jira specification up to date: https://github.com/HL7/JIRA-Spec-Artifacts/pull/1331
-The jira specification file appears to be out of date with the versions, artifacts and pages currently defined in the IG. A proposed revised file to be reviewed and, if appropriate, submitted as a pull request against the XML folder in https://github.com/HL7/JIRA-Spec-Artifacts. To see the differences, perform a file compare on 'template/jira-current.xml' (a normalized view of what is in Github) and 'template/jira-new.xml' (reflects current IG content)
