@@ -1197,11 +1197,11 @@
     "next" : "Parameters-StaffDuressInputExample-Parameters.html"
   },
   "Parameters-StaffDuressInputExample-Parameters.html" : {
-    "title" : "Staff Duress Parameters Example",
+    "title" : "Staff Duress Parameters Input Example",
     "titlelang" : {
     },
     "label" : "5.17",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Staff Duress Parameters Example</b></li>",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Staff Duress Parameters Input Example</b></li>",
     "breadcrumblang" : {
     },
     "examples" : [],
@@ -1211,44 +1211,44 @@
     "next" : "Parameters-StaffDuressInputExample-Parameters.xml.html"
   },
   "Parameters-StaffDuressInputExample-Parameters.xml.html" : {
-    "title" : "Staff Duress Parameters Example - XML Representation",
+    "title" : "Staff Duress Parameters Input Example - XML Representation",
     "titlelang" : {
     },
     "label" : "5.17",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Staff Duress Parameters Example</b></li>",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Staff Duress Parameters Input Example</b></li>",
     "breadcrumblang" : {
     },
     "previous" : "Parameters-StaffDuressInputExample-Parameters.html",
     "next" : "Parameters-StaffDuressInputExample-Parameters.json.html"
   },
   "Parameters-StaffDuressInputExample-Parameters.json.html" : {
-    "title" : "Staff Duress Parameters Example - JSON Representation",
+    "title" : "Staff Duress Parameters Input Example - JSON Representation",
     "titlelang" : {
     },
     "label" : "5.17",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Staff Duress Parameters Example</b></li>",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Staff Duress Parameters Input Example</b></li>",
     "breadcrumblang" : {
     },
     "previous" : "Parameters-StaffDuressInputExample-Parameters.xml.html",
     "next" : "Parameters-StaffDuressInputExample-Parameters.ttl.html"
   },
   "Parameters-StaffDuressInputExample-Parameters.ttl.html" : {
-    "title" : "Staff Duress Parameters Example - TTL Representation",
+    "title" : "Staff Duress Parameters Input Example - TTL Representation",
     "titlelang" : {
     },
     "label" : "5.17",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Staff Duress Parameters Example</b></li>",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Staff Duress Parameters Input Example</b></li>",
     "breadcrumblang" : {
     },
     "previous" : "Parameters-StaffDuressInputExample-Parameters.json.html",
     "next" : "Parameters-StaffDuressOutputExample-Parameters.html"
   },
   "Parameters-StaffDuressOutputExample-Parameters.html" : {
-    "title" : "Staff Duress Parameters Example",
+    "title" : "Staff Duress Parameters Output Example",
     "titlelang" : {
     },
     "label" : "5.18",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Staff Duress Parameters Example</b></li>",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Staff Duress Parameters Output Example</b></li>",
     "breadcrumblang" : {
     },
     "examples" : [],
@@ -1258,33 +1258,33 @@
     "next" : "Parameters-StaffDuressOutputExample-Parameters.xml.html"
   },
   "Parameters-StaffDuressOutputExample-Parameters.xml.html" : {
-    "title" : "Staff Duress Parameters Example - XML Representation",
+    "title" : "Staff Duress Parameters Output Example - XML Representation",
     "titlelang" : {
     },
     "label" : "5.18",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Staff Duress Parameters Example</b></li>",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Staff Duress Parameters Output Example</b></li>",
     "breadcrumblang" : {
     },
     "previous" : "Parameters-StaffDuressOutputExample-Parameters.html",
     "next" : "Parameters-StaffDuressOutputExample-Parameters.json.html"
   },
   "Parameters-StaffDuressOutputExample-Parameters.json.html" : {
-    "title" : "Staff Duress Parameters Example - JSON Representation",
+    "title" : "Staff Duress Parameters Output Example - JSON Representation",
     "titlelang" : {
     },
     "label" : "5.18",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Staff Duress Parameters Example</b></li>",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Staff Duress Parameters Output Example</b></li>",
     "breadcrumblang" : {
     },
     "previous" : "Parameters-StaffDuressOutputExample-Parameters.xml.html",
     "next" : "Parameters-StaffDuressOutputExample-Parameters.ttl.html"
   },
   "Parameters-StaffDuressOutputExample-Parameters.ttl.html" : {
-    "title" : "Staff Duress Parameters Example - TTL Representation",
+    "title" : "Staff Duress Parameters Output Example - TTL Representation",
     "titlelang" : {
     },
     "label" : "5.18",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Staff Duress Parameters Example</b></li>",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Staff Duress Parameters Output Example</b></li>",
     "breadcrumblang" : {
     },
     "previous" : "Parameters-StaffDuressOutputExample-Parameters.json.html"

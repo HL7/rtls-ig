@@ -1,11 +1,11 @@
 {
   "resourceType" : "CodeSystem",
-  "id" : "e85aff19-0997-4ebc-b789-62ebb20ba479-3",
-  "url" : "http://hl7.org/fhir/comparison/CodeSystem/e85aff19-0997-4ebc-b789-62ebb20ba479-3",
+  "id" : "9895a79a-7794-4901-bafc-7cc43c84103b-3",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/9895a79a-7794-4901-bafc-7cc43c84103b-3",
   "name" : "IntersectionRTLSMessageEventsAndRTLSMessageEvents",
   "title" : "Intersection of RTLS Message Events And RTLS Message Events",
   "status" : "draft",
-  "date" : "2025-08-05T17:18:30-05:00",
+  "date" : "2025-08-06T08:43:37-05:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",

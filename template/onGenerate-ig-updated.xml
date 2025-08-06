@@ -31,7 +31,7 @@
    <title value="Real Time Location Services Implementation Guide"/>
    <status value="active"/>
    <experimental value="false"/>
-   <date value="2025-08-05T17:18:07-05:00"/>
+   <date value="2025-08-06T08:42:49-05:00"/>
    <publisher value="HL7 International / Patient Administration"/>
    <contact>
       <telecom>
@@ -585,7 +585,7 @@
          <reference>
             <reference value="Parameters/StaffDuressInputExample-Parameters"/>
          </reference>
-         <name value="Staff Duress Parameters Example"/>
+         <name value="Staff Duress Parameters Input Example"/>
          <description value="Represents the parameters sent from an RTLS to an EHR in a staff duress RTLS event."/>
          <exampleBoolean value="true"/>
          <groupingId value="-ex-example"/>
@@ -603,7 +603,7 @@
          <reference>
             <reference value="Parameters/StaffDuressOutputExample-Parameters"/>
          </reference>
-         <name value="Staff Duress Parameters Example"/>
+         <name value="Staff Duress Parameters Output Example"/>
          <description value="Represents the parameters sent from an EHR to an RTLS in a staff duress RTLS event."/>
          <exampleBoolean value="true"/>
          <groupingId value="-ex-example"/>
@@ -751,12 +751,12 @@
             </page>
             <page>
                <nameUrl value="Parameters-StaffDuressInputExample-Parameters.html"/>
-               <title value="Staff Duress Parameters Example"/>
+               <title value="Staff Duress Parameters Input Example"/>
                <generation value="generated"/>
             </page>
             <page>
                <nameUrl value="Parameters-StaffDuressOutputExample-Parameters.html"/>
-               <title value="Staff Duress Parameters Example"/>
+               <title value="Staff Duress Parameters Output Example"/>
                <generation value="generated"/>
             </page>
          </page>

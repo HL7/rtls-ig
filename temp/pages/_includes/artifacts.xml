@@ -180,7 +180,7 @@
          <tr>
             <td style="column-width:30%">
                <a href="Parameters-StaffDuressInputExample-Parameters.html"
-                  title="Parameters/StaffDuressInputExample-Parameters">Staff Duress Parameters Example</a>
+                  title="Parameters/StaffDuressInputExample-Parameters">Staff Duress Parameters Input Example</a>
             </td>
             <td>{% capture desc %}Represents the parameters sent from an RTLS to an EHR in a staff duress RTLS event.{% endcapture %}
 {{ desc | markdownify}}</td>
@@ -188,7 +188,7 @@
          <tr>
             <td style="column-width:30%">
                <a href="Parameters-StaffDuressOutputExample-Parameters.html"
-                  title="Parameters/StaffDuressOutputExample-Parameters">Staff Duress Parameters Example</a>
+                  title="Parameters/StaffDuressOutputExample-Parameters">Staff Duress Parameters Output Example</a>
             </td>
             <td>{% capture desc %}Represents the parameters sent from an EHR to an RTLS in a staff duress RTLS event.{% endcapture %}
 {{ desc | markdownify}}</td>

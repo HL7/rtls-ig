@@ -38,7 +38,7 @@
   fhir:title [ fhir:v "Real Time Location Services Implementation Guide"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2025-08-05T17:18:07-05:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-08-06T08:42:49-05:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "HL7 International / Patient Administration"] ; # 
   fhir:contact ( [
      fhir:telecom ( [
@@ -1042,7 +1042,7 @@
          fhir:link <http://hl7.org/fhir/uv/rtls/Parameters/StaffDuressInputExample-Parameters> ;
          fhir:reference [ fhir:v "Parameters/StaffDuressInputExample-Parameters" ]
        ] ;
-       fhir:name [ fhir:v "Staff Duress Parameters Example" ] ;
+       fhir:name [ fhir:v "Staff Duress Parameters Input Example" ] ;
        fhir:description [ fhir:v "Represents the parameters sent from an RTLS to an EHR in a staff duress RTLS event." ] ;
        fhir:example [
          a fhir:boolean ;
@@ -1060,7 +1060,7 @@
          fhir:link <http://hl7.org/fhir/uv/rtls/Parameters/StaffDuressOutputExample-Parameters> ;
          fhir:reference [ fhir:v "Parameters/StaffDuressOutputExample-Parameters" ]
        ] ;
-       fhir:name [ fhir:v "Staff Duress Parameters Example" ] ;
+       fhir:name [ fhir:v "Staff Duress Parameters Output Example" ] ;
        fhir:description [ fhir:v "Represents the parameters sent from an EHR to an RTLS in a staff duress RTLS event." ] ;
        fhir:example [
          a fhir:boolean ;

@@ -60,10 +60,10 @@
    <artifact name="RTLS Location Example"
              key="Location-rtlsLocationExample"
              id="Location/rtlsLocationExample"/>
-   <artifact name="Staff Duress Parameters Example"
+   <artifact name="Staff Duress Parameters Input Example"
              key="Parameters-StaffDuressInputExample-Parameters"
              id="Parameters/StaffDuressInputExample-Parameters"/>
-   <artifact name="Staff Duress Parameters Example"
+   <artifact name="Staff Duress Parameters Output Example"
              key="Parameters-StaffDuressOutputExample-Parameters"
              id="Parameters/StaffDuressOutputExample-Parameters"/>
    <artifact name="Unenroll Tag Event Example"

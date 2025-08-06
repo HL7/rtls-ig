@@ -92,7 +92,7 @@
       <reference>
         <reference value="Parameters/StaffDuressInputExample-Parameters"/>
       </reference>
-      <name value="Staff Duress Parameters Example"/>
+      <name value="Staff Duress Parameters Input Example"/>
       <description value="Represents the parameters sent from an RTLS to an EHR in a staff duress RTLS event."/>
       <exampleBoolean value="true"/>
     </resource>
@@ -100,7 +100,7 @@
       <reference>
         <reference value="Parameters/StaffDuressOutputExample-Parameters"/>
       </reference>
-      <name value="Staff Duress Parameters Example"/>
+      <name value="Staff Duress Parameters Output Example"/>
       <description value="Represents the parameters sent from an EHR to an RTLS in a staff duress RTLS event."/>
       <exampleBoolean value="true"/>
     </resource>

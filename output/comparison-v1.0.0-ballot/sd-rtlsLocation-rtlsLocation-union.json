@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "e85aff19-0997-4ebc-b789-62ebb20ba479-11",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/e85aff19-0997-4ebc-b789-62ebb20ba479-11",
+  "id" : "9895a79a-7794-4901-bafc-7cc43c84103b-11",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/9895a79a-7794-4901-bafc-7cc43c84103b-11",
   "name" : "UnionRTLSLocationAndRTLSLocation",
   "title" : "Union of RTLS Location Resource Profile And RTLS Location Resource Profile",
   "status" : "draft",
-  "date" : "2025-08-05T17:18:30-05:00",
+  "date" : "2025-08-06T08:43:37-05:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
@@ -168,7 +168,7 @@
       "binding" : {
         "strength" : "required",
         "description" : "left: IETF language tag for a human language; right: A human language.",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/e85aff19-0997-4ebc-b789-62ebb20ba479-8"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/9895a79a-7794-4901-bafc-7cc43c84103b-8"
       }
     },
     {

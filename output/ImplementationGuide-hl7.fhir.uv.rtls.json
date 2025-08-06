@@ -23,7 +23,7 @@
   "title" : "Real Time Location Services Implementation Guide",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-08-05T17:18:07-05:00",
+  "date" : "2025-08-06T08:42:49-05:00",
   "publisher" : "HL7 International / Patient Administration",
   "contact" : [{
     "telecom" : [{
@@ -750,7 +750,7 @@
       "reference" : {
         "reference" : "Parameters/StaffDuressInputExample-Parameters"
       },
-      "name" : "Staff Duress Parameters Example",
+      "name" : "Staff Duress Parameters Input Example",
       "description" : "Represents the parameters sent from an RTLS to an EHR in a staff duress RTLS event.",
       "exampleBoolean" : true
     },
@@ -762,7 +762,7 @@
       "reference" : {
         "reference" : "Parameters/StaffDuressOutputExample-Parameters"
       },
-      "name" : "Staff Duress Parameters Example",
+      "name" : "Staff Duress Parameters Output Example",
       "description" : "Represents the parameters sent from an EHR to an RTLS in a staff duress RTLS event.",
       "exampleBoolean" : true
     },
