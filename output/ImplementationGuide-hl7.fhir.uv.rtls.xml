@@ -21,7 +21,7 @@
   <title value="Real Time Location Services Implementation Guide"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2025-08-07T11:40:07-05:00"/>
+  <date value="2025-08-07T11:52:05-05:00"/>
   <publisher value="HL7 International / Patient Administration"/>
   <contact>
     <telecom>
@@ -53,7 +53,7 @@
     </extension>
     <uri value="http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions"/>
     <packageId value="hl7.fhir.uv.extensions.r4"/>
-    <version value="5.3.0-ballot-tc1"/>
+    <version value="5.2.0"/>
   </dependsOn>
   <definition>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">

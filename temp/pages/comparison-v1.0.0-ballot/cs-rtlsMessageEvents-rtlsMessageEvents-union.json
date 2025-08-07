@@ -1,11 +1,11 @@
 {
   "resourceType" : "CodeSystem",
-  "id" : "fffda37d-ddb4-43be-944e-d42587df17f0-2",
-  "url" : "http://hl7.org/fhir/comparison/CodeSystem/fffda37d-ddb4-43be-944e-d42587df17f0-2",
+  "id" : "2d8a7674-04c3-461a-8724-3437197fb8e6-2",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/2d8a7674-04c3-461a-8724-3437197fb8e6-2",
   "name" : "UnionRTLSMessageEventsAndRTLSMessageEvents",
   "title" : "Union of RTLS Message Events And RTLS Message Events",
   "status" : "draft",
-  "date" : "2025-08-07T11:40:49-05:00",
+  "date" : "2025-08-07T11:52:38-05:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",

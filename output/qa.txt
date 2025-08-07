@@ -2,8 +2,8 @@ RTLS : Validation Results
 =========================================
 
 err = 0, warn = 0, info = 0
-IG Publisher Version: 2.0.12 Out of date - current version is 2.0.13
-Generated Thu Aug 07 11:41:09 CDT 2025. FHIR version 4.0.1 for hl7.fhir.uv.rtls#1.0.0-ballot2 (canonical = http://hl7.org/fhir/uv/rtls)
+IG Publisher Version: 2.0.13
+Generated Thu Aug 07 11:53:00 CDT 2025. FHIR version 4.0.1 for hl7.fhir.uv.rtls#1.0.0-ballot2 (canonical = http://hl7.org/fhir/uv/rtls)
  Build Errors : 0 / 0 / 0
  /Users/nshpringman/Documents/GitHub/rtls-ig/input/examples/rtlsAuxiliaryFunctionInput-example : 0 / 2 / 4
  /Users/nshpringman/Documents/GitHub/rtls-ig/input/examples/rtlsAuxiliaryFunctionOutput-example : 0 / 1 / 2

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="2ae05898-2ee3-476c-b284-eafa216312f6"/>
+  <id value="9e7db1e0-9122-450d-862a-6c810f097860"/>
   <meta>
-    <lastUpdated value="2025-08-07T11:40:22.012-05:00"/>
+    <lastUpdated value="2025-08-07T11:52:22.690-05:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -27,7 +27,7 @@
                   <b>System</b>
                 </td>
                 <td>
-                  <b>Display (en-US)</b>
+                  <b>Display</b>
                 </td>
                 <td>
                   <b>Definition</b>
@@ -86,14 +86,10 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:03557e23-b150-4a1a-97cf-187f44f22abe"/>
-          <timestamp value="2025-08-07T11:40:53-05:00"/>
+          <identifier value="urn:uuid:3bfb326e-ba70-4507-ad85-bcf218c9f4ae"/>
+          <timestamp value="2025-08-07T11:52:42-05:00"/>
           <total value="4"/>
           <offset value="0"/>
-          <parameter>
-            <name value="displayLanguage"/>
-            <valueCode value="en-US"/>
-          </parameter>
           <parameter>
             <name value="count"/>
             <valueInteger value="1000"/>

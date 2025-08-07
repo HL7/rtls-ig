@@ -1,9 +1,9 @@
 {
   "resourceType" : "ValueSet",
-  "id" : "fffda37d-ddb4-43be-944e-d42587df17f0-9",
-  "url" : "http://hl7.org/fhir/comparison/ValueSet/fffda37d-ddb4-43be-944e-d42587df17f0-9",
+  "id" : "2d8a7674-04c3-461a-8724-3437197fb8e6-9",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/2d8a7674-04c3-461a-8724-3437197fb8e6-9",
   "name" : "IntersectionAllLanguagesAndCommonLanguages",
   "title" : "Intersection of All Languages And Common Languages",
   "status" : "active",
-  "date" : "2025-08-07T11:40:49-05:00"
+  "date" : "2025-08-07T11:52:38-05:00"
 }

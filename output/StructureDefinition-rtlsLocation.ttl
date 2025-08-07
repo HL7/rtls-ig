@@ -40,7 +40,7 @@
   fhir:title [ fhir:v "RTLS Location Resource Profile"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
   fhir:experimental [ fhir:v true] ; # 
-  fhir:date [ fhir:v "2025-08-07T11:40:07-05:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-08-07T11:52:05-05:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "HL7 International / Patient Administration"] ; # 
   fhir:contact ( [
      fhir:telecom ( [
