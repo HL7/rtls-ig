@@ -156,7 +156,7 @@
    <title value="Real Time Location Services Implementation Guide"/>
    <status value="active"/>
    <experimental value="false"/>
-   <date value="2025-08-06T12:28:55-05:00"/>
+   <date value="2025-08-07T11:40:07-05:00"/>
    <publisher value="HL7 International / Patient Administration"/>
    <contact>
       <telecom>
@@ -204,7 +204,7 @@
             <valueString value="releaselabel"/>
          </extension>
          <extension url="value">
-            <valueString value="STU 1 - Ballot2"/>
+            <valueString value="STU 1 - Ballot 2"/>
          </extension>
       </extension>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -948,7 +948,7 @@
       </parameter>
       <parameter>
          <code value="releaselabel"/>
-         <value value="STU 1 - Ballot2"/>
+         <value value="STU 1 - Ballot 2"/>
       </parameter>
       <parameter>
          <code value="path-binary"/>

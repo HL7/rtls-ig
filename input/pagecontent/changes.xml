@@ -4,15 +4,16 @@
   </p>
   <a name="1.0.0"> </a>
 	<p>
-		<b>2023-03-26 v0.1.0 - RTLS R1 (STU ballot 1) Ballot Candidate</b> based on FHIR R4
+		<b>2023-03-26 1.0.0 - RTLS R1 (STU ballot 1) Ballot Candidate</b> based on FHIR R4
   </p>
   <ul>
     <li>Initial version</li>
   </ul>
   <p>
-    <b>2025-04-21 v0.1.1</b>
+    <b>2025-08-06 1.0.0-ballot2</b>
   </p>
   <ul>
     <li>Updated IG to include Auxiliary Functions and Staff Duress to be in scope.</li>
+    <li>Descoped subscriptions.</li>
   </ul>
 </div>

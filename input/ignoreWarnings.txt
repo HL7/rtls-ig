@@ -10,11 +10,17 @@ The Implementation Guide contains no explicitly linked examples for this profile
 # Example CodeSystem is purposefully left experimental for now.
 Reference to experimental CodeSystem http://hl7.org/fhir/uv/rtls/CodeSystem/rtlsMessageEvents|1.0.0-ballot2
 
-# Resource narratives would not be valuable for these cases. Electing to not follow best practice recommendation.
-Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)
+# A resource narrative would not be valuable here, as this is just an example using Location. Electing to not follow best practice recommendation.
+WARNING: Parameters/StaffDuressInputExample-Parameters: Parameters.parameter[1].resource/*Location/rtlsLocationExample*/: Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)
+
+# A resource narrative would not be valuable here, as this is just an example using Device. Electing to not follow best practice recommendation. 
+WARNING: Parameters/StaffDuressInputExample-Parameters: Parameters.parameter[2].resource/*Device/StaffDuressExample-Device*/: Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)
+
+# A resource narrative would not be valuable here, as this is just an example using Task. Electing to not follow best practice recommendation.
+WARNING: Parameters/StaffDuressOutputExample-Parameters: Parameters.parameter[0].resource/*Task/111222333*/: Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)
 
 # This is inherited from the core FHIR specification.
 The extension http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|5.3.0-ballot-tc1 is deprecated with the note Use additionalBinding extension or element instead
 
-# Suppressing THO information for now-- will begin process of seeking an exemption from TSMG after ballot. 
-Most code systems defined in HL7 IGs will need to move to THO later during the process. Consider giving this code system a THO URL now (See https://confluence.hl7.org/display/TSMG/Terminology+Play+Book, and/or talk to TSMG)
+# Proposing to move content for CodeSystem-rtlsMessageEvents into THO after the upcoming ballot -- see FHIR-41063. 
+INFORMATION: CodeSystem/rtlsMessageEvents: CodeSystem: Most code systems defined in HL7 IGs will need to move to THO later during the process. Consider giving this code system a THO URL now (See https://confluence.hl7.org/display/TSMG/Terminology+Play+Book, and/or talk to TSMG)

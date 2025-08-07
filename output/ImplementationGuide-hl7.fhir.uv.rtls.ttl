@@ -38,7 +38,7 @@
   fhir:title [ fhir:v "Real Time Location Services Implementation Guide"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2025-08-06T12:28:55-05:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-08-07T11:40:07-05:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "HL7 International / Patient Administration"] ; # 
   fhir:contact ( [
      fhir:telecom ( [
@@ -114,7 +114,7 @@
          fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
          fhir:value [
            a fhir:string ;
-           fhir:v "STU 1 - Ballot2"
+           fhir:v "STU 1 - Ballot 2"
          ]
        ] ) ;
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
@@ -540,7 +540,7 @@
          fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
          fhir:value [
            a fhir:string ;
-           fhir:v "STU 1 - Ballot2"
+           fhir:v "STU 1 - Ballot 2"
          ]
        ] ) ;
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]

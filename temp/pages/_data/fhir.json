@@ -7,7 +7,7 @@
   "igVer" : "1.0.0-ballot2",
   "errorCount" : 0,
   "version" : "4.0.1",
-  "releaseLabel" : "STU 1 - Ballot2",
+  "releaseLabel" : "STU 1 - Ballot 2",
   "releaseLabellang" : {
   },
   "revision" : "a53ec6ee1b",
@@ -15,8 +15,8 @@
   "toolingVersion" : "5.0.0",
   "toolingRevision" : "3",
   "toolingVersionFull" : "5.0.0 (3)",
-  "genDate" : "Wed, Aug 6, 2025 12:29-0500",
-  "genDay" : "06/08/2025",
+  "genDate" : "Thu, Aug 7, 2025 11:40-0500",
+  "genDay" : "07/08/2025",
   "totalFiles" : 19,
   "processedFiles" : 34,
   "repoSource" : "https://github.com/HL7/rtls-ig.git",
@@ -254,7 +254,7 @@
         "telecom" : ["http://www.hl7.org/Special/committees/pafm"]
       }
     ],
-    "date" : "2025-08-06T12:28:55-05:00",
+    "date" : "2025-08-07T11:40:07-05:00",
     "description" : "Description of IG",
     "descriptionlang" : {
     },

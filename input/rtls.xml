@@ -133,7 +133,7 @@
     <!-- releaselabel should be the ballot status for HL7-published IGs. -->
     <parameter>
         <code value="releaselabel"/>
-      <value value="STU 1 - Ballot2"/>
+      <value value="STU 1 - Ballot 2"/>
     </parameter>
     <parameter>
         <code value="find-other-resources"/>
